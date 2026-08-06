@@ -1,0 +1,71 @@
+@import 'tailwindcss';
+
+/*
+ * 会場（インテックス大阪・幕張メッセ）は暗く、回線も混雑する。
+ * ダークを既定にし、端末設定がライトならライトに寄せる。
+ */
+@theme {
+  --color-mm-bg: #0f1115;
+  --color-mm-surface: #181b22;
+  --color-mm-surface2: #21252e;
+  --color-mm-border: #2c313c;
+  --color-mm-text: #e8eaf0;
+  --color-mm-muted: #9aa3b2;
+  --color-mm-accent: #39c5bb; /* 初音ミク */
+  --color-mm-accent2: #ff7bac;
+}
+
+:root {
+  color-scheme: dark;
+  --bg: var(--color-mm-bg);
+  --surface: var(--color-mm-surface);
+  --surface2: var(--color-mm-surface2);
+  --border: var(--color-mm-border);
+  --text: var(--color-mm-text);
+  --muted: var(--color-mm-muted);
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color-scheme: light;
+    --bg: #f6f7f9;
+    --surface: #ffffff;
+    --surface2: #eef0f4;
+    --border: #d8dce4;
+    --text: #16181d;
+    --muted: #5b6472;
+  }
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body {
+  -webkit-text-size-adjust: 100%;
+  overscroll-behavior-y: none;
+}
+
+/* iOS Safari の下部バーぶんの余白 */
+.pb-safe {
+  padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+}
+
+/* 横スクロールが必要な要素だけをスクロールさせ、body は横に動かさない */
+.scroll-x {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* フォーカスリングを見やすく（会場で片手操作するため） */
+:focus-visible {
+  outline: 2px solid var(--color-mm-accent);
+  outline-offset: 2px;
+}
+
+/* 原寸ライトボックスのピンチズーム */
+.zoomable {
+  touch-action: pinch-zoom;
+}

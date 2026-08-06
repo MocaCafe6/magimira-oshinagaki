@@ -1,0 +1,4821 @@
+[
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-1",
+    "circleName": "halyosy",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "halyosy"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-2",
+    "circleName": "Twinfield",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "Twinfieldnex",
+      "MerunoMeru88"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-2",
+    "circleName": "音戯噺屋",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "kou46"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-3",
+    "circleName": "Popism",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "tekalu_music",
+      "Capchii"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-4",
+    "circleName": "EO",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "eo_aui7740",
+      "nasagashi"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-5",
+    "circleName": "錦市場",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "nishikikn"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-6",
+    "circleName": "あ子",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "ako_okko",
+      "ahowasa86"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-7",
+    "circleName": "Glu_E",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-8",
+    "circleName": "ぐぐっと！",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "bomless_race",
+      "Velvet_Prelude",
+      "nico_Twilight"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-8",
+    "circleName": "合間",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "iri_qitune",
+      "ma_ni_ka_",
+      "flogsing"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-9",
+    "circleName": "幽霊ず",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "YureiIchimonji",
+      "yamichrome"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-10",
+    "circleName": "書店太郎",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "shotenteki_ore"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-11",
+    "circleName": "Wakuwaku Miwaku",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "Mwk_094"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-12",
+    "circleName": "Retriever Records / buzzG",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "buzz_g"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-13",
+    "circleName": "ねじ式",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "nejishiki0221"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-13",
+    "circleName": "柏木カレキ / Kareki Kashiwagi",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "kareki_music"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-14",
+    "circleName": "ryuryu / Past Days Sparkle",
+    "days": [
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "ryuryuephemera"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-14",
+    "circleName": "BIGHEAD",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "bighead11111"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A-15",
+    "circleName": "宮守文学",
+    "days": [
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "miyamoribungaku"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-1",
+    "circleName": "カルロス袴田直売所",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "hakamad"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-1",
+    "circleName": "Omoi",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "Omoi3965"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-2",
+    "circleName": "家の裏でマンボウが死んでるP",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-2",
+    "circleName": "セルフ駄菓子屋さん",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "OgataDagashi"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-3",
+    "circleName": "音無組",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "asterisk07281"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-3",
+    "circleName": "MY SHIP",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "bcno01"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-4",
+    "circleName": "Shu",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "shu_horiike"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-4",
+    "circleName": "IQYU",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "iqyu_iq"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-5",
+    "circleName": "あいのて",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-5",
+    "circleName": "獅子兎レコーズ",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "shishido_4410"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-6",
+    "circleName": "ただただだいず",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "DICE__game",
+      "tsuki_nxo"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-6",
+    "circleName": "アオワイファイSPOT",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "ao_WiFi"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-7",
+    "circleName": "子牛",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "COWshi504"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-7",
+    "circleName": "MINO-U",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "MINOU_0831",
+      "nova_sing",
+      "ra1kaA",
+      "htn39dy"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-8",
+    "circleName": "azm studio",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "menheragirl_inc",
+      "__TKMYY"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-8",
+    "circleName": "青時計屋",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "aoto_kei"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-9",
+    "circleName": "浜松の風",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "Xenon54cp"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-10",
+    "circleName": "しゃいとれこーず",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "shaito_otiahs"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-10",
+    "circleName": "がるなん.com",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "tomatowt"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-11",
+    "circleName": "ムシぴのおうち",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "muship_64"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-12",
+    "circleName": "クリキッド",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "kid_NnDS",
+      "HzEdge_crystalP",
+      "kk_kaze"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B-13",
+    "circleName": "Studio Ark Attack",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "vocaliod_P"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-1",
+    "circleName": "偽犬",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "nulut"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-2",
+    "circleName": "ぽりふぉ / PolyphonicBranch",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "Tomoya_PB"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-2",
+    "circleName": "ヨシヨシさらさら",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "yoshiyuki_eve",
+      "kisalaundry"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-3",
+    "circleName": "ケチャップ販売員",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "ozon_541",
+      "sgrir__"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-3",
+    "circleName": "なみぐる with 海茶 ~umi groove~",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "namigroove",
+      "ocean_tea_cafe"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-4",
+    "circleName": "ウミノソコ。",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "sea_urchinP"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-5",
+    "circleName": "L3Project",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "lelelep"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-5",
+    "circleName": "the heavenly yard",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "mothy_akuno"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-6",
+    "circleName": "ふらのラボ - ボカロチップチューン研究所",
+    "days": [
+      "2026-07-24"
+    ],
+    "xHandles": [
+      "furmoph"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-6",
+    "circleName": "forute | フヲルテ",
+    "days": [
+      "2026-07-25"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-6",
+    "circleName": "G.C.M Records",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "gcmstyle"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-7",
+    "circleName": "twinkledisc",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "Hiroaki_Arai_"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-7",
+    "circleName": "ベリーイージー",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "easypop_betti",
+      "seri_works"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-8",
+    "circleName": "ろいどる！",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "shi_no_music"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-9",
+    "circleName": "ツムギ食堂",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "rider_caster"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-10",
+    "circleName": "solidbeats(Re:nG)",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "_reng",
+      "kento_satori"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C-10",
+    "circleName": "ホシゾラ列車【三日月線】",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "yasuhiro_vanq"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-1",
+    "circleName": "サツキ",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "32ki_May"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-2",
+    "circleName": "たけねこれこーず",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "TA_MOR_I"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-3",
+    "circleName": "いるかアイス（On Prism Records）",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "irucaice"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-3",
+    "circleName": "ワンダフル☆オポチュニティ！",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "WAN_OPO"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-4",
+    "circleName": "市瀬るぽ",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "LUPO_Reportage"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-5",
+    "circleName": "Ponchi♪",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "ponchi_pop"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-6",
+    "circleName": "薄塩指数",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-6",
+    "circleName": "MY SONG IS SHIT",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "utsupii"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-7",
+    "circleName": "梨本うい",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "nashimotowe"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-8",
+    "circleName": "Evergreen Leland Studio",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "HeavenzP",
+      "koyokoyokoyori",
+      "nogumi_3"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-8",
+    "circleName": "ATOLS",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "ATOLSX"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-9",
+    "circleName": "海風太陽",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-9",
+    "circleName": "REONAlD",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "noboru_e"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-10",
+    "circleName": "imie",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "imieimieimi"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D-11",
+    "circleName": "たきだしごはん",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "p_akiaki",
+      "HaisakiAmane"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E-1",
+    "circleName": "暗黒童話唄",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E-1",
+    "circleName": "BASYAUMA RECORDS",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E-2",
+    "circleName": "札幌市吉田区夜世一丁目",
+    "days": [
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "otgys"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E-2",
+    "circleName": "量産型西沢さん。",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "NishizawasanP"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E-3",
+    "circleName": "ましまろ湯",
+    "days": [
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E-4",
+    "circleName": "ネギシャワーパーティ",
+    "days": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "xHandles": [
+      "kaga_qwerty"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E-4",
+    "circleName": "ピノキオ定食",
+    "days": [
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "pinocchiop"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-1",
+    "circleName": "偽犬",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "nulut"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-2",
+    "circleName": "Evergreen Leland Studio",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "HeavenzP",
+      "koyokoyokoyori",
+      "nogumi_3"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-3",
+    "circleName": "書店太郎",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "shotenteki_ore"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-4",
+    "circleName": "MY SONG IS SHIT",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "utsupii"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-5",
+    "circleName": "梨本うい",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "nashimotowe"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-6",
+    "circleName": "ヤデュクシチャンネル",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "yadukishinya"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-7",
+    "circleName": "薄塩指数",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-8",
+    "circleName": "ねじ式",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "nejishiki0221"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-9",
+    "circleName": "幽霊ず",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "YureiIchimonji",
+      "yamichrome"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-10",
+    "circleName": "量産型西沢さん。",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "NishizawasanP"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-11",
+    "circleName": "JHT STUDIO",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "nktc_ktt",
+      "nana_00ii",
+      "ichino_9",
+      "shikikawamura"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-12",
+    "circleName": "GTども",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "niconico_takap"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A-13",
+    "circleName": "BASYAUMA RECORDS",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-1",
+    "circleName": "雄之助/Yunosuke",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "bass_ynk"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-2",
+    "circleName": "だいなりしょうなり＞＜",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Haru1_kaze_",
+      "zangi_2222"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-3",
+    "circleName": "柏木カレキ / Kareki Kashiwagi",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "kareki_music"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-4",
+    "circleName": "Retriever Records / buzzG",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "buzz_g"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-5",
+    "circleName": "海風太陽",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-6",
+    "circleName": "solidbeats(Re:nG)",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "_reng",
+      "kento_satori"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-7",
+    "circleName": "ぽりふぉ / PolyphonicBranch",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Tomoya_PB"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-8",
+    "circleName": "アカサキサギリ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "akasakisagiri",
+      "mashik0000000",
+      "momoCaa"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-9",
+    "circleName": "azm studio",
+    "days": [
+      "2026-08-14",
+      "2026-08-15"
+    ],
+    "xHandles": [
+      "menheragirl_inc",
+      "__TKMYY"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-9",
+    "circleName": "森羅盤商会",
+    "days": [
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "shinra_logic"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-10",
+    "circleName": "迷子センター長谷川",
+    "days": [
+      "2026-08-14",
+      "2026-08-15"
+    ],
+    "xHandles": [
+      "hourouhekiheki"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-10",
+    "circleName": "Ruliea",
+    "days": [
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "ruliea_7"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-11",
+    "circleName": "YUZY/No.emia",
+    "days": [
+      "2026-08-14",
+      "2026-08-15"
+    ],
+    "xHandles": [
+      "hsURanus_yuzy"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-11",
+    "circleName": "Sasakama Studio",
+    "days": [
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "chiquewa",
+      "panda_go_go"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-12",
+    "circleName": "i, My Records",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "iruma_azalea"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-13",
+    "circleName": "なちぴ",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "nachip78"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-14",
+    "circleName": "BIGHEAD",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "bighead11111"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B-15",
+    "circleName": "REONAlD",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "noboru_e"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-1",
+    "circleName": "halyosy",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "halyosy"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-2",
+    "circleName": "imie",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "imieimieimi"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-3",
+    "circleName": "ムシぴのおうち",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "muship_64"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-4",
+    "circleName": "クリキッド",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "kid_NnDS",
+      "HzEdge_crystalP",
+      "kk_kaze"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-5",
+    "circleName": "がるなん.com",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "tomatowt"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-6",
+    "circleName": "音無組",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "asterisk07281",
+      "richaball"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-7",
+    "circleName": "Shu",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "shu_horiike"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-8",
+    "circleName": "あいのて",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-9",
+    "circleName": "札幌市吉田区夜世一丁目",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "otgys"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-10",
+    "circleName": "お商材屋さん",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-11",
+    "circleName": "ペンギンの島",
+    "days": [
+      "2026-08-15"
+    ],
+    "xHandles": [
+      "del_conoe"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-11",
+    "circleName": "ワンダフル☆オポチュニティ！",
+    "days": [
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "WAN_OPO"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C-12",
+    "circleName": "かおなしレコード",
+    "days": [
+      "2026-08-15"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-1",
+    "circleName": "たきだしごはん",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "p_akiaki",
+      "HaisakiAmane"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-2",
+    "circleName": "ぐちりずむ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "bomless_race",
+      "Himanemuitoma"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-3",
+    "circleName": "獅子兎レコーズ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "shishido_4410"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-4",
+    "circleName": "たけねこれこーず",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "TA_MOR_I"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-5",
+    "circleName": "EO",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "eo_aui7740",
+      "nasagashi"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-6",
+    "circleName": "錦市場",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "nishikikn"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-7",
+    "circleName": "Glu_E",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-8",
+    "circleName": "ろいどる！",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "shi_no_music"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-9",
+    "circleName": "あ子",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "ako_okko",
+      "ahowasa86"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-10",
+    "circleName": "浮幽会",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "iri_qitune"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-11",
+    "circleName": "しゃいとれこーず",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "shaito_otiahs"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-12",
+    "circleName": "MINO-U",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "MINOU_0831",
+      "nova_sing",
+      "ra1kaA",
+      "htn39dy",
+      "nekota_yama"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-13",
+    "circleName": "あいそらのおくりもの",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "flogsing"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-14",
+    "circleName": "まにまに物販",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "ma_ni_ka_"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D-15",
+    "circleName": "ましまろ湯",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-1",
+    "circleName": "ネギシャワーパーティ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "kaga_qwerty"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-2",
+    "circleName": "Twinfield",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Twinfieldnex",
+      "MerunoMeru88"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-3",
+    "circleName": "Popism",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "tekalu_music",
+      "Capchii"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-4",
+    "circleName": "Wakuwaku Miwaku",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Mwk_094"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-5",
+    "circleName": "市瀬るぽ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "LUPO_Reportage"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-6",
+    "circleName": "Ponchi♪",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "ponchi_pop"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-7",
+    "circleName": "いるかアイス（On Prism Records）",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "irucaice"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-8",
+    "circleName": "ただただだいず",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "DICE__game",
+      "tsuki_nxo"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-9",
+    "circleName": "暗黒童話唄",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E-10",
+    "circleName": "ピノキオ定食",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "pinocchiop"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-1",
+    "circleName": "サツキ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "32ki_May"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-2",
+    "circleName": "セルフ駄菓子屋さん",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "OgataDagashi"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-3",
+    "circleName": "歩く人のお店",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "tri_angl_e"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-4",
+    "circleName": "ふらのラボ - ボカロチップチューン研究所",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "furmoph"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-5",
+    "circleName": "NEXTLIGHT",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "picco_xxx",
+      "reno_gtgtgt",
+      "purini_v",
+      "minase0402"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-6",
+    "circleName": "Hylen Lab",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Hylen_JP"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-7",
+    "circleName": "ケチャップ販売員",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "ozon_541",
+      "sgrir__"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-8",
+    "circleName": "SPACELECTRO",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Spacelectro"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-9",
+    "circleName": "Y-net",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "yoshida_yr"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-10",
+    "circleName": "L3Project",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "lelelep"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-11",
+    "circleName": "G.C.M Records",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "gcmstyle"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-12",
+    "circleName": "光収容の倉庫",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "F-13",
+    "circleName": "青時計屋",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "aoto_kei"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-1",
+    "circleName": "宮守文学",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "miyamoribungaku"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-2",
+    "circleName": "ど夏とButler Service",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "akisame9_nsx",
+      "seckarium",
+      "DTM_dopamine"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-3",
+    "circleName": "子牛",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "COWshi504"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-4",
+    "circleName": "のん・木瀬",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Xenon54cp"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-5",
+    "circleName": "Aliey:S Official Store",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "s_Aliey"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-6",
+    "circleName": "家の裏でマンボウが死んでるP",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-7",
+    "circleName": "Studio Ark Attack",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "vocaliod_P"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-8",
+    "circleName": "音戯噺屋",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "kou46"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-9",
+    "circleName": "twinkledisc",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "Hiroaki_Arai_"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-10",
+    "circleName": "ウミノソコ。",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "sea_urchinP"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-11",
+    "circleName": "the heavenly yard",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "mothy_akuno"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-12",
+    "circleName": "きさらんどりー",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "kisalaundry"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "G-13",
+    "circleName": "ホシゾラ列車【三日月線】",
+    "days": [
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "yasuhiro_vanq"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A1",
+    "circleName": "CRECO 株式会社ヒューネット",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A2",
+    "circleName": "Desktop Mate",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A3",
+    "circleName": "AOZORAGEAR",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "aozoragear"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A4",
+    "circleName": "株式会社タイトー",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A5",
+    "circleName": "ムービック",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A6",
+    "circleName": "ぼてぢゅう",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A7",
+    "circleName": "クリプトン・フューチャー・メディア株式会社 デジタルコンテンツチーム",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "cfm_mobile",
+      "mikucolle"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A8",
+    "circleName": "MIKU EXPO グッズ販売ブース",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A9",
+    "circleName": "初音ミク エムアイカード",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A10",
+    "circleName": "ぬいぐるみメーカー Gift",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A11",
+    "circleName": "Domingoブース",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "A12",
+    "circleName": "雪ミク スカイタウン出張所",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B1",
+    "circleName": "(株)ヤマハミュージックジャパン",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B2",
+    "circleName": "グッドスマイルカンパニー",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B3",
+    "circleName": "クリプトン・フューチャー・メディア株式会社 SONICWIREチーム",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B4",
+    "circleName": "ギターメーカー(株)ESP",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B5",
+    "circleName": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B6",
+    "circleName": "初音ミクシンフォニー2026",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B7",
+    "circleName": "「マジカルミライ」ブース TOKYO MX",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B8",
+    "circleName": "HMV＆BOOKS",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "B9",
+    "circleName": "株式会社ダイハツビジネスサポートセンター",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "DBC_3939"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C1",
+    "circleName": "COCOLLABO(ココラボ)＆SOLWA(ソルワ)",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C2",
+    "circleName": "株式会社セガ フェイブ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C3",
+    "circleName": "TAMAZOU",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "tamazou202507"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C4",
+    "circleName": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C5",
+    "circleName": "いたラック",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C6",
+    "circleName": "ピアプロキャラクターズ×OZaKKa 超推し活shop!",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "OZaKKa_tokyo"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C7",
+    "circleName": "株式会社デザインココ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "C8",
+    "circleName": "bilibiliGoods",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "bilibiliGoods"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D1",
+    "circleName": "COSPA (コスパ)",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D2",
+    "circleName": "Piit",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D3",
+    "circleName": "和真パレット",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "wapalette"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D4",
+    "circleName": "ボークス",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D5",
+    "circleName": "スノウクラッシュ（千本桜）",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "senbonshop39"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D6",
+    "circleName": "株式会社インターネット",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D7",
+    "circleName": "アイアップ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D8",
+    "circleName": "奏の森リゾート",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D9",
+    "circleName": "アウリン（AURYN）",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "auryn_goods"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": "D10",
+    "circleName": "ETERNO RÉCIT (エテルノレシ)",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "ガチャ",
+    "circleName": "（株）バンダイ",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E2",
+    "circleName": "チュロス製造所",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "osaka",
+    "boothId": "E3",
+    "circleName": "初音ミク×アニメイトカフェ-Chocoanimal Miku Wagon-",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": [
+      "shinotaro0502"
+    ]
+  },
+  {
+    "venue": "osaka",
+    "boothId": null,
+    "circleName": "大阪府赤十字血液センター",
+    "days": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-1",
+    "circleName": "ピノキオ定食",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "pinocchiop"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-2",
+    "circleName": "MY SONG IS SHIT",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "utsupii"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-3",
+    "circleName": "Evergreen Leland Studio",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "HeavenzP",
+      "koyokoyokoyori",
+      "nogumi_3"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-4",
+    "circleName": "梨本うい",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "nashimotowe"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-5",
+    "circleName": "ねじ式",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "nejishiki0221"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-6",
+    "circleName": "Retriever Records / buzzG",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "buzz_g"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-7",
+    "circleName": "薄塩指数",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-8",
+    "circleName": "Omoi",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Omoi3965"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-9",
+    "circleName": "サツキ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "32ki_May"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-10",
+    "circleName": "MY SHIP",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "bcno01"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-11",
+    "circleName": "クリキッド",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "kid_NnDS",
+      "HzEdge_crystalP",
+      "kk_kaze"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-12",
+    "circleName": "halyosy",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "halyosy"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-13",
+    "circleName": "宮守文学",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "miyamoribungaku"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-14",
+    "circleName": "偽犬",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "nulut"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-15",
+    "circleName": "セルフ駄菓子屋さん",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "OgataDagashi"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-16",
+    "circleName": "しゃいとれこーず",
+    "days": [
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "shaito_otiahs"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-16",
+    "circleName": "ふらのラボ - ボカロチップチューン研究所",
+    "days": [
+      "2026-08-29"
+    ],
+    "xHandles": [
+      "furmoph"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-17",
+    "circleName": "Y-net",
+    "days": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "xHandles": [
+      "yoshida_yr"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-17",
+    "circleName": "Ruliea / szri",
+    "days": [
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "ruliea_7"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-18",
+    "circleName": "フユウ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "xHandles": [
+      "fuyuuu_xxx"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-18",
+    "circleName": "IQYU",
+    "days": [
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "iqyu_iq"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-19",
+    "circleName": "YUZY/No.emia",
+    "days": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "xHandles": [
+      "hsURanus_yuzy"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-19",
+    "circleName": "森羅盤商会",
+    "days": [
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "shinra_logic"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-20",
+    "circleName": "柏木カレキ / Kareki Kashiwagi",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "kareki_music"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-21",
+    "circleName": "BASYAUMA RECORDS",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-22",
+    "circleName": "teamOS",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "samorira9",
+      "shoma1983",
+      "suzu3939",
+      "anarchylily",
+      "vavajun"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-23",
+    "circleName": "青時計屋",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "aoto_kei"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-24",
+    "circleName": "MINO-U",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "MINOU_0831",
+      "nova_sing",
+      "ra1kaA",
+      "htn39dy",
+      "nekota_yama"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-25",
+    "circleName": "お商材屋さん",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-26",
+    "circleName": "吉田ヨシユキ",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "yoshiyuki_eve"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-27",
+    "circleName": "めろくる/Mellowcle",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Mellowcle"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A-28",
+    "circleName": "かおなしレコード",
+    "days": [
+      "2026-08-29"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-1",
+    "circleName": "ぽりふぉ / PolyphonicBranch",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Tomoya_PB"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-2",
+    "circleName": "ツムギ食堂",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "rider_caster"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-3",
+    "circleName": "solidbeats(Re:nG)",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "_reng",
+      "kento_satori"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-4",
+    "circleName": "Studio Ark Attack",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "vocaliod_P"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-5",
+    "circleName": "家の裏でマンボウが死んでるP",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-6",
+    "circleName": "たけねこれこーず",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "TA_MOR_I"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-7",
+    "circleName": "Ponchi♪",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "ponchi_pop"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-8",
+    "circleName": "市瀬るぽ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "LUPO_Reportage"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-9",
+    "circleName": "いるかアイス（On Prism Records）",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "irucaice"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-10",
+    "circleName": "ケチャップ販売員",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "ozon_541",
+      "sgrir__"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-11",
+    "circleName": "0202愛好会",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "danlo0042",
+      "tsuruzou_music"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-12",
+    "circleName": "ウミノソコ。",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "sea_urchinP"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-13",
+    "circleName": "がるなん.com",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "tomatowt"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-14",
+    "circleName": "the heavenly yard",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "mothy_akuno"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-15",
+    "circleName": "GYU P",
+    "days": [
+      "2026-08-28"
+    ],
+    "xHandles": [
+      "gyup_bokarop"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-15",
+    "circleName": "REONAlD",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "noboru_e"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-16",
+    "circleName": "CielP",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-17",
+    "circleName": "studio MURASAKI",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "yukarinmurasaki"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-18",
+    "circleName": "ヤデュクシチャンネル",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "yadukishinya"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-19",
+    "circleName": "幽霊ず",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "YureiIchimonji",
+      "yamichrome"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-20",
+    "circleName": "Wakuwaku Miwaku",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Mwk_094"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-21",
+    "circleName": "書店太郎",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "shotenteki_ore"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-22",
+    "circleName": "i, My Records",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "iruma_azalea"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-23",
+    "circleName": "Powerless Sounds",
+    "days": [
+      "2026-08-29"
+    ],
+    "xHandles": [
+      "muryokup"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-23",
+    "circleName": "il cremonese",
+    "days": [
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "okameP"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-24",
+    "circleName": "ホシゾラ列車【三日月線】",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "yasuhiro_vanq"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-25",
+    "circleName": "ワンダフル☆オポチュニティ！",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "WAN_OPO"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-26",
+    "circleName": "光収容の倉庫",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-27",
+    "circleName": "UtopiaLyric",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "utopialyric"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-28",
+    "circleName": "ネネバネマレ団",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "YM_yoshiya"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-29",
+    "circleName": "ぼぉの",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Ficrc_unripe"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-30",
+    "circleName": "JHT STUDIO",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "nktc_ktt",
+      "nana_00ii",
+      "ichino_9",
+      "shikikawamura"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-31",
+    "circleName": "量産型西沢さん。",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "NishizawasanP"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B-32",
+    "circleName": "forute | フヲルテ",
+    "days": [
+      "2026-08-29"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-1",
+    "circleName": "のん・木瀬",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Xenon54cp"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-2",
+    "circleName": "海風太陽",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-3",
+    "circleName": "NEXTLIGHT",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "picco_xxx",
+      "reno_gtgtgt",
+      "purini_v",
+      "minase0402"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-4",
+    "circleName": "Popism",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "tekalu_music",
+      "Capchii"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-5",
+    "circleName": "Hylen Lab",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Hylen_JP"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-6",
+    "circleName": "SPACELECTRO",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Spacelectro"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-7",
+    "circleName": "二枚舌芋会館〜やっぱ今年も参加したい〜",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "M_kageisi"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-8",
+    "circleName": "ただただだいず",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "DICE__game",
+      "tsuki_nxo"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-9",
+    "circleName": "音戯噺屋",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "kou46"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-10",
+    "circleName": "twinkledisc",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Hiroaki_Arai_"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-11",
+    "circleName": "L3Project",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "lelelep"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-12",
+    "circleName": "G.C.M Records",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "gcmstyle"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-13",
+    "circleName": "ぐちりずむ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "bomless_race",
+      "Himanemuitoma"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-14",
+    "circleName": "あ子",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "ako_okko",
+      "ahowasa86"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-15",
+    "circleName": "GTども",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "niconico_takap"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-16",
+    "circleName": "EO",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "eo_aui7740",
+      "nasagashi"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-17",
+    "circleName": "ろいどる！",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "shi_no_music"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-18",
+    "circleName": "錦市場",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "nishikikn"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-19",
+    "circleName": "アオワイファイSPOT",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "ao_WiFi"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-20",
+    "circleName": "浮幽会",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "iri_qitune"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-21",
+    "circleName": "あいそらのおくりもの",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "flogsing"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-22",
+    "circleName": "まにまに物販",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "ma_ni_ka_"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-23",
+    "circleName": "暗黒童話唄",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-24",
+    "circleName": "BIGHEAD",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "bighead11111"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-25",
+    "circleName": "カガヤ家",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Cagayakeee"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-26",
+    "circleName": "Aliey:S Official Store",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "s_Aliey"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-27",
+    "circleName": "獅子兎レコーズ",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "shishido_4410"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C-28",
+    "circleName": "ryuryu / Past Days Sparkle",
+    "days": [
+      "2026-08-29"
+    ],
+    "xHandles": [
+      "ryuryuephemera"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-1",
+    "circleName": "たきだしごはん",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "p_akiaki",
+      "HaisakiAmane"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-2",
+    "circleName": "imie",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "imieimieimi"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-3",
+    "circleName": "ATOLS",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "ATOLSX"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-4",
+    "circleName": "ムシぴのおうち",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "muship_64"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-5",
+    "circleName": "Twinfield",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Twinfieldnex",
+      "MerunoMeru88"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-6",
+    "circleName": "ベリーイージー",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "easypop_betti",
+      "seri_works"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-7",
+    "circleName": "ネギシャワーパーティ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "kaga_qwerty"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-8",
+    "circleName": "雄之助/Yunosuke",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "bass_ynk"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-9",
+    "circleName": "だいなりしょうなり＞＜",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "Haru1_kaze_",
+      "zangi_2222"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-10",
+    "circleName": "歩く人のお店",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "tri_angl_e"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-11",
+    "circleName": "子牛",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "COWshi504"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-12",
+    "circleName": "カルロス袴田直売所",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "hakamad"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-13",
+    "circleName": "ど夏とButler Service",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "akisame9_nsx",
+      "seckarium",
+      "DTM_dopamine"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-14",
+    "circleName": "Glu_E",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-15",
+    "circleName": "いえぬ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-16",
+    "circleName": "ましまろ湯",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-17",
+    "circleName": "あいのて",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-18",
+    "circleName": "Shu",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "shu_horiike"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-19",
+    "circleName": "音無組",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "asterisk07281"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-20",
+    "circleName": "札幌市吉田区夜世一丁目",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "otgys"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-21",
+    "circleName": "aqu3ra",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "AQU3RA_music"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-22",
+    "circleName": "迷子センター長谷川",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "hourouhekiheki"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-23",
+    "circleName": "ちかるとふ",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "chikarutof"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-24",
+    "circleName": "きさらんどりー",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "kisalaundry"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D-25",
+    "circleName": "nyanyannya（大天才P）",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "neko_nekokan",
+      "yoyoyo_kan"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A1",
+    "circleName": "bilibiliGoods",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "bilibiliGoods"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A2",
+    "circleName": "札幌市ふるさと納税",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A3",
+    "circleName": "株式会社セガ フェイブ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A4",
+    "circleName": "ピアプロキャラクターズ×サンリオキャラクターズ ショップ by HIGHGO",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "pp_sr_popup"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A5",
+    "circleName": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A6",
+    "circleName": "ムービック",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A7",
+    "circleName": "初音ミクシンフォニー2026",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A8",
+    "circleName": "ピアプロキャラクターズ×OZaKKa 超推し活shop!",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "OZaKKa_tokyo"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A9",
+    "circleName": "HMV＆BOOKS",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "A10",
+    "circleName": "「マジカルミライ」ブース TOKYO MX",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B1",
+    "circleName": "アウリン（AURYN）",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "auryn_goods"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B2",
+    "circleName": "グッドスマイルレーシング（GSR）",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "goodsmileracing"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B3",
+    "circleName": "グッドスマイルカンパニー",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B4",
+    "circleName": "ボークス",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B5",
+    "circleName": "echo",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B6",
+    "circleName": "初音ミク エムアイカード",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B7",
+    "circleName": "ぬいぐるみメーカー Gift",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B8",
+    "circleName": "（株）ク・ラッチ コラボアパレル",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "B9",
+    "circleName": "AOZORAGEAR",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "aozoragear"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C1",
+    "circleName": "Gugenka",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C2",
+    "circleName": "LUMOTION／（株）加藤商会",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "katoshokai_cpp"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C3",
+    "circleName": "クリプトン・フューチャー・メディア株式会社 デジタルコンテンツチーム",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "cfm_mobile",
+      "mikucolle"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C4",
+    "circleName": "Piit",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C5",
+    "circleName": "MIKU EXPO グッズ販売ブース",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C6",
+    "circleName": "Domingoブース",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "C7",
+    "circleName": "雪ミク スカイタウン出張所",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D1",
+    "circleName": "COSPA (コスパ)",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D2",
+    "circleName": "ETERNO RÉCIT (エテルノレシ)",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D3",
+    "circleName": "いたラック",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D4",
+    "circleName": "Start Flowers",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D5",
+    "circleName": "Desktop Mate",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D6",
+    "circleName": "株式会社タニタ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D7",
+    "circleName": "スノウクラッシュ（千本桜）",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "senbonshop39"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D8",
+    "circleName": "ぼてぢゅう",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D9",
+    "circleName": "和真パレット",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "wapalette"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D10",
+    "circleName": "株式会社デザインココ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "D11",
+    "circleName": "COCOLLABO(ココラボ)＆SOLWA(ソルワ)",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E1",
+    "circleName": "CRECO 株式会社ヒューネット",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E2",
+    "circleName": "株式会社タカラトミーアーツ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E3",
+    "circleName": "株式会社タイトー",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E4",
+    "circleName": "株式会社ダイハツビジネスサポートセンター",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "DBC_3939"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E5",
+    "circleName": "Ableton",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E6",
+    "circleName": "株式会社フックアップ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E7",
+    "circleName": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E8",
+    "circleName": "TAMAZOU",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "tamazou202507"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "E9",
+    "circleName": "ギターメーカー(株)ESP",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "F1",
+    "circleName": "(株)ヤマハミュージックジャパン",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "F2",
+    "circleName": "クリプトン・フューチャー・メディア株式会社 SONICWIREチーム",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "F3",
+    "circleName": "一般社団法人JSPA",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "F4",
+    "circleName": "株式会社インターネット",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "F5",
+    "circleName": "アイアップ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "F6",
+    "circleName": "奏の森リゾート",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "G1",
+    "circleName": "チュロス製造所",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "G2",
+    "circleName": "TNOC THE SNOW MIKU CAFE 2026",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "G3",
+    "circleName": "初音ミク×アニメイトカフェ-Chocoanimal Miku Wagon-",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": [
+      "shinotaro0502"
+    ]
+  },
+  {
+    "venue": "tokyo",
+    "boothId": "ガチャ",
+    "circleName": "（株）バンダイ",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "tokyo",
+    "boothId": null,
+    "circleName": "愛の助け合い献血（千葉県赤十字血液センター）",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "xHandles": []
+  }
+]

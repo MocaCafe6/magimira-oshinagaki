@@ -1,0 +1,560 @@
+{
+  "venue": "osaka",
+  "imageUrl": "https://magicalmirai.com/2026/images/ex/market/map_osaka_exmarket.png",
+  "imageWidth": 1695,
+  "imageHeight": 1062,
+  "boothArea": {
+    "x0": 0.08286,
+    "y0": 0.25603,
+    "x1": 0.94192,
+    "y1": 0.97467
+  },
+  "coords": [
+    {
+      "boothId": "A-1",
+      "x": 0.21357,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-2",
+      "x": 0.3056,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-3",
+      "x": 0.37434,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-4",
+      "x": 0.42035,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-5",
+      "x": 0.46637,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-6",
+      "x": 0.51239,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-7",
+      "x": 0.55811,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-8",
+      "x": 0.60413,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-9",
+      "x": 0.65015,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-10",
+      "x": 0.69617,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-11",
+      "x": 0.74189,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-12",
+      "x": 0.78791,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "A-13",
+      "x": 0.83392,
+      "y": 0.33851,
+      "verified": true
+    },
+    {
+      "boothId": "B-1",
+      "x": 0.19086,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-2",
+      "x": 0.23658,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-3",
+      "x": 0.2826,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-4",
+      "x": 0.32861,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-5",
+      "x": 0.37434,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-6",
+      "x": 0.42035,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-7",
+      "x": 0.46637,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-8",
+      "x": 0.51209,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-9",
+      "x": 0.55811,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-10",
+      "x": 0.60413,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-11",
+      "x": 0.65015,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-12",
+      "x": 0.69617,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-13",
+      "x": 0.74218,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-14",
+      "x": 0.78791,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "B-15",
+      "x": 0.83392,
+      "y": 0.44444,
+      "verified": true
+    },
+    {
+      "boothId": "C-1",
+      "x": 0.21357,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-2",
+      "x": 0.2826,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-3",
+      "x": 0.32861,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-4",
+      "x": 0.37434,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-5",
+      "x": 0.42035,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-6",
+      "x": 0.48909,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-7",
+      "x": 0.58112,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-8",
+      "x": 0.65015,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-9",
+      "x": 0.69617,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-10",
+      "x": 0.74218,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-11",
+      "x": 0.78791,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "C-12",
+      "x": 0.83363,
+      "y": 0.52354,
+      "verified": true
+    },
+    {
+      "boothId": "D-1",
+      "x": 0.19086,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-2",
+      "x": 0.23658,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-3",
+      "x": 0.2826,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-4",
+      "x": 0.32861,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-5",
+      "x": 0.37434,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-6",
+      "x": 0.42035,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-7",
+      "x": 0.46637,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-8",
+      "x": 0.51209,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-9",
+      "x": 0.55811,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-10",
+      "x": 0.60413,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-11",
+      "x": 0.65015,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-12",
+      "x": 0.69617,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-13",
+      "x": 0.74218,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-14",
+      "x": 0.78791,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "D-15",
+      "x": 0.83363,
+      "y": 0.629,
+      "verified": true
+    },
+    {
+      "boothId": "E-1",
+      "x": 0.21357,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-2",
+      "x": 0.3056,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-3",
+      "x": 0.39735,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-4",
+      "x": 0.46637,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-5",
+      "x": 0.51209,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-6",
+      "x": 0.55811,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-7",
+      "x": 0.62714,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-8",
+      "x": 0.69617,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-9",
+      "x": 0.7649,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "E-10",
+      "x": 0.83392,
+      "y": 0.7081,
+      "verified": true
+    },
+    {
+      "boothId": "F-1",
+      "x": 0.19086,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-2",
+      "x": 0.23658,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-3",
+      "x": 0.2826,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-4",
+      "x": 0.32861,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-5",
+      "x": 0.39735,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-6",
+      "x": 0.46637,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-7",
+      "x": 0.51209,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-8",
+      "x": 0.55811,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-9",
+      "x": 0.60413,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-10",
+      "x": 0.65015,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-11",
+      "x": 0.69617,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-12",
+      "x": 0.74218,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "F-13",
+      "x": 0.78791,
+      "y": 0.81356,
+      "verified": true
+    },
+    {
+      "boothId": "G-1",
+      "x": 0.19086,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-2",
+      "x": 0.25959,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-3",
+      "x": 0.32861,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-4",
+      "x": 0.37434,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-5",
+      "x": 0.42035,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-6",
+      "x": 0.46637,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-7",
+      "x": 0.51209,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-8",
+      "x": 0.55811,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-9",
+      "x": 0.60413,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-10",
+      "x": 0.65015,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-11",
+      "x": 0.69617,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-12",
+      "x": 0.74189,
+      "y": 0.89266,
+      "verified": true
+    },
+    {
+      "boothId": "G-13",
+      "x": 0.78791,
+      "y": 0.89266,
+      "verified": true
+    }
+  ]
+}

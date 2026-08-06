@@ -1,0 +1,1701 @@
+[
+  {
+    "id": "tokyo-sponsor-A1",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A1",
+    "line": "A",
+    "boothNo": 1,
+    "circleName": "bilibiliGoods",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_bilibili.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/bilibiliGoods",
+            "label": "bilibiliGoods公式Xアカウント"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "bilibiliGoods"
+    ],
+    "note": "bilibiliGoods、今年もマジカルミライに出店♪ブースではUWA シリーズぬいぐるみ、初心蜜語シリーズ、Spark シリーズ、夢綴り未来シリーズなど、様々なグッズを販売いたします。ぜひお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-A2",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A2",
+    "line": "A",
+    "boothNo": 2,
+    "circleName": "札幌市ふるさと納税",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_furusato.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.rakuten.co.jp/f011002-sapporo/",
+            "label": "札幌市ふるさと納税(楽天)はこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "札幌観光大使の雪ミク＆ラビット・ユキネが札幌市ふるさと納税とコラボ！ブースではコラボ限定イラストを使用した大型パネルの展示やパンフレットの配布を行います。札幌市の魅力をお伝えしながら、ふるさと納税について詳しくご案内します。"
+  },
+  {
+    "id": "tokyo-sponsor-A3",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A3",
+    "line": "A",
+    "boothNo": 3,
+    "circleName": "株式会社セガ フェイブ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_segafave.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://segaplaza.jp/lp/hatsunemiku/",
+            "label": "初音ミクのセガプライズ・くじ・物販の情報はこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "セガ フェイブブースでは「マジカルミライ 2026」のメインビジュアルをもとに三月八日氏が描きおこした可愛いイラストのぬいぐるみを展示いたします！他にも最新商品も展示予定！ぜひご来場ください♪"
+  },
+  {
+    "id": "tokyo-sponsor-A4",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A4",
+    "line": "A",
+    "boothNo": 4,
+    "circleName": "ピアプロキャラクターズ×サンリオキャラクターズ ショップ by HIGHGO",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_highgo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/pp_sr_popup",
+            "label": "ピアプロキャラクターズ×サンリオキャラクターズ POP-UP STORE"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "pp_sr_popup"
+    ],
+    "note": "ピアプロキャラクターズ×サンリオキャラクターズ ショップでは、描き下ろしグッズ・ぬいぐるみなどの新規グッズを販売いたします。ご来場の際はぜひお立ち寄り下さい！"
+  },
+  {
+    "id": "tokyo-sponsor-A5",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A5",
+    "line": "A",
+    "boothNo": 5,
+    "circleName": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_project-sekai.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://pjsekai.sega.jp/",
+            "label": "『プロジェクトセカイ』公式サイト"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "セガ×Colorful Paletteが贈る、スマートフォン向けゲーム『プロジェクトセカイ カラフルステージ！ feat. 初音ミク』のブースです。ブースではゲーム内機能「マイセカイ」を模した、初音ミクの記念日をお祝いする展示を実施いたします。さらにプロジェクトセカイのアプリ画面を見せていただくと、描き下ろしイラストを使用したステッカーをプレゼント！※ ノベルティは数に限りがありますので、なくなり次第終了となります。"
+  },
+  {
+    "id": "tokyo-sponsor-A6",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A6",
+    "line": "A",
+    "boothNo": 6,
+    "circleName": "ムービック",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_movic.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.movic.jp/shop/pages/HatsuneMiku_Series.aspx",
+            "label": "ムービックのHPはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "イベント公式ビジュアルを使用したクリアファイルセット、ラバーキーホルダー、チェキプリントなど、その他多数の新商品をご用意して、皆様のご来店を心よりお待ちしております！"
+  },
+  {
+    "id": "tokyo-sponsor-A7",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A7",
+    "line": "A",
+    "boothNo": 7,
+    "circleName": "初音ミクシンフォニー2026",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_miku-symphony.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://sp.wmg.jp/mikusymphony/",
+            "label": "公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "『初音ミクシンフォニー2026』ブースでは、初音ミクシンフォニー2026札幌、東京公演他グッズを販売します。ぜひお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-A8",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A8",
+    "line": "A",
+    "boothNo": 8,
+    "circleName": "ピアプロキャラクターズ×OZaKKa 超推し活shop!",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_ozakka.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/OZaKKa_tokyo",
+            "label": "最新情報は公式X（@OZaKKa_tokyo）をチェック！"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "OZaKKa_tokyo"
+    ],
+    "note": "推し活グッズブランドのOZaKKa(オザッカ)とピアプロキャラクターズのコラボアイテムが新登場♪ ちょこんと肩に乗せてかわいい「肩乗りぬいぐるみショルダーパッド」の先行販売を実施します！ライブやイベントにピッタリなエナメル素材を使用したコラボアイテムも販売します♪ 是非来てくださいね！"
+  },
+  {
+    "id": "tokyo-sponsor-A9",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A9",
+    "line": "A",
+    "boothNo": 9,
+    "circleName": "HMV＆BOOKS",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_hmv.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.hmv.co.jp/",
+            "label": "HMV&BOOKS online"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "初音ミク、マジカルミライ関連のCD・DVD・Blu-rayの販売を行います。ぜひお立ち寄りください。"
+  },
+  {
+    "id": "tokyo-sponsor-A10",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "A10",
+    "line": "A",
+    "boothNo": 10,
+    "circleName": "「マジカルミライ」ブース TOKYO MX",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_tokyo-mx.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [],
+    "xHandles": [],
+    "note": "初音ミク「マジカルミライ」 Blu-ray&DVD情報をお届けします！ぜひお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-B1",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B1",
+    "line": "B",
+    "boothNo": 1,
+    "circleName": "アウリン（AURYN）",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_auryn.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/auryn_goods",
+            "label": "＠auryn_goods"
+          },
+          {
+            "kind": "web",
+            "url": "https://auryn.theshop.jp/",
+            "label": "アウリンWEBショップはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "auryn_goods"
+    ],
+    "note": "今年は新作ポーチを発売予定！！その他にも、初お披露目＆先行販売となる商品を多数ご用意しております！最新情報はアウリン公式X（）をチェック！ぜひアウリンブースにお立ち寄りくださいませ♪"
+  },
+  {
+    "id": "tokyo-sponsor-B2",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B2",
+    "line": "B",
+    "boothNo": 2,
+    "circleName": "グッドスマイルレーシング（GSR）",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_gsr.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/goodsmileracing",
+            "label": "GSR公式Xアカウント"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "goodsmileracing"
+    ],
+    "note": "“ファンと共に走る”レーシングチーム、グッドスマイルレーシング(GSR)は、2026年も自動車レース「SUPER GT」のGT300クラスに参戦しています。グッドスマイルカンパニーと隣接するGSRブースでは、SUPER GTで実際に走行しているレース車両「グッドスマイル 初音ミク AMG」を展示。また、レーシングミクのグッズの販売を行う予定です。"
+  },
+  {
+    "id": "tokyo-sponsor-B3",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B3",
+    "line": "B",
+    "boothNo": 3,
+    "circleName": "グッドスマイルカンパニー",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_gsc.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.goodsmile.com/",
+            "label": "詳しい情報は、グッドスマイルカンパニー 公式ショップで！"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "グッドスマイルカンパニーブースでは、『ねんどろいど 初音ミク マジカルミライ 2025Ver.』と『ねんどろいど 初音ミク マジカルミライ 2016Ver.（再販）』を先行販売させていただきます！皆様のお越しをお待ちしております。"
+  },
+  {
+    "id": "tokyo-sponsor-B4",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B4",
+    "line": "B",
+    "boothNo": 4,
+    "circleName": "ボークス",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_volks.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://dollfie.volks.co.jp/dd/special/piapro/event/magicalmirai2026.html",
+            "label": "ボークス公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "「マジカルミライ 2026」のドール用ハッピを販売！また、普段は店頭に並んでいないピアプロキャラクターズ関連商品の特別販売や展示など盛りだくさん！ボークス店舗との連動企画や最新情報もお楽しみに♪"
+  },
+  {
+    "id": "tokyo-sponsor-B5",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B5",
+    "line": "B",
+    "boothNo": 5,
+    "circleName": "echo",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_echo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://echoecho.thebase.in/",
+            "label": "echo公式サイト"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "echoではシンプルでモノトーンなアイテムを販売しています。オリジナルアパレル、アクセサリーなど各種コラボアイテムを販売します。"
+  },
+  {
+    "id": "tokyo-sponsor-B6",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B6",
+    "line": "B",
+    "boothNo": 6,
+    "circleName": "初音ミク エムアイカード",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_mi-card.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www2.micard.co.jp/card/miku.html?cpn_cd=miku_cfm",
+            "label": "「初音ミク エムアイカード」特設ページはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "三越伊勢丹グループ「初音ミク エムアイカード」ブースではカードの入会受付を行います！また、ブースにある二次元コードを読み込みでオリジナルステッカーをプレゼント！さらにお申込みされた方にその場でオリジナルグッズをプレゼント！！ぜひお立ち寄りください♪※ 詳細が2026年7月下旬に以下のHPに掲載されます。"
+  },
+  {
+    "id": "tokyo-sponsor-B7",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B7",
+    "line": "B",
+    "boothNo": 7,
+    "circleName": "ぬいぐるみメーカー Gift",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_gift.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.gift-gift.jp/",
+            "label": "Gift公式HPはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "Giftブースでは「マジカルミライ2026 ぬいぐるみ」等の販売を予定しています。是非、お立ち寄りください。"
+  },
+  {
+    "id": "tokyo-sponsor-B8",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B8",
+    "line": "B",
+    "boothNo": 8,
+    "circleName": "（株）ク・ラッチ コラボアパレル",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_crutch.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://crutch.jp/store/products/list?category_id=7",
+            "label": "絡繰魂ECサイトはコチラ"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "初音ミク描き下ろしのパーカーなどに加え、『初音ミク×北斎』のスカジャンなどの新作アパレル商品を展開！（株）ク・ラッチブランド【絡繰魂】のハイクオリティの刺繍表現をご覧あれ！"
+  },
+  {
+    "id": "tokyo-sponsor-B9",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "B9",
+    "line": "B",
+    "boothNo": 9,
+    "circleName": "AOZORAGEAR",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_aozoragear.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/aozoragear",
+            "label": "@aozoragear"
+          },
+          {
+            "kind": "web",
+            "url": "https://aozoragear.com/blogs/topics/aozoragear102",
+            "label": "商品詳細等の更新情報はこちらから"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "aozoragear"
+    ],
+    "note": "AOZORAGEARブースでは、イラストレーター「さいね」さんによる描き下ろしイラストを使用した、アウトドアクッキンググッズの第2弾を販売します。最新情報はAOZORAGEAR公式X()をチェック！グッズもカレーもオカワリをお楽しみに！"
+  },
+  {
+    "id": "tokyo-sponsor-C1",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "C1",
+    "line": "C",
+    "boothNo": 1,
+    "circleName": "Gugenka",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_gugenka.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://xr-marketplace.com/holomodels/about",
+            "label": "デジタルフィギュアサービス『ホロモデル』とは？"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "大人気デジタルフィギュアのホロモデルからマジカルミライ2026ver.初音ミクの新商品を販売！スマホでポーズやサイズを自由に調整し、どこでも出現させて撮影や鑑賞を楽しめます！他ラインナップも多数あり、なんとあのキャラクターも登場予定！？ブースで実機体験が可能です。ぜひお気軽にお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-C2",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "C2",
+    "line": "C",
+    "boothNo": 2,
+    "circleName": "LUMOTION／（株）加藤商会",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_kato-shokai.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/katoshokai_cpp",
+            "label": "LUMOTION公式Xはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "katoshokai_cpp"
+    ],
+    "note": "「KAITO20thアニバーサリー」アイテムをはじめ、「初音ミク×甲州印伝」の全アイテムを展示・販売いたします。会場にて実物をご覧いただきながらご購入いただけます（一部商品は受注販売）。また、SNSフォローでポストカードを、税込3,000円以上お買い上げで特製ショッパーをプレゼント！※特典の数には限りがございます。ご来場の際は、ぜひ当ブースへお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-C3",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "C3",
+    "line": "C",
+    "boothNo": 3,
+    "circleName": "クリプトン・フューチャー・メディア株式会社 デジタルコンテンツチーム",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_cfm-dc.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/cfm_mobile",
+            "label": "@cfm_mobile"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/mikucolle",
+            "label": "@mikucolle"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.crypton.co.jp/cfm/cfmgames",
+            "label": "クリプトン・フューチャー・メディアゲームス ポータルサイト"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "cfm_mobile",
+      "mikucolle"
+    ],
+    "note": "デジタルコンテンツチーム公式X（）フォローで【オリジナルうちわ】、ミクコレ公式X（）フォローで【オリジナルステッカー】をプレゼント！さらに「ミクナビ」のチェックイン完了で【特製ステッカー】もプレゼント♪ぜひブースに遊びに来てください！"
+  },
+  {
+    "id": "tokyo-sponsor-C4",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "C4",
+    "line": "C",
+    "boothNo": 4,
+    "circleName": "Piit",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_piit.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://store.p-i-i-t.com/",
+            "label": "Piit STORE"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "久々出展のPiitブースは過去のデザインをARCHIVESとして一堂にラインナップ！東京、大阪の二会場でお待ちしております！"
+  },
+  {
+    "id": "tokyo-sponsor-C5",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "C5",
+    "line": "C",
+    "boothNo": 5,
+    "circleName": "MIKU EXPO グッズ販売ブース",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_expo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://mikuexpo.com/",
+            "label": "https://mikuexpo.com/"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "HATSUNE MIKU EXPO 2025 ASIA公式グッズとDigital Stars @ MIKU EXPO 2026 North America公式グッズの販売ブースです。是非お立ち寄りください。"
+  },
+  {
+    "id": "tokyo-sponsor-C6",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "C6",
+    "line": "C",
+    "boothNo": 6,
+    "circleName": "Domingoブース",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_cfm-local.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://domingo.ne.jp/snowmiku-chocolatecookie/",
+            "label": "北海道 雪ミクショコラクッキー"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "北海道のみで発売中の「北海道 雪ミクショコラクッキー」新フレーバー“濃厚いちご味”をDomingoブースで出張販売！お土産にもおすすめの、雪のようなやさしい食感のお菓子をぜひお楽しみください。さらに北海道の情報プラットフォーム「Domingo」で好きなまちを「ファン登録」すると、ラビット・ユキネの特製ステッカーをプレゼント！"
+  },
+  {
+    "id": "tokyo-sponsor-C7",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "C7",
+    "line": "C",
+    "boothNo": 7,
+    "circleName": "雪ミク スカイタウン出張所",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_cfm-skytown.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://snowmiku.com/skytown/",
+            "label": "「雪ミク スカイタウン」公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "スカイタウンブースでは人気のオリジナルグッズを販売いたします。詳細は初音ミク公式ブログ、雪ミク公式Xアカウント等でお知らせします！"
+  },
+  {
+    "id": "tokyo-sponsor-D1",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D1",
+    "line": "D",
+    "boothNo": 1,
+    "circleName": "COSPA (コスパ)",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_cospa.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.cospa.com/cospa/event/id/27642",
+            "label": "COSPA(コスパ)《マジカルミライ 2026》販売グッズ情報はこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "COSPAの初音ミク《マジカルミライ 2026》新グッズはこちら！◆フルグラフィックドライパーカー◆アクリルアートスタンド＋ステッカーセット◆つままれ＋ステッカーセットこの他バーチャルシンガーたちのグッズをご用意してブースでお待ちしてます♪詳細はCOSPA公式サイトをチェック！"
+  },
+  {
+    "id": "tokyo-sponsor-D2",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D2",
+    "line": "D",
+    "boothNo": 2,
+    "circleName": "ETERNO RÉCIT (エテルノレシ)",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_eterno.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.eternorecit.jp/index.html",
+            "label": "販売商品の詳細はこちらで随時公開予定！"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "静かな深夜、現実と夢の境界が曖昧になる時間にだけ辿り着ける…そんな幻想的なホテルをイメージした『Hotel Rêvenocturne』その世界観を表現した描き下ろし＆描き起こしイラストグッズやシルバーアクセサリーを先行販売いたします！また、『マジカルミライ2026』メインビジュアルの衣装をモチーフにした「イヤーカフ」をはじめ、「フラワーアートドーム」や、「クリアボトル」を販売！エテルノレシブースにてご購入条件を満たされたお客様にランダムアートカードのプレゼント施策も！皆様のお越しをお待ちしております♪"
+  },
+  {
+    "id": "tokyo-sponsor-D3",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D3",
+    "line": "D",
+    "boothNo": 3,
+    "circleName": "いたラック",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_ita-rack.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://itarack.stores.jp/",
+            "label": "いたラック公式サイトはこちらから"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "「いたラック」ブースでは『マジカルミライ 2026』バージョンのいたラック＆通常衣装のミクラックを展示！特大パネルを背景にご自身のグッズを飾って写真撮影をお楽しみいただけます ♪ ぜひぜひお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-D4",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D4",
+    "line": "D",
+    "boothNo": 4,
+    "circleName": "Start Flowers",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_start-flowers.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://startflowers.com/miku/",
+            "label": "『Start Flowers』初音ミク特設サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "「好きなコンテンツとお花を一緒に楽しんでほしい」『Start Flowers』は、そんな想いからはじまったサービスです。ブースでは、新作イラストグッズ販売でお待ちしております。"
+  },
+  {
+    "id": "tokyo-sponsor-D5",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D5",
+    "line": "D",
+    "boothNo": 5,
+    "circleName": "Desktop Mate",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_desktop-mate.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://store.steampowered.com/app/3301060/Desktop_Mate/",
+            "label": "『Desktop Mate』ストアページ"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "好きと、いつも一緒に。Steamで200万DL突破した「Desktop Mate」がマジカルミライ2026に登場！初音ミク「マジカルミライ2026 Ver.」DLC体験のほか、今年は物販コーナーも新登場。ダウンロードカードやアクリルスタンドをご用意してお待ちしています。毎日のデスクトップが、少しだけ特別に！"
+  },
+  {
+    "id": "tokyo-sponsor-D6",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D6",
+    "line": "D",
+    "boothNo": 6,
+    "circleName": "株式会社タニタ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_tanita.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.tanita.co.jp/content/piapro/",
+            "label": "タニタオンラインショップ"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "今年も初音ミクの商品が新登場！初音ミクがあなたの毎日を応援してくれます。詳しい情報はイベント前に解禁しますので、お待ちください。さらに、今年もマジカルミライ限定デザインの業務用体組成計の展示、測定をします！ぜひお立ち寄りください♪"
+  },
+  {
+    "id": "tokyo-sponsor-D7",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D7",
+    "line": "D",
+    "boothNo": 7,
+    "circleName": "スノウクラッシュ（千本桜）",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_senbon-zakura.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/senbonshop39",
+            "label": "@senbonshop39"
+          },
+          {
+            "kind": "web",
+            "url": "https://senbonzakura-shop.net/",
+            "label": "千本桜公式ショップ"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "senbonshop39"
+    ],
+    "note": "今年も「千本桜」「カンタレラ」「ACUTE」グッズを販売します！最新情報は、千本桜公式Ｘ（）でご確認下さい。にゃんぼんざくら、にゃんタレラの可愛らしいグッズもご用意してます！"
+  },
+  {
+    "id": "tokyo-sponsor-D8",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D8",
+    "line": "D",
+    "boothNo": 8,
+    "circleName": "ぼてぢゅう",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_botejyu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://botejyu.co.jp/",
+            "label": "ぼてぢゅうのHPはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "「初音ミク×ぼてぢゅう」コラボブースです！コラボキャンペーンをぼてぢゅう グループ一部店舗にて絶賛開催！描き下ろしイラストを使用した新商品をご用意して、皆様のご来店を心よりお待ちしております♪"
+  },
+  {
+    "id": "tokyo-sponsor-D9",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D9",
+    "line": "D",
+    "boothNo": 9,
+    "circleName": "和真パレット",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_washin.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/wapalette",
+            "label": "和真パレット公式Xはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "wapalette"
+    ],
+    "note": "初音ミク「マジカルミライ2026」グラスクロスを販売します。初登場のアイテムもご用意しています。メガネ・サングラスのかけ心地も体験できますので、ぜひお気軽にお立ち寄りください。"
+  },
+  {
+    "id": "tokyo-sponsor-D10",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D10",
+    "line": "D",
+    "boothNo": 10,
+    "circleName": "株式会社デザインココ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_coco.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://coco-store.jp/",
+            "label": "https://coco-store.jp/"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "「マジカルミライ2026」主催展示にて展示する初音ミク等身大立像が、1/7スケールフィギュア化！彩色原型を展示いたします。予約してデザインココブースに来場した方には、会場予約特典をプレゼント！"
+  },
+  {
+    "id": "tokyo-sponsor-D11",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "D11",
+    "line": "D",
+    "boothNo": 11,
+    "circleName": "COCOLLABO(ココラボ)＆SOLWA(ソルワ)",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_cocollabo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.cocollabo.net/pages/magicalmirai2026",
+            "label": "ココラボ「マジカルミライ2026」特設サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "ココラボブースでは、毎年ご好評をいただいております「初音ミク×ラスカル2026」「会場限定アイテム」などの新作アイテムを多数販売いたします！毎年恒例の購入特典ショッパーバッグもご用意♪SOLWA新作アイテムの展示も予定しておりますので、是非お立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-E1",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E1",
+    "line": "E",
+    "boothNo": 1,
+    "circleName": "CRECO 株式会社ヒューネット",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_creco.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://creco-shop.com/",
+            "label": "CRECOショップはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "CRECOブースでは「マジカルミライ 2026」ビジュアルのマスコットをはじめ、クリアバッグやポーチ付きエコバッグなど、新作アイテムを販売します。また、大ヒット作品「メズマライザー」ほか、人気楽曲・クリエイターさん作品の新作グッズ、その他多数の新商品もご用意して、皆様を心よりお待ちしております！"
+  },
+  {
+    "id": "tokyo-sponsor-E2",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E2",
+    "line": "E",
+    "boothNo": 2,
+    "circleName": "株式会社タカラトミーアーツ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_takara.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.takaratomy-arts.co.jp/specials/globalfig/perihapi/",
+            "label": "PERIHAPI!（ペリハピ）の公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "＼ PERIHAPI! ／タカラトミーアーツが展開するフィギュアシリーズ「PERIHAPI!」より、ピアプロキャラクターズ商品がマジカルミライに初登場！会場にて販売するほか、今後発売予定商品の展示も実施いたします！こだわりフィギュアをぜひ会場でチェックしてください♪"
+  },
+  {
+    "id": "tokyo-sponsor-E3",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E3",
+    "line": "E",
+    "boothNo": 3,
+    "circleName": "株式会社タイトー",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_taito.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.taito.co.jp/",
+            "label": "タイトー公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "物販フィギュアブランド「spiritale」から初音ミクフィギュアの原型展示と「タイトーくじ」に登場予定の『タイトーくじ レーシングミク』の商品展示を行います！実物をご覧いただける数少ない機会となっておりますので、ぜひお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-E4",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E4",
+    "line": "E",
+    "boothNo": 4,
+    "circleName": "株式会社ダイハツビジネスサポートセンター",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_dbc.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/DBC_3939",
+            "label": "「DBC×初音ミク」X公式アカウントはこちら♪"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "DBC_3939"
+    ],
+    "note": "『初音ミク コラボカー用品パッケージ』やオリジナルグッズを手がける『DBC』です♪今回はなんと、コラボカー『ミクキャンバス2』に加えて、新たなコンセプトカーを初お披露目！いつもと少し違う雰囲気のDBCを、ぜひ会場で体感してください！"
+  },
+  {
+    "id": "tokyo-sponsor-E5",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E5",
+    "line": "E",
+    "boothNo": 5,
+    "circleName": "Ableton",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_ableton.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.ableton.com/ja/",
+            "label": "Ableton公式ウェブサイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "Abletonブースでは、Ableton Live 12上で初音ミクなどのデモソングや音楽制作にまつわる体験できます。また表現力豊かな演奏・制作・パフォーマンスを可能にする楽器PushおよびMoveを実際に体験できるプレイグラウンドも設置。ブースにご来場いただきました方には、オリジナル特典のプレゼントも。ぜひご来場ください！"
+  },
+  {
+    "id": "tokyo-sponsor-E6",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E6",
+    "line": "E",
+    "boothNo": 6,
+    "circleName": "株式会社フックアップ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_hook-up.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://beatcloud.jp/",
+            "label": "オンラインストア『beatcloud』はこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "株式会社フックアップが運営するオンラインストア「beatcloud」ブースでは、世界で人気の作曲ソフト（DAW）『Image-Line / FL STUDIO』を始め、『Celemony / Melodyne』などの各種プラグイン等、音楽制作のための様々なソフトウェアを体験いただけます。"
+  },
+  {
+    "id": "tokyo-sponsor-E7",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E7",
+    "line": "E",
+    "boothNo": 7,
+    "circleName": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_pokemiku.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.jvcmusic.co.jp/project-voltage/",
+            "label": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray公式サイト"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-rayの商品見本の展示や商品情報をお届けします。ぜひお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-E8",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E8",
+    "line": "E",
+    "boothNo": 8,
+    "circleName": "TAMAZOU",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_tamazou.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/tamazou202507",
+            "label": "『TAMAZOU』公式Xアカウントはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "tamazou202507"
+    ],
+    "note": "今年は「TAMAZOU」として、ピアプロキャラクターズのグッズを引っさげて登場します。お気に入りのアイテムを見つけに、ぜひお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-E9",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "E9",
+    "line": "E",
+    "boothNo": 9,
+    "circleName": "ギターメーカー(株)ESP",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_esp.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://espguitars.co.jp/artists/17779/",
+            "label": "初音ミクギターほか関連商品はコチラ"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "初音ミクと正式エンドース契約を結ぶギターメーカーESPブース。シグネチャーギターや関連グッズを展示・販売。今年はギター試奏コーナーも設置し、実際に触れて弾く楽しさを体験いただけます。"
+  },
+  {
+    "id": "tokyo-sponsor-F1",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "F1",
+    "line": "F",
+    "boothNo": 1,
+    "circleName": "(株)ヤマハミュージックジャパン",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_yamaha.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://jp.yamaha.com/products/contents/proaudio/creator_hub/index.html",
+            "label": "Yamaha公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "フォトスポットや作曲体験や楽器体験、VOCALOID関連のクイズなど、どなたでもお楽しみいただける様々なコンテンツをご用意しております。（一部会場によって内容が異なります。）専門スタッフ常駐の相談コーナーも設けておりますので、DTM等に興味があるという方は是非お立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-F2",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "F2",
+    "line": "F",
+    "boothNo": 2,
+    "circleName": "クリプトン・フューチャー・メディア株式会社 SONICWIREチーム",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_cfm-sw.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://sonicwire.com/product/virtualsinger/special/index",
+            "label": "音楽クリエイターのためのダウンロードストア SONICWIRE"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "SONICWIREブースでは、遂に登場した『初音ミク V6』や『初音ミク NT』を使った歌声入力体験を実施いたします！そのほか、バーチャル・シンガー製品の特別販売も実施。ぜひSONICWIREブースへお立ち寄りください！"
+  },
+  {
+    "id": "tokyo-sponsor-F3",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "F3",
+    "line": "F",
+    "boothNo": 3,
+    "circleName": "一般社団法人JSPA",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_jspa.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.jspa.gr.jp/",
+            "label": "JSPA"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "JSPAブースでは今年から新設されたアカデミー会員のご紹介と募集に加え、シンセサイザーによる音作りや楽曲制作のお悩みなどにお答えするスタッフと共に皆様のお越しをお待ちしております。"
+  },
+  {
+    "id": "tokyo-sponsor-F4",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "F4",
+    "line": "F",
+    "boothNo": 4,
+    "circleName": "株式会社インターネット",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_internet.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.ssw.co.jp/characters/",
+            "label": "株式会社インターネット Characters"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "株式会社インターネットブースでは、「初音ミク」と「音街ウナ」のコラボグッズや「GUMI」「神威がくぽ」の新作グッズを販売します。3Dライブ「Lively Paradise 2025」を収録したBDやCDも販売します。"
+  },
+  {
+    "id": "tokyo-sponsor-F5",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "F5",
+    "line": "F",
+    "boothNo": 5,
+    "circleName": "アイアップ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_eyeup.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.eyeup.co.jp/",
+            "label": "アイアップ公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "アイアップブースでは、『ぷちべあマスコット』『ぬいぬいバッグ』などのピアプロキャラクターズのクマの着ぐるみ姿がとってもキュートな4アイテムと、お花にのったミニキャラがかわいい『ぷちふれ！』シリーズのアクリルグッズや缶バッジを販売いたします。是非お立ち寄りください♪"
+  },
+  {
+    "id": "tokyo-sponsor-F6",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "F6",
+    "line": "F",
+    "boothNo": 6,
+    "circleName": "奏の森リゾート",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_kanade.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://kanadenomori-resorts.jp/",
+            "label": "奏の森リゾート公式サイトはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "奏の森リゾートがマジカルミライ2026に初出展。大好評の第2弾コラボグッズ販売のほか、第3弾コラボイベントの情報を解禁予定！限定グッズや新展開を、ぜひ奏の森ブースでチェックしてください。"
+  },
+  {
+    "id": "tokyo-sponsor-G1",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "G1",
+    "line": "G",
+    "boothNo": 1,
+    "circleName": "チュロス製造所",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_churros.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://churros-seizousyo.jp/",
+            "label": "チュロス製造所HPはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "キャラクターのイメージカラーを施したチュロを販売します！アクリルカードが1枚付属します♪こだわりぬいた国産原材料使用。専門店が作る美味しくて可愛いカラフルなチュロをぜひご賞味ください！"
+  },
+  {
+    "id": "tokyo-sponsor-G2",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "G2",
+    "line": "G",
+    "boothNo": 2,
+    "circleName": "TNOC THE SNOW MIKU CAFE 2026",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_north-1.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://tnoc.jp/blogs/news/tnoc-the-snow-miku-cafe-2026-pop-up-cafe",
+            "label": "TNOC THE SNOW MIKU CAFE 2026 出張所の詳細はこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "2月の北海道で大人気だった『TNOC THE SNOW MIKU CAFE 2026』がPOP-UP CAFEとして『初音ミク「マジカルミライ 2026」』に登場！SNOW MIKU 2026の世界観を感じられる特別なメニューをお届けします。"
+  },
+  {
+    "id": "tokyo-sponsor-G3",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "G3",
+    "line": "G",
+    "boothNo": 3,
+    "circleName": "初音ミク×アニメイトカフェ-Chocoanimal Miku Wagon-",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_animate-cafe.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/shinotaro0502",
+            "label": "@shinotaro0502"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.animatecafe.jp/",
+            "label": "アニメイトカフェホームぺージ"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "shinotaro0502"
+    ],
+    "note": "今年もマジカルミライに出店決定★バーチャルシンガーをイメージしたオリジナルメニューやグッズの販売を行います★しのたろうさん（）描き下ろしのショコラ×アニマルイメージのイラストも大公開！皆さまのご来店をお待ちしております♪"
+  },
+  {
+    "id": "tokyo-sponsor-ガチャ",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": "ガチャ",
+    "line": null,
+    "boothNo": null,
+    "circleName": "（株）バンダイ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_bandai.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://gashapon.jp/",
+            "label": "ガシャポン"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "ガシャポンマシンにて、フィギュアをはじめとした様々なグッズがコレクションできる「あそーと」と、カプセルではなく平面ビジュアル商材で出てくる自販機フラットガシャポンにて「クリアビジュアルポスター」の2商品を展開いたします。どちらも集めたくなる商品なので是非ゲットしてください！"
+  },
+  {
+    "id": "tokyo-sponsor-7d8522",
+    "venue": "tokyo",
+    "kind": "sponsor",
+    "boothId": null,
+    "line": null,
+    "boothNo": null,
+    "circleName": "愛の助け合い献血（千葉県赤十字血液センター）",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/sponsor/booth_img_kenketsu_tokyo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.bs.jrc.or.jp/ktks/chiba/index.html",
+            "label": "千葉県赤十字血液センターホームページはこちら"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": "献血にご協力いただいた方に、松うにさんデザイン千葉県赤十字血液センター限定記念品をプレゼント！また、事前予約のうえ献血にご協力いただいた方には、予約者限定記念品も追加でプレゼントします！！ぜひ、この機会に献血へのご協力をお願いいたします。【献血会場】幕張メッセ臨時駐車場（9ホール下道路渡って反対側）【献血受付時間】8月28日(金) 12:00～16:308月29日(土) 9:30～16:308月30日(日) 9:30～16:30※3日間とも途中中断なく、献血受付ご案内予定です。"
+  }
+]

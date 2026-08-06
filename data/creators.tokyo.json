@@ -1,0 +1,5057 @@
+[
+  {
+    "id": "tokyo-A-1",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-1",
+    "line": "A",
+    "boothNo": 1,
+    "circleName": "ピノキオ定食",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_pinocchiop.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ピノキオピー",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000236",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://pinocchiop.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/pinocchiop",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "pinocchiop"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-2",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-2",
+    "line": "A",
+    "boothNo": 2,
+    "circleName": "MY SONG IS SHIT",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_my-song-is-shit.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "鬱P",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000333",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/utsupii",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "utsupii"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-3",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-3",
+    "line": "A",
+    "boothNo": 3,
+    "circleName": "Evergreen Leland Studio",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_els.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "針原翼（はりーP）",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000583",
+            "label": "KARENT"
+          }
+        ]
+      },
+      {
+        "name": "Heavenz",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000071",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/HeavenzP",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "koyori",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000235",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/koyokoyokoyori",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "nogumi",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000960",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/nogumi_3",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "HeavenzP",
+      "koyokoyokoyori",
+      "nogumi_3"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-4",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-4",
+    "line": "A",
+    "boothNo": 4,
+    "circleName": "梨本うい",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nashimoto-ui.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "梨本うい",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/nashimotowe",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "nashimotowe"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-5",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-5",
+    "line": "A",
+    "boothNo": 5,
+    "circleName": "ねじ式",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nejishiki.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ねじ式",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000646",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.nejishiki.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/nejishiki0221",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "nejishiki0221"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-6",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-6",
+    "line": "A",
+    "boothNo": 6,
+    "circleName": "Retriever Records / buzzG",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_buzzg.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "buzzG",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000330",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@buzz_g",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/buzz_g",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "buzz_g"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-7",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-7",
+    "line": "A",
+    "boothNo": 7,
+    "circleName": "薄塩指数",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_usushioshisuu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "薄塩指数",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000981",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://linktr.ee/usushioshisuu",
+            "label": "Linktree"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-8",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-8",
+    "line": "A",
+    "boothNo": 8,
+    "circleName": "Omoi",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_omoi.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Sakurai",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000832",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Omoi3965",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Omoi3965"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-9",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-9",
+    "line": "A",
+    "boothNo": 9,
+    "circleName": "サツキ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_32ki.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "サツキ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000988",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@32ki_may",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/32ki_May",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "32ki_May"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-10",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-10",
+    "line": "A",
+    "boothNo": 10,
+    "circleName": "MY SHIP",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_my-ship.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "BCNO",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001058",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/bcno01",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "bcno01"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-11",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-11",
+    "line": "A",
+    "boothNo": 11,
+    "circleName": "クリキッド",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_crikid.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "キッドP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000272",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/kid_NnDS",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "クリスタルP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000017",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/HzEdge_crystalP",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "残鏡P",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/kk_kaze",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "kid_NnDS",
+      "HzEdge_crystalP",
+      "kk_kaze"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-12",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-12",
+    "line": "A",
+    "boothNo": 12,
+    "circleName": "halyosy",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_halyosy.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "halyosy",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000709",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://halyosy.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/halyosy",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "halyosy"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-13",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-13",
+    "line": "A",
+    "boothNo": 13,
+    "circleName": "宮守文学",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_miyamori.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "宮守文学",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000976",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@miyamoribungaku",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/miyamoribungaku",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "miyamoribungaku"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-14",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-14",
+    "line": "A",
+    "boothNo": 14,
+    "circleName": "偽犬",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_niseinu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ぬゆり",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001059",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/nulut",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "nulut"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-15",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-15",
+    "line": "A",
+    "boothNo": 15,
+    "circleName": "セルフ駄菓子屋さん",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_self-dagashiyasan.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "駄菓子O型",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://dagashiogata.studio.site/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/OgataDagashi",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "OgataDagashi"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-16-509961",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-16",
+    "line": "A",
+    "boothNo": 16,
+    "circleName": "しゃいとれこーず",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_shaito.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "しゃいと",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000947",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/channel/UC-6CnJA6jkZdv_yfv5KIcDA",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/shaito_otiahs",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "shaito_otiahs"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-16-8d76f0",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-16",
+    "line": "A",
+    "boothNo": 16,
+    "circleName": "ふらのラボ - ボカロチップチューン研究所",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_furano.jpg",
+    "days": [
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "furmoph",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001116",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "http://youtube.com/@mophmoph8bit",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/furmoph",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "furmoph"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-17-d78d75",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-17",
+    "line": "A",
+    "boothNo": 17,
+    "circleName": "Ruliea / szri",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ruliea-szri.jpg",
+    "days": [
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Ruliea",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001169",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ruliea_7",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ruliea_7"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-17-837ec0",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-17",
+    "line": "A",
+    "boothNo": 17,
+    "circleName": "Y-net",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_y-net.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "芳田",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000867",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@yoshida3354",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/yoshida_yr",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "yoshida_yr"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-18-8058fb",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-18",
+    "line": "A",
+    "boothNo": 18,
+    "circleName": "IQYU",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_iqyu.jpg",
+    "days": [
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "IQYU",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001056",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.instagram.com/iqyu_iq/",
+            "label": "Instagran"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/iqyu_iq",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "iqyu_iq"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-18-a30acf",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-18",
+    "line": "A",
+    "boothNo": 18,
+    "circleName": "フユウ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_fuyuuu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "フユウ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001144",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/fuyuuu_xxx",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "fuyuuu_xxx"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-19-171bb8",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-19",
+    "line": "A",
+    "boothNo": 19,
+    "circleName": "YUZY/No.emia",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_yuzynoemia.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "ユジー",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000684",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/hsURanus_yuzy",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "hsURanus_yuzy"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-19-6d350f",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-19",
+    "line": "A",
+    "boothNo": 19,
+    "circleName": "森羅盤商会",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_shinra.jpg",
+    "days": [
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "森羅",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000827",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@shinra_logic",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/shinra_logic",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "shinra_logic"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-20",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-20",
+    "line": "A",
+    "boothNo": 20,
+    "circleName": "柏木カレキ / Kareki Kashiwagi",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_kashiwagi.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "柏木カレキ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001164",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://lit.link/karekimusic",
+            "label": "Lit.Link"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/kareki_music",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "kareki_music"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-21",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-21",
+    "line": "A",
+    "boothNo": 21,
+    "circleName": "BASYAUMA RECORDS",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_basyauma.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "*Luna",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000797",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.ast-luna.com/",
+            "label": "WEB"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-22",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-22",
+    "line": "A",
+    "boothNo": 22,
+    "circleName": "teamOS",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_team-os.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ひとしずくP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000193",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://hitoyamamusic.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/samorira9",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "やま△",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001120",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@hitoshizuku_yama",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/shoma1983",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "鈴ノ助",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/suzu3939",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "とさお",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/anarchylily",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "VAVA",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/vavajun",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "samorira9",
+      "shoma1983",
+      "suzu3939",
+      "anarchylily",
+      "vavajun"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-23",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-23",
+    "line": "A",
+    "boothNo": 23,
+    "circleName": "青時計屋",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_aotokeiya.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "アオトケイ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000703",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/aoto_kei",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "aoto_kei"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-24",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-24",
+    "line": "A",
+    "boothNo": 24,
+    "circleName": "MINO-U",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_mino-u.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "MINO-U",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000743",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/MINOU_0831",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "Nov4",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/nova_sing",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "あらち",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/ra1kaA",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "たぴざんまい",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/htn39dy",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "栗山",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/nekota_yama",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "MINOU_0831",
+      "nova_sing",
+      "ra1kaA",
+      "htn39dy",
+      "nekota_yama"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-25",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-25",
+    "line": "A",
+    "boothNo": 25,
+    "circleName": "お商材屋さん",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_oshozaiyasan.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Sohbana",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001003",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://linktr.ee/sohbanasick",
+            "label": "Linktree"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-26",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-26",
+    "line": "A",
+    "boothNo": 26,
+    "circleName": "吉田ヨシユキ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_yoshida-yoshiyuki.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "吉田ヨシユキ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001082",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/yoshiyuki_eve",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "yoshiyuki_eve"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-27",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-27",
+    "line": "A",
+    "boothNo": 27,
+    "circleName": "めろくる/Mellowcle",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_mellowcle.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "めろくる",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000972",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Mellowcle",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Mellowcle"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-A-28",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "A-28",
+    "line": "A",
+    "boothNo": 28,
+    "circleName": "かおなしレコード",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_kaonashi-record.jpg",
+    "days": [
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "和田たけあき",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000812",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://lit.link/wadatakeaki",
+            "label": "Lit.Link"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-1",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-1",
+    "line": "B",
+    "boothNo": 1,
+    "circleName": "ぽりふぉ / PolyphonicBranch",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_polypho.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ぽりふぉ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000377",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/PolyphonicBranch",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Tomoya_PB",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Tomoya_PB"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-2",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-2",
+    "line": "B",
+    "boothNo": 2,
+    "circleName": "ツムギ食堂",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_tsumugi-syokudo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "kijima",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001025",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://ridercaster0809.wixsite.com/tsumugi-syokudo",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/rider_caster",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "rider_caster"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-3",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-3",
+    "line": "B",
+    "boothNo": 3,
+    "circleName": "solidbeats(Re:nG)",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_solidbeats.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Re:nG",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000041",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://reng.jp/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/_reng/",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "佐鳥研斗",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/kento_satori",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "_reng",
+      "kento_satori"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-4",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-4",
+    "line": "B",
+    "boothNo": 4,
+    "circleName": "Studio Ark Attack",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_studio-ark-attack.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ぼーかりおどP(noa)",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000511",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://linktr.ee/vocaliod_P",
+            "label": "Linktree"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/vocaliod_P",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "vocaliod_P"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-5",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-5",
+    "line": "B",
+    "boothNo": 5,
+    "circleName": "家の裏でマンボウが死んでるP",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_manbou.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "家の裏でマンボウが死んでるP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000321",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://manbo-p.com/",
+            "label": "WEB"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-6",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-6",
+    "line": "B",
+    "boothNo": 6,
+    "circleName": "たけねこれこーず",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_takeneko.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "タケノコ少年",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000910",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@Takenokoboy",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/TA_MOR_I",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "TA_MOR_I"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-7",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-7",
+    "line": "B",
+    "boothNo": 7,
+    "circleName": "Ponchi♪",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ponchi.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Ponchi♪",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000952",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ponchi_pop",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ponchi_pop"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-8",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-8",
+    "line": "B",
+    "boothNo": 8,
+    "circleName": "市瀬るぽ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ichinoselupo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "市瀬るぽ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000811",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/LUPO_Reportage",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "LUPO_Reportage"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-9",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-9",
+    "line": "B",
+    "boothNo": 9,
+    "circleName": "いるかアイス（On Prism Records）",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_iruca-ice.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "いるかアイス",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000894",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/irucaice",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/irucaice",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "irucaice"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-10",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-10",
+    "line": "B",
+    "boothNo": 10,
+    "circleName": "ケチャップ販売員",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ketchup.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "オゾン",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000870",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ozon_541",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "れいろう",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/sgrir__",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ozon_541",
+      "sgrir__"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-11",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-11",
+    "line": "B",
+    "boothNo": 11,
+    "circleName": "0202愛好会",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_0202.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "暖炉P",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001098",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/danlo0042",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "鶴三",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001192",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/tsuruzou_music",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "danlo0042",
+      "tsuruzou_music"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-12",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-12",
+    "line": "B",
+    "boothNo": 12,
+    "circleName": "ウミノソコ。",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_uminosoko.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "雲丹",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000823",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@uni_kagamine",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/sea_urchinP",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "sea_urchinP"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-13",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-13",
+    "line": "B",
+    "boothNo": 13,
+    "circleName": "がるなん.com",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_garunan.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ガルナ(オワタP)",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000049",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://garunan.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/tomatowt",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "tomatowt"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-14",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-14",
+    "line": "B",
+    "boothNo": 14,
+    "circleName": "the heavenly yard",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_the-heavenly-yard.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "mothy_悪ノP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000037",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@mothyakuno7098",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/mothy_akuno",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "mothy_akuno"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-15-2445c7",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-15",
+    "line": "B",
+    "boothNo": 15,
+    "circleName": "GYU P",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_gyu-p.jpg",
+    "days": [
+      "2026-08-28"
+    ],
+    "members": [
+      {
+        "name": "GYU P",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001051",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/gyup_bokarop?s=21&t=rUuaEjh9PNQ8vCEfZ91xIg",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "gyup_bokarop"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-15-530c2a",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-15",
+    "line": "B",
+    "boothNo": 15,
+    "circleName": "REONAlD",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_reonald.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "のぼる↑",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000129",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@noboruda",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/noboru_e",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "noboru_e"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-16",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-16",
+    "line": "B",
+    "boothNo": 16,
+    "circleName": "CielP",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_cielp.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "CielP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000163",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://sound.jp/ciel/",
+            "label": "WEB"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-17",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-17",
+    "line": "B",
+    "boothNo": 17,
+    "circleName": "studio MURASAKI",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_murasaki.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "MURASAKI",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000892",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@yukarinmurasaki",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/yukarinmurasaki",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "yukarinmurasaki"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-18",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-18",
+    "line": "B",
+    "boothNo": 18,
+    "circleName": "ヤデュクシチャンネル",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_yadukishinya.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ヤヅキ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001119",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/yadukishinya",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "yadukishinya"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-19",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-19",
+    "line": "B",
+    "boothNo": 19,
+    "circleName": "幽霊ず",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_yurei-zu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "幽霊一文字",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000649",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/YureiIchimonji",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "やみくろ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000656",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/yamichrome",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "YureiIchimonji",
+      "yamichrome"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-20",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-20",
+    "line": "B",
+    "boothNo": 20,
+    "circleName": "Wakuwaku Miwaku",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_wakuwaku-miwaku.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Mwk",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000820",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@Mwk",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Mwk_094",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Mwk_094"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-21",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-21",
+    "line": "B",
+    "boothNo": 21,
+    "circleName": "書店太郎",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_shoten-tarou.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "書店太郎",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000857",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/shotenteki_ore",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "shotenteki_ore"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-22",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-22",
+    "line": "B",
+    "boothNo": 22,
+    "circleName": "i, My Records",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_i-my-records.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "イルマ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001173",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/iruma_azalea",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "iruma_azalea"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-23-8ea510",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-23",
+    "line": "B",
+    "boothNo": 23,
+    "circleName": "il cremonese",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_il-cremonese.jpg",
+    "days": [
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "オカメP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000689",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/okameP",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "okameP"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-23-87dc9a",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-23",
+    "line": "B",
+    "boothNo": 23,
+    "circleName": "Powerless Sounds",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_powerless.jpg",
+    "days": [
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "無力P / Powerless",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000332",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/muryokup",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "muryokup"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-24",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-24",
+    "line": "B",
+    "boothNo": 24,
+    "circleName": "ホシゾラ列車【三日月線】",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_hoshizora.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "YASUHIRO(康寛)",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000678",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@yasuhiro_vanq",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/yasuhiro_vanq",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "yasuhiro_vanq"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-25",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-25",
+    "line": "B",
+    "boothNo": 25,
+    "circleName": "ワンダフル☆オポチュニティ！",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_wan-opo.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "じーざす",
+        "links": []
+      },
+      {
+        "name": "マイナス",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000124",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/WAN_OPO",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "WAN_OPO"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-26",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-26",
+    "line": "B",
+    "boothNo": 26,
+    "circleName": "光収容の倉庫",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_hikarisyuyo.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "光収容",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000034",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://hikarisyuyo.booth.pm/",
+            "label": "WEB"
+          }
+        ]
+      },
+      {
+        "name": "NEGI",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://xfolio.jp/portfolio/ulogbe",
+            "label": "WEB"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-27",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-27",
+    "line": "B",
+    "boothNo": 27,
+    "circleName": "UtopiaLyric",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_utopia-lyric.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "UtopiaLyric",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000073",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://lit.link/UtopiaLyric",
+            "label": "Lit.Link"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/utopialyric",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "utopialyric"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-28",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-28",
+    "line": "B",
+    "boothNo": 28,
+    "circleName": "ネネバネマレ団",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nenebanemare.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "YM",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000507",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/c/YMOfficialChannel",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/YM_yoshiya",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "YM_yoshiya"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-29",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-29",
+    "line": "B",
+    "boothNo": 29,
+    "circleName": "ぼぉの",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_buonooooo.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ぼぉの",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001134",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://lit.link/buonooooo",
+            "label": "Lit.Link"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Ficrc_unripe",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Ficrc_unripe"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-30",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-30",
+    "line": "B",
+    "boothNo": 30,
+    "circleName": "JHT STUDIO",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_jht-studio.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "猫舘 こたつ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001079",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/nktc_ktt",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "ナナ",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/nana_00ii",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "Ichinoku",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/ichino_9",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "カワムラシキ",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/shikikawamura",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "nktc_ktt",
+      "nana_00ii",
+      "ichino_9",
+      "shikikawamura"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-31",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-31",
+    "line": "B",
+    "boothNo": 31,
+    "circleName": "量産型西沢さん。",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nishizawasan.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "TOKOTOKO（西沢さんP）",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000231",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@ZawasoOfficial",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/NishizawasanP",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "NishizawasanP"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-B-32",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "B-32",
+    "line": "B",
+    "boothNo": 32,
+    "circleName": "forute | フヲルテ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_forute.jpg",
+    "days": [
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "フヲルテ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000757",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://youtube.com/@forute?si=V3pKUCLNDr0JHbZH",
+            "label": "YouTube"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-1",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-1",
+    "line": "C",
+    "boothNo": 1,
+    "circleName": "のん・木瀬",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_non-kise.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "木瀬のん",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001057",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@kisenon8232",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Xenon54cp",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Xenon54cp"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-2",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-2",
+    "line": "C",
+    "boothNo": 2,
+    "circleName": "海風太陽",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_umikaze-taiyo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "海風太陽",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001114",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://youtube.com/@umikazetaiyop?si=hJ-VEZcfQ1xE1_Xp",
+            "label": "YouTube"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-3",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-3",
+    "line": "C",
+    "boothNo": 3,
+    "circleName": "NEXTLIGHT",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nextlight.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "picco",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000893",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/picco0817",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/picco_xxx",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "Reno",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000881",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@RenoOfficial",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/reno_gtgtgt",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "purini",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001111",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/c/purini",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/purini_v",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "Mi7s3",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001110",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@minase0402",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/minase0402",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "picco_xxx",
+      "reno_gtgtgt",
+      "purini_v",
+      "minase0402"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-4",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-4",
+    "line": "C",
+    "boothNo": 4,
+    "circleName": "Popism",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_popism.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "tekalu",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000932",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://tekalu.net/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/tekalu_music",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "Capchii",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000931",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://capchii.work/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Capchii",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "tekalu_music",
+      "Capchii"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-5",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-5",
+    "line": "C",
+    "boothNo": 5,
+    "circleName": "Hylen Lab",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_hylen-lab.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Hylen",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001017",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://hylenlab.info/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Hylen_JP",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Hylen_JP"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-6",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-6",
+    "line": "C",
+    "boothNo": 6,
+    "circleName": "SPACELECTRO",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_spacelectro.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "SPACELECTRO",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000800",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://spacelectro.jp/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Spacelectro",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Spacelectro"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-7",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-7",
+    "line": "C",
+    "boothNo": 7,
+    "circleName": "二枚舌芋会館〜やっぱ今年も参加したい〜",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nimai-jita.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "IMO",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000942",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://youtube.com/@imo_fpotatop?si=c6gZiYMq2erpn9xF",
+            "label": "YouTube"
+          }
+        ]
+      },
+      {
+        "name": "影石マサカズ",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.nicovideo.jp/user/40195715",
+            "label": "ニコニコ動画"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/M_kageisi",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "M_kageisi"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-8",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-8",
+    "line": "C",
+    "boothNo": 8,
+    "circleName": "ただただだいず",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_dadadaisu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "打打だいず",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001107",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@d-d-diceofficial5259",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/DICE__game",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "月乃",
+        "links": [
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@TsukinoChannel",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/tsuki_nxo",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "DICE__game",
+      "tsuki_nxo"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-9",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-9",
+    "line": "C",
+    "boothNo": 9,
+    "circleName": "音戯噺屋",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_otogibanashiya.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "koushirou（卑屈P）",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000013",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "http://jirai8.web.fc2.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/kou46",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "kou46"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-10",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-10",
+    "line": "C",
+    "boothNo": 10,
+    "circleName": "twinkledisc",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_twinkledisc.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Dios/シグナルP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000007",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://twinkledisc.net/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Hiroaki_Arai_",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Hiroaki_Arai_"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-11",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-11",
+    "line": "C",
+    "boothNo": 11,
+    "circleName": "L3Project",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_l3project.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "れれれP",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000327",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://l3project.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/lelelep",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "lelelep"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-12",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-12",
+    "line": "C",
+    "boothNo": 12,
+    "circleName": "G.C.M Records",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_gcm-records.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "gcmstyle（アンメルツP）",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000454",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.gcmstyle.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/gcmstyle",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "gcmstyle"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-13",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-13",
+    "line": "C",
+    "boothNo": 13,
+    "circleName": "ぐちりずむ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_guchiri.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ぐちり",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000924",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://bomless-race.theblog.me/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/bomless_race",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "暇",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/Himanemuitoma",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "bomless_race",
+      "Himanemuitoma"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-14",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-14",
+    "line": "C",
+    "boothNo": 14,
+    "circleName": "あ子",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ako.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "あ子",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000838",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.akoyade.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ako_okko",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "葵山わさび",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://ahowasa.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ahowasa86",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ako_okko",
+      "ahowasa86"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-15",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-15",
+    "line": "C",
+    "boothNo": 15,
+    "circleName": "GTども",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_gt-domo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "たかぴぃ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000770",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.gtcast.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/niconico_takap",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "niconico_takap"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-16",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-16",
+    "line": "C",
+    "boothNo": 16,
+    "circleName": "EO",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_eo.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "EO",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000955",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@eo_aui7740",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/eo_aui7740",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "ナサガシ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000996",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@nasagashi",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/nasagashi",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "eo_aui7740",
+      "nasagashi"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-17",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-17",
+    "line": "C",
+    "boothNo": 17,
+    "circleName": "ろいどる！",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_roidoru.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "shino",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000816",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/channel/UCLd0VGHm6RXx3_qKqwIQ2zA",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/shi_no_music",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "NoNe",
+        "links": []
+      }
+    ],
+    "xHandles": [
+      "shi_no_music"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-18",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-18",
+    "line": "C",
+    "boothNo": 18,
+    "circleName": "錦市場",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nishiki-ichiba.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "錦",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000890",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://youtube.com/@nishiki24?si=wamhynEtgCyOSca2",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/nishikikn",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "nishikikn"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-19",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-19",
+    "line": "C",
+    "boothNo": 19,
+    "circleName": "アオワイファイSPOT",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ao-wifi.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "アオワイファイ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001121",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ao_WiFi",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ao_WiFi"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-20",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-20",
+    "line": "C",
+    "boothNo": 20,
+    "circleName": "浮幽会",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_fuyu-kai.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "由末イリ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001019",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/iri_qitune",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "iri_qitune"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-21",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-21",
+    "line": "C",
+    "boothNo": 21,
+    "circleName": "あいそらのおくりもの",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_aisora.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Iceky",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001122",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.nicovideo.jp/user/78085002",
+            "label": "ニコニコ動画"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/flogsing",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "flogsing"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-22",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-22",
+    "line": "C",
+    "boothNo": 22,
+    "circleName": "まにまに物販",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_manimani.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "manika",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001087",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://lit.link/manika",
+            "label": "Lit.Link"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ma_ni_ka_",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ma_ni_ka_"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-23",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-23",
+    "line": "C",
+    "boothNo": 23,
+    "circleName": "暗黒童話唄",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ankoku.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "じょるじん",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000948",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/channel/UCj7WuuoQeDLKq44UCYJMOuQ",
+            "label": "YouTube"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-24",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-24",
+    "line": "C",
+    "boothNo": 24,
+    "circleName": "BIGHEAD",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_bighead.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "BIGHEAD",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000685",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@BIGHEADJP",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/bighead11111",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "bighead11111"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-25",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-25",
+    "line": "C",
+    "boothNo": 25,
+    "circleName": "カガヤ家",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_kagayake.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Cagayake",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001030",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@cagayakeee",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Cagayakeee",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Cagayakeee"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-26",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-26",
+    "line": "C",
+    "boothNo": 26,
+    "circleName": "Aliey:S Official Store",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_alieys.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Aliey:S",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001139",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@s_Aliey",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/s_Aliey",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "s_Aliey"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-27",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-27",
+    "line": "C",
+    "boothNo": 27,
+    "circleName": "獅子兎レコーズ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_shishido-records.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "シシド",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000963",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/shishido_4410",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "shishido_4410"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-C-28",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "C-28",
+    "line": "C",
+    "boothNo": 28,
+    "circleName": "ryuryu / Past Days Sparkle",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ryuryu.jpg",
+    "days": [
+      "2026-08-29"
+    ],
+    "members": [
+      {
+        "name": "ryuryu",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000039",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/channel/UCHlbavmqBTRRr92o76ZaOag",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ryuryuephemera",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ryuryuephemera"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-1",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-1",
+    "line": "D",
+    "boothNo": 1,
+    "circleName": "たきだしごはん",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_takidashi-gohan.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "せきこみごはん",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000927",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@SekikomiGohan",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/p_akiaki",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "雨花",
+        "links": [
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@%E7%81%B0%E5%92%B2%E9%9B%A8%E9%9F%B3",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/HaisakiAmane",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "p_akiaki",
+      "HaisakiAmane"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-2",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-2",
+    "line": "D",
+    "boothNo": 2,
+    "circleName": "imie",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_imie.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "imie",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000841",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://imieimieimi.wixsite.com/imie-official",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/imieimieimi",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "imieimieimi"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-3",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-3",
+    "line": "D",
+    "boothNo": 3,
+    "circleName": "ATOLS",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_atols.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ATOLS",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000497",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.instagram.com/atolsx",
+            "label": "Instagram"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/ATOLSX",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "ATOLSX"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-4",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-4",
+    "line": "D",
+    "boothNo": 4,
+    "circleName": "ムシぴのおうち",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_muship.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ムシぴ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000998",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@ibumushi",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/muship_64",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "muship_64"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-5",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-5",
+    "line": "D",
+    "boothNo": 5,
+    "circleName": "Twinfield",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_twinfield.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Twinfield",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000912",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/c/Twinfieldnex",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Twinfieldnex",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "めるのめる",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/MerunoMeru88",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Twinfieldnex",
+      "MerunoMeru88"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-6",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-6",
+    "line": "D",
+    "boothNo": 6,
+    "circleName": "ベリーイージー",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_very-easy.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "EasyPop",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000336",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://easypop.jp/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/easypop_betti",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "seri",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/seri_works",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "easypop_betti",
+      "seri_works"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-7",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-7",
+    "line": "D",
+    "boothNo": 7,
+    "circleName": "ネギシャワーパーティ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_negi-shower.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "加賀(ネギシャワーP)",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000909",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://www.negishower.com/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/kaga_qwerty",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "kaga_qwerty"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-8",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-8",
+    "line": "D",
+    "boothNo": 8,
+    "circleName": "雄之助/Yunosuke",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_yunosuke.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "雄之助",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000760",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@yunosuke23",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/bass_ynk",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "bass_ynk"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-9",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-9",
+    "line": "D",
+    "boothNo": 9,
+    "circleName": "だいなりしょうなり＞＜",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_dainari-shonari.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "晴いちばん",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001074",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/c/Haruichiban",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/Haru1_kaze_",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "ざんぎ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001147",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@zangi_2222",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/zangi_2222",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "Haru1_kaze_",
+      "zangi_2222"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-10",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-10",
+    "line": "D",
+    "boothNo": 10,
+    "circleName": "歩く人のお店",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_arukuhito.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "歩く人",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000792",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://arkmusic.info/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/tri_angl_e",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "tri_angl_e"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-11",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-11",
+    "line": "D",
+    "boothNo": 11,
+    "circleName": "子牛",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_koushi.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "子牛",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://www.nicovideo.jp/watch/sm40700016",
+            "label": "ニコニコ動画"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/COWshi504",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "COWshi504"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-12",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-12",
+    "line": "D",
+    "boothNo": 12,
+    "circleName": "カルロス袴田直売所",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_karurosu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "カルロス袴田(サイゼP)",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000920",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/hakamad",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "hakamad"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-13",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-13",
+    "line": "D",
+    "boothNo": 13,
+    "circleName": "ど夏とButler Service",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_donatsu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "zensen",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001160",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/akisame9_nsx",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "夏山よつぎ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000961",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/seckarium",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "ど～ぱみん",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000957",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/DTM_dopamine",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "akisame9_nsx",
+      "seckarium",
+      "DTM_dopamine"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-14",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-14",
+    "line": "D",
+    "boothNo": 14,
+    "circleName": "Glu_E",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_glue.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Glue",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000918",
+            "label": "KARENT"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-15",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-15",
+    "line": "D",
+    "boothNo": 15,
+    "circleName": "いえぬ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ienu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "いえぬ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001005",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@ienu0ienu",
+            "label": "YouTube"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-16",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-16",
+    "line": "D",
+    "boothNo": 16,
+    "circleName": "ましまろ湯",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_mashimaro.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "真島ゆろ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000903",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://myriico.com/",
+            "label": "WEB"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-17",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-17",
+    "line": "D",
+    "boothNo": 17,
+    "circleName": "あいのて",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_ainote.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "appy",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001036",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://mahorobalaboratory.wixsite.com/appy",
+            "label": "WEB"
+          }
+        ]
+      }
+    ],
+    "xHandles": [],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-18",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-18",
+    "line": "D",
+    "boothNo": 18,
+    "circleName": "Shu",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_shu.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Shu",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001040",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://youtube.com/@shumusic?si=mtDm2YifXh-W2Kpp",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/shu_horiike",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "shu_horiike"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-19",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-19",
+    "line": "D",
+    "boothNo": 19,
+    "circleName": "音無組",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_otonashigumi.jpg",
+    "days": [
+      "2026-08-28",
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "音無あふ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001165",
+            "label": "KARENT"
+          },
+          {
+            "kind": "youtube",
+            "url": "https://www.youtube.com/@AF_no_sound",
+            "label": "YouTube"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/asterisk07281",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "asterisk07281"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-20",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-20",
+    "line": "D",
+    "boothNo": 20,
+    "circleName": "札幌市吉田区夜世一丁目",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_yoshidaku.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "吉田夜世",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001039",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/otgys",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "otgys"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-21",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-21",
+    "line": "D",
+    "boothNo": 21,
+    "circleName": "aqu3ra",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_aqu3ra.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "Aqu3ra",
+        "links": [
+          {
+            "kind": "x",
+            "url": "https://x.com/AQU3RA_music",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "AQU3RA_music"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-22",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-22",
+    "line": "D",
+    "boothNo": 22,
+    "circleName": "迷子センター長谷川",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_maigo-center.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "長谷川迷子",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001060",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/hourouhekiheki",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "hourouhekiheki"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-23",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-23",
+    "line": "D",
+    "boothNo": 23,
+    "circleName": "ちかるとふ",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_chikarutof.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "ちかるとふ",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp001006",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/chikarutof",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "chikarutof"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-24",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-24",
+    "line": "D",
+    "boothNo": 24,
+    "circleName": "きさらんどりー",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_kisalaundry.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "きさら",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000908",
+            "label": "KARENT"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/kisalaundry",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "kisalaundry"
+    ],
+    "note": null
+  },
+  {
+    "id": "tokyo-D-25",
+    "venue": "tokyo",
+    "kind": "creators-market",
+    "boothId": "D-25",
+    "line": "D",
+    "boothNo": 25,
+    "circleName": "nyanyannya（大天才P）",
+    "logoUrl": "https://magicalmirai.com/2026/images/ex/market/cc/cc_nyanyannya.jpg",
+    "days": [
+      "2026-08-29",
+      "2026-08-30"
+    ],
+    "members": [
+      {
+        "name": "nyanyannya（大天才P）",
+        "links": [
+          {
+            "kind": "karent",
+            "url": "https://karent.jp/artist/pp000651",
+            "label": "KARENT"
+          },
+          {
+            "kind": "web",
+            "url": "https://nyanyannya-daitensai.github.io/Namarihime/",
+            "label": "WEB"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/neko_nekokan",
+            "label": "X"
+          }
+        ]
+      },
+      {
+        "name": "予感子",
+        "links": [
+          {
+            "kind": "web",
+            "url": "https://lit.link/yoyoyokan0222",
+            "label": "Lit.Link"
+          },
+          {
+            "kind": "x",
+            "url": "https://x.com/yoyoyo_kan",
+            "label": "X"
+          }
+        ]
+      }
+    ],
+    "xHandles": [
+      "neko_nekokan",
+      "yoyoyo_kan"
+    ],
+    "note": null
+  }
+]

@@ -1,0 +1,28 @@
+# X のログインセッション。絶対にコミットしない
+secrets/
+
+# 環境変数（ANTHROPIC_API_KEY など）
+.env
+.env.local
+
+node_modules/
+.next/
+out/
+*.tsbuildinfo
+
+# クロール中間物
+data/crawl-state.json
+data/.cache/
+
+# 画像判別の作業ファイル。ローカルの絶対パスを含むうえ、
+# prepare-image-review でいつでも作り直せる
+data/image-review-queue.json
+
+# UI 検証のスクリーンショット
+screenshots/
+
+.DS_Store
+Thumbs.db
+.image-review/
+data/ocr-cache.json
+.tessdata/

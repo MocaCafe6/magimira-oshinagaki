@@ -1,0 +1,692 @@
+{
+  "venue": "tokyo",
+  "imageUrl": "https://magicalmirai.com/2026/images/ex/market/map_tokyo_exmarket.png",
+  "imageWidth": 2167,
+  "imageHeight": 622,
+  "boothArea": {
+    "x0": 0,
+    "y0": 0.4291,
+    "x1": 1,
+    "y1": 0.95032
+  },
+  "coords": [
+    {
+      "boothId": "A-1",
+      "x": 0.05515,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-2",
+      "x": 0.08006,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-3",
+      "x": 0.10498,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-4",
+      "x": 0.13013,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-5",
+      "x": 0.15505,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-6",
+      "x": 0.1802,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-7",
+      "x": 0.21758,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-8",
+      "x": 0.27273,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-9",
+      "x": 0.29765,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-10",
+      "x": 0.3228,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-11",
+      "x": 0.34772,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-12",
+      "x": 0.37263,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-13",
+      "x": 0.39778,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-14",
+      "x": 0.4227,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-15",
+      "x": 0.46031,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-16",
+      "x": 0.49769,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-17",
+      "x": 0.55284,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-18",
+      "x": 0.59022,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-19",
+      "x": 0.61537,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-20",
+      "x": 0.64029,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-21",
+      "x": 0.69543,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-22",
+      "x": 0.73281,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-23",
+      "x": 0.75796,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-24",
+      "x": 0.78288,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-25",
+      "x": 0.80803,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-26",
+      "x": 0.84541,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-27",
+      "x": 0.88302,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "A-28",
+      "x": 0.90794,
+      "y": 0.51688,
+      "verified": true
+    },
+    {
+      "boothId": "B-1",
+      "x": 0.05515,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-2",
+      "x": 0.08006,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-3",
+      "x": 0.10498,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-4",
+      "x": 0.13013,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-5",
+      "x": 0.15505,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-6",
+      "x": 0.1802,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-7",
+      "x": 0.20512,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-8",
+      "x": 0.23004,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-9",
+      "x": 0.27273,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-10",
+      "x": 0.29765,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-11",
+      "x": 0.3228,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-12",
+      "x": 0.34772,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-13",
+      "x": 0.37263,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-14",
+      "x": 0.39778,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-15",
+      "x": 0.4227,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-16",
+      "x": 0.44785,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-17",
+      "x": 0.47277,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-18",
+      "x": 0.49769,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-19",
+      "x": 0.54015,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-20",
+      "x": 0.5653,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-21",
+      "x": 0.59045,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-22",
+      "x": 0.61537,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-23",
+      "x": 0.64029,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-24",
+      "x": 0.69543,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-25",
+      "x": 0.73281,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-26",
+      "x": 0.75796,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-27",
+      "x": 0.78288,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-28",
+      "x": 0.80803,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-29",
+      "x": 0.83295,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-30",
+      "x": 0.8581,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-31",
+      "x": 0.88302,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "B-32",
+      "x": 0.90794,
+      "y": 0.61174,
+      "verified": true
+    },
+    {
+      "boothId": "C-1",
+      "x": 0.08006,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-2",
+      "x": 0.10498,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-3",
+      "x": 0.13013,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-4",
+      "x": 0.15505,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-5",
+      "x": 0.1802,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-6",
+      "x": 0.21781,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-7",
+      "x": 0.27273,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-8",
+      "x": 0.29765,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-9",
+      "x": 0.32257,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-10",
+      "x": 0.34772,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-11",
+      "x": 0.37263,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-12",
+      "x": 0.39778,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-13",
+      "x": 0.4227,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-14",
+      "x": 0.44785,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-15",
+      "x": 0.47277,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-16",
+      "x": 0.49769,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-17",
+      "x": 0.55284,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-18",
+      "x": 0.59022,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-19",
+      "x": 0.61537,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-20",
+      "x": 0.64029,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-21",
+      "x": 0.68297,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-22",
+      "x": 0.70789,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-23",
+      "x": 0.73281,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-24",
+      "x": 0.75796,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-25",
+      "x": 0.79557,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-26",
+      "x": 0.84541,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-27",
+      "x": 0.88302,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "C-28",
+      "x": 0.90794,
+      "y": 0.76768,
+      "verified": true
+    },
+    {
+      "boothId": "D-1",
+      "x": 0.09252,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-2",
+      "x": 0.13013,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-3",
+      "x": 0.15505,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-4",
+      "x": 0.1802,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-5",
+      "x": 0.21758,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-6",
+      "x": 0.27273,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-7",
+      "x": 0.29765,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-8",
+      "x": 0.33526,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-9",
+      "x": 0.37263,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-10",
+      "x": 0.39778,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-11",
+      "x": 0.4227,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-12",
+      "x": 0.44785,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-13",
+      "x": 0.48523,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-14",
+      "x": 0.54015,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-15",
+      "x": 0.5653,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-16",
+      "x": 0.59045,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-17",
+      "x": 0.61537,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-18",
+      "x": 0.64029,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-19",
+      "x": 0.69543,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-20",
+      "x": 0.73281,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-21",
+      "x": 0.77042,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-22",
+      "x": 0.8078,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-23",
+      "x": 0.84541,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-24",
+      "x": 0.88302,
+      "y": 0.86254,
+      "verified": true
+    },
+    {
+      "boothId": "D-25",
+      "x": 0.90794,
+      "y": 0.86254,
+      "verified": true
+    }
+  ]
+}

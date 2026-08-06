@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="お品書き一覧">
+  <rect width="512" height="512" rx="96" fill="#0f1115"/>
+  <!-- お品書きの紙を模したカード -->
+  <rect x="128" y="88" width="256" height="336" rx="20" fill="#181b22" stroke="#39c5bb" stroke-width="12"/>
+  <!-- 商品行 -->
+  <g fill="#39c5bb">
+    <rect x="168" y="148" width="128" height="20" rx="10"/>
+    <rect x="168" y="212" width="176" height="16" rx="8" opacity="0.75"/>
+    <rect x="168" y="260" width="176" height="16" rx="8" opacity="0.75"/>
+    <rect x="168" y="308" width="112" height="16" rx="8" opacity="0.75"/>
+  </g>
+  <!-- お気に入りの星 -->
+  <path fill="#ff7bac" d="M330 300l14.6 29.6 32.7 4.8-23.6 23 5.6 32.6L330 374.6 300.7 390l5.6-32.6-23.6-23 32.7-4.8z"/>
+</svg>

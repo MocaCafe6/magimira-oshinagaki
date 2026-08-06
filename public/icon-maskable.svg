@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="お品書き一覧">
+  <!-- maskable: 端が切られるので中央 80% に収める -->
+  <rect width="512" height="512" fill="#39c5bb"/>
+  <rect x="168" y="140" width="176" height="232" rx="16" fill="#0f1115"/>
+  <g fill="#39c5bb">
+    <rect x="196" y="176" width="88" height="16" rx="8"/>
+    <rect x="196" y="220" width="120" height="12" rx="6" opacity="0.8"/>
+    <rect x="196" y="256" width="120" height="12" rx="6" opacity="0.8"/>
+    <rect x="196" y="292" width="76" height="12" rx="6" opacity="0.8"/>
+  </g>
+  <path fill="#ff7bac" d="M306 268l10.5 21.3 23.5 3.4-17 16.6 4 23.5-21-11-21 11 4-23.5-17-16.6 23.5-3.4z"/>
+</svg>

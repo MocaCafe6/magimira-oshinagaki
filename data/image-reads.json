@@ -1,0 +1,561 @@
+[
+  {
+    "postId": "2085199691516715114",
+    "isOshinagaki": false,
+    "isMagimira": false,
+    "venues": [],
+    "notes": "刺繍ワッペン3種の商品写真。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2084942625258471598",
+    "isOshinagaki": false,
+    "isMagimira": false,
+    "venues": [],
+    "notes": "アクリルキーホルダー1点の商品画像"
+  },
+  {
+    "postId": "2084900390689247467",
+    "isOshinagaki": false,
+    "isMagimira": false,
+    "venues": [],
+    "notes": "クリアファイル1点の表裏イメージ"
+  },
+  {
+    "postId": "2084899898777117160",
+    "isOshinagaki": false,
+    "isMagimira": false,
+    "venues": [],
+    "notes": "アクリルスタンド1点のデザイン入稿図（寸法入り）"
+  },
+  {
+    "postId": "2084833882885837229",
+    "isOshinagaki": false,
+    "isMagimira": false,
+    "venues": [],
+    "notes": "クリアファイル・ノートの商品写真"
+  },
+  {
+    "postId": "2084494316957729189",
+    "isOshinagaki": false,
+    "isMagimira": false,
+    "venues": [],
+    "notes": "かき氷屋台のメニュー看板の写真。マジミラとは無関係"
+  },
+  {
+    "postId": "2084298759786430824",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "B-13",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "G-07",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "B-04",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "「サークル配置番号」として3会場のブースと日程を明記"
+  },
+  {
+    "postId": "2084233105179660741",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "F-11",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      }
+    ],
+    "notes": "「マジカルミライ2026大阪 8/14〜16 インテックス大阪 gcmstyle お品書き【F-11】」と明記した頒布物一覧"
+  },
+  {
+    "postId": "2082768166585778348",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "event-wide",
+    "venues": [],
+    "notes": "千本桜/カンタレラ/ACUTE Goods List 3。マジカルミライ2026ロゴ入りだが会場・ブースの記載なし"
+  },
+  {
+    "postId": "2082769420028379175",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "event-wide",
+    "venues": [],
+    "notes": "Goods List 2。マジカルミライ2026ロゴ入り、会場・ブースの記載なし"
+  },
+  {
+    "postId": "2082774551784788259",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "event-wide",
+    "venues": [],
+    "notes": "Goods List 1。マジカルミライ2026ロゴ入り、会場・ブースの記載なし"
+  },
+  {
+    "postId": "2079548842798944713",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "event-wide",
+    "venues": [],
+    "notes": "新譜セット・ミニCDキーホルダー等の価格付き一覧。会場・ブースの記載なし（本文が「#マジカルミライ2026 クリエイターズマーケットのお品書き」と明示）"
+  },
+  {
+    "postId": "2078789445411536910",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "C-6",
+        "dates": [
+          "2026-07-24"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "F-4",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "A-16",
+        "dates": [
+          "2026-08-29"
+        ]
+      }
+    ],
+    "notes": "「マジカルミライ2026 クリエイターズマーケット ふらのラボ」7/24 浜松 C-6 / 8/14〜16 大阪 F-4 / 8/29 東京 A-16"
+  },
+  {
+    "postId": "2078453233455173678",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "D-3",
+        "dates": [
+          "2026-07-26"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "C-11",
+        "dates": [
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "B-25",
+        "dates": [
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "ワンオポのお品書き。7/26(sun) 浜松 D-3 / 8/16(sun) 大阪 C-11 / 8/29(sat)-30(sun) 東京 B-25"
+  },
+  {
+    "postId": "2076658555260911826",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "C-10",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "B-06",
+        "dates": []
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "B-03",
+        "dates": []
+      }
+    ],
+    "notes": "Re:nG のお品書き。画像の表記は「C-10（浜松）/ B-06（東京）/ B-03（東京）」で、2つ目の会場名は大阪の誤記と思われる。画像に書かれたまま記録し、公式と一致する B-03（東京）だけが採用される"
+  },
+  {
+    "postId": "2078368946903032152",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "C-5",
+        "dates": [
+          "2026-07-26"
+        ]
+      }
+    ],
+    "notes": "mothy_悪ノP のお品書き。「HATSUNE MIKU MAGICAL MIRAI 2026 / HAMAMATSU / 7\\/26(SUN) C-5」と浜松に限定"
+  },
+  {
+    "postId": "2078058870388543561",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "A-1",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "C-1",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "A-12",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "halyosy のお品書き。HAMAMATSU A-1 / OSAKA インテックス大阪3号館 C-1 / TOKYO 幕張メッセ A-12 を明記"
+  },
+  {
+    "postId": "2079159392898060749",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "B-7",
+        "dates": [
+          "2026-07-26"
+        ]
+      }
+    ],
+    "notes": "MINO-U の MENU。画像に会場の記載は無いが、本文が「7\\/26(日) マジカルミライ2026 クリエイターズマーケット【B-7】」と浜松に限定している"
+  },
+  {
+    "postId": "2082999236938088750",
+    "isOshinagaki": false,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "千本桜15周年アクリルスタンド1点の入稿画像（解像度の差し替え）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2078492760571830644",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "C-07",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25"
+        ]
+      }
+    ],
+    "notes": "twinkledisc のお品書き。画像は「マジカルミライ2026 クリエイターズマーケット C-07」で会場名が無いが、本文が「浜松会場のお品書きです 7月24日(金)、25日(土)」と限定している"
+  },
+  {
+    "postId": "2079476596264853799",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "B-12",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "C-04",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "A-11",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "「マジカルミライ2026 クリエイターズマーケット クリキッドお品書き」。会場名は書かれていないが日付で一意に決まる（7\\/24-26=浜松 B-12、8\\/14-16=大阪 C-04、8\\/28-30=東京 A-11）"
+  },
+  {
+    "postId": "2064991310281691556",
+    "isOshinagaki": false,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "公式出店者一覧ページのスクリーンショット（C-10 ホシゾラ列車【三日月線】7\\/26）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2083855334465040623",
+    "isOshinagaki": false,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "Aliey:S 5th EP『傷跡』のジャケットイラスト1点。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2079142017330991223",
+    "isOshinagaki": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "シシド のお品書き3枚（新譜・各種旧譜×2）。会場名もブース番号も無く、本文も「今週末のボーマスとマジミラ（浜松）」に限定しているため大阪・東京には適用しない"
+  },
+  {
+    "postId": "2064988508779934108",
+    "isOshinagaki": false,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "公式出店者一覧ページのスクリーンショット（B-9 浜松の風）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2064906863565791622",
+    "isOshinagaki": false,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "公式出店者一覧ページのスクリーンショット（D-2 たけねこれこーず）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2080460726955815246",
+    "isOshinagaki": false,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "完成したタペストリーを吊るした写真。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2079857323657597048",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venues": [],
+    "notes": "bilibiliGoods の出展告知バナー。3会場と日程は載っているが頒布物の記載が無い"
+  },
+  {
+    "postId": "2077679636637471120",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "A-14",
+        "dates": [
+          "2026-07-25"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "C-28",
+        "dates": [
+          "2026-08-29"
+        ]
+      }
+    ],
+    "notes": "ミニアルバム1点の頒布物情報。収録曲・形態に加え「マジカルミライ2026 クリエイターズマーケット 浜松7/25(土)A-14、東京8/29(土)C-28で配布致します」と明記"
+  },
+  {
+    "postId": "2065766191474635219",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venues": [],
+    "notes": "公式出店者一覧ページのスクリーンショット3枚（浜松C-8/大阪D-8/東京C-17）。頒布物の記載は無い"
+  },
+  {
+    "postId": "2084548300171292692",
+    "isOshinagaki": true,
+    "readBy": "ocr",
+    "negativeIsReliable": false,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 価格表記3件 / 画像に見えた会場名 東京（OCRは会場の証明には使わない）"
+  },
+  {
+    "postId": "2079858405725131097",
+    "isOshinagaki": true,
+    "readBy": "ocr",
+    "negativeIsReliable": false,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 価格表記30件 / 画像に見えた会場名 なし（OCRは会場の証明には使わない）"
+  },
+  {
+    "postId": "2078797026033127514",
+    "isOshinagaki": true,
+    "readBy": "ocr",
+    "negativeIsReliable": false,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 価格表記3件 / 画像に見えた会場名 浜松・東京（OCRは会場の証明には使わない）"
+  },
+  {
+    "postId": "2065391883355050444",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2065361621506216267",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2065058060679405944",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2065038927153745952",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2065034505187156252",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2065031733771395292",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2065022857957224616",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2065002877912023363",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2064906179818693023",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2064902406325059789",
+    "isOshinagaki": false,
+    "readBy": "ocr",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [],
+    "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  }
+]
