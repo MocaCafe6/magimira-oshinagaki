@@ -13,7 +13,18 @@ const OSHINAGAKI_RE = /お品書き|おしながき|オシナガキ|品書き|�
  * これから買える情報ではなく過去の報告。
  */
 const RETROSPECTIVE_RE =
-  /ありがとうございまし|ありがとうございます|撤収|お疲れ様|おつかれさま|売り切れ|完売しました|終了しました|終わりました/;
+  /ありがとうございまし|ありがとうございます|撤収|お疲れ様|おつかれさま|売り切れ|完売|終了しました|終わりました|設営完了|在庫状況/;
+
+/**
+ * 「お品書きはこれから出す」という予告。まだ出ていないので載せない。
+ *
+ * 実データ:
+ *   「大阪&東京にて出展します！お品書きはまた後日投稿します＞＜」
+ *   「ズマケのお品書き明日公開します🙌 頒布予定のグッズが届いたので少しチラ見せ」
+ * どちらも「お品書き」の語を含むので、語だけを見ていると通ってしまう。
+ */
+const FORTHCOMING_RE =
+  /(お品書き|おしながき|品書き)[^。\n]{0,12}(後日|明日|近日|のちほど|後ほど|そのうち|追って)[^。\n]{0,8}(公開|投稿|上げ|あげ|出し|お知らせ)/;
 
 /**
  * 「この投稿は頒布物の一覧（お品書き）そのものか」。
@@ -51,7 +62,52 @@ export function isOshinagakiPost(post: Post): boolean {
   const text = [post.text, ...post.media.map((m) => m.altText ?? '')].join('\n');
   if (!OSHINAGAKI_RE.test(text)) return false;
   // 「お品書きありがとうございました」のような終了報告は除く
-  return !RETROSPECTIVE_RE.test(text);
+  if (RETROSPECTIVE_RE.test(text)) return false;
+  // 「お品書きはまた後日投稿します」のような予告は、まだ出ていないので除く
+  return !FORTHCOMING_RE.test(text);
+}
+
+/**
+ * 「そのブースで買える個別の商品を紹介している投稿か」。
+ *
+ * お品書き（一覧）とは別物として扱う。企業ブースは一覧を出さず、
+ * 商品を1点ずつ紹介することが多い:
+ *   「マジカルミライ2026 新商品紹介【初音ミク ガジェットポーチ M V2】販売価格：4,400円」
+ *   「マジカルミライ2026 OSAKA・TOKYO会場にて先行販売する新商品を公開」
+ * これらは一覧ではないが、そのブースの品揃えを知る手がかりにはなる。
+ *
+ * 一覧を優先して見せたうえで、こちらも併せて出す（表示側で区別する）。
+ *
+ * 制作の進捗報告や近況（「トレカの角が丸くない」「打ち合わせしてきた」）を
+ * 拾わないよう、**商品名らしきものと価格または販売の明示**を条件にする。
+ */
+const PRODUCT_RE =
+  /新商品|新作|新譜|新刊|先行販売|販売価格|頒布価格|価格[:：]|受注|グッズ(情報|紹介|化)|ラインアップ|ラインナップ|入荷/;
+
+/** 具体的な価格、または「売る」ことの明示 */
+const PRICE_RE = /[¥￥][\d,]{2,7}|[\d,]{2,7}\s*円|販売価格|頒布価格/;
+const ON_SALE_RE = /先行販売|販売決定|販売いたします|販売します|頒布します|頒布いたします|受注/;
+
+/**
+ * 「まだ出していない」ことを示す言い回し。
+ * 実データ: 「特別な新譜が完成しました🥳 マジカルミライ東京で頒布します！！ 詳細は後日🚢」
+ * 「新譜」「頒布します」が揃うので、これが無いと予告まで商品として通ってしまう。
+ */
+const TEASER_RE =
+  /詳細は(後日|また|追って)|後日(公開|発表|お知らせ|投稿)|お楽しみに|続報|準備中|制作中|近日公開|情報解禁/;
+
+export function isProductPost(post: Post): boolean {
+  const hasPhoto = post.media.some((m) => m.kind === 'photo');
+  if (!hasPhoto) return false;
+  if (isOshinagakiPost(post)) return false; // 一覧はそちらで扱う
+
+  const text = [post.text, ...post.media.map((m) => m.altText ?? '')].join('\n');
+  if (RETROSPECTIVE_RE.test(text)) return false;
+  if (TEASER_RE.test(text)) return false;
+  if (!PRODUCT_RE.test(text)) return false;
+  // 具体的な価格か、売ることの明示が要る。
+  // 「新譜が完成しました！」だけでは、何がいくらで買えるのか分からない。
+  return PRICE_RE.test(text) || ON_SALE_RE.test(text);
 }
 
 /**
@@ -112,11 +168,21 @@ export function selectPostsForVenue(
     if (p.score < ADOPT_SCORE_THRESHOLD) return false;
     // マジカルミライの話であること（他イベントのお品書きを排除する）
     if (!isMagimiraPost(p)) return false;
-    // 頒布物の一覧そのものであること（お礼・近況報告を排除する）
-    if (!isOshinagakiPost(p)) return false;
+    // 頒布物の一覧、または個別商品の紹介であること。
+    // お礼・近況報告・制作の進捗は排除する。
+    if (!isOshinagakiPost(p) && !isProductPost(p)) return false;
 
     // B. 自動判別による証明
     return p.attribution?.provenVenues.includes(venue) === true;
+  }).sort((a, b) => {
+    // 一覧（お品書き）を先に見せる。個別商品はその後ろ。
+    // 品揃えを一望できるほうが下調べには役に立つ。
+    const ao = isOshinagakiPost(a) ? 0 : 1;
+    const bo = isOshinagakiPost(b) ? 0 : 1;
+    if (ao !== bo) return ao - bo;
+    // 同時刻なら 0 を返す。-1 を返すと比較関数として矛盾し、並びが壊れる
+    if (a.createdAt === b.createdAt) return 0;
+    return a.createdAt < b.createdAt ? 1 : -1;
   });
 }
 

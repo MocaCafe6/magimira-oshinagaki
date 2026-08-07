@@ -5,6 +5,7 @@ import {
   daysForPost,
   isMagimiraPost,
   isOshinagakiPost,
+  isProductPost,
   selectPostsForVenue,
   selectReferencePostsForVenue,
   selectReviewCandidates,
@@ -207,6 +208,23 @@ test('別イベントに触れていてもマジミラの話なら載せる', ()
   assert.deepEqual(ids(selectPostsForVenue([p], curation(), 'osaka')), ['1']);
 });
 
+test('「お品書きは後日」の予告は載せない（まだ出ていない）', () => {
+  // 実データ。どちらも「お品書き」の語を含むので、語だけを見ていると通ってしまう。
+  const cases = [
+    '≫≫ お知らせ ≪≪ マジミラクリエイターズマーケット 大阪&東京にて出展します！お品書きはまた後日投稿します＞＜',
+    'ズマケのお品書き明日公開します🙌 頒布予定のグッズが届いたので少しチラ見せ👀 #マジカルミライ2026',
+  ];
+  for (const text of cases) {
+    const p = post({
+      id: 'x',
+      text,
+      attribution: attribution({ provenVenues: ['osaka', 'tokyo'], source: 'text-venue' }),
+    });
+    assert.equal(isOshinagakiPost(p), false, `お品書き扱いされている: ${text}`);
+    assert.deepEqual(selectPostsForVenue([p], curation(), 'osaka'), [], text);
+  }
+});
+
 test('画像が無い投稿は載せない（お品書きは画像で示される）', () => {
   const p = post({
     id: '1',
@@ -287,6 +305,61 @@ test('お品書きらしさが閾値未満の投稿は載せない', () => {
   // 境界は含む
   const ok = [post({ id: '2', score: 50, attribution: attribution({ provenVenues: ['osaka'] }) })];
   assert.deepEqual(ids(selectPostsForVenue(ok, curation(), 'osaka')), ['2']);
+});
+
+// ---------------------------------------------------------------------------
+// 個別商品の紹介
+// ---------------------------------------------------------------------------
+
+test('価格つきの商品紹介は載せる（企業ブースは一覧を出さないことが多い）', () => {
+  const cases = [
+    '🌻 マジカルミライ2026 新商品紹介 🌊 【初音ミク ピンバッジ】 販売価格：1,800円',
+    '【NEWS】初音ミク × GRAPHT コラボグッズ 「マジカルミライ2026」アウリンブースにて先行販売決定。全商品ラインアップを公開！',
+    '再入荷のお知らせ 「マジカルミライ2026」会場でも販売いたします 人気の A4クリアファイルが再入荷しました',
+  ];
+  for (const text of cases) {
+    const p = post({
+      id: 'x',
+      text,
+      attribution: attribution({ provenVenues: ['osaka'], source: 'text-venue' }),
+    });
+    assert.equal(isProductPost(p), true, `商品紹介と判定されない: ${text}`);
+    assert.deepEqual(ids(selectPostsForVenue([p], curation(), 'osaka')), ['x'], text);
+  }
+});
+
+test('予告や近況は商品紹介として載せない', () => {
+  const cases = [
+    '特別な新譜が完成しました🥳 マジカルミライ東京で頒布します！！ 詳細は後日🚢',
+    'マジミラに向けて今のタスク💦 ・CD制作（2枚） ・音源の詰め ・グッズ系（アクキー・カード・ステッカーなど）',
+    '事件です。届いたトレカ……角が……丸くない……😇 人力角丸カッター職人・百華が爆誕✂️',
+    '頒布用CDのC1/C2エラー試験中 メディアは太陽誘電系、焼成用にデュプリケーター用のドライブを購入！',
+  ];
+  for (const text of cases) {
+    const p = post({
+      id: 'x',
+      text,
+      attribution: attribution({ provenVenues: ['osaka'], source: 'text-venue' }),
+    });
+    assert.equal(isProductPost(p), false, `商品紹介扱いされている: ${text}`);
+    assert.deepEqual(selectPostsForVenue([p], curation(), 'osaka'), [], text);
+  }
+});
+
+test('お品書き（一覧）を個別商品より先に並べる', () => {
+  const list = post({
+    id: 'list',
+    text: 'マジカルミライ2026 大阪のお品書きです',
+    createdAt: '2026-08-01T00:00:00.000Z',
+    attribution: attribution({ provenVenues: ['osaka'], source: 'text-venue' }),
+  });
+  const item = post({
+    id: 'item',
+    text: '新商品紹介【初音ミク ピンバッジ】販売価格：1,800円 マジカルミライ2026 大阪',
+    createdAt: '2026-08-05T00:00:00.000Z', // 一覧より新しくても後ろ
+    attribution: attribution({ provenVenues: ['osaka'], source: 'text-venue' }),
+  });
+  assert.deepEqual(ids(selectPostsForVenue([item, list], curation(), 'osaka')), ['list', 'item']);
 });
 
 // ---------------------------------------------------------------------------

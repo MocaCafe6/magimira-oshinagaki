@@ -128,31 +128,66 @@ test('本文のブース番号が公式と食い違うときは確定しない',
   assert.ok(r.evidence.some((e) => e.includes('一致しない')));
 });
 
-test('会場名だけ（ブース番号なし）では確定しない', () => {
-  // 会場名は未来の予定・近況報告・在庫の話にも出てくるので証明にならない。
-  // 実データで「マジミラ浜松ありがとう！次は大阪でお待ちしてます」が
-  // 大阪のお品書きとして公開されていた。
+test('会場名があり公式にも出展していれば、ブース番号が無くても確定する', () => {
+  // 実データ: 「マジカルミライ2026 OSAKA・TOKYO会場にて先行販売する新商品を公開」
+  // のように、会場名は書くがブース番号を一度も書かないサークルがある（企業ブースに多い）。
+  // 番号を必須にすると構造的に拾えない。
   const r = attributeFromText({
     text: 'マジミラ大阪のお品書きです！よろしくお願いします',
     handle: 'x',
     official: official({ hamamatsu: 'A-1', osaka: 'D-3' }),
   });
-  assert.deepEqual(r.provenVenues, []);
-  assert.ok(r.evidence.some((e) => e.includes('ブース番号が無いため確定しない')));
+  assert.deepEqual(r.provenVenues, ['osaka']);
+  assert.equal(r.source, 'text-venue');
 });
 
-test('お礼の投稿で次の会場に触れていても確定しない', () => {
-  for (const text of [
-    'マジミラ浜松ありがとうございました！ 次は大阪でお待ちしてます',
-    '#マジミラ浜松 ありがとうございました！ 次のマジミラは東京3日目に参戦します',
-  ]) {
-    const r = attributeFromText({
-      text,
-      handle: 'x',
-      official: official({ hamamatsu: 'A-1', osaka: 'D-3', tokyo: 'C-5' }),
-    });
-    assert.deepEqual(r.provenVenues, [], `確定してしまっている: ${text}`);
-  }
+test('URL やハンドル名に含まれる地名は会場と見なさない', () => {
+  // 実データ: 浜松の販売実況が東京のページに出ていた。
+  // ドメイン "shop.ozakka.tokyo" とハンドル "OZaKKa_tokyo" の tokyo を拾っていた。
+  const r = attributeFromText({
+    text:
+      '＼ #マジカルミライ2026 HAMAMATSU 完売情報／ 【B5】ピアプロキャラクターズ×OZaKKa\n' +
+      '＼ OZaKKa公式通販サイトもご確認ください／ ▽ http://shop.ozakka.tokyo',
+    handle: 'OZaKKa_tokyo',
+    official: official({ hamamatsu: 'B-5', osaka: 'C-6', tokyo: 'A-8' }),
+  });
+  assert.deepEqual(r.provenVenues, [], `evidence=${r.evidence.join(' / ')}`);
+  assert.ok(r.otherVenues.includes('hamamatsu'));
+});
+
+test('@メンションの地名も会場と見なさない', () => {
+  const r = attributeFromText({
+    text: 'マジカルミライ2026 浜松のお品書きです @tokyo_circle さんと合同です',
+    handle: 'x',
+    official: official({ hamamatsu: 'A-1', tokyo: 'B-2' }),
+  });
+  assert.deepEqual(r.provenVenues, []);
+});
+
+test('他イベントの名前があるときは会場名だけでは確定しない', () => {
+  // 実データ: 「7/25(土)東京 #ボーマス63 7/26(日)浜松 #マジカルミライ2026 のお品書き」
+  // この「東京」はボーマスの開催地であって、マジミラ東京ではない。
+  const r = attributeFromText({
+    text: '7/25（土）東京 #ボーマス63 7/26（日）浜松 #マジカルミライ2026 サークル参加のお品書きです！',
+    handle: 'x',
+    official: official({ hamamatsu: 'C-6', osaka: 'F-11', tokyo: 'C-12' }),
+  });
+  assert.deepEqual(r.provenVenues, [], `evidence=${r.evidence.join(' / ')}`);
+  assert.ok(r.evidence.some((e) => e.includes('他イベント')));
+});
+
+test('お礼の投稿は会場が確定しても、お品書きでないので掲載されない', () => {
+  // 会場名としては拾われるが、掲載可否は curation の isOshinagakiPost が持つ。
+  // ここでは「会場の判定」と「お品書きかの判定」を分けていることを確認する。
+  const r = attributeFromText({
+    text: 'マジミラ浜松ありがとうございました！ 次は大阪でお待ちしてます',
+    handle: 'x',
+    official: official({ hamamatsu: 'A-1', osaka: 'D-3' }),
+  });
+  // 会場としては大阪が立つ
+  assert.deepEqual(r.provenVenues, ['osaka']);
+  // 浜松は他会場として記録される
+  assert.ok(r.otherVenues.includes('hamamatsu'));
 });
 
 test('会場名に加えてブース番号が公式と一致すれば確定する', () => {

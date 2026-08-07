@@ -20,7 +20,13 @@ import type {
 import { VENUES, VENUE_META } from '@shared/types';
 
 // 掲載判定は抽出スクリプトと同じ関数を使う（食い違いを防ぐ）
-export { selectPostsForVenue, selectReviewCandidates, daysForPost, selectReferencePostsForVenue } from '@shared/curation';
+export {
+  selectPostsForVenue,
+  selectReviewCandidates,
+  daysForPost,
+  selectReferencePostsForVenue,
+  isOshinagakiPost,
+} from '@shared/curation';
 import { daysForPost, selectPostsForVenue, selectReferencePostsForVenue } from '@shared/curation';
 
 const DATA_DIR = resolve(process.cwd(), 'data');

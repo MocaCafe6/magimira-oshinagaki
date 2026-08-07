@@ -66,9 +66,25 @@ type Marker =
   | { kind: 'booth'; booth: string; index: number; text: string }
   | { kind: 'date'; month: number; day: number; index: number; text: string };
 
+/**
+ * URL と @ハンドルを伏せる。
+ *
+ * 実データ: OZaKKa（浜松の販売実況）が
+ *   「#マジカルミライ2026 HAMAMATSU 完売情報／…▽ http://shop.ozakka.tokyo」
+ * を投稿していた。ドメインの "tokyo" とハンドル名 "OZaKKa_tokyo" を
+ * 会場名として拾い、浜松の実況が東京のページに出ていた。
+ * URL やハンドルに含まれる地名は会場を指していない。
+ */
+function maskUrlsAndHandles(s: string): string {
+  return s
+    .replace(/https?:\/\/\S+/g, ' ')
+    .replace(/\b[\w.-]+\.(com|net|jp|tokyo|shop|co|io|me|link)\b/gi, ' ')
+    .replace(/@\w+/g, ' ');
+}
+
 /** 会場名・ブース番号・日付を出現位置つきで拾う */
 export function scanMarkers(rawText: string): Marker[] {
-  const text = normalizeText(rawText);
+  const text = normalizeText(maskUrlsAndHandles(rawText));
   const markers: Marker[] = [];
 
   for (const v of REF_VENUES) {
@@ -259,7 +275,13 @@ const VENUE_ALIAS_ALT = REF_VENUES.flatMap((v) => REF_VENUE_META[v].aliases)
 
 // 会場名とお品書きの間に挟まる定型語も連結子に含める。
 // 「HAMAMATSU会場 クリエイターズマーケット お品書きになります」を1つの紐づけとして拾う。
-const BOUND_FILLER = String.raw`会場|クリエイターズマーケット|クリエイターズ|マーケット|ズマケ|クリマ|参加|出展`;
+//
+// ⚠ normalizeText は長音符「ー」をハイフンに変換する（ブース番号の
+//    表記ゆれ吸収のため）。ここも変換後の形で書かないと一致しない。
+//    実際「クリエイターズマーケット」と書いていて拾えていなかった。
+const BOUND_FILLER = normalizeText(
+  '会場|クリエイターズマーケット|クリエイターズ|マーケット|ズマケ|クリマ|参加|出展',
+);
 
 const BOUND_CONNECTOR = String.raw`(?:[のはも:,、・&+\s]|\[[^\]]{0,12}\]|\([^)]{0,10}\)|[A-Ga-g]\s*-?\s*\d{1,2}|\d{1,2}\s*/\s*\d{1,2}|\d{1,2}\s*月\s*\d{1,2}\s*日|のみ|限定|${BOUND_FILLER}|${VENUE_ALIAS_ALT})*`;
 
@@ -288,12 +310,25 @@ function escapeRegExp(s: string): string {
  * 本文と公式データから会場帰属を確定する。
  * 確定できなければ provenVenues は空になり、その投稿は公開されない。
  */
+/**
+ * マジカルミライ以外の即売会の名前。
+ *
+ * これらが本文にあると、書かれている会場名がどちらのイベントのものか
+ * 判別できない。実データ:
+ *   「7/25(土)東京 #ボーマス63 7/26(日)浜松 #マジカルミライ2026 のお品書き」
+ * の「東京」はボーマスの開催地であって、マジミラ東京ではない。
+ */
+const OTHER_EVENT_RE =
+  /ボーマス|ボカロマスター|THE\s*VOC@?LOiD|音けっと|ガタケット|COMITIA|コミティア|コミケ|コミックマーケット|例大祭|文学フリマ|プロセカ|星に願いを|スパノヴァ|ぬいFes|M3(?![0-9])/i;
+
 export function attributeFromText(input: AttributeInput): VenueAttribution {
   // 代替テキストも本文と同じ材料として扱う。区切り記号を挟んで、
   // 本文末尾の会場名が代替テキストのブース番号を巻き込まないようにする。
   const alt = (input.altTexts ?? []).filter((t): t is string => Boolean(t && t.trim()));
   const combined = alt.length > 0 ? [input.text, ...alt].join('\n \n') : input.text;
   const { segments, looseBooths, mentionedVenues } = segmentByVenue(combined);
+  // 他イベントの名前があると、会場名がどちらのイベントのものか判別できない
+  const mentionsOtherEvent = OTHER_EVENT_RE.test(combined);
   const evidence: string[] = [];
   const proven = new Set<Venue>();
   const daysByVenue: Partial<Record<Venue, string[]>> = {};
@@ -346,17 +381,33 @@ export function attributeFromText(input: AttributeInput): VenueAttribution {
 
     // --- 2. 会場名のみ（ブース番号なし） ---
     //
-    // これは証明にしない。実データで
-    //   「マジミラ浜松ありがとうございました！次は大阪でお待ちしてます」
-    // のようなお礼の投稿が大阪のお品書きとして公開されていた。
-    // 会場名は未来の予定・近況報告・在庫の話にも出てくるので、
-    // 「その会場のお品書きである」ことの証明にならない。
+    // 「マジカルミライ2026 OSAKA・TOKYO会場にて先行販売」のように、
+    // 会場名は書くがブース番号は一度も書かないサークルがある
+    // （企業ブースに多い）。番号を要求すると構造的に拾えない。
     //
-    // ただし日付の絞り込みには使えるし、レビューの手がかりにはなるので
-    // 根拠としては残す。
-    evidence.push(
-      `本文に「${REF_VENUE_META[venue].label}」の記載があるが、ブース番号が無いため確定しない`,
-    );
+    // 会場名が書かれていて、かつ公式にもその会場に出展しているなら、
+    // それはその会場の頒布物の話とみなしてよい。
+    //
+    // ただし**他イベントの名前が本文にあるときは使わない**。
+    //   「7/25(土)東京 #ボーマス63 7/26(日)浜松 #マジカルミライ2026 のお品書き」
+    // の「東京」はボーマスの東京であって、マジミラ東京ではない。
+    // 会場名がどのイベントに掛かっているか判別できないので確定しない。
+    //
+    // なお「浜松ありがとう！次は大阪で」のようなお礼の投稿は、
+    // ここを通っても curation の isOshinagakiPost で落ちる。
+    // また「浜松のお品書き」と本文が画像を紐づけている場合は
+    // 後段の規則5で他会場を取り消す。
+    if (mentionsOtherEvent) {
+      evidence.push(
+        `本文に「${REF_VENUE_META[venue].label}」の記載があるが、他イベントの名前も含むためどちらの会場か判別できない`,
+      );
+    } else {
+      proven.add(venue);
+      if (source === 'unresolved') source = 'text-venue';
+      evidence.push(
+        `本文に「${REF_VENUE_META[venue].label}」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）`,
+      );
+    }
     const days = resolveDays(venue, seg.dates, entries.flatMap((e) => e.days));
     if (days) {
       daysByVenue[venue] = days;

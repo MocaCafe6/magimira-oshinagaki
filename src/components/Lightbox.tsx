@@ -27,6 +27,9 @@ type Props = {
 
 export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
   const [loaded, setLoaded] = useState(false);
+  // 既定は画面に収める。原寸のまま横幅いっぱいに出すと、縦長のお品書きは
+  // 一部しか見えず「デカすぎて読めない」状態になる。タップで原寸に切り替える。
+  const [fit, setFit] = useState(true);
   const [failed, setFailed] = useState(false);
   const image = images[index];
 
@@ -36,6 +39,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
       if (next < 0 || next >= images.length) return;
       setLoaded(false);
       setFailed(false);
+      setFit(true);
       onIndexChange(next);
     },
     [index, images.length, onIndexChange],
@@ -76,6 +80,13 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
           )}
         </span>
         <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setFit((v) => !v)}
+            className="rounded-lg bg-white/15 px-3 py-1.5 text-sm"
+          >
+            {fit ? '⤢ 原寸' : '⤡ 全体'}
+          </button>
           {/* 保存ボタン。スマホなら長押しでも保存できるが、
               明示的にあったほうが分かりやすい。pbs.twimg.com は別オリジンなので
               download 属性が効かない環境があり、その場合は画像単体で開く。 */}
@@ -107,7 +118,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
         </div>
       </div>
 
-      <div className="zoomable relative flex-1 overflow-auto">
+      <div className={`zoomable relative flex-1 ${fit ? 'flex items-center justify-center overflow-hidden' : 'overflow-auto'}`}>
         {!loaded && !failed && (
           <div className="absolute inset-0 flex items-center justify-center text-sm text-white/70">
             原寸画像を読み込み中…
@@ -136,8 +147,17 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
             alt={image.altText ?? 'お品書き'}
             onLoad={() => setLoaded(true)}
             onError={() => setFailed(true)}
-            className="mx-auto block h-auto w-full max-w-none"
-            style={{ opacity: loaded ? 1 : 0, transition: 'opacity 150ms' }}
+            onClick={() => setFit((v) => !v)}
+            className={
+              fit
+                ? 'mx-auto block max-h-full max-w-full object-contain'
+                : 'mx-auto block h-auto w-full max-w-none'
+            }
+            style={{
+              opacity: loaded ? 1 : 0,
+              transition: 'opacity 150ms',
+              cursor: fit ? 'zoom-in' : 'zoom-out',
+            }}
           />
         )}
       </div>
