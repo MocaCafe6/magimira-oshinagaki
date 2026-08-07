@@ -41,14 +41,18 @@ jobs:
       - name: セッションを復元
         if: inputs.mode == 'authenticated'
         env:
-          X_STORAGE_STATE: ${{ secrets.X_STORAGE_STATE }}
+          # Base64 で渡す。JSON をそのまま Secret に入れると、
+          # 登録側のシェルやエンコードで壊れることがある（実際に壊れた）。
+          X_STORAGE_STATE_B64: ${{ secrets.X_STORAGE_STATE_B64 }}
         run: |
-          if [ -z "$X_STORAGE_STATE" ]; then
-            echo "Secret X_STORAGE_STATE が設定されていません" >&2
+          if [ -z "$X_STORAGE_STATE_B64" ]; then
+            echo "Secret X_STORAGE_STATE_B64 が設定されていません" >&2
             exit 1
           fi
           mkdir -p secrets
-          printf '%s' "$X_STORAGE_STATE" > secrets/x-storage-state.json
+          printf '%s' "$X_STORAGE_STATE_B64" | base64 -d > secrets/x-storage-state.json
+          # 壊れていたらここで気づけるようにする（中身は出さない）
+          node -e "JSON.parse(require('fs').readFileSync('secrets/x-storage-state.json','utf8'));console.log('セッションの読み込み: OK')"
 
       - name: 到達性を調べる
         run: |
