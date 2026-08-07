@@ -53,6 +53,19 @@ function canonName(s: string): string {
     .replace(/[ぁ-ん]/g, (c) => String.fromCharCode(c.charCodeAt(0) + 0x60)); // ひらがな→カタカナ
 }
 
+/**
+ * 表示名から比較用の綴りを何通りか作る。
+ *
+ * 括弧で読みや別名を併記する人が多い。実データ:
+ *   「真島ゆろ(ましまゆろ)」… 公式のメンバー名は「真島ゆろ」
+ * 括弧の中身ごと連結して比較していたため一致せず、取り逃がしていた。
+ */
+function canonNameVariants(s: string): string[] {
+  const stripped = s.replace(/[（(【\[].*?[）)】\]]/g, ''); // 括弧の中身を落とす
+  const beforeSep = s.split(/[|｜/／@＠]/)[0] ?? s; // 「名前 | 肩書」形式
+  return [...new Set([s, stripped, beforeSep].map(canonName).filter(Boolean))];
+}
+
 /** X の「ユーザー」検索結果から上位アカウントを拾う */
 async function searchAccounts(
   page: Page,
@@ -195,7 +208,9 @@ async function main(): Promise<void> {
     // （ましまろ湯／真島ゆろ がまさにそれだった）。
     // 打ち切ってよいのは表示名が完全一致したときだけ。
     const wanted = [t.circleName, ...t.memberNames].map(canonName);
-    const hasExact = (): boolean => t.found.some((f) => wanted.includes(canonName(f.displayName)));
+    const matchesName = (displayName: string): boolean =>
+      canonNameVariants(displayName).some((v) => wanted.includes(v));
+    const hasExact = (): boolean => t.found.some((f) => matchesName(f.displayName));
 
     for (const q of [t.circleName, ...t.memberNames].slice(0, 3)) {
       try {
@@ -211,7 +226,7 @@ async function main(): Promise<void> {
     }
 
     // 表示名がサークル名またはメンバー名と一致するものを最有力とする
-    const exact = t.found.filter((f) => wanted.includes(canonName(f.displayName)));
+    const exact = t.found.filter((f) => matchesName(f.displayName));
     if (exact.length === 1) {
       t.best = exact[0]!.handle;
       t.reason = `表示名が「${exact[0]!.displayName}」で完全一致`;
@@ -227,39 +242,45 @@ async function main(): Promise<void> {
     // 名前だけの一致とは別物である。公式の出展記録にあるブース番号を
     // 自分の告知として書けるのは出展者本人だけで、同名の別人が偶然
     // 一致する余地が無い。会場帰属の判定で使っている証明と同じ強さ。
-    if (!t.best) {
-      const booths = t.venues.map((v) => v.boothId).filter((b): b is string => Boolean(b));
-      if (booths.length > 0) {
-        try {
-          const hits = await searchPosts(page, `${t.circleName} マジカルミライ`);
-          const proved = hits.filter(
-            (p) =>
-              booths.some((b) => textHasBooth(p.text, b)) &&
-              canonName(p.text).includes(canonName(t.circleName)),
-          );
-          const handles = [...new Set(proved.map((p) => p.handle))];
-          for (const h of handles) {
-            if (!t.found.some((x) => x.handle === h)) {
-              const sample = proved.find((p) => p.handle === h)!;
-              t.found.push({
-                handle: h,
-                displayName: '(投稿検索)',
-                bio: sample.text.replace(/\s+/g, ' ').slice(0, 120),
-                verified: false,
-              });
-            }
+    const booths = t.venues.map((v) => v.boothId).filter((b): b is string => Boolean(b));
+    // サークル名だけでなくメンバー名でも検索する。屋号を出さず本名・
+    // 作家名で告知する人が多く、サークル名では投稿が引っかからない。
+    const postQueries = [t.circleName, ...t.memberNames].slice(0, 3);
+    for (const q of postQueries) {
+      if (t.best || booths.length === 0) break;
+      try {
+        const hits = await searchPosts(page, `${q} マジカルミライ`);
+        // 本文に公式ブース番号があり、かつサークル名かメンバー名のどれかが
+        // 書かれていること。どちらか片方では足りない
+        // （ブース番号だけなら他人の紹介、名前だけならファンの言及）。
+        const names = [t.circleName, ...t.memberNames].map(canonName).filter((n) => n.length >= 2);
+        const proved = hits.filter((p) => {
+          if (!booths.some((b) => textHasBooth(p.text, b))) return false;
+          const body = canonName(p.text);
+          return names.some((n) => body.includes(n));
+        });
+        const handles = [...new Set(proved.map((p) => p.handle))];
+        for (const h of handles) {
+          if (!t.found.some((x) => x.handle === h)) {
+            const sample = proved.find((p) => p.handle === h)!;
+            t.found.push({
+              handle: h,
+              displayName: '(投稿検索)',
+              bio: sample.text.replace(/\s+/g, ' ').slice(0, 120),
+              verified: false,
+            });
           }
-          if (handles.length === 1) {
-            t.best = handles[0]!;
-            t.reason = `投稿本文に公式ブース番号（${booths.join('/')}）とサークル名の両方があり、本人と確定`;
-          } else if (handles.length > 1) {
-            t.reason = `ブース番号入りの投稿が${handles.length}アカウントから出ており、判断がつかない`;
-          }
-        } catch (e) {
-          t.reason = `投稿検索失敗: ${(e as Error).message}`;
         }
-        await sleep(jitter(DELAY_MIN_MS, DELAY_MAX_MS));
+        if (handles.length === 1) {
+          t.best = handles[0]!;
+          t.reason = `投稿本文に公式ブース番号（${booths.join('/')}）とサークル名の両方があり、本人と確定`;
+        } else if (handles.length > 1) {
+          t.reason = `ブース番号入りの投稿が${handles.length}アカウントから出ており、判断がつかない`;
+        }
+      } catch (e) {
+        t.reason = `投稿検索失敗: ${(e as Error).message}`;
       }
+      await sleep(jitter(DELAY_MIN_MS, DELAY_MAX_MS));
     }
 
     if (!t.best && !t.reason) {

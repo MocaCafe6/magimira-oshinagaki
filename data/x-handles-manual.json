@@ -18,5 +18,19 @@
   "海風太陽": ["UmiKazeTaiyouP"],
   "グッドスマイルカンパニー": ["gsc_goodsmile", "goodsmilejp"],
   "ムービック": ["movic_hmginfo", "movic_jp"],
-  "Desktop Mate": ["desktop_mate"]
+  "Desktop Mate": ["desktop_mate"],
+
+  "ましまろ湯": ["msm_yl"],
+  "お商材屋さん": ["sohbana_98"],
+  "いえぬ": ["ienu0ienu"],
+  "Start Flowers": ["startflowers"],
+  "株式会社タニタ": ["TANITAofficial"],
+  "Ableton": ["Ableton"],
+  "株式会社フックアップ": ["X28A0cKltj44994"],
+
+  "_rejected": [
+    "echo → @SayEchooo は採用しない。表示名は「Echo」で完全一致するが、",
+    "プロフィールが「暗号通貨が𝕏と出会う場所」で別人。",
+    "名前の一致だけを信じてはいけないことの実例。"
+  ]
 }

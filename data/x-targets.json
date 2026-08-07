@@ -6,6 +6,13 @@
     ]
   },
   {
+    "handle": "_Glu_E_",
+    "creatorIds": [
+      "osaka-D-7",
+      "tokyo-D-14"
+    ]
+  },
+  {
     "handle": "_reng",
     "creatorIds": [
       "osaka-B-6",
@@ -17,6 +24,12 @@
     "creatorIds": [
       "osaka-F-1",
       "tokyo-A-9"
+    ]
+  },
+  {
+    "handle": "Ableton",
+    "creatorIds": [
+      "tokyo-sponsor-E5"
     ]
   },
   {
@@ -50,6 +63,13 @@
     "handle": "anarchylily",
     "creatorIds": [
       "tokyo-A-22"
+    ]
+  },
+  {
+    "handle": "anison_mo_METAL",
+    "creatorIds": [
+      "osaka-C-8",
+      "tokyo-D-17"
     ]
   },
   {
@@ -332,6 +352,13 @@
     ]
   },
   {
+    "handle": "hikarisyuyo",
+    "creatorIds": [
+      "osaka-F-12",
+      "tokyo-B-26"
+    ]
+  },
+  {
     "handle": "Himanemuitoma",
     "creatorIds": [
       "osaka-D-2",
@@ -385,6 +412,12 @@
     "creatorIds": [
       "osaka-A-11",
       "tokyo-B-30"
+    ]
+  },
+  {
+    "handle": "ienu0ienu",
+    "creatorIds": [
+      "tokyo-D-15"
     ]
   },
   {
@@ -588,6 +621,13 @@
     "creatorIds": [
       "osaka-sponsor-A5",
       "tokyo-sponsor-A6"
+    ]
+  },
+  {
+    "handle": "msm_yl",
+    "creatorIds": [
+      "osaka-D-15",
+      "tokyo-D-16"
     ]
   },
   {
@@ -949,10 +989,23 @@
     ]
   },
   {
+    "handle": "sohbana_98",
+    "creatorIds": [
+      "osaka-C-10",
+      "tokyo-A-25"
+    ]
+  },
+  {
     "handle": "Spacelectro",
     "creatorIds": [
       "osaka-F-8",
       "tokyo-C-6"
+    ]
+  },
+  {
+    "handle": "startflowers",
+    "creatorIds": [
+      "tokyo-sponsor-D4"
     ]
   },
   {
@@ -973,6 +1026,12 @@
     "creatorIds": [
       "osaka-sponsor-C3",
       "tokyo-sponsor-E8"
+    ]
+  },
+  {
+    "handle": "TANITAofficial",
+    "creatorIds": [
+      "tokyo-sponsor-D6"
     ]
   },
   {
@@ -1075,6 +1134,12 @@
     "creatorIds": [
       "osaka-sponsor-D3",
       "tokyo-sponsor-D9"
+    ]
+  },
+  {
+    "handle": "X28A0cKltj44994",
+    "creatorIds": [
+      "tokyo-sponsor-E6"
     ]
   },
   {
