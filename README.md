@@ -284,6 +284,40 @@ npm run apply-image-reads      # 公式データと照合して data/posts.json 
 — 公式の出展記録と突き合わせて、一致したものだけを確定にする。
 実際、あるお品書きの「B-06（東京）」は大阪の誤記だったが、照合が自動で棄却した。
 
+## デプロイ（Vercel）
+
+`next.config.ts` が `output: 'export'` なので、Vercel は静的サイトとして配信する。
+`NEXT_PUBLIC_ADMIN` を設定しないかぎり admin 画面はビルド対象から外れる
+（HTML もクライアントJSも生成されない）ので、公開成果物に管理APIのURLは混ざらない。
+
+### 初回
+
+```sh
+# GitHub にリポジトリを作ってから
+git remote add origin https://github.com/<ユーザー名>/magimira-oshinagaki.git
+git push -u origin main
+```
+
+Vercel でこのリポジトリを Import する。フレームワークは Next.js が自動検出され、
+ビルドコマンド・出力ディレクトリの指定は不要。環境変数も不要
+（`ANTHROPIC_API_KEY` はローカルのスクリプト専用で、サイトのビルドには使わない）。
+
+`vercel.json` で `PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1` を渡している。
+Playwright は検証スクリプト専用なので、Vercel 側でブラウザを落とす必要がない。
+
+### 更新
+
+```sh
+npm run refresh        # 公式取得 → クロール → 再判定 → 検証 → ビルド → 検査
+git add -A && git commit -m "データ更新"
+git push
+```
+
+`refresh` は検証が1つでも落ちると中断するので、担保が破れた状態のデータは
+コミットまで進まない。push すると Vercel が自動でビルドして公開する。
+
+**`data/*.json` がサイトの実体**なので、これをコミットしないと内容は更新されない。
+
 ## 更新（会期が近づいたら毎日）
 
 ```sh
