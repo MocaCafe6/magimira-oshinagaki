@@ -106,6 +106,13 @@
     ]
   },
   {
+    "handle": "BasyaumaRecords",
+    "creatorIds": [
+      "osaka-A-13",
+      "tokyo-A-21"
+    ]
+  },
+  {
     "handle": "bcno01",
     "creatorIds": [
       "tokyo-A-10"
@@ -198,6 +205,13 @@
     ]
   },
   {
+    "handle": "desktop_mate",
+    "creatorIds": [
+      "osaka-sponsor-A2",
+      "tokyo-sponsor-D5"
+    ]
+  },
+  {
     "handle": "DICE__game",
     "creatorIds": [
       "osaka-E-8",
@@ -258,9 +272,23 @@
     ]
   },
   {
+    "handle": "goodsmilejp",
+    "creatorIds": [
+      "osaka-sponsor-B2",
+      "tokyo-sponsor-B3"
+    ]
+  },
+  {
     "handle": "goodsmileracing",
     "creatorIds": [
       "tokyo-sponsor-B2"
+    ]
+  },
+  {
+    "handle": "gsc_goodsmile",
+    "creatorIds": [
+      "osaka-sponsor-B2",
+      "tokyo-sponsor-B3"
     ]
   },
   {
@@ -546,6 +574,20 @@
     "creatorIds": [
       "osaka-G-11",
       "tokyo-B-14"
+    ]
+  },
+  {
+    "handle": "movic_hmginfo",
+    "creatorIds": [
+      "osaka-sponsor-A5",
+      "tokyo-sponsor-A6"
+    ]
+  },
+  {
+    "handle": "movic_jp",
+    "creatorIds": [
+      "osaka-sponsor-A5",
+      "tokyo-sponsor-A6"
     ]
   },
   {
@@ -979,6 +1021,20 @@
     "creatorIds": [
       "osaka-E-2",
       "tokyo-D-5"
+    ]
+  },
+  {
+    "handle": "UmiKazeTaiyouP",
+    "creatorIds": [
+      "osaka-B-5",
+      "tokyo-C-2"
+    ]
+  },
+  {
+    "handle": "usushioshisuu",
+    "creatorIds": [
+      "osaka-A-7",
+      "tokyo-A-7"
     ]
   },
   {

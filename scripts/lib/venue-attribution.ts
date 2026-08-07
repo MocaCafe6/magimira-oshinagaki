@@ -473,46 +473,45 @@ export function attributeFromText(input: AttributeInput): VenueAttribution {
   // 会場を限定していない以上、その作者が出展する全会場に並ぶ。
   //
   // 条件を絞って誤適用を防ぐ:
-  //   - 対象会場（大阪・東京）を一度も名指ししていない
-  //     （名指ししていれば規則1・2で扱う）
-  //   - 浜松専用だと明示していない
-  //     「浜松のお品書き」と結びついている、または浜松区間にブース番号がある
-  //     ものは浜松限定なので適用しない
+  //   - **会場名を一つも書いていない**
+  //     書いてあれば、それが対象会場なら規則1・2が扱う。浜松なら浜松の話。
   //   - 他イベントの名前が無い
   //   - ブース番号を書いていない
   //     番号を書いているなら特定のブースの話であって、全体告知ではない。
   //     「お品書きです。C-8 でお待ちしています」で C-8 が複数会場にあるとき、
   //     全会場に適用してしまうのは誤り（どの会場か分からないのが正しい）。
+  //
+  // 「浜松と書いてあっても全会場の話かもしれない」を救おうとして、
+  // 以前は「浜松限定」「浜松のお品書き」「浜松の販売情報」といった
+  // 例外パターンを並べていた。これは破綻した。実際に漏れた4件:
+  //   「和真パレットブースのお品書きを公開！…グラスクロスは浜松会場限定」
+  //     → 「浜松会場限定」は /(浜松|HAMAMATSU)\s*限定/ に当たらない
+  //   「HAMAMATSU 追加情報📢 物販に先行販売アイテムが追加！」（グッスマ）
+  //   「マジミラ浜松最終日のある朝 やみくろさんはズマケにいます」
+  //   「【鬱P新譜情報】…頒布します…🚨浜松は26日(日)のみなので要注意！」
+  // いずれも浜松の話なのに大阪・東京の両ページへ出ていた。
+  //
+  // 上の鬱Pの投稿は「3会場すべての新譜情報だ」とも読める。だが
+  // **読めるだけで証明はできない**。掲載する以上その会場のお品書きで
+  // あることが確実でなければならず、確実でないものは載せない。
+  // 大阪のお品書きが実際に投稿されればそちらで拾える。
   if (
     proven.size === 0 &&
     !hasConflict &&
     !mentionsOtherEvent &&
+    mentionedVenues.length === 0 &&
     looseBooths.length === 0 &&
     segments.every((s) => s.booths.length === 0)
   ) {
-    const namesTarget = mentionedVenues.some((v) => VENUES.includes(v as Venue));
-    // 浜松に閉じた投稿かどうか。次のいずれかなら全会場に広げない:
-    //   「浜松のお品書き」と結びついている
-    //   浜松の区間にブース番号がある
-    //   「浜松限定」と書いてある（実データ: 「浜松限定グラスクロス」）
-    //   浜松の販売情報・完売情報（会期中の実況。実データ: OZaKKa）
-    const hamamatsuOnly =
-      imageBoundVenues(combined).includes('hamamatsu') ||
-      segments.some((s) => s.venue === 'hamamatsu' && s.booths.length > 0) ||
-      /(浜松|HAMAMATSU)\s*限定/i.test(normalizeText(combined)) ||
-      (/浜松|HAMAMATSU/i.test(combined) && /販売情報|完売情報|在庫情報/.test(combined));
-
-    if (!namesTarget && !hamamatsuOnly) {
-      const inScope = VENUES.filter((v) => input.official.some((o) => o.venue === v));
-      for (const v of inScope) proven.add(v);
-      if (inScope.length > 0) {
-        source = 'event-wide';
-        evidence.push(
-          `会場を限定していないマジカルミライの告知なので、公式の出展先である${inScope
-            .map((v) => REF_VENUE_META[v].label)
-            .join('・')}すべてに適用`,
-        );
-      }
+    const inScope = VENUES.filter((v) => input.official.some((o) => o.venue === v));
+    for (const v of inScope) proven.add(v);
+    if (inScope.length > 0) {
+      source = 'event-wide';
+      evidence.push(
+        `会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である${inScope
+          .map((v) => REF_VENUE_META[v].label)
+          .join('・')}すべてに適用`,
+      );
     }
   }
 
@@ -532,13 +531,29 @@ export function attributeFromText(input: AttributeInput): VenueAttribution {
     }
   }
 
-  if (proven.size === 0 && evidence.length === 0) {
-    evidence.push('本文に会場名・ブース番号のいずれも無く、会場を特定できない');
-  }
-
   const otherVenues = mentionedVenues.filter(
     (v) => !VENUES.includes(v as Venue) || !proven.has(v as Venue),
   );
+
+  if (proven.size === 0 && evidence.length === 0) {
+    // 表示対象外の会場（浜松）しか書かれていない投稿がここに来る。
+    // 規則1が `VENUES.includes` で浜松の区間を飛ばすため根拠が一つも
+    // 積まれず、以前は「会場名・ブース番号のいずれも無い」と記録していた。
+    // 非掲載という結論は正しいが、根拠が事実と食い違っていた
+    // （実際は「【マジミラ浜松】…D-9」と両方書かれている）。
+    // 根拠は監査証跡なので、判定できなかったのか対象外だったのかを
+    // 取り違えたまま残してはいけない。
+    const outOfScope = otherVenues.filter((v) => !VENUES.includes(v as Venue));
+    if (outOfScope.length > 0) {
+      evidence.push(
+        `本文が指しているのは${outOfScope
+          .map((v) => REF_VENUE_META[v].label)
+          .join('・')}のみで、掲載対象の会場ではない`,
+      );
+    } else {
+      evidence.push('本文に会場名・ブース番号のいずれも無く、会場を特定できない');
+    }
+  }
 
   return {
     provenVenues: VENUES.filter((v) => proven.has(v)),

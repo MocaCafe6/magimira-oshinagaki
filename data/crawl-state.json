@@ -1,6 +1,6 @@
 {
   "startedAt": "2026-08-06T06:57:10.502Z",
-  "updatedAt": "2026-08-07T04:49:15.792Z",
+  "updatedAt": "2026-08-07T07:19:18.112Z",
   "done": {
     "__TKMYY": 24,
     "_reng": 11,
@@ -164,7 +164,15 @@
     "YureiIchimonji": 19,
     "zangi_2222": 1,
     "cfm_mobile": 14,
-    "mikucolle": 4
+    "mikucolle": 4,
+    "BasyaumaRecords": 20,
+    "desktop_mate": 20,
+    "goodsmilejp": 20,
+    "gsc_goodsmile": 6,
+    "movic_hmginfo": 10,
+    "movic_jp": 21,
+    "UmiKazeTaiyouP": 6,
+    "usushioshisuu": 4
   },
   "lastCrawledAt": {
     "cfm_mobile": "2026-08-07T04:08:16.306Z",
@@ -175,7 +183,23 @@
     "ahowasa86": "2026-08-07T04:08:59.100Z",
     "akasakisagiri": "2026-08-07T04:09:06.055Z",
     "akisame9_nsx": "2026-08-07T04:09:12.065Z",
-    "auryn_goods": "2026-08-07T04:49:11.283Z"
+    "auryn_goods": "2026-08-07T04:49:11.283Z",
+    "BasyaumaRecords": "2026-08-07T07:04:22.057Z",
+    "desktop_mate": "2026-08-07T07:04:29.981Z",
+    "goodsmilejp": "2026-08-07T07:04:44.104Z",
+    "gsc_goodsmile": "2026-08-07T07:04:50.544Z",
+    "movic_hmginfo": "2026-08-07T07:04:56.923Z",
+    "movic_jp": "2026-08-07T07:05:10.966Z",
+    "UmiKazeTaiyouP": "2026-08-07T07:05:17.566Z",
+    "usushioshisuu": "2026-08-07T07:05:24.978Z",
+    "ako_okko": "2026-08-07T07:05:30.751Z",
+    "anarchylily": "2026-08-07T07:05:36.970Z",
+    "ao_WiFi": "2026-08-07T07:05:42.673Z",
+    "aoto_kei": "2026-08-07T07:05:49.330Z",
+    "aozoragear": "2026-08-07T07:05:55.295Z",
+    "AQU3RA_music": "2026-08-07T07:06:03.343Z",
+    "asterisk07281": "2026-08-07T07:06:10.744Z",
+    "ATOLSX": "2026-08-07T07:06:18.840Z"
   },
   "failed": {}
 }

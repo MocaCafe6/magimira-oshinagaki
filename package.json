@@ -15,6 +15,7 @@
     "x-login": "tsx scripts/x-login.ts",
     "probe-x": "tsx scripts/probe-x-access.ts",
     "crawl-x": "tsx scripts/crawl-x.ts",
+    "find-x-handles": "tsx scripts/find-x-handles.ts",
     "rescore": "tsx scripts/rescore.ts",
     "refresh": "tsx scripts/refresh.ts",
     "verify-attribution": "tsx scripts/verify-attribution.ts",

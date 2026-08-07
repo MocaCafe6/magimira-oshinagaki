@@ -786,7 +786,9 @@
       "2026-07-24",
       "2026-07-25"
     ],
-    "xHandles": []
+    "xHandles": [
+      "usushioshisuu"
+    ]
   },
   {
     "venue": "hamamatsu",
@@ -845,7 +847,9 @@
       "2026-07-24",
       "2026-07-25"
     ],
-    "xHandles": []
+    "xHandles": [
+      "UmiKazeTaiyouP"
+    ]
   },
   {
     "venue": "hamamatsu",
@@ -902,7 +906,9 @@
     "days": [
       "2026-07-26"
     ],
-    "xHandles": []
+    "xHandles": [
+      "BasyaumaRecords"
+    ]
   },
   {
     "venue": "hamamatsu",
@@ -958,6 +964,365 @@
     "xHandles": [
       "pinocchiop"
     ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A1",
+    "circleName": "奏の森リゾート",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A2",
+    "circleName": "株式会社インターネット",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A3",
+    "circleName": "ムービック",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "movic_hmginfo",
+      "movic_jp"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A4",
+    "circleName": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A5",
+    "circleName": "初音ミクシンフォニー2026",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A6",
+    "circleName": "チュロス製造所",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "A7",
+    "circleName": "「マジカルミライ」ブース TOKYO MX / HMV&BOOKS",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B1",
+    "circleName": "株式会社セガ フェイブ",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B2",
+    "circleName": "株式会社デザインココ",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B3",
+    "circleName": "いたラック",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B4",
+    "circleName": "グッドスマイルカンパニー",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "gsc_goodsmile",
+      "goodsmilejp"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B5",
+    "circleName": "ピアプロキャラクターズ×OZaKKa 超推し活shop!",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "OZaKKa_tokyo"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B6",
+    "circleName": "ボークス",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "B7",
+    "circleName": "ETERNO RÉCIT (エテルノレシ)",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C1",
+    "circleName": "COCOLLABO(ココラボ)＆SOLWA(ソルワ)",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C2",
+    "circleName": "TAMAZOU",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "tamazou202507"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C3",
+    "circleName": "和真パレット",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "wapalette"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C4",
+    "circleName": "ぬいぐるみメーカー Gift",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C5",
+    "circleName": "クリプトン・フューチャー・メディア株式会社 デジタルコンテンツチーム",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C6",
+    "circleName": "Desktop Mate",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "desktop_mate"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C7",
+    "circleName": "クリプトン・フューチャー・メディア株式会社 SONICWIREチーム",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C8",
+    "circleName": "Domingoブース",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C9",
+    "circleName": "MIKU EXPO グッズ販売ブース",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "C10",
+    "circleName": "雪ミク スカイタウン出張所",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D1",
+    "circleName": "bilibiliGoods",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "bilibiliGoods"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D2",
+    "circleName": "ギターメーカー(株)ESP",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D3",
+    "circleName": "(株)ヤマハミュージックジャパン",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D4",
+    "circleName": "CRECO 株式会社ヒューネット",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "D5",
+    "circleName": "COSPA (コスパ)",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "E1",
+    "circleName": "株式会社ダイハツビジネスサポートセンター",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": [
+      "DBC_3939"
+    ]
+  },
+  {
+    "venue": "hamamatsu",
+    "boothId": "ガチャ",
+    "circleName": "（株）バンダイ",
+    "days": [
+      "2026-07-24",
+      "2026-07-25",
+      "2026-07-26"
+    ],
+    "xHandles": []
   },
   {
     "venue": "osaka",
@@ -1048,7 +1413,9 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "xHandles": []
+    "xHandles": [
+      "usushioshisuu"
+    ]
   },
   {
     "venue": "osaka",
@@ -1124,7 +1491,9 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "xHandles": []
+    "xHandles": [
+      "BasyaumaRecords"
+    ]
   },
   {
     "venue": "osaka",
@@ -1188,7 +1557,9 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "xHandles": []
+    "xHandles": [
+      "UmiKazeTaiyouP"
+    ]
   },
   {
     "venue": "osaka",
@@ -2190,7 +2561,9 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "xHandles": []
+    "xHandles": [
+      "desktop_mate"
+    ]
   },
   {
     "venue": "osaka",
@@ -2225,7 +2598,10 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "xHandles": []
+    "xHandles": [
+      "movic_hmginfo",
+      "movic_jp"
+    ]
   },
   {
     "venue": "osaka",
@@ -2327,7 +2703,10 @@
       "2026-08-15",
       "2026-08-16"
     ],
-    "xHandles": []
+    "xHandles": [
+      "gsc_goodsmile",
+      "goodsmilejp"
+    ]
   },
   {
     "venue": "osaka",
@@ -2753,7 +3132,9 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "xHandles": []
+    "xHandles": [
+      "usushioshisuu"
+    ]
   },
   {
     "venue": "tokyo",
@@ -2974,7 +3355,9 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "xHandles": []
+    "xHandles": [
+      "BasyaumaRecords"
+    ]
   },
   {
     "venue": "tokyo",
@@ -3509,7 +3892,9 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "xHandles": []
+    "xHandles": [
+      "UmiKazeTaiyouP"
+    ]
   },
   {
     "venue": "tokyo",
@@ -4232,7 +4617,10 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "xHandles": []
+    "xHandles": [
+      "movic_hmginfo",
+      "movic_jp"
+    ]
   },
   {
     "venue": "tokyo",
@@ -4315,7 +4703,10 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "xHandles": []
+    "xHandles": [
+      "gsc_goodsmile",
+      "goodsmilejp"
+    ]
   },
   {
     "venue": "tokyo",
@@ -4520,7 +4911,9 @@
       "2026-08-29",
       "2026-08-30"
     ],
-    "xHandles": []
+    "xHandles": [
+      "desktop_mate"
+    ]
   },
   {
     "venue": "tokyo",

@@ -24,6 +24,14 @@ export type RefVenueMeta = {
   label: string;
   days: string[];
   exmarketUrl: string;
+  /**
+   * 企業・団体の出展ブース一覧。
+   *
+   * 浜松の分も必ず持つこと。無いと「浜松 B-3」と書いた企業の投稿が
+   * ブース照合に失敗し、その企業が大阪・東京にも出ている場合に
+   * 消去法や event-wide 規則で大阪・東京へ誤って割り当てられる。
+   */
+  sponsorUrl: string;
   /** 本文中でこの会場を指す語。判定に使う */
   aliases: string[];
 };
@@ -34,6 +42,7 @@ export const REF_VENUE_META: Record<RefVenue, RefVenueMeta> = {
     label: '浜松',
     days: ['2026-07-24', '2026-07-25', '2026-07-26'],
     exmarketUrl: 'https://magicalmirai.com/2026/hamamatsu_exmarket.html',
+    sponsorUrl: 'https://magicalmirai.com/2026/hamamatsu_sponsor.html',
     aliases: ['浜松', 'HAMAMATSU', 'hamamatsu', 'Hamamatsu', 'アクトシティ'],
   },
   osaka: {
@@ -41,6 +50,7 @@ export const REF_VENUE_META: Record<RefVenue, RefVenueMeta> = {
     label: '大阪',
     days: ['2026-08-14', '2026-08-15', '2026-08-16'],
     exmarketUrl: 'https://magicalmirai.com/2026/osaka_exmarket.html',
+    sponsorUrl: 'https://magicalmirai.com/2026/osaka_sponsor.html',
     aliases: ['大阪', 'OSAKA', 'osaka', 'Osaka', 'インテックス'],
   },
   tokyo: {
@@ -48,6 +58,7 @@ export const REF_VENUE_META: Record<RefVenue, RefVenueMeta> = {
     label: '東京',
     days: ['2026-08-28', '2026-08-29', '2026-08-30'],
     exmarketUrl: 'https://magicalmirai.com/2026/tokyo_exmarket.html',
+    sponsorUrl: 'https://magicalmirai.com/2026/tokyo_sponsor.html',
     aliases: ['東京', 'TOKYO', 'tokyo', 'Tokyo', '幕張'],
   },
 };

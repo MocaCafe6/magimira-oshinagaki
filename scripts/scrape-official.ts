@@ -40,6 +40,50 @@ function parseArgs(argv: string[]): { venues: Venue[] } {
   return { venues: [...VENUES] };
 }
 
+/**
+ * 公式ページに X リンクが載っていないサークル・企業を手で補う。
+ *
+ * 公式の出店者一覧に X リンクがあるのは一部だけで、実測では企業ブースの
+ * 77%（43件中33件）が未掲載だった。リンクが無いと投稿を集めようがなく、
+ * そのブースはまるごと落ちる（グッドスマイルカンパニー、*Luna など）。
+ *
+ * `npm run find-x-handles` が名前で検索して候補を出すので、
+ * 中身を確認したうえでこのファイルに書く。**自動採用はしない** —
+ * 同名の別アカウントを紐づけると、無関係な投稿がそのブースの
+ * お品書きとして公開されてしまう。
+ *
+ * 形式: { "サークル名": ["handle", ...] }
+ */
+async function loadManualHandles(): Promise<Record<string, string[]>> {
+  return await readJson<Record<string, string[]>>(dataPath('x-handles-manual.json'), {});
+}
+
+function applyManualHandles(list: Creator[], manual: Record<string, string[]>): void {
+  for (const c of list) {
+    const extra = manual[c.circleName];
+    if (!extra) continue;
+    for (const h of extra) {
+      const handle = h.replace(/^@/, '');
+      if (!c.xHandles.includes(handle)) c.xHandles.push(handle);
+    }
+  }
+}
+
+/** OfficialListing 側にも手動ハンドルを反映する */
+function applyManualHandlesToListings(
+  list: OfficialListing[],
+  manual: Record<string, string[]>,
+): void {
+  for (const l of list) {
+    const extra = manual[l.circleName];
+    if (!extra) continue;
+    for (const h of extra) {
+      const handle = h.replace(/^@/, '');
+      if (!l.xHandles.includes(handle)) l.xHandles.push(handle);
+    }
+  }
+}
+
 function countXLinks(creators: Creator[]): number {
   return creators.reduce((n, c) => n + c.xHandles.length, 0);
 }
@@ -132,6 +176,7 @@ async function scrapeVenue(venue: Venue): Promise<void> {
     );
   }
 
+  applyManualHandles(creators, await loadManualHandles());
   await writeJson(dataPath(`creators.${venue}.json`), creators);
   console.log(`  → data/creators.${venue}.json`);
 
@@ -153,6 +198,7 @@ async function scrapeVenue(venue: Venue): Promise<void> {
   // クリエイターズマーケットと出展ブースの間でも ID が衝突しないこと
   assertUniqueIds(meta.label, '全体', [...creators, ...sponsors]);
 
+  applyManualHandles(sponsors, await loadManualHandles());
   await writeJson(dataPath(`sponsors.${venue}.json`), sponsors);
   console.log(`  → data/sponsors.${venue}.json`);
 }
@@ -182,15 +228,20 @@ async function main(): Promise<void> {
     }
     // 出展ブース（企業）も判定に使う。無いと企業ブースの投稿が
     // 永久に会場未確定＝非公開になる。
-    let sponsors: OfficialListing[] = [];
-    if (rv !== 'hamamatsu') {
-      const sponsorHtml = await fetchHtml(VENUE_META[rv].sponsorUrl);
-      sponsors = parseSponsorListings(sponsorHtml, rv);
-    }
+    //
+    // 浜松の分も取る。以前はここで浜松を飛ばしていたが、それだと
+    // 「浜松 B-3」と書いた企業の投稿がブース照合に失敗し、その企業が
+    // 大阪・東京にも出ていると event-wide 規則で両会場へ誤って
+    // 割り当てられる。終了した会場でも判定材料としては必要。
+    const sponsorHtml = await fetchHtml(meta.sponsorUrl);
+    const sponsors = parseSponsorListings(sponsorHtml, rv);
     const withX = [...parsed, ...sponsors].filter((p) => p.xHandles.length > 0).length;
     console.log(
       `  ${meta.label}: CM ${parsed.length}件 + 企業 ${sponsors.length}件（Xあり ${withX}件）`,
     );
+    // 手で補ったハンドルは帰属判定にも要る。ここに入っていないと
+    // 「その作者は公式にその会場に出ている」の照合ができない。
+    applyManualHandlesToListings([...parsed, ...sponsors], await loadManualHandles());
     listings.push(...parsed, ...sponsors);
   }
   await writeJson(dataPath('official-listings.json'), listings);
