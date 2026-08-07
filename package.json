@@ -13,6 +13,7 @@
     "shots": "tsx scripts/shots.ts",
     "scrape-official": "tsx scripts/scrape-official.ts",
     "x-login": "tsx scripts/x-login.ts",
+    "probe-x": "tsx scripts/probe-x-access.ts",
     "crawl-x": "tsx scripts/crawl-x.ts",
     "rescore": "tsx scripts/rescore.ts",
     "refresh": "tsx scripts/refresh.ts",

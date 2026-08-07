@@ -1,0 +1,63 @@
+name: X アクセス調査
+
+# 自動更新を GitHub Actions に載せてよいかを判断するための調査。
+# 手動でのみ起動する（定期実行はしない）。
+#
+# 段階1（認証なし）: X に到達できるか。アカウントには一切触らないので無リスク。
+# 段階2（認証あり）: 保存済みセッションで検索を1回だけ実行する。
+#                    Secret X_STORAGE_STATE が設定されているときだけ動く。
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: 調査モード
+        required: true
+        default: anonymous
+        type: choice
+        options:
+          - anonymous
+          - authenticated
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+
+      - name: Chromium を入れる
+        run: npx playwright install --with-deps chromium
+
+      - name: セッションを復元
+        if: inputs.mode == 'authenticated'
+        env:
+          X_STORAGE_STATE: ${{ secrets.X_STORAGE_STATE }}
+        run: |
+          if [ -z "$X_STORAGE_STATE" ]; then
+            echo "Secret X_STORAGE_STATE が設定されていません" >&2
+            exit 1
+          fi
+          mkdir -p secrets
+          printf '%s' "$X_STORAGE_STATE" > secrets/x-storage-state.json
+
+      - name: 到達性を調べる
+        run: |
+          if [ "${{ inputs.mode }}" = "authenticated" ]; then
+            npx tsx scripts/probe-x-access.ts --auth
+          else
+            npx tsx scripts/probe-x-access.ts
+          fi
+
+      - name: セッションを消す
+        if: always()
+        run: rm -f secrets/x-storage-state.json
