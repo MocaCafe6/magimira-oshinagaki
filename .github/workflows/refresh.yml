@@ -1,0 +1,107 @@
+name: お品書きの自動更新
+
+# 3時間おきに X を再クロールし、判定・検証を通してからデータをコミットする。
+# push されると Vercel が自動でビルドして公開する。
+#
+# 重要: 検証（verify-attribution / verify-site）が1つでも落ちたら
+# コミットしない。担保が破れたデータが公開されることはない。
+
+on:
+  schedule:
+    # 3時間おき（UTC）。日本時間では 0,3,6,9,12,15,18,21 時ごろ
+    - cron: '10 */3 * * *'
+  workflow_dispatch:
+    inputs:
+      skip_crawl:
+        description: クロールを飛ばして再判定だけ行う
+        required: false
+        default: false
+        type: boolean
+
+# 同時に走らせない。前の実行が終わるまで待つ
+concurrency:
+  group: refresh
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+        env:
+          PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD: '1'
+
+      - name: Chromium を入れる
+        run: npx playwright install --with-deps chromium
+
+      - name: セッションを復元
+        if: inputs.skip_crawl != true
+        env:
+          X_STORAGE_STATE_B64: ${{ secrets.X_STORAGE_STATE_B64 }}
+        run: |
+          if [ -z "$X_STORAGE_STATE_B64" ]; then
+            echo "Secret X_STORAGE_STATE_B64 が設定されていません" >&2
+            exit 1
+          fi
+          mkdir -p secrets
+          printf '%s' "$X_STORAGE_STATE_B64" | base64 -d > secrets/x-storage-state.json
+          node -e "JSON.parse(require('fs').readFileSync('secrets/x-storage-state.json','utf8'))"
+
+      - name: 公式出店者一覧を取得
+        run: npx tsx scripts/scrape-official.ts
+
+      - name: X をクロール
+        if: inputs.skip_crawl != true
+        # --stale-hours 12: 前回の巡回から12時間経ったアカウントだけを見に行く。
+        # 3時間おきに163アカウント全部を回すと1日1300回のアクセスになり
+        # 凍結を招く。この指定なら1回あたり1/4程度に分散しつつ、
+        # どのアカウントも1日2回は確認できる。
+        run: npx tsx scripts/crawl-x.ts --stale-hours 12
+
+      - name: スコアと会場帰属を再計算
+        run: npx tsx scripts/rescore.ts
+
+      - name: 画像判別の結果を取り込む
+        run: npx tsx scripts/apply-image-reads.ts || echo "読み取り結果がまだありません"
+
+      - name: 会場帰属を検証（データ層）
+        run: npx tsx scripts/verify-attribution.ts
+
+      - name: ビルド
+        run: npm run build
+
+      - name: 掲載内容を検証（表示層）
+        run: npx tsx scripts/verify-site.ts
+
+      - name: 掲載状況を記録
+        run: npx tsx scripts/coverage.ts >> "$GITHUB_STEP_SUMMARY"
+
+      - name: セッションを消す
+        if: always()
+        run: rm -f secrets/x-storage-state.json
+
+      - name: 変更があればコミットして push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # crawl-state.json も含める。次回の実行が「前回いつ巡回したか」を
+          # 引き継げないと、毎回全件を巡回してしまう。
+          git add data/
+          if git diff --cached --quiet; then
+            echo "新しいお品書きはありませんでした" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git commit -m "お品書きの自動更新 $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
+          echo "データを更新しました。Vercel が自動でビルドします。" >> "$GITHUB_STEP_SUMMARY"

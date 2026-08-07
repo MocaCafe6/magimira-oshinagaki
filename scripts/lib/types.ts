@@ -359,4 +359,10 @@ export type CrawlState = {
   done: Record<string, number>;
   /** 失敗したハンドルと理由。再実行時に再挑戦する */
   failed: Record<string, string>;
+  /**
+   * ハンドル -> 最後に巡回した時刻(ISO)。
+   * 定期実行で「前回から N 時間経ったものだけ」を対象にするために使う。
+   * 3時間おきに全163アカウントを回すとアクセスが過剰になり凍結を招く。
+   */
+  lastCrawledAt?: Record<string, string>;
 };

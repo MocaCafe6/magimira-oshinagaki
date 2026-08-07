@@ -11,7 +11,9 @@ out/
 *.tsbuildinfo
 
 # クロール中間物
-data/crawl-state.json
+# crawl-state.json は除外しない。GitHub Actions の定期実行で
+# 「前回いつ巡回したか」を引き継ぐ必要があるため（毎回全件巡回すると
+# アクセスが過剰になり凍結を招く）。機密は含まない。
 data/.cache/
 
 # 画像判別の作業ファイル。ローカルの絶対パスを含むうえ、

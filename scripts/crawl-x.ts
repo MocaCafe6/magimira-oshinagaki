@@ -63,6 +63,8 @@ type Target = { handle: string; creatorIds: string[] };
 type Args = {
   limit: number | null;
   handle: string | null;
+  /** 前回の巡回から何時間経ったものを再巡回するか。null なら再巡回しない */
+  staleHours: number | null;
   fresh: boolean;
   headed: boolean;
 };
@@ -77,9 +79,15 @@ function parseArgs(argv: string[]): Args {
   if (limit !== null && (!Number.isInteger(limit) || limit <= 0)) {
     throw new Error(`--limit は正の整数（受け取った値: ${limitRaw}）`);
   }
+  const staleRaw = get('--stale-hours');
+  const staleHours = staleRaw === null ? null : Number(staleRaw);
+  if (staleHours !== null && !(staleHours > 0)) {
+    throw new Error(`--stale-hours は正の数（受け取った値: ${staleRaw}）`);
+  }
   return {
     limit,
     handle: get('--handle'),
+    staleHours,
     fresh: argv.includes('--fresh'),
     headed: argv.includes('--headed'),
   };
@@ -168,6 +176,26 @@ async function main(): Promise<void> {
   if (!args.fresh) for (const p of existing) postsById.set(p.id, p);
 
   let queue = targets.filter((t) => !done.has(t.handle));
+
+  /**
+   * --stale-hours N: 前回の巡回から N 時間以上経ったハンドルも対象に戻す。
+   *
+   * 定期実行のための仕組み。3時間おきに163アカウント全部を回すと
+   * 1日1300回のアクセスになり凍結を招く。N=12 にすれば1回あたり
+   * 1/4 程度に分散しつつ、どのアカウントも1日2回は見に行ける。
+   */
+  if (args.staleHours !== null) {
+    const cutoff = Date.now() - args.staleHours * 3600_000;
+    const last = state?.lastCrawledAt ?? {};
+    const stale = targets.filter((t) => {
+      if (!done.has(t.handle)) return false; // 未処理は上の queue に入っている
+      const at = last[t.handle];
+      return !at || new Date(at).getTime() < cutoff;
+    });
+    queue = [...queue, ...stale];
+    console.log(`  --stale-hours ${args.staleHours}: 再巡回の対象 ${stale.length} ハンドル`);
+  }
+
   if (args.limit !== null) queue = queue.slice(0, args.limit);
 
   console.log(`X クロール開始`);
@@ -184,6 +212,7 @@ async function main(): Promise<void> {
     startedAt: state?.startedAt ?? new Date().toISOString(),
     updatedAt: new Date().toISOString(),
     done: { ...(state?.done ?? {}) },
+    lastCrawledAt: { ...(state?.lastCrawledAt ?? {}) },
     failed: {},
   };
 
@@ -318,6 +347,10 @@ async function main(): Promise<void> {
 
       const candidates = scored.filter((p) => p.score >= 50).length;
       newState.done[handle] = scored.length;
+      newState.lastCrawledAt = {
+        ...(newState.lastCrawledAt ?? {}),
+        [handle]: new Date().toISOString(),
+      };
       delete newState.failed[handle];
       processed += 1;
       const info2 = collector.rateLimitInfo;
