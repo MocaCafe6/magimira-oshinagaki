@@ -60,7 +60,7 @@ export function CreatorBrowser({ indexes }: Props) {
 
   if (!current) {
     return (
-      <main className="mx-auto max-w-3xl p-4">
+      <main className="mx-auto max-w-7xl p-4">
         <p style={{ color: 'var(--muted)' }}>
           データがありません。<code>npm run scrape-official</code> を実行してください。
         </p>
@@ -69,7 +69,7 @@ export function CreatorBrowser({ indexes }: Props) {
   }
 
   return (
-    <main className="mx-auto max-w-3xl">
+    <main className="mx-auto max-w-7xl">
       {/* ヘッダ: 会場切替 */}
       <header
         className="sticky top-0 z-30 border-b px-4 pt-3 pb-2 backdrop-blur"
@@ -153,7 +153,10 @@ export function CreatorBrowser({ indexes }: Props) {
             条件に合うサークルがありません
           </p>
         ) : (
-          <ul className="flex flex-col gap-2" data-testid="creator-list">
+          <ul
+              className="grid grid-cols-1 items-start gap-3 md:grid-cols-2 xl:grid-cols-3"
+              data-testid="creator-list"
+            >
             {filtered.map((c) => (
               <CreatorCard
                 key={c.id}

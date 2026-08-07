@@ -9,7 +9,16 @@ export const metadata: Metadata = {
     'マジカルミライ2026 クリエイターズマーケットのお品書きを一覧で確認し、お気に入りとメモを残せる非公式ツールです。',
   manifest: '/manifest.webmanifest',
   appleWebApp: { capable: true, statusBarStyle: 'black-translucent', title: 'お品書き一覧' },
-  icons: { icon: '/icon.svg', apple: '/icon.svg' },
+  // ドット絵のアイコン。アニメーションGIFに対応したブラウザでは動く。
+  // 非対応でも PNG に落ちるよう両方を並べる。
+  icons: {
+    icon: [
+      { url: '/icon.gif', type: 'image/gif' },
+      { url: '/icon-32.png', sizes: '32x32', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+    ],
+    apple: '/icon-180.png',
+  },
 };
 
 export const viewport: Viewport = {

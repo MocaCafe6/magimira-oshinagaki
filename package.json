@@ -18,6 +18,7 @@
     "refresh": "tsx scripts/refresh.ts",
     "verify-attribution": "tsx scripts/verify-attribution.ts",
     "verify-site": "tsx scripts/verify-site.ts",
+    "verify-deploy": "tsx scripts/verify-deploy.ts",
     "prepare-image-review": "tsx scripts/prepare-image-review.ts",
     "rank-image-review": "tsx scripts/rank-image-review.ts",
     "next-reads": "tsx scripts/next-reads.ts",

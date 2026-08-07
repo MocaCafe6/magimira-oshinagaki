@@ -1,26 +1,32 @@
 {
-  "name": "マジミラお品書き一覧",
-  "short_name": "お品書き一覧",
-  "description": "マジカルミライ クリエイターズマーケットのお品書きを一覧で確認し、お気に入りとメモを残せる非公式ツール",
-  "start_url": "/",
-  "scope": "/",
-  "display": "standalone",
-  "orientation": "portrait",
-  "background_color": "#0f1115",
-  "theme_color": "#0f1115",
-  "lang": "ja",
-  "icons": [
-    {
-      "src": "/icon.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "any"
-    },
-    {
-      "src": "/icon-maskable.svg",
-      "sizes": "any",
-      "type": "image/svg+xml",
-      "purpose": "maskable"
-    }
-  ]
+    "name":  "マジミラお品書き一覧",
+    "short_name":  "お品書き一覧",
+    "description":  "マジカルミライ クリエイターズマーケットのお品書きを一覧で確認し、お気に入りとメモを残せる非公式ツール",
+    "start_url":  "/",
+    "scope":  "/",
+    "display":  "standalone",
+    "orientation":  "any",
+    "background_color":  "#0f1115",
+    "theme_color":  "#0f1115",
+    "lang":  "ja",
+    "icons":  [
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "192x192",
+                      "src":  "/icon-192.png"
+                  },
+                  {
+                      "purpose":  "any",
+                      "type":  "image/png",
+                      "sizes":  "512x512",
+                      "src":  "/icon-512.png"
+                  },
+                  {
+                      "purpose":  "maskable",
+                      "type":  "image/svg+xml",
+                      "sizes":  "any",
+                      "src":  "/icon-maskable.svg"
+                  }
+              ]
 }

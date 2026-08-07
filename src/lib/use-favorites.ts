@@ -16,6 +16,7 @@ import {
   itemFavoriteKey,
   type FavoriteRecord,
   type ItemFavoriteRecord,
+  type PurchaseStatus,
 } from './store';
 
 type Snapshot = {
@@ -94,10 +95,12 @@ export type FavoritesApi = {
   isFavorite(creatorId: string): boolean;
   isVisited(creatorId: string): boolean;
   memoOf(creatorId: string): string;
+  statusOf(creatorId: string): PurchaseStatus;
   favoriteCount: number;
   toggleFavorite(creatorId: string): void;
   setMemo(creatorId: string, memo: string): void;
   setVisited(creatorId: string, visited: boolean): void;
+  setStatus(creatorId: string, status: PurchaseStatus): void;
   isItemFavorite(postId: string, mediaIndex: number, itemIndex: number): boolean;
   toggleItemFavorite(rec: {
     creatorId: string;
@@ -124,6 +127,15 @@ export function useFavorites(): FavoritesApi {
       r.memo = memo;
     });
     void getStore().setMemo(creatorId, memo);
+  }, []);
+
+  const setStatus = useCallback((creatorId: string, status: PurchaseStatus) => {
+    patchRecord(creatorId, (r) => {
+      r.status = status;
+      // 買った・見送ったなら、その場所はもう回り終えている
+      if (status !== 'none') r.visited = true;
+    });
+    void getStore().setStatus(creatorId, status);
   }, []);
 
   const setVisited = useCallback((creatorId: string, visited: boolean) => {
@@ -165,10 +177,12 @@ export function useFavorites(): FavoritesApi {
     isFavorite: (id) => snap.records.get(id)?.favorite ?? false,
     isVisited: (id) => snap.records.get(id)?.visited ?? false,
     memoOf: (id) => snap.records.get(id)?.memo ?? '',
+    statusOf: (id) => snap.records.get(id)?.status ?? 'none',
     favoriteCount,
     toggleFavorite,
     setMemo,
     setVisited,
+    setStatus,
     isItemFavorite: (postId, mediaIndex, itemIndex) =>
       snap.itemKeys.has(itemFavoriteKey(postId, mediaIndex, itemIndex)),
     toggleItemFavorite,

@@ -10,12 +10,26 @@
 
 import Dexie, { type Table } from 'dexie';
 
+/**
+ * そのサークルをどうしたか。
+ * 会場を回りながら「買った／見送った」を潰していくために使う。
+ */
+export type PurchaseStatus = 'none' | 'bought' | 'skipped';
+
+export const PURCHASE_STATUS_LABEL: Record<PurchaseStatus, string> = {
+  none: '未購入',
+  bought: '購入済み',
+  skipped: '見送り',
+};
+
 export type FavoriteRecord = {
   /** creator id */
   creatorId: string;
   favorite: boolean;
   memo: string;
   visited: boolean;
+  /** 購入状況。既存データには無いので読み出し側で 'none' に倒す */
+  status?: PurchaseStatus;
   /** 周回ルートの手動並べ替え順。未設定は null */
   routeOrder: number | null;
   updatedAt: string;
@@ -45,6 +59,7 @@ export interface FavoriteStore {
   toggleFavorite(creatorId: string): Promise<boolean>;
   setMemo(creatorId: string, memo: string): Promise<void>;
   setVisited(creatorId: string, visited: boolean): Promise<void>;
+  setStatus(creatorId: string, status: PurchaseStatus): Promise<void>;
   setRouteOrder(creatorId: string, order: number | null): Promise<void>;
 
   getItemFavorites(): Promise<ItemFavoriteRecord[]>;
@@ -65,6 +80,12 @@ class OshinagakiDb extends Dexie {
       favorites: 'creatorId, favorite, visited',
       itemFavorites: 'key, creatorId, postId',
     });
+    // 購入状況を追加。既存レコードは status 未設定のままでよく、
+    // 読み出し側で 'none' に倒すので移行処理は要らない。
+    this.version(2).stores({
+      favorites: 'creatorId, favorite, visited, status',
+      itemFavorites: 'key, creatorId, postId',
+    });
   }
 }
 
@@ -78,6 +99,7 @@ function emptyRecord(creatorId: string): FavoriteRecord {
     favorite: false,
     memo: '',
     visited: false,
+    status: 'none',
     routeOrder: null,
     updatedAt: now(),
   };
@@ -85,7 +107,13 @@ function emptyRecord(creatorId: string): FavoriteRecord {
 
 /** 中身が空になったレコードは残さない（エクスポートを軽く保つ） */
 function isEmpty(r: FavoriteRecord): boolean {
-  return !r.favorite && r.memo.trim() === '' && !r.visited && r.routeOrder === null;
+  return (
+    !r.favorite &&
+    r.memo.trim() === '' &&
+    !r.visited &&
+    (r.status ?? 'none') === 'none' &&
+    r.routeOrder === null
+  );
 }
 
 class DexieFavoriteStore implements FavoriteStore {
@@ -130,6 +158,14 @@ class DexieFavoriteStore implements FavoriteStore {
   async setVisited(creatorId: string, visited: boolean): Promise<void> {
     await this.update(creatorId, (r) => {
       r.visited = visited;
+    });
+  }
+
+  async setStatus(creatorId: string, status: PurchaseStatus): Promise<void> {
+    await this.update(creatorId, (r) => {
+      r.status = status;
+      // 買った・見送ったなら、その場所はもう回り終えている
+      if (status !== 'none') r.visited = true;
     });
   }
 

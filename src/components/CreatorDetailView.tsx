@@ -5,6 +5,7 @@ import { useMemo, useState } from 'react';
 
 import { Lightbox, type LightboxImage } from '@/components/Lightbox';
 import { OshinagakiImage } from '@/components/OshinagakiImage';
+import { ShareButton } from '@/components/ShareButton';
 import type { CreatorDetail } from '@/lib/data';
 import { useFavorites } from '@/lib/use-favorites';
 
@@ -64,7 +65,7 @@ export function CreatorDetailView({ detail }: { detail: CreatorDetail }) {
   }, [detail.items]);
 
   return (
-    <main className="mx-auto max-w-3xl">
+    <main className="mx-auto max-w-5xl">
       <header
         className="sticky top-0 z-30 border-b px-4 py-3 backdrop-blur"
         style={{
@@ -135,6 +136,12 @@ export function CreatorDetailView({ detail }: { detail: CreatorDetail }) {
             >
               {visited ? '訪問済み' : '未訪問'}
             </button>
+            <ShareButton
+              path={`/creator/${encodeURIComponent(detail.id)}/`}
+              title={`${detail.circleName}${detail.boothId ? `（${detail.boothId}）` : ''}`}
+              text={`マジカルミライ2026 ${detail.venue === 'osaka' ? '大阪' : '東京'} ${detail.boothId ?? ''} ${detail.circleName}`}
+              className="rounded-lg border px-3 py-2 text-xs"
+            />
           </div>
         </div>
       </header>

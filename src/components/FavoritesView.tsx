@@ -13,6 +13,7 @@ import { Chip } from '@/components/Chip';
 import type { VenueIndex } from '@/components/CreatorBrowser';
 import type { CreatorSummary } from '@/lib/data';
 import { getStore } from '@/lib/store';
+import { PURCHASE_STATUS_LABEL, type PurchaseStatus } from '@/lib/store';
 import { useFavorites } from '@/lib/use-favorites';
 import type { Venue } from '@shared/types';
 
@@ -20,11 +21,19 @@ function dayLabel(iso: string): string {
   return `${Number(iso.slice(5, 7))}/${Number(iso.slice(8, 10))}`;
 }
 
+/** 購入状況の色。未購入は目立たせず、買った／見送ったを一目で分ける */
+const STATUS_COLOR: Record<PurchaseStatus, string> = {
+  none: 'var(--muted)',
+  bought: 'var(--color-mm-accent)',
+  skipped: 'var(--color-mm-accent2)',
+};
+
 export function FavoritesView({ indexes }: { indexes: VenueIndex[] }) {
   const fav = useFavorites();
   const [venue, setVenue] = useState<Venue | 'all'>('all');
   const [hideVisited, setHideVisited] = useState(false);
   const [message, setMessage] = useState<string | null>(null);
+  const [memoDrafts, setMemoDrafts] = useState<Record<string, string>>({});
   const fileRef = useRef<HTMLInputElement>(null);
 
   const byId = useMemo(() => {
@@ -34,14 +43,15 @@ export function FavoritesView({ indexes }: { indexes: VenueIndex[] }) {
   }, [indexes]);
 
   const rows = useMemo(() => {
-    const out: { creator: CreatorSummary; memo: string; visited: boolean }[] = [];
+    const out: { creator: CreatorSummary; memo: string; visited: boolean; status: PurchaseStatus }[] =
+      [];
     for (const [id, rec] of fav.records) {
       if (!rec.favorite && rec.memo.trim() === '') continue;
       const creator = byId.get(id);
       if (!creator) continue; // データ更新で消えたサークル
       if (venue !== 'all' && creator.venue !== venue) continue;
       if (hideVisited && rec.visited) continue;
-      out.push({ creator, memo: rec.memo, visited: rec.visited });
+      out.push({ creator, memo: rec.memo, visited: rec.visited, status: rec.status ?? 'none' });
     }
     // 会場 → 列 → ブース番号順。会場で回る順序に近い並びにする
     return out.sort((a, b) => {
@@ -79,7 +89,7 @@ export function FavoritesView({ indexes }: { indexes: VenueIndex[] }) {
   };
 
   return (
-    <main className="mx-auto max-w-3xl">
+    <main className="mx-auto max-w-5xl">
       <header
         className="sticky top-0 z-30 border-b px-4 pt-3 pb-2 backdrop-blur"
         style={{
@@ -117,8 +127,8 @@ export function FavoritesView({ indexes }: { indexes: VenueIndex[] }) {
             </Link>
           </p>
         ) : (
-          <ul className="flex flex-col gap-2" data-testid="favorite-list">
-            {rows.map(({ creator: c, memo, visited }) => (
+          <ul className="grid grid-cols-1 gap-2 lg:grid-cols-2" data-testid="favorite-list">
+            {rows.map(({ creator: c, memo, visited, status }) => (
               <li
                 key={c.id}
                 className="rounded-xl border p-3"
@@ -169,14 +179,48 @@ export function FavoritesView({ indexes }: { indexes: VenueIndex[] }) {
                       <h2 className="mt-0.5 truncate font-semibold">{c.circleName}</h2>
                     </Link>
 
-                    {memo.trim() !== '' && (
-                      <p
-                        className="mt-1.5 rounded-lg px-2 py-1.5 text-sm whitespace-pre-wrap"
-                        style={{ background: 'var(--bg)', color: 'var(--text)' }}
-                      >
-                        {memo}
-                      </p>
-                    )}
+                    {/* 購入状況。会場で回りながらここで潰していく */}
+                    <div className="mt-2 flex flex-wrap gap-1">
+                      {(['none', 'bought', 'skipped'] as const).map((s) => (
+                        <button
+                          key={s}
+                          type="button"
+                          onClick={() => fav.setStatus(c.id, s)}
+                          aria-pressed={status === s}
+                          className="rounded-lg border px-2.5 py-1 text-xs"
+                          style={
+                            status === s
+                              ? {
+                                  borderColor: STATUS_COLOR[s],
+                                  background: STATUS_COLOR[s],
+                                  color: '#0f1115',
+                                }
+                              : { borderColor: 'var(--border)', color: 'var(--muted)' }
+                          }
+                        >
+                          {PURCHASE_STATUS_LABEL[s]}
+                        </button>
+                      ))}
+                    </div>
+
+                    {/* メモはここで直接書き換えられるようにする。
+                        詳細ページを開き直さないと直せないのでは会場で使えない。 */}
+                    <textarea
+                      value={memoDrafts[c.id] ?? memo}
+                      onChange={(e) => {
+                        const v = e.target.value;
+                        setMemoDrafts((d) => ({ ...d, [c.id]: v }));
+                        fav.setMemo(c.id, v);
+                      }}
+                      rows={memo.trim() === '' ? 1 : 2}
+                      placeholder="メモ（買うもの・予算など）"
+                      className="mt-1.5 w-full resize-y rounded-lg border px-2 py-1.5 text-sm outline-none"
+                      style={{
+                        borderColor: 'var(--border)',
+                        background: 'var(--bg)',
+                        color: 'var(--text)',
+                      }}
+                    />
                   </div>
 
                   <button

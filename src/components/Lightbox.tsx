@@ -75,9 +75,26 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
             </span>
           )}
         </span>
-        <div className="flex items-center gap-3">
-          <a href={image.postUrl} target="_blank" rel="noreferrer" className="underline">
-            元投稿を開く
+        <div className="flex items-center gap-2">
+          {/* 保存ボタン。スマホなら長押しでも保存できるが、
+              明示的にあったほうが分かりやすい。pbs.twimg.com は別オリジンなので
+              download 属性が効かない環境があり、その場合は画像単体で開く。 */}
+          <a
+            href={image.origUrl}
+            download
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-lg bg-white/15 px-3 py-1.5 text-sm"
+          >
+            ⬇ 保存
+          </a>
+          <a
+            href={image.postUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="rounded-lg bg-white/15 px-3 py-1.5 text-sm"
+          >
+            元投稿
           </a>
           <button
             type="button"

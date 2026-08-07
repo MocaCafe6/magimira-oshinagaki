@@ -3,6 +3,8 @@
 import Link from 'next/link';
 import { useState } from 'react';
 
+import { Lightbox } from '@/components/Lightbox';
+import { ShareButton } from '@/components/ShareButton';
 import type { CreatorSummary } from '@/lib/data';
 
 function dayLabel(iso: string): string {
@@ -25,6 +27,7 @@ export function CreatorCard({ creator: c, favorite, visited, hasMemo, onToggleFa
 
   // 一覧に直接出すお品書き。確定分が無ければ参考（浜松）を出す。
   // 縦に長くなりすぎないよう1サークルあたり4枚まで。
+  const [lightbox, setLightbox] = useState<number | null>(null);
   const isReference = c.images.length === 0 && c.referenceImages.length > 0;
   const shown = (c.images.length > 0 ? c.images : c.referenceImages).slice(0, 4);
 
@@ -117,6 +120,8 @@ export function CreatorCard({ creator: c, favorite, visited, hasMemo, onToggleFa
         </div>
       </Link>
 
+
+
       {/* お品書きは一覧でそのまま読めるようにする。
           詳細を開かないと品揃えが分からないのでは下調べにならない。 */}
       {shown.length > 0 && (
@@ -131,14 +136,14 @@ export function CreatorCard({ creator: c, favorite, visited, hasMemo, onToggleFa
             </p>
           )}
           <div className={shown.length > 1 ? 'grid grid-cols-2 gap-1' : ''}>
-            {shown.map((m) => (
-              <a
+            {shown.map((m, i) => (
+              <button
                 key={m.largeUrl}
-                href={m.origUrl}
-                target="_blank"
-                rel="noreferrer"
-                className="block overflow-hidden rounded-lg"
+                type="button"
+                onClick={() => setLightbox(i)}
+                className="block w-full overflow-hidden rounded-lg"
                 style={{ background: 'var(--surface2)' }}
+                aria-label="お品書きを拡大する"
               >
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -148,29 +153,47 @@ export function CreatorCard({ creator: c, favorite, visited, hasMemo, onToggleFa
                   decoding="async"
                   width={m.width || undefined}
                   height={m.height || undefined}
-                  className="w-full"
-                  style={{ opacity: isReference ? 0.92 : 1 }}
+                  className="w-full object-contain"
+                  style={{ opacity: isReference ? 0.92 : 1, maxHeight: 'min(70vh, 560px)' }}
                 />
-              </a>
+              </button>
             ))}
           </div>
         </div>
       )}
 
-      {/* お気に入りは Link の外に出す（カード遷移と衝突させない） */}
-      <button
-        type="button"
-        onClick={onToggleFavorite}
-        aria-pressed={favorite}
-        aria-label={`${c.circleName} をお気に入り${favorite ? 'から外す' : 'に追加'}`}
-        className="absolute top-2 right-2 flex size-9 items-center justify-center rounded-full text-lg transition-colors"
-        style={{
-          background: 'color-mix(in srgb, var(--surface2) 90%, transparent)',
-          color: favorite ? 'var(--color-mm-accent2)' : 'var(--muted)',
-        }}
-      >
-        {favorite ? '★' : '☆'}
-      </button>
+      {lightbox !== null && (
+        <Lightbox
+          images={shown}
+          index={lightbox}
+          onClose={() => setLightbox(null)}
+          onIndexChange={setLightbox}
+        />
+      )}
+
+      {/* お気に入りと共有は Link の外に出す（カード遷移と衝突させない） */}
+      <div className="absolute top-2 right-2 flex flex-col gap-1">
+        <button
+          type="button"
+          onClick={onToggleFavorite}
+          aria-pressed={favorite}
+          aria-label={`${c.circleName} をお気に入り${favorite ? 'から外す' : 'に追加'}`}
+          className="flex size-9 items-center justify-center rounded-full text-lg transition-colors"
+          style={{
+            background: 'color-mix(in srgb, var(--surface2) 90%, transparent)',
+            color: favorite ? 'var(--color-mm-accent2)' : 'var(--muted)',
+          }}
+        >
+          {favorite ? '★' : '☆'}
+        </button>
+        <ShareButton
+          compact
+          path={`/creator/${encodeURIComponent(c.id)}/`}
+          title={`${c.circleName}${c.boothId ? `（${c.boothId}）` : ''}`}
+          text={`マジカルミライ2026 ${c.venue === 'osaka' ? '大阪' : '東京'} ${c.boothId ?? ''} ${c.circleName}`}
+          className="flex size-9 items-center justify-center rounded-full text-base"
+        />
+      </div>
     </li>
   );
 }

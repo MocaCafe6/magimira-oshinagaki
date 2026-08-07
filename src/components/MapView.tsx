@@ -108,7 +108,7 @@ export function MapView({ data }: { data: MapVenueData[] }) {
   const remaining = stops.filter((s) => !fav.isVisited(s.item.id)).length;
 
   return (
-    <main className="mx-auto max-w-3xl">
+    <main className="mx-auto max-w-6xl">
       <header
         className="sticky top-0 z-30 border-b px-4 pt-3 pb-2 backdrop-blur"
         style={{
@@ -258,6 +258,38 @@ export function MapView({ data }: { data: MapVenueData[] }) {
                             fill="#0f1115"
                           >
                             {s.order}
+                          </text>
+
+                          {/* サークル名。丸に番号だけでは、どこが誰なのか
+                              マップを見ただけでは分からない。
+                              地の色に負けないよう縁取りを付ける。 */}
+                          <text
+                            x={x}
+                            y={y - 30}
+                            textAnchor="middle"
+                            fontSize={22}
+                            fontWeight="bold"
+                            fill="#ffffff"
+                            stroke="#0f1115"
+                            strokeWidth={6}
+                            paintOrder="stroke"
+                          >
+                            {s.item.circleName.length > 10
+                              ? `${s.item.circleName.slice(0, 10)}…`
+                              : s.item.circleName}
+                          </text>
+                          <text
+                            x={x}
+                            y={y + 46}
+                            textAnchor="middle"
+                            fontSize={20}
+                            fontWeight="bold"
+                            fill="#ffffff"
+                            stroke="#0f1115"
+                            strokeWidth={5}
+                            paintOrder="stroke"
+                          >
+                            {s.boothId}
                           </text>
                         </g>
                       );
