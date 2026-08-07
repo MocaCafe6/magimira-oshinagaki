@@ -26,3 +26,6 @@ Thumbs.db
 .image-review/
 data/ocr-cache.json
 .tessdata/
+
+.vercel
+.env*
