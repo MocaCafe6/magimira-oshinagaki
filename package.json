@@ -40,7 +40,8 @@
     "verify-map": "tsx scripts/verify-map.ts",
     "review": "concurrently -k -n server,web \"npm:admin-server\" \"cross-env NEXT_PUBLIC_ADMIN=1 next dev\"",
     "test": "node --import tsx --test \"scripts/**/*.test.ts\"",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "find-x-from-website": "tsx scripts/find-x-from-website.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",

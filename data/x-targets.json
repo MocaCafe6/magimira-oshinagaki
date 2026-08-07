@@ -160,6 +160,13 @@
     ]
   },
   {
+    "handle": "BOTEJYU_GroupJP",
+    "creatorIds": [
+      "osaka-sponsor-A6",
+      "tokyo-sponsor-D8"
+    ]
+  },
+  {
     "handle": "buzz_g",
     "creatorIds": [
       "osaka-B-4",
@@ -187,6 +194,20 @@
     ]
   },
   {
+    "handle": "cfm_snowmiku",
+    "creatorIds": [
+      "osaka-sponsor-A12",
+      "tokyo-sponsor-C7"
+    ]
+  },
+  {
+    "handle": "cfm_sonicwire",
+    "creatorIds": [
+      "osaka-sponsor-B3",
+      "tokyo-sponsor-F2"
+    ]
+  },
+  {
     "handle": "chikarutof",
     "creatorIds": [
       "tokyo-D-23"
@@ -199,10 +220,31 @@
     ]
   },
   {
+    "handle": "cocollabo",
+    "creatorIds": [
+      "osaka-sponsor-C1",
+      "tokyo-sponsor-D11"
+    ]
+  },
+  {
+    "handle": "cospa_inc",
+    "creatorIds": [
+      "osaka-sponsor-D1",
+      "tokyo-sponsor-D1"
+    ]
+  },
+  {
     "handle": "COWshi504",
     "creatorIds": [
       "osaka-G-3",
       "tokyo-D-11"
+    ]
+  },
+  {
+    "handle": "creco_tweet",
+    "creatorIds": [
+      "osaka-sponsor-A1",
+      "tokyo-sponsor-E1"
     ]
   },
   {
@@ -222,6 +264,13 @@
     "handle": "del_conoe",
     "creatorIds": [
       "osaka-C-11-df57c1"
+    ]
+  },
+  {
+    "handle": "designcoco_t",
+    "creatorIds": [
+      "osaka-sponsor-C7",
+      "tokyo-sponsor-D10"
     ]
   },
   {
@@ -259,6 +308,34 @@
     ]
   },
   {
+    "handle": "ESPGuitarsJP",
+    "creatorIds": [
+      "osaka-sponsor-B4",
+      "tokyo-sponsor-E9"
+    ]
+  },
+  {
+    "handle": "ETERNO_RECIT",
+    "creatorIds": [
+      "osaka-sponsor-D10",
+      "tokyo-sponsor-D2"
+    ]
+  },
+  {
+    "handle": "eyeup_twgoods",
+    "creatorIds": [
+      "osaka-sponsor-D7",
+      "tokyo-sponsor-F5"
+    ]
+  },
+  {
+    "handle": "eyeup_x",
+    "creatorIds": [
+      "osaka-sponsor-D7",
+      "tokyo-sponsor-F5"
+    ]
+  },
+  {
     "handle": "Ficrc_unripe",
     "creatorIds": [
       "tokyo-B-29"
@@ -285,10 +362,31 @@
     ]
   },
   {
+    "handle": "Gashapon_Bandai",
+    "creatorIds": [
+      "osaka-sponsor-ガチャ",
+      "tokyo-sponsor-ガチャ"
+    ]
+  },
+  {
     "handle": "gcmstyle",
     "creatorIds": [
       "osaka-F-11",
       "tokyo-C-12"
+    ]
+  },
+  {
+    "handle": "gift_news",
+    "creatorIds": [
+      "osaka-sponsor-A10",
+      "tokyo-sponsor-B7"
+    ]
+  },
+  {
+    "handle": "Giftkanegon",
+    "creatorIds": [
+      "osaka-sponsor-A10",
+      "tokyo-sponsor-B7"
     ]
   },
   {
@@ -309,6 +407,19 @@
     "creatorIds": [
       "osaka-sponsor-B2",
       "tokyo-sponsor-B3"
+    ]
+  },
+  {
+    "handle": "Gugenka_info",
+    "creatorIds": [
+      "tokyo-sponsor-C1"
+    ]
+  },
+  {
+    "handle": "GUMIfromMegpoid",
+    "creatorIds": [
+      "osaka-sponsor-D6",
+      "tokyo-sponsor-F4"
     ]
   },
   {
@@ -373,6 +484,13 @@
     ]
   },
   {
+    "handle": "HMV_Japan",
+    "creatorIds": [
+      "osaka-sponsor-B8",
+      "tokyo-sponsor-A9"
+    ]
+  },
+  {
     "handle": "hourouhekiheki",
     "creatorIds": [
       "osaka-B-10-f5828a",
@@ -428,6 +546,12 @@
     ]
   },
   {
+    "handle": "IncChord",
+    "creatorIds": [
+      "tokyo-sponsor-B5"
+    ]
+  },
+  {
     "handle": "iqyu_iq",
     "creatorIds": [
       "tokyo-A-18-8058fb"
@@ -455,10 +579,37 @@
     ]
   },
   {
+    "handle": "ita_rack",
+    "creatorIds": [
+      "osaka-sponsor-C5",
+      "tokyo-sponsor-D3"
+    ]
+  },
+  {
+    "handle": "joruzinhina",
+    "creatorIds": [
+      "osaka-E-9",
+      "tokyo-C-23"
+    ]
+  },
+  {
+    "handle": "JSPA_office",
+    "creatorIds": [
+      "tokyo-sponsor-F3"
+    ]
+  },
+  {
     "handle": "kaga_qwerty",
     "creatorIds": [
       "osaka-E-1",
       "tokyo-D-7"
+    ]
+  },
+  {
+    "handle": "KanadenoMoriPR",
+    "creatorIds": [
+      "osaka-sponsor-D8",
+      "tokyo-sponsor-F6"
     ]
   },
   {
@@ -573,6 +724,20 @@
     "creatorIds": [
       "osaka-sponsor-A7",
       "tokyo-sponsor-C3"
+    ]
+  },
+  {
+    "handle": "mikuexpo",
+    "creatorIds": [
+      "osaka-sponsor-A8",
+      "tokyo-sponsor-C5"
+    ]
+  },
+  {
+    "handle": "mikusymphony",
+    "creatorIds": [
+      "osaka-sponsor-B6",
+      "tokyo-sponsor-A7"
     ]
   },
   {
@@ -773,6 +938,12 @@
     ]
   },
   {
+    "handle": "osaka_kenketsu",
+    "creatorIds": [
+      "osaka-sponsor-4798e1"
+    ]
+  },
+  {
     "handle": "otgys",
     "creatorIds": [
       "osaka-C-9",
@@ -818,6 +989,13 @@
     "creatorIds": [
       "osaka-E-10",
       "tokyo-A-1"
+    ]
+  },
+  {
+    "handle": "pj_sekai",
+    "creatorIds": [
+      "osaka-sponsor-C4",
+      "tokyo-sponsor-A5"
     ]
   },
   {
@@ -1035,10 +1213,22 @@
     ]
   },
   {
+    "handle": "tartsPR",
+    "creatorIds": [
+      "tokyo-sponsor-E2"
+    ]
+  },
+  {
     "handle": "tekalu_music",
     "creatorIds": [
       "osaka-E-3",
       "tokyo-C-4"
+    ]
+  },
+  {
+    "handle": "tnocjp",
+    "creatorIds": [
+      "tokyo-sponsor-G2"
     ]
   },
   {
@@ -1120,6 +1310,20 @@
     "creatorIds": [
       "osaka-G-7",
       "tokyo-B-4"
+    ]
+  },
+  {
+    "handle": "volks_dd",
+    "creatorIds": [
+      "osaka-sponsor-D4",
+      "tokyo-sponsor-B4"
+    ]
+  },
+  {
+    "handle": "volks_doll",
+    "creatorIds": [
+      "osaka-sponsor-D4",
+      "tokyo-sponsor-B4"
     ]
   },
   {
