@@ -1,5 +1,4 @@
 import type { Curation, Post, Venue } from './types';
-import { imageBoundVenues } from './venue-attribution';
 
 /** 候補として提示する下限スコア（レビュー画面に出すかどうかの閾値） */
 export const ADOPT_SCORE_THRESHOLD = 50;
@@ -24,7 +23,7 @@ const RETROSPECTIVE_RE =
  * どちらも「お品書き」の語を含むので、語だけを見ていると通ってしまう。
  */
 const FORTHCOMING_RE =
-  /(お品書き|おしながき|品書き)[^。\n]{0,12}(後日|明日|近日|のちほど|後ほど|そのうち|追って)[^。\n]{0,8}(公開|投稿|上げ|あげ|出し|お知らせ)/;
+  /(お品書き|おしながき|品書き)[^。\n]{0,12}(後日|明日|近日|のちほど|後ほど|そのうち|追って)[^。\n]{0,8}(公開|投稿|上げ|あげ|出し|お知らせ)|【予告】|発表予定/;
 
 /**
  * 「この投稿は頒布物の一覧（お品書き）そのものか」。
@@ -126,6 +125,9 @@ export function isProductPost(post: Post): boolean {
  * 手掛かりにしない。マジカルミライそのものの名前を要求する。
  */
 const MAGIMIRA_RE = /マジカルミライ|マジミラ|magicalmirai|Magical\s*Mirai/i;
+
+/** 浜松会場（7/24〜26・終了済み）への言及 */
+const HAMAMATSU_RE = /浜松|HAMAMATSU|hamamatsu|Hamamatsu|アクトシティ/;
 
 export function isMagimiraPost(post: Post): boolean {
   // 画像から会場が確定したものは、公式のブース番号と照合済みなので足りる
@@ -231,12 +233,20 @@ export function selectReferencePostsForVenue(
     // 対象会場のお品書きだと確定しているならそちらで載る
     if ((p.attribution?.provenVenues.length ?? 0) > 0) return false;
 
-    // 「浜松のお品書き」と本文が明示しているものだけ。
-    // 単に浜松に言及しているだけの投稿（「本日はマジミラ浜松のB02！…お品書きの
-    // うち She is Sea は…」のような近況報告）を拾わないため、
-    // 会場名と「お品書き」が結びついていることを条件にする。
+    // 浜松に言及しているお品書きであること。
+    //
+    // 当初は「浜松のお品書き」と会場名が直結している場合だけに絞っていたが、
+    // 実データの書き方はもっとばらける:
+    //   「【お品書き】書店太郎 と申します #マジカルミライ2026浜松 【A-10】」（語順が逆）
+    //   「マジカルミライ2026お品書きです✨ … 7/24〜26 アクトシティ浜松」（離れている）
+    //   「🥟お知らせ🥟 マジカルミライ2026 in HAMAMATSU … E-4「ピノキオ定食」」
+    // 実測でこの条件だけで18件中17件を取りこぼしていた。
+    //
+    // お礼・設営完了・完売の実況は isOshinagakiPost が、
+    // 他イベントは isMagimiraPost が既に落としているので、
+    // ここは「浜松の話か」だけを見れば足りる。
     const text = [p.text, ...p.media.map((m) => m.altText ?? '')].join('\n');
-    return imageBoundVenues(text).includes('hamamatsu');
+    return HAMAMATSU_RE.test(text);
   });
 }
 
