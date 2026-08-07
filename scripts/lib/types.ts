@@ -188,6 +188,8 @@ export type AttributionSource =
   | 'text-venue'
   /** 作者の出展会場が1つしかないので消去法で確定 */
   | 'sole-venue'
+  /** イベント全体への告知で会場を限定していないので、出展する全会場に適用 */
+  | 'event-wide'
   /** お品書き画像から読み取り */
   | 'image'
   /** 人手で指定 */

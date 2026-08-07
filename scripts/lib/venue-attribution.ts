@@ -464,6 +464,58 @@ export function attributeFromText(input: AttributeInput): VenueAttribution {
     }
   }
 
+  // --- 4.5 イベント全体への告知（会場を限定していない） ---
+  //
+  // 実データ:
+  //   「【鬱P新譜情報】マジカルミライクリエイターズマーケットにて新譜カセット
+  //     テープ「H.M.1996」を頒布します。1000円です。…🚨浜松は26日(日)のみなので要注意！」
+  // 「マジカルミライで頒布します」とだけ言っていて会場を限定していない。
+  // 会場を限定していない以上、その作者が出展する全会場に並ぶ。
+  //
+  // 条件を絞って誤適用を防ぐ:
+  //   - 対象会場（大阪・東京）を一度も名指ししていない
+  //     （名指ししていれば規則1・2で扱う）
+  //   - 浜松専用だと明示していない
+  //     「浜松のお品書き」と結びついている、または浜松区間にブース番号がある
+  //     ものは浜松限定なので適用しない
+  //   - 他イベントの名前が無い
+  //   - ブース番号を書いていない
+  //     番号を書いているなら特定のブースの話であって、全体告知ではない。
+  //     「お品書きです。C-8 でお待ちしています」で C-8 が複数会場にあるとき、
+  //     全会場に適用してしまうのは誤り（どの会場か分からないのが正しい）。
+  if (
+    proven.size === 0 &&
+    !hasConflict &&
+    !mentionsOtherEvent &&
+    looseBooths.length === 0 &&
+    segments.every((s) => s.booths.length === 0)
+  ) {
+    const namesTarget = mentionedVenues.some((v) => VENUES.includes(v as Venue));
+    // 浜松に閉じた投稿かどうか。次のいずれかなら全会場に広げない:
+    //   「浜松のお品書き」と結びついている
+    //   浜松の区間にブース番号がある
+    //   「浜松限定」と書いてある（実データ: 「浜松限定グラスクロス」）
+    //   浜松の販売情報・完売情報（会期中の実況。実データ: OZaKKa）
+    const hamamatsuOnly =
+      imageBoundVenues(combined).includes('hamamatsu') ||
+      segments.some((s) => s.venue === 'hamamatsu' && s.booths.length > 0) ||
+      /(浜松|HAMAMATSU)\s*限定/i.test(normalizeText(combined)) ||
+      (/浜松|HAMAMATSU/i.test(combined) && /販売情報|完売情報|在庫情報/.test(combined));
+
+    if (!namesTarget && !hamamatsuOnly) {
+      const inScope = VENUES.filter((v) => input.official.some((o) => o.venue === v));
+      for (const v of inScope) proven.add(v);
+      if (inScope.length > 0) {
+        source = 'event-wide';
+        evidence.push(
+          `会場を限定していないマジカルミライの告知なので、公式の出展先である${inScope
+            .map((v) => REF_VENUE_META[v].label)
+            .join('・')}すべてに適用`,
+        );
+      }
+    }
+  }
+
   // --- 5. 「◯◯のお品書き」で画像が別会場に紐づいているものを外す ---
   // 会場自体は正しく証明できていても、貼られている画像が別会場のものなら、
   // その会場のページに載せてはいけない。

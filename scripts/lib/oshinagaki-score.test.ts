@@ -53,8 +53,10 @@ test('浜松（終了済み・対象外）だけの投稿は候補から外れ�
       createdAt: '2026-07-21T06:45:10Z',
     }),
   );
-  assert.equal(r.score, 0, `signals=${r.signals.join(', ')}`);
-  assert.ok(r.signals.some((s) => s.includes('浜松のみ')));
+    // スコアでは落とさない。「大阪と証明できない」ため掲載されない
+    // （curation.test.ts の「浜松だけのお品書きはどこにも出ない」が担保）。
+    // スコア0にすると候補から外れ、画像判別で拾い直す機会まで失われる。
+    assert.ok(r.score > 0, `足切りされている: signals=${r.signals.join(', ')}`);
 });
 
 test('シグナルが揃った浜松の投稿でも足切りされる（減点では防げない）', () => {
@@ -71,8 +73,9 @@ test('シグナルが揃った浜松の投稿でも足切りされる（減点�
       createdAt: '2026-07-16T18:06:00Z',
     }),
   );
-  assert.equal(r.score, 0, `除外されていない: score=${r.score} signals=${r.signals.join(', ')}`);
-  assert.ok(!isCandidate(r));
+    // 同上。スコアは高くてよい。載せるかどうかは会場帰属が決める。
+    assert.ok(r.score > 0, `足切りされている: signals=${r.signals.join(', ')}`);
+    assert.ok(isCandidate(r));
 });
 
 test('浜松と大阪の両方に触れる投稿は減点しない', () => {

@@ -251,13 +251,33 @@ test('1会場にしか出ていない作者は消去法で確定する', () => {
   assert.equal(r.source, 'sole-venue');
 });
 
-test('消去法は本文が他会場に言及していたら使わない', () => {
+test('浜松に触れていても、会場を限定していなければ出展先に適用する', () => {
+  // その作者は大阪にしか出ていない。浜松への言及は過去の話であって、
+  // このお品書きが浜松のものだという意味ではない。
   const r = attributeFromText({
     text: '浜松ではお世話になりました。お品書きです',
     handle: 'x',
     official: official({ osaka: 'D-3' }),
   });
-  assert.deepEqual(r.provenVenues, []);
+  assert.deepEqual(r.provenVenues, ['osaka']);
+});
+
+test('浜松限定だと明示していれば全会場には広げない', () => {
+  for (const text of [
+    '#マジカルミライ2026 浜松 お品書きです！', // 浜松とお品書きが結びついている
+    'マジカルミライ2026 浜松 A-13 で頒布します', // 浜松のブース番号がある
+    // 実データ: 「浜松限定グラスクロス」が大阪・東京に出ていた
+    '【マジカルミライ2026グッズ情報】浜松限定グラスクロス👓 価格：1,100円（税込）',
+    // 実データ: 会期中の実況が大阪・東京に出ていた
+    '＼ #マジカルミライ2026 HAMAMATSU 販売情報／ 肩乗りぬいぐるみショルダーパッド 初音ミク',
+  ]) {
+    const r = attributeFromText({
+      text,
+      handle: 'x',
+      official: official({ hamamatsu: 'A-13', osaka: 'D-3', tokyo: 'C-5' }),
+    });
+    assert.deepEqual(r.provenVenues, [], `全会場に広げてしまっている: ${text}`);
+  }
 });
 
 test('浜松にしか出ていない作者は確定しない（対象外）', () => {
@@ -269,15 +289,30 @@ test('浜松にしか出ていない作者は確定しない（対象外）', ()
   assert.deepEqual(r.provenVenues, []);
 });
 
-test('会場名もブース番号も無く複数会場に出ている作者は確定しない', () => {
-  // ここが「画像から読み取る」層に回るケース
+test('会場を限定していないイベント全体の告知は、出展する全会場に適用する', () => {
+  // 実データ:
+  //   「【鬱P新譜情報】マジカルミライクリエイターズマーケットにて新譜カセット
+  //     テープ「H.M.1996」を頒布します。1000円です。」
+  // 「マジカルミライで頒布します」としか言っておらず会場を限定していない。
+  // 限定していない以上、その作者が出展する全会場に並ぶ。
   const r = attributeFromText({
     text: 'Mini Album 「Special Tea」 マジカルミライ2026クリエイターズマーケットで頒布します',
     handle: 'shinra_logic',
     official: official({ osaka: 'B-5', tokyo: 'C-9' }),
   });
+  assert.deepEqual(r.provenVenues, ['osaka', 'tokyo']);
+  assert.equal(r.source, 'event-wide');
+});
+
+test('ブース番号を書いているなら全体告知とは見なさない', () => {
+  // 番号を書いているのは特定のブースの話。C-8 が複数会場にあるとき、
+  // 全会場に広げるのは誤りで、「どの会場か分からない」が正しい。
+  const r = attributeFromText({
+    text: 'お品書きです。C-8 でお待ちしています',
+    handle: 'x',
+    official: official({ hamamatsu: 'C-8', osaka: 'C-8' }),
+  });
   assert.deepEqual(r.provenVenues, []);
-  assert.equal(r.source, 'unresolved');
 });
 
 test('全角のブース番号でも公式と照合できる', () => {

@@ -90,18 +90,26 @@ async function main() {
         continue;
       }
 
-      // 2. 浜松のことしか書いていない投稿が、大阪・東京のページに出ている。
-      //    これが最初に担保を破った混入。大阪と東京の間の言及は見ない。
-      //    クリエイターは両会場に出るので片方だけに触れることは普通にあり、
-      //    「2024年の東京・千本桜展以来ですかね」のような余談も混ざる。
-      //    会場の証明は帰属判定が受け持っている。
+      // 2. 浜松に閉じた投稿が、大阪・東京のページに出ている。
+      //    これが最初に担保を破った混入。
+      //
+      //    ただし「浜松に言及している」だけでは混入と言えない。
+      //    「マジカルミライで頒布します。浜松は26日のみなので要注意」のような
+      //    イベント全体の告知では、浜松が日程の注意書きとして出てくる。
+      //    浜松に閉じていることを示す語がある場合だけを混入とする。
+      //
+      //    大阪と東京の間の言及は見ない。クリエイターは両会場に出るので
+      //    片方だけに触れることは普通にあり、余談も混ざる。
       const mentioned = REF_VENUES.filter((v: RefVenue) =>
         REF_VENUE_META[v].aliases.some((a) => norm.includes(normalizeText(a))),
       );
-      if (mentioned.length > 0 && mentioned.every((v) => v === 'hamamatsu')) {
+      const hamamatsuScoped =
+        imageBoundVenues(text).includes('hamamatsu') ||
+        /(浜松|HAMAMATSU)\s*限定|販売情報|完売情報|在庫情報/i.test(norm);
+      if (mentioned.length > 0 && mentioned.every((v) => v === 'hamamatsu') && hamamatsuScoped) {
         violations.push({
           page: dir,
-          reason: '浜松のことしか書いていない',
+          reason: '浜松に閉じた内容',
           excerpt,
         });
         continue;
