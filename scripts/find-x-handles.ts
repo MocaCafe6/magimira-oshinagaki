@@ -82,6 +82,63 @@ async function searchAccounts(
   });
 }
 
+/**
+ * X の「話題」検索から、投稿とその著者を拾う。
+ *
+ * ユーザー検索が役に立たないサークルが多い。屋号でアカウントを作って
+ * いない、表示名に絵文字や別名を入れている、そもそも名前が一般的すぎる。
+ * 実測でユーザー検索から自動確定できたのは59件中1件だけだった。
+ *
+ * 一方、そのサークルが出展告知をしていれば、本文に必ずサークル名と
+ * ブース番号が入る。その投稿の著者が本人である。名前の似ている別人を
+ * 拾う余地が無いので、ユーザー検索より確度が高い。
+ */
+async function searchPosts(
+  page: Page,
+  query: string,
+): Promise<{ handle: string; text: string }[]> {
+  const url = `https://x.com/search?f=live&q=${encodeURIComponent(query)}`;
+  await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 45_000 });
+  if (looksLoggedOut(page.url())) throw new Error('ログイン画面に飛ばされました');
+  await page.waitForTimeout(4000);
+
+  return await page.evaluate(() => {
+    const out: { handle: string; text: string }[] = [];
+    for (const art of Array.from(document.querySelectorAll('article')).slice(0, 12)) {
+      const el = art as HTMLElement;
+      const href = Array.from(el.querySelectorAll('a[href*="/status/"]'))
+        .map((a) => a.getAttribute('href') ?? '')
+        .find((h) => /^\/[^/]+\/status\/\d+/.test(h));
+      const handle = href ? href.split('/')[1]! : '';
+      if (!handle) continue;
+      const body = el.querySelector('[data-testid="tweetText"]') as HTMLElement | null;
+      out.push({ handle, text: (body?.innerText ?? el.innerText).slice(0, 600) });
+    }
+    return out;
+  });
+}
+
+/** 「A-13」「A13」「Ａ－１３」などの揺れを潰す */
+function canonBooth(s: string): string {
+  return s
+    .replace(/[Ａ-Ｚａ-ｚ０-９－―ー]/g, (c) =>
+      '－―ー'.includes(c) ? '-' : String.fromCharCode(c.charCodeAt(0) - 0xfee0),
+    )
+    .toUpperCase()
+    .replace(/^([A-Z])\s*-?\s*0*(\d+)$/, '$1-$2');
+}
+
+/** 本文にこのブース番号が書かれているか */
+function textHasBooth(text: string, booth: string): boolean {
+  const want = canonBooth(booth);
+  const m = /^([A-Z])-(\d+)$/.exec(want);
+  if (!m) return false;
+  const re = new RegExp(`${m[1]}\\s*[-‐‑–—ー―]?\\s*0*${m[2]}(?![0-9])`, 'i');
+  return re.test(
+    text.replace(/[Ａ-Ｚａ-ｚ０-９]/g, (c) => String.fromCharCode(c.charCodeAt(0) - 0xfee0)),
+  );
+}
+
 async function main(): Promise<void> {
   const argv = process.argv.slice(2);
   const get = (f: string): string | null => {
@@ -160,10 +217,53 @@ async function main(): Promise<void> {
       t.reason = `表示名が「${exact[0]!.displayName}」で完全一致`;
     } else if (exact.length > 1) {
       t.reason = `表示名が一致する候補が${exact.length}件あり、判断がつかない`;
-    } else if (t.found.length > 0) {
-      t.reason = '表示名が一致する候補が無い（要確認）';
-    } else if (!t.reason) {
-      t.reason = '候補が見つからなかった';
+    }
+
+    // --- 投稿検索。ユーザー検索で決まらなかったものを追う ---
+    //
+    // 「サークル名 + マジカルミライ」で投稿を検索し、その本文に
+    // **公式のブース番号**が書かれていたら、その著者を本人とみなす。
+    //
+    // 名前だけの一致とは別物である。公式の出展記録にあるブース番号を
+    // 自分の告知として書けるのは出展者本人だけで、同名の別人が偶然
+    // 一致する余地が無い。会場帰属の判定で使っている証明と同じ強さ。
+    if (!t.best) {
+      const booths = t.venues.map((v) => v.boothId).filter((b): b is string => Boolean(b));
+      if (booths.length > 0) {
+        try {
+          const hits = await searchPosts(page, `${t.circleName} マジカルミライ`);
+          const proved = hits.filter(
+            (p) =>
+              booths.some((b) => textHasBooth(p.text, b)) &&
+              canonName(p.text).includes(canonName(t.circleName)),
+          );
+          const handles = [...new Set(proved.map((p) => p.handle))];
+          for (const h of handles) {
+            if (!t.found.some((x) => x.handle === h)) {
+              const sample = proved.find((p) => p.handle === h)!;
+              t.found.push({
+                handle: h,
+                displayName: '(投稿検索)',
+                bio: sample.text.replace(/\s+/g, ' ').slice(0, 120),
+                verified: false,
+              });
+            }
+          }
+          if (handles.length === 1) {
+            t.best = handles[0]!;
+            t.reason = `投稿本文に公式ブース番号（${booths.join('/')}）とサークル名の両方があり、本人と確定`;
+          } else if (handles.length > 1) {
+            t.reason = `ブース番号入りの投稿が${handles.length}アカウントから出ており、判断がつかない`;
+          }
+        } catch (e) {
+          t.reason = `投稿検索失敗: ${(e as Error).message}`;
+        }
+        await sleep(jitter(DELAY_MIN_MS, DELAY_MAX_MS));
+      }
+    }
+
+    if (!t.best && !t.reason) {
+      t.reason = t.found.length > 0 ? '表示名が一致する候補が無い（要確認）' : '候補が見つからなかった';
     }
 
     console.log(
@@ -177,11 +277,33 @@ async function main(): Promise<void> {
 
   const out = [...targets.values()];
   await writeJson(dataPath('x-handle-candidates.json'), out);
+
+  // ブース番号で証明できたものだけ自動採用する。
+  //
+  // 表示名の一致は自動採用しない方針を続ける（同名の別人を紐づけると
+  // 無関係な投稿がそのブースのお品書きとして公開されるため）。
+  // 一方こちらは「公式の出展記録にあるブース番号を自分の告知として
+  // 書いている」という証明で、会場帰属の判定で使っているものと同じ強さ。
+  // 人手の確認を挟む理由が無いので機械が採る。
+  const proven = await readJson<Record<string, string[]>>(dataPath('x-handles-proven.json'), {});
+  let added = 0;
+  for (const t of out) {
+    if (!t.best || !t.reason.includes('本人と確定')) continue;
+    const cur = proven[t.circleName] ?? [];
+    if (!cur.includes(t.best)) {
+      proven[t.circleName] = [...cur, t.best];
+      added++;
+    }
+  }
+  await writeJson(dataPath('x-handles-proven.json'), proven);
+
   const decided = out.filter((t) => t.best).length;
   console.log(`\n完了`);
   console.log(`  最有力候補まで絞れた: ${decided}件 / ${out.length}件`);
-  console.log(`  → data/x-handle-candidates.json`);
-  console.log(`\n中身を確認して data/x-handles-manual.json に採用してください。`);
+  console.log(`  ブース番号で証明でき、自動採用した: ${added}件`);
+  console.log(`  → data/x-handles-proven.json（自動）`);
+  console.log(`  → data/x-handle-candidates.json（提案）`);
+  console.log(`\n残りは中身を確認して data/x-handles-manual.json に採用してください。`);
   console.log(`  形式: { "サークル名": ["handle"] }`);
 }
 

@@ -1,155 +1,5 @@
 [
   {
-    "circleName": "薄塩指数",
-    "memberNames": [
-      "薄塩指数"
-    ],
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A-7"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A-7"
-      }
-    ],
-    "found": [
-      {
-        "handle": "usushioshisuu",
-        "displayName": "薄塩指数 Usushioshisuu",
-        "bio": "フォロー VOCALOID Producer/Composer  http:// linktr.ee/usushioshisuu",
-        "verified": false
-      },
-      {
-        "handle": "UsushioTheBand",
-        "displayName": "薄塩指数 The Band (ex.シオミズ)",
-        "bio": "フォロー ボカロP・薄塩指数のバンドアカウントでありライブインフォメーション 次回ライブ→??? 《The Band》 Vo/Gt 薄塩指数  @usushioshisuu  Ba うえっつ  @uettu  Dr きりやん  @basis",
-        "verified": false
-      },
-      {
-        "handle": "ususiobot",
-        "displayName": "薄塩指数歌詞bot",
-        "bio": "フォロー 非公式",
-        "verified": false
-      },
-      {
-        "handle": "usushioshisuud",
-        "displayName": "薄塩指数 Usushioshisuu(usushioshisuu)",
-        "bio": "フォロー #薄塩指数 Usushioshisuu #usushioshisuu",
-        "verified": false
-      },
-      {
-        "handle": "KellyBrown54336",
-        "displayName": "薄塩指数 Usushioshisuu|usushioshisuu",
-        "bio": "フォロー #薄塩指数 Usushioshisuu #usushioshisuu 账号互动暂不可用，我的660936号粉丝宝宝别被骗！福利已迁移新平台，主页有链接~",
-        "verified": false
-      },
-      {
-        "handle": "emma_pullm17721",
-        "displayName": "薄塩指数 Usushioshisuu|usushioshisuu",
-        "bio": "フォロー #薄塩指数 Usushioshisuu #usushioshisuu 官方提示！我的142296号粉丝宝宝：大号暂时不可发布，福利已搬到新平台，主页有最新链接~",
-        "verified": false
-      }
-    ],
-    "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
-  },
-  {
-    "circleName": "BASYAUMA RECORDS",
-    "memberNames": [
-      "*Luna"
-    ],
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A-13"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A-21"
-      }
-    ],
-    "found": [
-      {
-        "handle": "BasyaumaRecords",
-        "displayName": "BASYAUMA RECORDS",
-        "bio": "フォロー 馬車馬のように働いています。 BASYAUMA RECORDS公式アカウントです。  https:// luna-catbird.booth.pm",
-        "verified": false
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "cyber_cat7",
-        "displayName": "CAT",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
-    "best": "BasyaumaRecords",
-    "reason": "表示名が「BASYAUMA RECORDS」で完全一致"
-  },
-  {
-    "circleName": "海風太陽",
-    "memberNames": [
-      "海風太陽"
-    ],
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "B-5"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "C-2"
-      }
-    ],
-    "found": [
-      {
-        "handle": "UmiKazeTaiyouP",
-        "displayName": "海風太陽",
-        "bio": "フォロー VOCALOID/音楽制作 マジミラ2025準GP「ロンリーラン」 -YouTube-  https:// x.gd/D0UmW -niconico-  https:// x.gd/zDVCi -CD-  https:// x.g",
-        "verified": true
-      },
-      {
-        "handle": "angelfalling57",
-        "displayName": "海風太陽",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "yousuck2020",
-        "displayName": "前澤友作",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
-    "best": null,
-    "reason": "表示名が一致する候補が2件あり、判断がつかない"
-  },
-  {
     "circleName": "あいのて",
     "memberNames": [
       "appy"
@@ -200,10 +50,16 @@
         "displayName": "あいのて蒲田治療院",
         "bio": "フォロー 在宅医療リハビリマッサージあいのて蒲田治療院 無料体験受付中",
         "verified": false
+      },
+      {
+        "handle": "anison_mo_METAL",
+        "displayName": "(投稿検索)",
+        "bio": "『合成音声×HIPHOP』 書き下ろし全15曲収録 会場販売価格2,500円 ボーマス63 / マジカルミライ2026 クリエイターズマーケットにて頒布 ・ボーマス63【合成音声×HIPHOP】B9☆(B級) 7/25 B04 ・クリエイタ",
+        "verified": false
       }
     ],
-    "best": null,
-    "reason": "表示名が一致する候補が4件あり、判断がつかない"
+    "best": "anison_mo_METAL",
+    "reason": "投稿本文に公式ブース番号（C-8/D-17）とサークル名の両方があり、本人と確定"
   },
   {
     "circleName": "お商材屋さん",
@@ -256,10 +112,46 @@
         "displayName": "さくら黒い商材屋さん×物販",
         "bio": "フォロー 4人の子をもつ普通のママです♡週6フルタイム副業未経験者でも【錬金の聖典】１ヶ月で0→1達成5月から継続して聖典と物販でついに19万売り上げた聖典で生まれたで物販もっと加速させていく主婦の味方",
         "verified": false
+      },
+      {
+        "handle": "Sohbanasick",
+        "displayName": "Sohbana⁣⁣",
+        "bio": "フォロー ❖ ボカロ音楽 ❖  @Sohbanotice  ←記事・生配信通知 ❖ #Sohbanart ←FAタグ",
+        "verified": true
+      },
+      {
+        "handle": "Sohbanotice",
+        "displayName": "Sohbana Info",
+        "bio": "フォロー @Sohbanasick の告知まとめ+note更新+配信通知",
+        "verified": false
+      },
+      {
+        "handle": "sohbana786",
+        "displayName": "مساج منزلي فندقي في جدة الرياض",
+        "bio": "フォロー مساج منزلي في جدة الرياض اتصل نصل مساج فندقي في الرياض جدة اتصل نصل",
+        "verified": false
+      },
+      {
+        "handle": "sohbana",
+        "displayName": "sohbana sikander",
+        "bio": "フォロー",
+        "verified": false
+      },
+      {
+        "handle": "sohbana_98",
+        "displayName": "Sohbana",
+        "bio": "フォロー",
+        "verified": false
+      },
+      {
+        "handle": "Boys_Say_Hello",
+        "displayName": "Sohbana歌詞bot",
+        "bio": "フォロー 公認です。 毎朝8:00にSohbanaさんの曲の歌詞を呟きます。  @Sohbanasick  (たまに予約投稿を忘れちゃうので、 その時は次の日に2回ツイートします。)",
+        "verified": false
       }
     ],
-    "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "best": "sohbana_98",
+    "reason": "表示名が「Sohbana」で完全一致"
   },
   {
     "circleName": "かおなしレコード",
@@ -278,8 +170,8 @@
     ],
     "found": [
       {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
         "bio": "フォロー",
         "verified": true
       },
@@ -294,10 +186,40 @@
         "displayName": "币赚",
         "bio": "フォロー",
         "verified": true
+      },
+      {
+        "handle": "WADATAKEAKI",
+        "displayName": "和田たけあき",
+        "bio": "フォロー お行儀良く生きていました",
+        "verified": true
+      },
+      {
+        "handle": "h0FEpSHbZlqyrzP",
+        "displayName": "和田たけあき仔",
+        "bio": "フォロー",
+        "verified": false
+      },
+      {
+        "handle": "Q_nyanta",
+        "displayName": "和田たけあき",
+        "bio": "フォロー",
+        "verified": false
+      },
+      {
+        "handle": "AkitadaiY1347",
+        "displayName": "和田たけあき子",
+        "bio": "フォロー",
+        "verified": false
+      },
+      {
+        "handle": "Hiroki199008",
+        "displayName": "はなじ",
+        "bio": "フォロー",
+        "verified": true
       }
     ],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": "表示名が一致する候補が2件あり、判断がつかない"
   },
   {
     "circleName": "Glu_E",
@@ -350,10 +272,16 @@
         "displayName": "glue man ",
         "bio": "フォロー 料理とお酒とNFTが好きです。料理は作るのも食べるのも好き！金融問題のあれこれに興味あります。",
         "verified": false
+      },
+      {
+        "handle": "_Glu_E_",
+        "displayName": "(投稿検索)",
+        "bio": "【お知らせ】 マジカルミライ2026 クリエイターズマーケットに『Glu_E』で全日程出ます！ 浜松 7月24日~26日 A-7 大阪 8月14日~16日 D-7 東京 8月28日~30日 D-14 です！ 4thアルバム出します！よろしく",
+        "verified": false
       }
     ],
-    "best": null,
-    "reason": "表示名が一致する候補が2件あり、判断がつかない"
+    "best": "_Glu_E_",
+    "reason": "投稿本文に公式ブース番号（D-7/D-14）とサークル名の両方があり、本人と確定"
   },
   {
     "circleName": "ましまろ湯",
@@ -370,28 +298,9 @@
         "boothId": "D-16"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "暗黒童話唄",
@@ -408,40 +317,9 @@
         "boothId": "C-23"
       }
     ],
-    "found": [
-      {
-        "handle": "momokust",
-        "displayName": "ちゃん桃@暗黒童話唄",
-        "bio": "フォロー 暗黒童話唄考察部 8割りぐらいは妄想。残りの2割で考察してるかもしれない壁打ち垢",
-        "verified": false
-      },
-      {
-        "handle": "ankokduwa_odai",
-        "displayName": "暗黒童話唄お題用",
-        "bio": "フォロー 暗黒童話唄の絵がもっと増えろ～と思って作ったアカウントです。 毎週日曜日に適当に思いついたお題を投稿します。 暇なときに見て描いてくれたら「#暗黒童話唄画廊」付けてツイートしてくれたら見に行きます！",
-        "verified": false
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "taiga_30LiSA",
-        "displayName": "たい@LiSAッ子",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "光収容の倉庫",
@@ -459,28 +337,9 @@
         "boothId": "B-26"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "家の裏でマンボウが死んでるP",
@@ -497,34 +356,9 @@
         "boothId": "B-5"
       }
     ],
-    "found": [
-      {
-        "handle": "p",
-        "displayName": "P.",
-        "bio": "フォロー things never happened in this order. maybe they never happened at all.",
-        "verified": false
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "CRECO 株式会社ヒューネット",
@@ -539,100 +373,9 @@
         "boothId": "E1"
       }
     ],
-    "found": [
-      {
-        "handle": "Credo",
-        "displayName": "Steve Credo",
-        "bio": "フォロー 3x Emmy-Nominated Video Producer | Editor | Photographer | Content Creator  @this_is_acw   @WestPoint_USMA",
-        "verified": false
-      },
-      {
-        "handle": "cresco",
-        "displayName": "Cresco",
-        "bio": "フォロー The art of building",
-        "verified": false
-      },
-      {
-        "handle": "creico",
-        "displayName": "Creiço",
-        "bio": "フォロー Jornalista / Produtor de TV",
-        "verified": false
-      },
-      {
-        "handle": "Creyo",
-        "displayName": "Creo",
-        "bio": "フォロー #BLM #EndSARS #FreeBritney | virgo  libra ",
-        "verified": false
-      },
-      {
-        "handle": "Creho",
-        "displayName": "Uriel Alcántara",
-        "bio": "フォロー \"No había aire, tampoco gravedad\"",
-        "verified": false
-      },
-      {
-        "handle": "crecom",
-        "displayName": "Crecom",
-        "bio": "フォロー We make web apps. Just like Tally.  http:// gettally.com",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
-  },
-  {
-    "circleName": "Desktop Mate",
-    "memberNames": [],
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A2"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "D5"
-      }
-    ],
-    "found": [
-      {
-        "handle": "desktop_mate",
-        "displayName": "Desktop Mate（デスクトップメイト）｜Mac版も配信中！",
-        "bio": "フォロー 「Desktop Mate」公式アカウント 好きと、いつも一緒に。 いつものデスクトップが、ちょっと楽しくなる。ウィンドウに座ったり、時間を教えてくれたり。人気キャラクターDLC続々配信中！Win/Macに両対応！ #Deskto",
-        "verified": true
-      },
-      {
-        "handle": "Mate_Desktop",
-        "displayName": "MATE Desktop",
-        "bio": "フォロー The MATE Desktop environment is the continuation of GNOME 2. It provides an intuitive & attractive desktop environm",
-        "verified": false
-      },
-      {
-        "handle": "Desktopmag",
-        "displayName": "Desktop Magazine",
-        "bio": "フォロー The Culture of Design",
-        "verified": false
-      },
-      {
-        "handle": "desktop_matt",
-        "displayName": "Matt P",
-        "bio": "フォロー Consultant for promotional marketing, we are always looking for the very latest products to support & enhance your ",
-        "verified": false
-      },
-      {
-        "handle": "DesktopMakes",
-        "displayName": "Desktop Makes",
-        "bio": "フォロー Best selling online courses on Designing for 3D Printing with Fusion 360. Visit:  https:// desktopmakes.teachable.c",
-        "verified": false
-      },
-      {
-        "handle": "DesktopSite",
-        "displayName": "Desktop Site",
-        "bio": "フォロー Latest information about the Twitter desktop site.",
-        "verified": false
-      }
-    ],
-    "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "株式会社タイトー",
@@ -647,100 +390,9 @@
         "boothId": "E3"
       }
     ],
-    "found": [
-      {
-        "handle": "watertightkogyo",
-        "displayName": "ウォータータイト工業株式会社",
-        "bio": "フォロー 「雨に応え、建物を守る会社」 お客様の身になって建物の見えないところの問題解決に懇切丁寧に向き合い、お客様と共に防水工事及び建物維持管理のサポートに貢献することを使命と致します。 http:// Instagram.com/wat",
-        "verified": false
-      },
-      {
-        "handle": "notitle_info",
-        "displayName": "株式会社プロダクションノータイトル",
-        "bio": "フォロー ㈱プロダクションノータイトル所属タレントの出演情報を随時更新していきます。フォローもよろしくお願い致します。Instagramも始めました！  https:// instagram.com/production_not itle?",
-        "verified": false
-      },
-      {
-        "handle": "LOTASCLUB_TAITO",
-        "displayName": "株式会社タイト",
-        "bio": "フォロー 大阪の町工場の片隅で自動車整備業の産声を上げ、早くも約６０年を工場と共に育ってまいりました。我々は、先人の技術や経験に現代の最先端技術を加え、更なる技術向上を目指し地域社会に貢献できるよう歩んでまいります。フォローもお願いします(",
-        "verified": false
-      },
-      {
-        "handle": "vouNejdXh3XFynD",
-        "displayName": "株式会社タイトー",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "HuiShi35382",
-        "displayName": "株式会社タイトー",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "NnCDBK5onY448",
-        "displayName": "株式会社タイト・アーガス",
-        "bio": "フォロー 〒160-0023東京都新宿区西新宿5-8-8 TEL／03-3373-7580 営業時間／9:30～19:00、火・水定休 最寄駅／都営大江戸線『西新宿五丁目』徒歩3分 東京都知事（8）第61321号 平成2年設立 【事業内容】",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が2件あり、判断がつかない"
-  },
-  {
-    "circleName": "ムービック",
-    "memberNames": [],
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A5"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A6"
-      }
-    ],
-    "found": [
-      {
-        "handle": "movic_jp",
-        "displayName": "ムービックの中の人",
-        "bio": "フォロー アニメ・コミック・ゲームを中心としたキャラクター商品を扱うムービックの公式アカウントです。新商品や入荷情報など、最新最速情報をお届け！※こちらのアカウントからの個別返信はしておりません。",
-        "verified": true
-      },
-      {
-        "handle": "movic_pr",
-        "displayName": "ムービック宣伝中の人",
-        "bio": "フォロー キャラクターグッズを取り扱う株式会社ムービックの公式宣伝アカウントです。商品の紹介やキャンペーンなどをつぶやきます。※個別のリプライはしておりませんがメッセージBOXをつくりました http:// bit.ly/2R8afky返信",
-        "verified": true
-      },
-      {
-        "handle": "wkwkmovic",
-        "displayName": "わくわくムービック",
-        "bio": "フォロー ムービックのアナログゲームブランド『わくわくムービック』の公式アカウントです！ ムービックカードゲーム総合  @movic_tcg",
-        "verified": true
-      },
-      {
-        "handle": "movic_hmginfo",
-        "displayName": "【ムービック】初音ミクグッズ担当の人",
-        "bio": "フォロー ㈱ムービックの初音ミクをはじめとした「ピアプロキャラクターズ」のグッズ担当が新商品情報やイベント関連情報を皆様にお届けする専用アカウントです。 ★ムービック「ピアプロキャラクターズ」商品ページはコチラ⇒ http:// onl.l",
-        "verified": false
-      },
-      {
-        "handle": "movic_stage",
-        "displayName": "ムービックステージインフォメーション",
-        "bio": "フォロー ムービック制作の2.5次元舞台についての総合情報のX（旧Twitter）アカウントです。 ※基本的に個別の返信はいたしません。ハッシュタグは「#ムビステ」 YouTube専用チャンネルはこちら→ https:// youtube.",
-        "verified": false
-      },
-      {
-        "handle": "movic_tcg",
-        "displayName": "ムービック・カードゲーム総合",
-        "bio": "フォロー 株式会社ムービックのカードゲーム総合、公式アカウントです。 ＴＣＧ・アナログゲーム・関連サプライ商品等の情報をお届けします。",
-        "verified": true
-      }
-    ],
-    "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "ぼてぢゅう",
@@ -755,28 +407,9 @@
         "boothId": "D8"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "cyber_cat7",
-        "displayName": "CAT",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "MIKU EXPO グッズ販売ブース",
@@ -791,46 +424,9 @@
         "boothId": "C5"
       }
     ],
-    "found": [
-      {
-        "handle": "mikuexpo",
-        "displayName": "MIKU EXPO",
-        "bio": "フォロー Art by suzunosuke © Crypton Future Media, INC.  https:// piapro.net #MIKUEXPO2026",
-        "verified": true
-      },
-      {
-        "handle": "Mikeekpo",
-        "displayName": "Michael Ekpo",
-        "bio": "フォロー Service to God and humanity. A perfectionist, totally humble, creative and distinct, spiritually absolute and aggre",
-        "verified": false
-      },
-      {
-        "handle": "Mikexpd",
-        "displayName": "Mikexpd",
-        "bio": "フォロー SEO and Marketing. Giving free and Impartial information for debt issues.",
-        "verified": false
-      },
-      {
-        "handle": "MikuEndo",
-        "displayName": "遠藤みく / Miku Endo",
-        "bio": "フォロー ナレッジワーク ◀︎ ユーザベース ◀︎ Sansan ◀︎ ベーシック ◀︎ Sler社長秘書 | 飲みの場が大好きです",
-        "verified": true
-      },
-      {
-        "handle": "miko_expo",
-        "displayName": "Miko",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "MikuMipo",
-        "displayName": "西村実紅@FC町田ゼルビア",
-        "bio": "フォロー Cyberagent 21卒入社 ｜2023シーズン→#FC町田ゼルビア 広報",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "初音ミク エムアイカード",
@@ -845,28 +441,9 @@
         "boothId": "B6"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "ぬいぐるみメーカー Gift",
@@ -881,46 +458,9 @@
         "boothId": "B7"
       }
     ],
-    "found": [
-      {
-        "handle": "GIFs",
-        "displayName": "The Ministry of GIFs",
-        "bio": "フォロー Purveyors of fine animated GIFs since 2012 ",
-        "verified": false
-      },
-      {
-        "handle": "GIFE",
-        "displayName": "GIFE",
-        "bio": "フォロー Pelo fortalecimento da filantropia e do investimento social.",
-        "verified": false
-      },
-      {
-        "handle": "GIF3",
-        "displayName": "GIF",
-        "bio": "フォロー 背景無地",
-        "verified": false
-      },
-      {
-        "handle": "gifts",
-        "displayName": "Gifts.ly",
-        "bio": "フォロー Get your gift on with great ideas, stories, and thoughts. Tis better to give and receive.",
-        "verified": false
-      },
-      {
-        "handle": "gifqt",
-        "displayName": "cece─vsy、ѕxи｡",
-        "bio": "フォロー ㅤㅤㅤㅤ #⃝RP ⋆ occupé à aimer  @jeovjeka ♡̷、",
-        "verified": false
-      },
-      {
-        "handle": "Gifty",
-        "displayName": "Sofia Flores",
-        "bio": "フォロー music and travel addicted. product manager. geek(ish). sporting clube de portugal supporter. expat in the netherlan",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "Domingoブース",
@@ -935,46 +475,9 @@
         "boothId": "C6"
       }
     ],
-    "found": [
-      {
-        "handle": "dominos",
-        "displayName": "Domino's Pizza",
-        "bio": "フォロー Grokによる翻訳 ドミノ・ピザを言うときには、ミャムとも言わずにいられないね",
-        "verified": true
-      },
-      {
-        "handle": "Domingo",
-        "displayName": "PA ",
-        "bio": "フォロー @DomingoTV ,  @PopcornTalkShow  &  @FCSilmi  | contactpro@domingo.tv",
-        "verified": true
-      },
-      {
-        "handle": "DomingoTV",
-        "displayName": "DomingoTV",
-        "bio": "フォロー Retrouvez ici toutes les actualités de  @Domingo   Pour retrouver les actus du FC Silmi   @FCSilmi",
-        "verified": true
-      },
-      {
-        "handle": "domingao",
-        "displayName": "Domingão com Huck",
-        "bio": "フォロー Programa de TV",
-        "verified": true
-      },
-      {
-        "handle": "Domingopp",
-        "displayName": "José",
-        "bio": "フォロー Humanista. Sigo al Presidente Maduro. Soy muy crítico y autocrítico. Los medios de comunicación nuestros principale",
-        "verified": false
-      },
-      {
-        "handle": "Domingol",
-        "displayName": "Domingol",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "雪ミク スカイタウン出張所",
@@ -989,28 +492,9 @@
         "boothId": "C7"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "(株)ヤマハミュージックジャパン",
@@ -1025,82 +509,9 @@
         "boothId": "F1"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "wolfyxbt",
-        "displayName": "杀破狼 WolfyXBT",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
-  },
-  {
-    "circleName": "グッドスマイルカンパニー",
-    "memberNames": [],
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "B2"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "B3"
-      }
-    ],
-    "found": [
-      {
-        "handle": "gsc_goodsmile",
-        "displayName": "グッドスマイルカンパニー【公式】",
-        "bio": "フォロー グッドスマイルカンパニーの公式Xアカウント。 最新情報や商品情報・関連情報などをお知らせします！ ※27新卒選考エントリー受付中： https:// goodsmile.link/XLANYW ※商品等のご質問はカスタマーサポート",
-        "verified": true
-      },
-      {
-        "handle": "goodsmilejp",
-        "displayName": "グッドスマイルカンパニー公式ショップ ☺︎",
-        "bio": "フォロー ねんどろいど等を展開するフィギュアメーカー：グッドスマイルカンパニーの公式通販サイトです ■クレジットカード決済ができない場合の対処法について  https:// support.goodsmile.com/hc/ja/artic",
-        "verified": true
-      },
-      {
-        "handle": "nendoroid_pr",
-        "displayName": "ねんどろいど公式【グッドスマイルカンパニー】",
-        "bio": "フォロー デフォルメ可動フィギュアシリーズ『ねんどろいど』の公式Xアカウント。 #ねんどろいど に関する様々な情報をお届けします。",
-        "verified": true
-      },
-      {
-        "handle": "gsc_yoshii",
-        "displayName": "よしい(グッドスマイルカンパニー)",
-        "bio": "フォロー グッドスマイルカンパニーというフィギュアメーカーで広報宣伝をやっています。映画とドラマがすきです。",
-        "verified": false
-      },
-      {
-        "handle": "mokonokokonoha",
-        "displayName": "ワールドピース・グッドスマイルカンパニー",
-        "bio": "フォロー 私はいつか全てを越えたい  @PATRIOTraufa",
-        "verified": false
-      },
-      {
-        "handle": "air_king48",
-        "displayName": "のっち",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
-    "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "クリプトン・フューチャー・メディア株式会社 SONICWIREチーム",
@@ -1115,28 +526,9 @@
         "boothId": "F2"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "09Takenoko27",
-        "displayName": "たけのこ",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "Flandre1770",
-        "displayName": "✝︎霧雨ふらん✝︎＠8.16 コミケday2 大友ソウリン",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "ギターメーカー(株)ESP",
@@ -1151,28 +543,9 @@
         "boothId": "E9"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray",
@@ -1187,28 +560,9 @@
         "boothId": "E7"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "初音ミクシンフォニー2026",
@@ -1223,28 +577,9 @@
         "boothId": "A7"
       }
     ],
-    "found": [
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "tamiraa_VRC",
-        "displayName": "たみ",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "「マジカルミライ」ブース TOKYO MX",
@@ -1259,28 +594,9 @@
         "boothId": "A10"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "coolish",
-        "displayName": "paulwei",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "HMV＆BOOKS",
@@ -1295,28 +611,9 @@
         "boothId": "A9"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "akiko_lawson",
-        "displayName": "ローソン",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "COCOLLABO(ココラボ)＆SOLWA(ソルワ)",
@@ -1331,28 +628,9 @@
         "boothId": "D11"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "dajingou1",
-        "displayName": "pandaWL",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "株式会社セガ フェイブ",
@@ -1367,28 +645,9 @@
         "boothId": "A3"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
@@ -1403,28 +662,9 @@
         "boothId": "A5"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "いたラック",
@@ -1439,28 +679,9 @@
         "boothId": "D3"
       }
     ],
-    "found": [
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "akiko_lawson",
-        "displayName": "ローソン",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "株式会社デザインココ",
@@ -1475,28 +696,9 @@
         "boothId": "D10"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "COSPA (コスパ)",
@@ -1511,28 +713,9 @@
         "boothId": "D1"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "Piit",
@@ -1547,28 +730,9 @@
         "boothId": "C4"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "ボークス",
@@ -1583,28 +747,9 @@
         "boothId": "B4"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "taiga_30LiSA",
-        "displayName": "たい@LiSAッ子",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "株式会社インターネット",
@@ -1619,28 +764,9 @@
         "boothId": "F4"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "アイアップ",
@@ -1655,28 +781,9 @@
         "boothId": "F5"
       }
     ],
-    "found": [
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "wolfyxbt",
-        "displayName": "杀破狼 WolfyXBT",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "奏の森リゾート",
@@ -1691,28 +798,9 @@
         "boothId": "F6"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "ETERNO RÉCIT (エテルノレシ)",
@@ -1727,28 +815,9 @@
         "boothId": "D2"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "チュロス製造所",
@@ -1763,28 +832,9 @@
         "boothId": "G1"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "taiga_30LiSA",
-        "displayName": "たい@LiSAッ子",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "（株）バンダイ",
@@ -1799,28 +849,9 @@
         "boothId": "ガチャ"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "大阪府赤十字血液センター",
@@ -1831,28 +862,9 @@
         "boothId": null
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "CielP",
@@ -1865,28 +877,9 @@
         "boothId": "B-16"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "forute | フヲルテ",
@@ -1899,28 +892,9 @@
         "boothId": "B-32"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "いえぬ",
@@ -1933,28 +907,9 @@
         "boothId": "D-15"
       }
     ],
-    "found": [
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Kikyou_cas",
-        "displayName": "環 桔梗/Meguru",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "札幌市ふるさと納税",
@@ -1965,28 +920,9 @@
         "boothId": "A2"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "mozu_vr",
-        "displayName": "もず",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "Tatibana_Sion",
-        "displayName": "立花　紫苑",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "echo",
@@ -1997,28 +933,9 @@
         "boothId": "B5"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "（株）ク・ラッチ コラボアパレル",
@@ -2029,28 +946,9 @@
         "boothId": "B8"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "Gugenka",
@@ -2061,28 +959,9 @@
         "boothId": "C1"
       }
     ],
-    "found": [
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "dajingou1",
-        "displayName": "pandaWL",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "Start Flowers",
@@ -2093,28 +972,9 @@
         "boothId": "D4"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "株式会社タニタ",
@@ -2125,28 +985,9 @@
         "boothId": "D6"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "株式会社タカラトミーアーツ",
@@ -2157,28 +998,9 @@
         "boothId": "E2"
       }
     ],
-    "found": [
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Kikyou_cas",
-        "displayName": "環 桔梗/Meguru",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "Ableton",
@@ -2189,28 +1011,9 @@
         "boothId": "E5"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "株式会社フックアップ",
@@ -2221,28 +1024,9 @@
         "boothId": "E6"
       }
     ],
-    "found": [
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Tatibana_Sion",
-        "displayName": "立花　紫苑",
-        "bio": "フォロー",
-        "verified": false
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "一般社団法人JSPA",
@@ -2253,28 +1037,9 @@
         "boothId": "F3"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "Hiroki199008",
-        "displayName": "はなじ",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "ShinjyuuuuuW",
-        "displayName": "おっ",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "TNOC THE SNOW MIKU CAFE 2026",
@@ -2285,28 +1050,9 @@
         "boothId": "G2"
       }
     ],
-    "found": [
-      {
-        "handle": "ai_hllv",
-        "displayName": "れなお@AIイラスト",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "cyber_cat7",
-        "displayName": "CAT",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   },
   {
     "circleName": "愛の助け合い献血（千葉県赤十字血液センター）",
@@ -2317,27 +1063,8 @@
         "boothId": null
       }
     ],
-    "found": [
-      {
-        "handle": "CoinToEarn",
-        "displayName": "币赚",
-        "bio": "フォロー",
-        "verified": true
-      },
-      {
-        "handle": "09Takenoko27",
-        "displayName": "たけのこ",
-        "bio": "フォロー",
-        "verified": false
-      },
-      {
-        "handle": "PositiveSalon",
-        "displayName": "アドラー心理学サロン(アドサロ)",
-        "bio": "フォロー",
-        "verified": true
-      }
-    ],
+    "found": [],
     "best": null,
-    "reason": "表示名が一致する候補が無い（要確認）"
+    "reason": ""
   }
 ]

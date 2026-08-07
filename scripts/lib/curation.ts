@@ -229,7 +229,17 @@ export function selectReferencePostsForVenue(
 
     if (p.isRetweet || p.isReply) return false;
     if (!isMagimiraPost(p)) return false;
-    if (!isOshinagakiPost(p)) return false;
+    // 確定枠（selectPostsForVenue）と同じ条件にする。
+    //
+    // ここが isOshinagakiPost だけだった間、新商品紹介の投稿は
+    // 確定枠から外れると参考枠にも入れず、そのまま消えていた。実データ:
+    //   「【鬱P新譜情報】…新譜カセットテープ「H.M.1996」を頒布します。
+    //     1000円です。…浜松は26日(日)のみなので要注意！」
+    //   「#マジカルミライ2026 HAMAMATSU 追加情報 物販に先行販売アイテムが
+    //     追加！」（グッスマ）
+    // どちらも「お品書き」の語が無いため落ちていた。
+    // 浜松のものでも参考として見せる運用なのだから、見せずに捨てない。
+    if (!isOshinagakiPost(p) && !isProductPost(p)) return false;
     // 対象会場のお品書きだと確定しているならそちらで載る
     if ((p.attribution?.provenVenues.length ?? 0) > 0) return false;
 

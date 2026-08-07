@@ -384,6 +384,26 @@ test('浜松のお品書きは参考枠に入る（確定枠には入らない�
   );
 });
 
+test('浜松の商品紹介も参考枠に入る（お品書きの語が無くても捨てない）', () => {
+  // 参考枠が isOshinagakiPost だけを見ていた間、確定枠から外れた
+  // 商品紹介の投稿は参考枠にも入れずそのまま消えていた。実データ:
+  for (const text of [
+    '【鬱P新譜情報】マジカルミライクリエイターズマーケットにて2年ぶりの' +
+      '新譜カセットテープ「H.M.1996」を頒布します。1000円です。' +
+      '🚨浜松は26日(日)のみなので要注意！',
+    '／ #初音ミク「#マジカルミライ 2026」HAMAMATSU 追加情報📢 ＼' +
+      ' 1⃣物販に先行販売アイテムが追加！先行販売価格 1,100円（税込）',
+  ]) {
+    const p = post({ id: '1', text, attribution: attribution({ otherVenues: ['hamamatsu'] }) });
+    assert.deepEqual(selectPostsForVenue([p], curation(), 'osaka'), []);
+    assert.deepEqual(
+      ids(selectReferencePostsForVenue([p], curation(), 'osaka', atVenue)),
+      ['1'],
+      `参考枠から落ちている: ${text.slice(0, 30)}`,
+    );
+  }
+});
+
 test('その会場のお品書きが既にあるサークルには参考を出さない', () => {
   const confirmed = post({
     id: 'ok',

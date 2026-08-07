@@ -55,7 +55,21 @@ function parseArgs(argv: string[]): { venues: Venue[] } {
  * 形式: { "サークル名": ["handle", ...] }
  */
 async function loadManualHandles(): Promise<Record<string, string[]>> {
-  return await readJson<Record<string, string[]>>(dataPath('x-handles-manual.json'), {});
+  // 2つある。
+  //   x-handles-proven.json … find-x-handles が自動で書く。
+  //     「投稿本文に公式のブース番号とサークル名の両方がある」で証明
+  //     できたものだけ。同名の別人が偶然一致する余地が無いので機械が採る。
+  //   x-handles-manual.json … 人が書く。表示名やプロフィールを見て判断した分。
+  const proven = await readJson<Record<string, string[]>>(dataPath('x-handles-proven.json'), {});
+  const manual = await readJson<Record<string, string[]>>(dataPath('x-handles-manual.json'), {});
+  const merged: Record<string, string[]> = {};
+  for (const src of [proven, manual]) {
+    for (const [name, handles] of Object.entries(src)) {
+      if (name.startsWith('_')) continue; // 説明用のキー
+      merged[name] = [...new Set([...(merged[name] ?? []), ...handles])];
+    }
+  }
+  return merged;
 }
 
 function applyManualHandles(list: Creator[], manual: Record<string, string[]>): void {
