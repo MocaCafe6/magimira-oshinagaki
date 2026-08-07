@@ -29,7 +29,7 @@ permissions:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 50
+    timeout-minutes: 55
     steps:
       - uses: actions/checkout@v4
 
@@ -67,7 +67,10 @@ jobs:
         # 3時間おきに163アカウント全部を回すと1日1300回のアクセスになり
         # 凍結を招く。この指定なら1回あたり1/4程度に分散しつつ、
         # どのアカウントも1日2回は確認できる。
-        run: npx tsx scripts/crawl-x.ts --stale-hours 12
+        # --max-minutes 35: 時間切れになる前に自分で切り上げて進捗を保存する。
+        # ジョブが強制終了すると進捗がコミットされず、次回も最初から巡回する
+        # ことになって永久に終わらない。切り上げれば実行ごとに前へ進む。
+        run: npx tsx scripts/crawl-x.ts --stale-hours 12 --max-minutes 35
 
       - name: スコアと会場帰属を再計算
         run: npx tsx scripts/rescore.ts

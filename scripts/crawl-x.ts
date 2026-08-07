@@ -5,6 +5,8 @@
  *   npm run crawl-x -- --handle nulut … 特定ハンドルだけ
  *   npm run crawl-x                   … 全件（161ハンドル / 約15〜25分）
  *   npm run crawl-x -- --fresh        … 前回の進捗を無視して最初から
+ *   npm run crawl-x -- --stale-hours 12 … 前回から12時間経ったものだけ再巡回
+ *   npm run crawl-x -- --max-minutes 30 … 30分で切り上げて残りは次回へ
  *   npm run crawl-x -- --headed       … ブラウザを表示して挙動を確認
  *
  * ⚠ X の規約は自動アクセスを禁止しており、アカウント凍結のリスクがある。
@@ -65,6 +67,15 @@ type Args = {
   handle: string | null;
   /** 前回の巡回から何時間経ったものを再巡回するか。null なら再巡回しない */
   staleHours: number | null;
+  /**
+   * この分数を超えたら、残りを次回に回して正常終了する。
+   *
+   * 定期実行で必要。レート制限待ちを含めると全件巡回は1時間を超えるが、
+   * CI のジョブには制限時間がある。時間切れで異常終了すると進捗が
+   * コミットされず、次回もまた最初から巡回することになって永久に終わらない。
+   * 途中で切り上げて保存すれば、実行を重ねるごとに前へ進む。
+   */
+  maxMinutes: number | null;
   fresh: boolean;
   headed: boolean;
 };
@@ -84,10 +95,16 @@ function parseArgs(argv: string[]): Args {
   if (staleHours !== null && !(staleHours > 0)) {
     throw new Error(`--stale-hours は正の数（受け取った値: ${staleRaw}）`);
   }
+  const maxRaw = get('--max-minutes');
+  const maxMinutes = maxRaw === null ? null : Number(maxRaw);
+  if (maxMinutes !== null && !(maxMinutes > 0)) {
+    throw new Error(`--max-minutes は正の数（受け取った値: ${maxRaw}）`);
+  }
   return {
     limit,
     handle: get('--handle'),
     staleHours,
+    maxMinutes,
     fresh: argv.includes('--fresh'),
     headed: argv.includes('--headed'),
   };
@@ -265,7 +282,20 @@ async function main(): Promise<void> {
     let processed = 0;
     let rateLimitRetries = 0;
 
+    const deadline =
+      args.maxMinutes === null ? null : Date.now() + args.maxMinutes * 60_000;
+
     while (pending.length > 0) {
+      // 時間切れなら、残りを次回に回して正常終了する。
+      // 異常終了させると進捗が保存されず、次回もまた最初から巡回することになる。
+      if (deadline !== null && Date.now() >= deadline) {
+        await persist();
+        console.log(
+          `\n時間切れ（${args.maxMinutes}分）。残り ${pending.length} ハンドルは次回に回します。`,
+        );
+        break;
+      }
+
       const target = pending.shift()!;
       const { handle } = target;
 
