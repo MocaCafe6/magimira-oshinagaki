@@ -1,43 +1,11 @@
 [
   {
-    "circleName": "かおなしレコード",
-    "siteUrl": "https://karent.jp/artist/pp000812",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "C-12"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A-28"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "暗黒童話唄",
-    "siteUrl": "https://karent.jp/artist/pp000948",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "E-9"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "C-23"
-      }
-    ],
-    "handles": [
-      "joruzinhina"
-    ],
-    "adopted": "joruzinhina",
-    "reason": "公式サイト（karent.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
     "circleName": "家の裏でマンボウが死んでるP",
-    "siteUrl": "https://karent.jp/artist/pp000321",
+    "siteUrls": [
+      "https://karent.jp/artist/pp000321",
+      "https://manbo-p.com/"
+    ],
+    "siteUrl": "https://manbo-p.com/",
     "venues": [
       {
         "venue": "osaka",
@@ -48,31 +16,18 @@
         "boothId": "B-5"
       }
     ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "CRECO 株式会社ヒューネット",
-    "siteUrl": "https://creco-shop.com/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A1"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "E1"
-      }
-    ],
     "handles": [
-      "creco_tweet"
+      "takahashi_manbo",
+      "manbou_ane"
     ],
-    "adopted": "creco_tweet",
-    "reason": "公式サイト（creco-shop.com）が自社の X アカウントとしてリンクしている"
+    "adopted": null,
+    "reason": "X へのリンクが2本あり、どれが本体か決められない（takahashi_manbo, manbou_ane）"
   },
   {
     "circleName": "株式会社タイトー",
+    "siteUrls": [
+      "https://www.taito.co.jp/"
+    ],
     "siteUrl": "https://www.taito.co.jp/",
     "venues": [
       {
@@ -89,48 +44,10 @@
     "reason": "サイトに X へのリンクが無い"
   },
   {
-    "circleName": "ぼてぢゅう",
-    "siteUrl": "https://botejyu.co.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A6"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "D8"
-      }
-    ],
-    "handles": [
-      "botejyu_groupjp",
-      "BOTEJYU_GroupJP",
-      "BOTEJYU_Global",
-      "EatTravel_jp"
-    ],
-    "adopted": null,
-    "reason": "X へのリンクが4本あり、どれが本体か決められない（botejyu_groupjp, BOTEJYU_GroupJP, BOTEJYU_Global, EatTravel_jp）"
-  },
-  {
-    "circleName": "MIKU EXPO グッズ販売ブース",
-    "siteUrl": "https://mikuexpo.com/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A8"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "C5"
-      }
-    ],
-    "handles": [
-      "mikuexpo"
-    ],
-    "adopted": "mikuexpo",
-    "reason": "公式サイト（mikuexpo.com）が自社の X アカウントとしてリンクしている"
-  },
-  {
     "circleName": "初音ミク エムアイカード",
+    "siteUrls": [
+      "https://www2.micard.co.jp/card/miku.html?cpn_cd=miku_cfm"
+    ],
     "siteUrl": "https://www2.micard.co.jp/card/miku.html?cpn_cd=miku_cfm",
     "venues": [
       {
@@ -147,63 +64,10 @@
     "reason": "サイトに X へのリンクが無い"
   },
   {
-    "circleName": "ぬいぐるみメーカー Gift",
-    "siteUrl": "https://www.gift-gift.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A10"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "B7"
-      }
-    ],
-    "handles": [
-      "gift_news",
-      "Giftkanegon"
-    ],
-    "adopted": null,
-    "reason": "X へのリンクが2本あり、どれが本体か決められない（gift_news, Giftkanegon）"
-  },
-  {
-    "circleName": "Domingoブース",
-    "siteUrl": "https://domingo.ne.jp/snowmiku-chocolatecookie/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A11"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "C6"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "雪ミク スカイタウン出張所",
-    "siteUrl": "https://snowmiku.com/skytown/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A12"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "C7"
-      }
-    ],
-    "handles": [
-      "cfm_snowmiku"
-    ],
-    "adopted": "cfm_snowmiku",
-    "reason": "公式サイト（snowmiku.com）が自社の X アカウントとしてリンクしている"
-  },
-  {
     "circleName": "(株)ヤマハミュージックジャパン",
+    "siteUrls": [
+      "https://jp.yamaha.com/products/contents/proaudio/creator_hub/index.html"
+    ],
     "siteUrl": "https://jp.yamaha.com/products/contents/proaudio/creator_hub/index.html",
     "venues": [
       {
@@ -220,327 +84,10 @@
     "reason": "サイトに X へのリンクが無い"
   },
   {
-    "circleName": "クリプトン・フューチャー・メディア株式会社 SONICWIREチーム",
-    "siteUrl": "https://sonicwire.com/product/virtualsinger/special/index",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "B3"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "F2"
-      }
-    ],
-    "handles": [
-      "cfm_sonicwire"
-    ],
-    "adopted": "cfm_sonicwire",
-    "reason": "公式サイト（sonicwire.com）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "ギターメーカー(株)ESP",
-    "siteUrl": "https://espguitars.co.jp/artists/17779/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "B4"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "E9"
-      }
-    ],
-    "handles": [
-      "ESPGuitarsJP",
-      "cfm_miku"
-    ],
-    "adopted": null,
-    "reason": "X へのリンクが2本あり、どれが本体か決められない（ESPGuitarsJP, cfm_miku）"
-  },
-  {
-    "circleName": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray",
-    "siteUrl": "https://www.jvcmusic.co.jp/project-voltage/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "B5"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "E7"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "初音ミクシンフォニー2026",
-    "siteUrl": "https://sp.wmg.jp/mikusymphony/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "B6"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A7"
-      }
-    ],
-    "handles": [
-      "mikusymphony"
-    ],
-    "adopted": "mikusymphony",
-    "reason": "公式サイト（sp.wmg.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "HMV＆BOOKS",
-    "siteUrl": "https://www.hmv.co.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "B8"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A9"
-      }
-    ],
-    "handles": [
-      "HMV_Japan"
-    ],
-    "adopted": "HMV_Japan",
-    "reason": "公式サイト（www.hmv.co.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "COCOLLABO(ココラボ)＆SOLWA(ソルワ)",
-    "siteUrl": "https://www.cocollabo.net/pages/magicalmirai2026",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "C1"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "D11"
-      }
-    ],
-    "handles": [
-      "cocollabo"
-    ],
-    "adopted": "cocollabo",
-    "reason": "公式サイト（www.cocollabo.net）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "株式会社セガ フェイブ",
-    "siteUrl": "https://segaplaza.jp/lp/hatsunemiku/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "C2"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A3"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "プロジェクトセカイ カラフルステージ！ feat. 初音ミク",
-    "siteUrl": "https://pjsekai.sega.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "C4"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "A5"
-      }
-    ],
-    "handles": [
-      "pj_sekai"
-    ],
-    "adopted": "pj_sekai",
-    "reason": "公式サイト（pjsekai.sega.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "いたラック",
-    "siteUrl": "https://itarack.stores.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "C5"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "D3"
-      }
-    ],
-    "handles": [
-      "ita_rack"
-    ],
-    "adopted": "ita_rack",
-    "reason": "公式サイト（itarack.stores.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "株式会社デザインココ",
-    "siteUrl": "https://coco-store.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "C7"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "D10"
-      }
-    ],
-    "handles": [
-      "designcoco_t"
-    ],
-    "adopted": "designcoco_t",
-    "reason": "公式サイト（coco-store.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "COSPA (コスパ)",
-    "siteUrl": "https://www.cospa.com/cospa/event/id/27642",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "D1"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "D1"
-      }
-    ],
-    "handles": [
-      "cospa_inc"
-    ],
-    "adopted": "cospa_inc",
-    "reason": "公式サイト（www.cospa.com）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "Piit",
-    "siteUrl": "https://store.p-i-i-t.com/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "D2"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "C4"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "ボークス",
-    "siteUrl": "https://dollfie.volks.co.jp/dd/special/piapro/event/magicalmirai2026.html",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "D4"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "B4"
-      }
-    ],
-    "handles": [
-      "volks_dd",
-      "volks_doll"
-    ],
-    "adopted": null,
-    "reason": "X へのリンクが2本あり、どれが本体か決められない（volks_dd, volks_doll）"
-  },
-  {
-    "circleName": "株式会社インターネット",
-    "siteUrl": "https://www.ssw.co.jp/characters/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "D6"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "F4"
-      }
-    ],
-    "handles": [
-      "GUMIfromMegpoid"
-    ],
-    "adopted": "GUMIfromMegpoid",
-    "reason": "公式サイト（www.ssw.co.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "アイアップ",
-    "siteUrl": "https://www.eyeup.co.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "D7"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "F5"
-      }
-    ],
-    "handles": [
-      "eyeup_x",
-      "eyeup_twgoods"
-    ],
-    "adopted": null,
-    "reason": "X へのリンクが2本あり、どれが本体か決められない（eyeup_x, eyeup_twgoods）"
-  },
-  {
-    "circleName": "奏の森リゾート",
-    "siteUrl": "https://kanadenomori-resorts.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "D8"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "F6"
-      }
-    ],
-    "handles": [
-      "KanadenoMoriPR"
-    ],
-    "adopted": "KanadenoMoriPR",
-    "reason": "公式サイト（kanadenomori-resorts.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "ETERNO RÉCIT (エテルノレシ)",
-    "siteUrl": "https://www.eternorecit.jp/index.html",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "D10"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "D2"
-      }
-    ],
-    "handles": [
-      "ETERNO_RECIT"
-    ],
-    "adopted": "ETERNO_RECIT",
-    "reason": "公式サイト（www.eternorecit.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
     "circleName": "チュロス製造所",
+    "siteUrls": [
+      "https://churros-seizousyo.jp/"
+    ],
     "siteUrl": "https://churros-seizousyo.jp/",
     "venues": [
       {
@@ -557,55 +104,11 @@
     "reason": "サイトに X へのリンクが無い"
   },
   {
-    "circleName": "（株）バンダイ",
-    "siteUrl": "https://gashapon.jp/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "ガチャ"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "ガチャ"
-      }
-    ],
-    "handles": [
-      "Gashapon_Bandai"
-    ],
-    "adopted": "Gashapon_Bandai",
-    "reason": "公式サイト（gashapon.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "大阪府赤十字血液センター",
-    "siteUrl": "https://www.bs.jrc.or.jp//kk/osaka/index.html",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": null
-      }
-    ],
-    "handles": [
-      "osaka_kenketsu",
-      "oosakagakusui"
-    ],
-    "adopted": null,
-    "reason": "X へのリンクが2本あり、どれが本体か決められない（osaka_kenketsu, oosakagakusui）"
-  },
-  {
-    "circleName": "CielP",
-    "siteUrl": "https://karent.jp/artist/pp000163",
-    "venues": [
-      {
-        "venue": "tokyo",
-        "boothId": "B-16"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
     "circleName": "forute | フヲルテ",
+    "siteUrls": [
+      "https://karent.jp/artist/pp000757",
+      "https://youtube.com/@forute?si=V3pKUCLNDr0JHbZH"
+    ],
     "siteUrl": "https://karent.jp/artist/pp000757",
     "venues": [
       {
@@ -619,6 +122,9 @@
   },
   {
     "circleName": "札幌市ふるさと納税",
+    "siteUrls": [
+      "https://www.rakuten.co.jp/f011002-sapporo/"
+    ],
     "siteUrl": "https://www.rakuten.co.jp/f011002-sapporo/",
     "venues": [
       {
@@ -631,22 +137,10 @@
     "reason": "サイトに X へのリンクが無い"
   },
   {
-    "circleName": "echo",
-    "siteUrl": "https://echoecho.thebase.in/",
-    "venues": [
-      {
-        "venue": "tokyo",
-        "boothId": "B5"
-      }
-    ],
-    "handles": [
-      "IncChord"
-    ],
-    "adopted": "IncChord",
-    "reason": "公式サイト（echoecho.thebase.in）が自社の X アカウントとしてリンクしている"
-  },
-  {
     "circleName": "（株）ク・ラッチ コラボアパレル",
+    "siteUrls": [
+      "https://crutch.jp/store/products/list?category_id=7"
+    ],
     "siteUrl": "https://crutch.jp/store/products/list?category_id=7",
     "venues": [
       {
@@ -659,67 +153,10 @@
     "reason": "サイトに X へのリンクが無い"
   },
   {
-    "circleName": "Gugenka",
-    "siteUrl": "https://xr-marketplace.com/holomodels/about",
-    "venues": [
-      {
-        "venue": "tokyo",
-        "boothId": "C1"
-      }
-    ],
-    "handles": [
-      "Gugenka_info"
-    ],
-    "adopted": "Gugenka_info",
-    "reason": "公式サイト（xr-marketplace.com）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "株式会社タカラトミーアーツ",
-    "siteUrl": "https://www.takaratomy-arts.co.jp/specials/globalfig/perihapi/",
-    "venues": [
-      {
-        "venue": "tokyo",
-        "boothId": "E2"
-      }
-    ],
-    "handles": [
-      "tartsPR"
-    ],
-    "adopted": "tartsPR",
-    "reason": "公式サイト（www.takaratomy-arts.co.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "一般社団法人JSPA",
-    "siteUrl": "https://www.jspa.gr.jp/",
-    "venues": [
-      {
-        "venue": "tokyo",
-        "boothId": "F3"
-      }
-    ],
-    "handles": [
-      "JSPA_office"
-    ],
-    "adopted": "JSPA_office",
-    "reason": "公式サイト（www.jspa.gr.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
-    "circleName": "TNOC THE SNOW MIKU CAFE 2026",
-    "siteUrl": "https://tnoc.jp/blogs/news/tnoc-the-snow-miku-cafe-2026-pop-up-cafe",
-    "venues": [
-      {
-        "venue": "tokyo",
-        "boothId": "G2"
-      }
-    ],
-    "handles": [
-      "tnocjp"
-    ],
-    "adopted": "tnocjp",
-    "reason": "公式サイト（tnoc.jp）が自社の X アカウントとしてリンクしている"
-  },
-  {
     "circleName": "愛の助け合い献血（千葉県赤十字血液センター）",
+    "siteUrls": [
+      "https://www.bs.jrc.or.jp/ktks/chiba/index.html"
+    ],
     "siteUrl": "https://www.bs.jrc.or.jp/ktks/chiba/index.html",
     "venues": [
       {

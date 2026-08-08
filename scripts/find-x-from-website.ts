@@ -47,6 +47,9 @@ const IGNORE = new Set(
 
 type Finding = {
   circleName: string;
+  /** 公式ページに載っているリンク全部。上から順に見る */
+  siteUrls: string[];
+  /** 実際に X リンクが見つかったサイト（表示用） */
   siteUrl: string;
   venues: { venue: RefVenue; boothId: string | null }[];
   handles: string[];
@@ -91,19 +94,29 @@ async function main(): Promise<void> {
       const list = await readJson<Creator[]>(dataPath(`${kind}.${v}.json`), []);
       for (const c of list) {
         if ((c.xHandles ?? []).length > 0) continue;
-        const url = (c.members ?? [])
+        // 公式ページに複数リンクがあるなら全部見る。
+        //
+        // 以前は最初の1本だけを開いていた。KARENT のような共有サービスが
+        // 先に並ぶと、そこには本人の X リンクが無いので「リンク無し」で
+        // 終わり、2本目の自前サイトを見ないまま落ちていた。
+        // 実例: 家の裏でマンボウが死んでるP は
+        //   1本目 karent.jp/artist/pp000321 → X リンク無し
+        //   2本目 manbo-p.com               → 未確認のまま
+        const urls = (c.members ?? [])
           .flatMap((m) => m.links ?? [])
           .map((l) => l.url)
-          .find((u) => /^https?:\/\//.test(u));
-        if (!url) continue;
+          .filter((u) => /^https?:\/\//.test(u));
+        if (urls.length === 0) continue;
         const cur = targets.get(c.circleName);
         if (cur) {
           cur.venues.push({ venue: v, boothId: c.boothId });
+          for (const u of urls) if (!cur.siteUrls.includes(u)) cur.siteUrls.push(u);
           continue;
         }
         targets.set(c.circleName, {
           circleName: c.circleName,
-          siteUrl: url,
+          siteUrls: urls,
+          siteUrl: urls[0]!,
           venues: [{ venue: v, boothId: c.boothId }],
           handles: [],
           adopted: null,
@@ -133,15 +146,23 @@ async function main(): Promise<void> {
   let done = 0;
   for (const t of queue) {
     done++;
-    try {
-      await page.goto(t.siteUrl, { waitUntil: 'domcontentloaded', timeout: 30_000 });
-      await page.waitForTimeout(1500);
-      const hrefs = await page.evaluate(() =>
-        Array.from(document.querySelectorAll('a[href]')).map((a) => (a as HTMLAnchorElement).href),
-      );
-      t.handles = handlesFromHrefs(hrefs);
-    } catch (e) {
-      t.reason = `サイトを開けなかった: ${(e as Error).message.split('\n')[0]}`;
+    for (const url of t.siteUrls) {
+      if (t.handles.length > 0) break;
+      try {
+        await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 30_000 });
+        await page.waitForTimeout(1500);
+        const hrefs = await page.evaluate(() =>
+          Array.from(document.querySelectorAll('a[href]')).map((a) => (a as HTMLAnchorElement).href),
+        );
+        const found = handlesFromHrefs(hrefs);
+        if (found.length > 0) {
+          t.handles = found;
+          t.siteUrl = url;
+        }
+      } catch (e) {
+        t.reason = `サイトを開けなかった: ${(e as Error).message.split('\n')[0]}`;
+      }
+      if (t.siteUrls.length > 1) await sleep(jitter(DELAY_MIN_MS, DELAY_MAX_MS));
     }
 
     if (t.handles.length === 1) {

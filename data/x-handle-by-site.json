@@ -1,0 +1,630 @@
+[
+  {
+    "circleName": "家の裏でマンボウが死んでるP",
+    "memberNames": [
+      "家の裏でマンボウが死んでるP"
+    ],
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "G-6"
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "B-5"
+      }
+    ],
+    "officialUrls": [
+      "https://karent.jp/artist/pp000321",
+      "https://manbo-p.com/"
+    ],
+    "officialHosts": [
+      "karent.jp/artist/pp000321",
+      "manbo-p.com"
+    ],
+    "candidates": [
+      "p",
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info",
+      "vocaliod_P",
+      "tiara0207"
+    ],
+    "fromPostSearch": [
+      "vocaliod_P",
+      "tiara0207"
+    ],
+    "checked": [
+      {
+        "handle": "p",
+        "displayName": "P.",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "vocaliod_P",
+        "displayName": "ぼーかりおどP(noa)",
+        "profileUrl": "linktr.ee/vocaliod_P",
+        "matched": false
+      },
+      {
+        "handle": "tiara0207",
+        "displayName": "てぃあら/TIARA",
+        "profileUrl": "potofu.me/tiara",
+        "matched": false
+      },
+      {
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "zero06410354",
+        "displayName": "zero（pink beige）@Aiイラスト",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補6件を見たが、公式ドメイン（karent.jp/artist/pp000321,manbo-p.com）と一致するものが無い"
+  },
+  {
+    "circleName": "株式会社タイトー",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "A4"
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "E3"
+      }
+    ],
+    "officialUrls": [
+      "https://www.taito.co.jp/"
+    ],
+    "officialHosts": [
+      "taito.co.jp"
+    ],
+    "candidates": [
+      "watertightkogyo",
+      "notitle_info",
+      "LOTASCLUB_TAITO",
+      "vouNejdXh3XFynD",
+      "HuiShi35382",
+      "NnCDBK5onY448"
+    ],
+    "fromPostSearch": [],
+    "checked": [
+      {
+        "handle": "LOTASCLUB_TAITO",
+        "displayName": "株式会社タイト",
+        "profileUrl": "taito-m.co.jp/company/",
+        "matched": false
+      },
+      {
+        "handle": "watertightkogyo",
+        "displayName": "ウォータータイト工業株式会社",
+        "profileUrl": "water-tight.co.jp",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      },
+      {
+        "handle": "vouNejdXh3XFynD",
+        "displayName": "株式会社タイトー",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "HuiShi35382",
+        "displayName": "株式会社タイトー",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "NnCDBK5onY448",
+        "displayName": "株式会社タイト・アーガス",
+        "profileUrl": "taito-argus.com",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補6件を見たが、公式ドメイン（taito.co.jp）と一致するものが無い"
+  },
+  {
+    "circleName": "初音ミク エムアイカード",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "A9"
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "B6"
+      }
+    ],
+    "officialUrls": [
+      "https://www2.micard.co.jp/card/miku.html?cpn_cd=miku_cfm"
+    ],
+    "officialHosts": [
+      "micard.co.jp"
+    ],
+    "candidates": [
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info",
+      "im_MediaArts"
+    ],
+    "fromPostSearch": [
+      "im_MediaArts"
+    ],
+    "checked": [
+      {
+        "handle": "im_MediaArts",
+        "displayName": "三越伊勢丹メディア芸術",
+        "profileUrl": "mistore.jp/shopping/featu…",
+        "matched": false
+      },
+      {
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "zero06410354",
+        "displayName": "zero（pink beige）@Aiイラスト",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補4件を見たが、公式ドメイン（micard.co.jp）と一致するものが無い"
+  },
+  {
+    "circleName": "(株)ヤマハミュージックジャパン",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "B1"
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "F1"
+      }
+    ],
+    "officialUrls": [
+      "https://jp.yamaha.com/products/contents/proaudio/creator_hub/index.html"
+    ],
+    "officialHosts": [
+      "yamaha.com"
+    ],
+    "candidates": [
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info"
+    ],
+    "fromPostSearch": [],
+    "checked": [
+      {
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "zero06410354",
+        "displayName": "zero（pink beige）@Aiイラスト",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補3件を見たが、公式ドメイン（yamaha.com）と一致するものが無い"
+  },
+  {
+    "circleName": "「ポケモン feat. 初音ミク VOLTAGE Live！」Blu-ray",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "B5"
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "E7"
+      }
+    ],
+    "officialUrls": [
+      "https://www.jvcmusic.co.jp/project-voltage/"
+    ],
+    "officialHosts": [
+      "jvcmusic.co.jp"
+    ],
+    "candidates": [
+      "blujam",
+      "blukaby",
+      "blurb",
+      "Bluvays",
+      "bluvgray",
+      "blubrry",
+      "magicalmirai",
+      "FlyingDogInc"
+    ],
+    "fromPostSearch": [
+      "magicalmirai",
+      "FlyingDogInc"
+    ],
+    "checked": [
+      {
+        "handle": "magicalmirai",
+        "displayName": "初音ミク「マジカルミライ」公式",
+        "profileUrl": "magicalmirai.com",
+        "matched": false
+      },
+      {
+        "handle": "FlyingDogInc",
+        "displayName": "フライングドッグ",
+        "profileUrl": "jvcmusic.co.jp/flyingdog",
+        "matched": true
+      }
+    ],
+    "adopted": "FlyingDogInc",
+    "reason": "X プロフィールのリンク先（jvcmusic.co.jp/flyingdog）が公式の出展者一覧と同じドメイン"
+  },
+  {
+    "circleName": "「マジカルミライ」ブース TOKYO MX",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "B7"
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "A10"
+      }
+    ],
+    "officialUrls": [],
+    "officialHosts": [],
+    "candidates": [],
+    "fromPostSearch": [],
+    "checked": [],
+    "adopted": null,
+    "reason": ""
+  },
+  {
+    "circleName": "チュロス製造所",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "E2"
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "G1"
+      }
+    ],
+    "officialUrls": [
+      "https://churros-seizousyo.jp/"
+    ],
+    "officialHosts": [
+      "churros-seizousyo.jp"
+    ],
+    "candidates": [
+      "IdTHG3lM6w33335",
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info"
+    ],
+    "fromPostSearch": [],
+    "checked": [
+      {
+        "handle": "IdTHG3lM6w33335",
+        "displayName": "チュロス製造所",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "zero06410354",
+        "displayName": "zero（pink beige）@Aiイラスト",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補4件を見たが、公式ドメイン（churros-seizousyo.jp）と一致するものが無い"
+  },
+  {
+    "circleName": "forute | フヲルテ",
+    "memberNames": [
+      "フヲルテ"
+    ],
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": "B-32"
+      }
+    ],
+    "officialUrls": [
+      "https://karent.jp/artist/pp000757",
+      "https://youtube.com/@forute?si=V3pKUCLNDr0JHbZH"
+    ],
+    "officialHosts": [
+      "karent.jp/artist/pp000757",
+      "youtube.com/@forute"
+    ],
+    "candidates": [
+      "Forge",
+      "ForusR",
+      "foratv",
+      "ForumTL",
+      "forux",
+      "Fortum",
+      "forute723",
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info",
+      "vocaliod_P",
+      "tiara0207"
+    ],
+    "fromPostSearch": [
+      "vocaliod_P",
+      "tiara0207"
+    ],
+    "checked": [
+      {
+        "handle": "vocaliod_P",
+        "displayName": "ぼーかりおどP(noa)",
+        "profileUrl": "linktr.ee/vocaliod_P",
+        "matched": false
+      },
+      {
+        "handle": "tiara0207",
+        "displayName": "てぃあら/TIARA",
+        "profileUrl": "potofu.me/tiara",
+        "matched": false
+      },
+      {
+        "handle": "Forge",
+        "displayName": "Forge",
+        "profileUrl": "forge.gg",
+        "matched": false
+      },
+      {
+        "handle": "ForusR",
+        "displayName": "Forus Ragus",
+        "profileUrl": "youtube.com/channel/UC-Be0…",
+        "matched": false
+      },
+      {
+        "handle": "foratv",
+        "displayName": "FORA.tv",
+        "profileUrl": "fora.tv",
+        "matched": false
+      },
+      {
+        "handle": "ForumTL",
+        "displayName": "National Forum T&L",
+        "profileUrl": "teachingandlearning.ie",
+        "matched": false
+      },
+      {
+        "handle": "forux",
+        "displayName": "Forux",
+        "profileUrl": "forux.it",
+        "matched": false
+      },
+      {
+        "handle": "Fortum",
+        "displayName": "Fortum Global",
+        "profileUrl": "fortum.com",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補12件を見たが、公式ドメイン（karent.jp/artist/pp000757,youtube.com/@forute）と一致するものが無い"
+  },
+  {
+    "circleName": "札幌市ふるさと納税",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": "A2"
+      }
+    ],
+    "officialUrls": [
+      "https://www.rakuten.co.jp/f011002-sapporo/"
+    ],
+    "officialHosts": [
+      "rakuten.co.jp/f011002-sapporo"
+    ],
+    "candidates": [
+      "369_furusato",
+      "furusatoSAPP_RO",
+      "sapporo_furu",
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info",
+      "nokky246"
+    ],
+    "fromPostSearch": [
+      "nokky246"
+    ],
+    "checked": [
+      {
+        "handle": "nokky246",
+        "displayName": "のっきい",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "369_furusato",
+        "displayName": "369 札幌市ふるさと納税（関連アカウント／ラーメン1000 編集部 nakamatuk）",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "furusatoSAPP_RO",
+        "displayName": "北海道札幌市ふるさと納税【公式】",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "sapporo_furu",
+        "displayName": "札幌市のふるさと納税",
+        "profileUrl": "city.sapporo.jp/somu/kifu/anna…",
+        "matched": false
+      },
+      {
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "zero06410354",
+        "displayName": "zero（pink beige）@Aiイラスト",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補7件を見たが、公式ドメイン（rakuten.co.jp/f011002-sapporo）と一致するものが無い"
+  },
+  {
+    "circleName": "（株）ク・ラッチ コラボアパレル",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": "B8"
+      }
+    ],
+    "officialUrls": [
+      "https://crutch.jp/store/products/list?category_id=7"
+    ],
+    "officialHosts": [
+      "crutch.jp"
+    ],
+    "candidates": [
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info"
+    ],
+    "fromPostSearch": [],
+    "checked": [
+      {
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "zero06410354",
+        "displayName": "zero（pink beige）@Aiイラスト",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補3件を見たが、公式ドメイン（crutch.jp）と一致するものが無い"
+  },
+  {
+    "circleName": "愛の助け合い献血（千葉県赤十字血液センター）",
+    "memberNames": [],
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": null
+      }
+    ],
+    "officialUrls": [
+      "https://www.bs.jrc.or.jp/ktks/chiba/index.html"
+    ],
+    "officialHosts": [
+      "jrc.or.jp"
+    ],
+    "candidates": [
+      "neonrustworks",
+      "zero06410354",
+      "notitle_info"
+    ],
+    "fromPostSearch": [],
+    "checked": [
+      {
+        "handle": "neonrustworks",
+        "displayName": "NEONRUST WORKS",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "zero06410354",
+        "displayName": "zero（pink beige）@Aiイラスト",
+        "profileUrl": "",
+        "matched": false
+      },
+      {
+        "handle": "notitle_info",
+        "displayName": "株式会社プロダクションノータイトル",
+        "profileUrl": "notitle.co.jp",
+        "matched": false
+      }
+    ],
+    "adopted": null,
+    "reason": "候補3件を見たが、公式ドメイン（jrc.or.jp）と一致するものが無い"
+  }
+]

@@ -66,6 +66,13 @@
     ]
   },
   {
+    "handle": "andPiit",
+    "creatorIds": [
+      "osaka-sponsor-D2",
+      "tokyo-sponsor-C4"
+    ]
+  },
+  {
     "handle": "anison_mo_METAL",
     "creatorIds": [
       "osaka-C-8",
@@ -187,6 +194,13 @@
     ]
   },
   {
+    "handle": "cfm_domingo",
+    "creatorIds": [
+      "osaka-sponsor-A11",
+      "tokyo-sponsor-C6"
+    ]
+  },
+  {
     "handle": "cfm_mobile",
     "creatorIds": [
       "osaka-sponsor-A7",
@@ -217,6 +231,12 @@
     "handle": "chiquewa",
     "creatorIds": [
       "osaka-B-11-e8b243"
+    ]
+  },
+  {
+    "handle": "CielP_8617",
+    "creatorIds": [
+      "tokyo-B-16"
     ]
   },
   {
@@ -349,10 +369,23 @@
     ]
   },
   {
+    "handle": "FlyingDogInc",
+    "creatorIds": [
+      "osaka-sponsor-B5",
+      "tokyo-sponsor-E7"
+    ]
+  },
+  {
     "handle": "furmoph",
     "creatorIds": [
       "osaka-F-4",
       "tokyo-A-16-8d76f0"
+    ]
+  },
+  {
+    "handle": "furusatoSAPP_RO",
+    "creatorIds": [
+      "tokyo-sponsor-A2"
     ]
   },
   {
@@ -536,6 +569,13 @@
     "handle": "ienu0ienu",
     "creatorIds": [
       "tokyo-D-15"
+    ]
+  },
+  {
+    "handle": "im_MediaArts",
+    "creatorIds": [
+      "osaka-sponsor-A9",
+      "tokyo-sponsor-B6"
     ]
   },
   {
@@ -1085,6 +1125,13 @@
     ]
   },
   {
+    "handle": "seganewsnavi",
+    "creatorIds": [
+      "osaka-sponsor-C2",
+      "tokyo-sponsor-A3"
+    ]
+  },
+  {
     "handle": "senbonshop39",
     "creatorIds": [
       "osaka-sponsor-D5",
@@ -1197,6 +1244,13 @@
     "creatorIds": [
       "osaka-D-4",
       "tokyo-B-6"
+    ]
+  },
+  {
+    "handle": "takahashi_manbo",
+    "creatorIds": [
+      "osaka-G-6",
+      "tokyo-B-5"
     ]
   },
   {
@@ -1324,6 +1378,13 @@
     "creatorIds": [
       "osaka-sponsor-D4",
       "tokyo-sponsor-B4"
+    ]
+  },
+  {
+    "handle": "WADATAKEAKI",
+    "creatorIds": [
+      "osaka-C-12",
+      "tokyo-A-28"
     ]
   },
   {

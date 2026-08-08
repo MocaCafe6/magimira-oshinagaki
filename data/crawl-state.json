@@ -1,6 +1,6 @@
 {
   "startedAt": "2026-08-06T06:57:10.502Z",
-  "updatedAt": "2026-08-08T09:56:52.400Z",
+  "updatedAt": "2026-08-08T13:22:50.239Z",
   "done": {
     "__TKMYY": 24,
     "_reng": 11,
@@ -212,7 +212,16 @@
     "tnocjp": 1,
     "volks_dd": 17,
     "volks_doll": 22,
-    "X28A0cKltj44994": 0
+    "X28A0cKltj44994": 0,
+    "andPiit": 1,
+    "cfm_domingo": 4,
+    "CielP_8617": 9,
+    "FlyingDogInc": 21,
+    "seganewsnavi": 6,
+    "WADATAKEAKI": 3,
+    "furusatoSAPP_RO": 19,
+    "im_MediaArts": 20,
+    "takahashi_manbo": 5
   },
   "lastCrawledAt": {
     "cfm_mobile": "2026-08-08T09:55:33.060Z",
@@ -425,7 +434,16 @@
     "tnocjp": "2026-08-08T02:38:57.876Z",
     "volks_dd": "2026-08-08T02:40:32.852Z",
     "volks_doll": "2026-08-08T02:40:46.900Z",
-    "X28A0cKltj44994": "2026-08-08T02:41:34.056Z"
+    "X28A0cKltj44994": "2026-08-08T02:41:34.056Z",
+    "andPiit": "2026-08-08T13:00:27.404Z",
+    "cfm_domingo": "2026-08-08T13:00:33.980Z",
+    "CielP_8617": "2026-08-08T13:00:42.082Z",
+    "FlyingDogInc": "2026-08-08T13:01:01.956Z",
+    "seganewsnavi": "2026-08-08T13:01:08.817Z",
+    "WADATAKEAKI": "2026-08-08T13:01:15.729Z",
+    "furusatoSAPP_RO": "2026-08-08T13:22:25.306Z",
+    "im_MediaArts": "2026-08-08T13:22:38.503Z",
+    "takahashi_manbo": "2026-08-08T13:22:44.236Z"
   },
   "failed": {}
 }
