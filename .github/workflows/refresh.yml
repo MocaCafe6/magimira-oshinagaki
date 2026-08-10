@@ -106,5 +106,23 @@ jobs:
             exit 0
           fi
           git commit -m "お品書きの自動更新 $(date -u '+%Y-%m-%d %H:%M UTC')"
-          git push
-          echo "データを更新しました。Vercel が自動でビルドします。" >> "$GITHUB_STEP_SUMMARY"
+
+          # push は失敗しうる。1回のクロールに30〜45分かかるので、その間に
+          # 人が push すると remote が進み `! [rejected] (fetch first)` で落ちる。
+          # 実際 2026-08-08 13:10 UTC の回がこれで失敗し、47分かけて集めた
+          # データを丸ごと捨てていた。次の回まで3時間、更新が止まる。
+          #
+          # data/ は生成物で、こちらが持っているのは常に新しい方
+          # （remote 側の更新も自分の crawl-state.json に反映済み）。
+          # rebase して積み直せばよい。競合したら自分の版を採る。
+          for i in 1 2 3; do
+            if git push; then
+              echo "データを更新しました。Vercel が自動でビルドします。" >> "$GITHUB_STEP_SUMMARY"
+              exit 0
+            fi
+            echo "push が弾かれました（$i 回目）。rebase して積み直します。"
+            git pull --rebase -X ours || git rebase --abort
+            sleep 5
+          done
+          echo "::error::3回試しても push できませんでした"
+          exit 1

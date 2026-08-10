@@ -14147,8 +14147,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": false
@@ -15389,8 +15388,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": false
@@ -16425,7 +16423,7 @@
       "otherVenues": [],
       "source": "unresolved",
       "evidence": [
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
       ]
     },
     "imageIsOshinagaki": false
@@ -16539,8 +16537,7 @@
       ],
       "source": "text-venue",
       "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     },
     "imageIsOshinagaki": false
@@ -17003,8 +17000,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": false
@@ -17969,8 +17965,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "読み取りメモ: OCR: 価格表記3件 / 画像に見えた会場名 東京（OCRは会場の証明には使わない）"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": true
@@ -18307,8 +18302,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": false
@@ -20224,8 +20218,7 @@
       "source": "text-venue",
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     },
     "imageIsOshinagaki": false
@@ -23388,8 +23381,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": false
@@ -32747,16 +32739,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -33388,16 +33378,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -33700,16 +33688,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -33895,16 +33881,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -36012,16 +35996,14 @@
       "+10 直近の投稿"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -40041,12 +40023,11 @@
       "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
-        "hamamatsu",
-        "tokyo"
+        "hamamatsu"
       ],
       "source": "unresolved",
       "evidence": [
-        "本文の「東京 A-4」は公式のブース番号(A-7)と一致しない"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -41275,16 +41256,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -43197,16 +43176,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -44481,16 +44458,14 @@
       "+10 直近の投稿"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -47312,16 +47287,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -47641,16 +47614,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -48054,16 +48025,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -48884,16 +48853,14 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -49586,7 +49553,7 @@
       "otherVenues": [],
       "source": "unresolved",
       "evidence": [
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
       ]
     },
     "imageIsOshinagaki": false
@@ -58688,8 +58655,7 @@
       ],
       "source": "text-booth",
       "evidence": [
-        "本文の「大阪 C-8」が公式のブース番号と一致",
-        "読み取りメモ: OCR: 価格表記30件 / 画像に見えた会場名 なし（OCRは会場の証明には使わない）"
+        "本文の「大阪 C-8」が公式のブース番号と一致"
       ]
     },
     "imageIsOshinagaki": true
@@ -58738,8 +58704,7 @@
       ],
       "source": "text-booth",
       "evidence": [
-        "本文の「大阪 C-8」が公式のブース番号と一致",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文の「大阪 C-8」が公式のブース番号と一致"
       ]
     },
     "imageIsOshinagaki": false
@@ -64179,13 +64144,10 @@
     "attribution": {
       "provenVenues": [],
       "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
+      "otherVenues": [],
       "source": "unresolved",
       "evidence": [
-        "画像に「浜松」の記載（対象外）",
-        "読み取りメモ: MINO-U の MENU。画像に会場の記載は無いが、本文が「7\\/26(日) マジカルミライ2026 クリエイターズマーケット【B-7】」と浜松に限定している"
+        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
       ]
     },
     "imageIsOshinagaki": true
@@ -64721,7 +64683,7 @@
       "otherVenues": [],
       "source": "unresolved",
       "evidence": [
-        "読み取りメモ: シシド のお品書き3枚（新譜・各種旧譜×2）。会場名もブース番号も無く、本文も「今週末のボーマスとマジミラ（浜松）」に限定しているため大阪・東京には適用しない"
+        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
       ]
     },
     "imageIsOshinagaki": true
@@ -66205,10 +66167,13 @@
     "attribution": {
       "provenVenues": [],
       "daysByVenue": {},
-      "otherVenues": [],
+      "otherVenues": [
+        "tokyo",
+        "hamamatsu"
+      ],
       "source": "unresolved",
       "evidence": [
-        "読み取りメモ: OCR: 価格表記3件 / 画像に見えた会場名 浜松・東京（OCRは会場の証明には使わない）"
+        "本文に「東京」の記載があるが、他イベントの名前も含むためどちらの会場か判別できない"
       ]
     },
     "imageIsOshinagaki": true
@@ -67189,12 +67154,13 @@
       "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
-        "hamamatsu"
+        "hamamatsu",
+        "osaka"
       ],
       "source": "unresolved",
       "evidence": [
-        "画像に「浜松」の記載（対象外）",
-        "読み取りメモ: twinkledisc のお品書き。画像は「マジカルミライ2026 クリエイターズマーケット C-07」で会場名が無いが、本文が「浜松会場のお品書きです 7月24日(金)、25日(土)」と限定している"
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
+        "本文が画像を「浜松のお品書き」と書いており、大阪の品揃えとは限らない"
       ]
     },
     "imageIsOshinagaki": true
@@ -68915,9 +68881,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "画像に「浜松」の記載（対象外）",
-        "読み取りメモ: mothy_悪ノP のお品書き。「HATSUNE MIKU MAGICAL MIRAI 2026 / HAMAMATSU / 7\\/26(SUN) C-5」と浜松に限定"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": true
@@ -86191,8 +86155,7 @@
         "本文の「大阪 D-8」が公式のブース番号と一致",
         "大阪の対象日: 2026-08-14, 2026-08-15, 2026-08-16",
         "本文の「東京 C-17」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-28, 2026-08-29, 2026-08-30",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-28, 2026-08-29, 2026-08-30"
       ]
     },
     "imageIsOshinagaki": false
@@ -86277,8 +86240,7 @@
         "本文の「大阪 E-8」が公式のブース番号と一致",
         "大阪の対象日: 2026-08-14, 2026-08-16",
         "本文の「東京 C-8」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-28, 2026-08-30",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-28, 2026-08-30"
       ]
     },
     "imageIsOshinagaki": false
@@ -86621,8 +86583,7 @@
       "source": "text-venue",
       "evidence": [
         "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     },
     "imageIsOshinagaki": false
@@ -87169,8 +87130,7 @@
       "source": "text-booth",
       "evidence": [
         "本文の「東京 C-28」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-29",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-29"
       ]
     },
     "imageIsOshinagaki": false
@@ -87468,8 +87428,7 @@
       "otherVenues": [],
       "source": "text-booth",
       "evidence": [
-        "本文の「東京 B-11」が公式のブース番号と一致",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文の「東京 B-11」が公式のブース番号と一致"
       ]
     },
     "imageIsOshinagaki": false
@@ -87732,8 +87691,7 @@
       "source": "text-booth",
       "evidence": [
         "本文の「東京 C-25」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-29",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-29"
       ]
     },
     "imageIsOshinagaki": false
@@ -87784,8 +87742,7 @@
       "source": "text-booth",
       "evidence": [
         "本文の「東京 B-23」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-29",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-29"
       ]
     },
     "imageIsOshinagaki": false
@@ -87974,8 +87931,7 @@
       "source": "text-booth",
       "evidence": [
         "本文の「東京 C-7」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-28, 2026-08-30",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-28, 2026-08-30"
       ]
     },
     "imageIsOshinagaki": false
@@ -89127,8 +89083,7 @@
       "source": "text-booth",
       "evidence": [
         "本文の「大阪 F-11」が公式のブース番号と一致",
-        "本文の「東京 C-12」が公式のブース番号と一致",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文の「東京 C-12」が公式のブース番号と一致"
       ]
     },
     "imageIsOshinagaki": false
@@ -89340,8 +89295,7 @@
         "本文の「大阪 G-13」が公式のブース番号と一致",
         "大阪の対象日: 2026-08-15",
         "本文の「東京 B-24」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-29",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-29"
       ]
     },
     "imageIsOshinagaki": false
@@ -89512,8 +89466,7 @@
         "本文の「大阪 G-4」が公式のブース番号と一致",
         "大阪の対象日: 2026-08-14",
         "本文の「東京 C-1」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-28",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-28"
       ]
     },
     "imageIsOshinagaki": false
@@ -91150,16 +91103,14 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
+      "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "text-venue",
+      "source": "unresolved",
       "evidence": [
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -91586,8 +91537,7 @@
       "otherVenues": [],
       "source": "event-wide",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     },
     "imageIsOshinagaki": false
@@ -91715,8 +91665,7 @@
       ],
       "source": "text-booth",
       "evidence": [
-        "本文の「東京 D-6」が公式のブース番号と一致",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "本文の「東京 D-6」が公式のブース番号と一致"
       ]
     },
     "imageIsOshinagaki": false
@@ -91948,14 +91897,11 @@
           "2026-08-30"
         ]
       },
-      "otherVenues": [
-        "osaka"
-      ],
+      "otherVenues": [],
       "source": "text-booth",
       "evidence": [
         "本文の「東京 B-27」が公式のブース番号と一致",
-        "東京の対象日: 2026-08-29, 2026-08-30",
-        "画像は頒布物の一覧（お品書き）ではないと判定"
+        "東京の対象日: 2026-08-29, 2026-08-30"
       ]
     },
     "imageIsOshinagaki": false

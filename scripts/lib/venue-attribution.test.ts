@@ -312,6 +312,30 @@ test('浜松に言及していれば全会場には広げない', () => {
   }
 });
 
+test('別ツアーの公演地リストの中の地名は会場と読まない', () => {
+  // 実データ: 浜松のブースからの実況。「東京」は初音ミクシンフォニーの
+  // 公演地であって、マジカルミライ東京会場ではない。
+  // これを会場と読んだせいで、浜松の投稿が東京のページに出ていた。
+  const r = attributeFromText({
+    text:
+      '「マジカルミライ 2026」浜松最終日 初音ミクシンフォニーブース出展中' +
+      ' 初音ミクシンフォニー2026札幌、東京公演公式グッズを販売',
+    handle: 'x',
+    official: official({ hamamatsu: 'A-5', osaka: 'B-6', tokyo: 'A-7' }),
+  });
+  assert.deepEqual(r.provenVenues, []);
+});
+
+test('マジカルミライだけの文脈なら会場名はそのまま読む', () => {
+  // 上の対策で普通の書き方まで落とさないこと
+  const r = attributeFromText({
+    text: 'マジカルミライ2026 東京会場 A-7 でお待ちしています',
+    handle: 'x',
+    official: official({ tokyo: 'A-7' }),
+  });
+  assert.deepEqual(r.provenVenues, ['tokyo']);
+});
+
 test('浜松にしか出ていない作者は確定しない（対象外）', () => {
   const r = attributeFromText({
     text: 'クリエイターズマーケットのお品書きです',

@@ -83,6 +83,26 @@ function maskUrlsAndHandles(s: string): string {
 }
 
 /** 会場名・ブース番号・日付を出現位置つきで拾う */
+/**
+ * マジカルミライの会場ではない都市と並べて書かれている地名か。
+ *
+ * 別の公演ツアーの開催地を列挙しているだけで、マジカルミライの会場を
+ * 指していない。実データ:
+ *   「「マジカルミライ 2026」浜松最終日🔥 初音ミクシンフォニーブース出展中🎻
+ *     初音ミクシンフォニー2026【札幌、東京公演】公式グッズを販売‼︎」
+ * これは浜松のブースからの実況で、「東京」は初音ミクシンフォニーの
+ * 公演地。ここを東京会場と読むと、浜松の投稿が東京のページに出る。
+ *
+ * マジカルミライ2026 の会場は浜松・大阪・東京しかないので、
+ * 札幌などが同じ並びに出てきたら、その並びは別のイベントの話である。
+ */
+const NON_VENUE_CITY = '札幌|名古屋|福岡|仙台|広島|横浜|神戸|京都|沖縄|金沢|新潟|静岡';
+const OTHER_TOUR_LIST_RE = new RegExp(`(?:${NON_VENUE_CITY})\\s*[、,・･/／と＆&]\\s*$`);
+
+function isOtherTourCityList(text: string, index: number): boolean {
+  return OTHER_TOUR_LIST_RE.test(text.slice(Math.max(0, index - 12), index));
+}
+
 export function scanMarkers(rawText: string): Marker[] {
   const text = normalizeText(maskUrlsAndHandles(rawText));
   const markers: Marker[] = [];
@@ -93,7 +113,9 @@ export function scanMarkers(rawText: string): Marker[] {
       for (;;) {
         const i = text.indexOf(alias, from);
         if (i < 0) break;
-        markers.push({ kind: 'venue', venue: v, index: i, text: alias });
+        if (!isOtherTourCityList(text, i)) {
+          markers.push({ kind: 'venue', venue: v, index: i, text: alias });
+        }
         from = i + alias.length;
       }
     }
