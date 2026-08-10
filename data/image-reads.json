@@ -557,5 +557,87 @@
     "venueScope": "specific",
     "venues": [],
     "notes": "OCR: 公式出店者一覧ページのスクリーンショット（「サークルメンバー」を検出）。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2086408781395804573",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "booth": "B-8",
+        "dates": []
+      }
+    ],
+    "notes": "画像に「マジカルミライ2026 / アカサキサギリ / OSAKA B-08 / 8/14(Fri)-8/16(Sun)」。CD2種¥1,500、めじるしチャーム¥600・2個¥1,000、アクリルキーホルダー¥800。完全なお品書き。本文には「お品書き」の語が無い"
+  },
+  {
+    "postId": "2086090206961414304",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "booth": "B-8",
+        "dates": []
+      }
+    ],
+    "notes": "上の修正前の版。同じ内容で OSAKA B-8"
+  },
+  {
+    "postId": "2076245965946925286",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "booth": "B-2",
+        "dates": []
+      },
+      {
+        "venue": "osaka",
+        "booth": "G-6",
+        "dates": []
+      },
+      {
+        "venue": "tokyo",
+        "booth": "B-5",
+        "dates": []
+      }
+    ],
+    "notes": "見出しが「お品書き」。右上に「浜松B-2 大阪G-6 東京B-5」。『面白いアルバム』¥2000、小説版『粘着系男子の15年ネチネチ』¥1200、会場限定の手書きポエム特典"
+  },
+  {
+    "postId": "2069720081811333557",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "アクリルキーホルダー1点のサンプル画像。頒布物の一覧ではない"
+  },
+  {
+    "postId": "2078434609797149021",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "アルバム『音絵本III』の収録曲一覧ポスター。曲目であって頒布物の一覧ではなく、価格もブース番号も無い"
+  },
+  {
+    "postId": "2064956770473427143",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "公式サイトの出展者一覧ページのスクリーンショット（HAMAMATSU B-12 クリキッド、サークルメンバー欄つき）。お品書きではない"
   }
 ]

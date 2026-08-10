@@ -43,7 +43,8 @@
     "typecheck": "tsc --noEmit",
     "find-x-from-website": "tsx scripts/find-x-from-website.ts",
     "match-x-by-site": "tsx scripts/match-x-by-site.ts",
-    "probe-remaining-booths": "tsx scripts/probe-remaining-booths.ts"
+    "probe-remaining-booths": "tsx scripts/probe-remaining-booths.ts",
+    "fetch-images-for-review": "tsx scripts/fetch-images-for-review.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",
