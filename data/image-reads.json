@@ -684,5 +684,32 @@
     "isMagimira": true,
     "venues": [],
     "notes": "浜松のブースに並べたアクリルスタンドの物撮り。在庫状況の報告で頒布物の一覧ではない"
+  },
+  {
+    "postId": "2063991595222114656",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "アクリルキーホルダー2点を布の上に置いた物撮り。頒布物の一覧ではない。輪郭密度は布目のせいで高く出るので、この指標だけでは選別できない"
+  },
+  {
+    "postId": "2077356470660981213",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "アルバム『Ready』（せきこみごはん）のジャケット絵。曲名と参加キャラの記載はあるが価格もブース番号も無く、頒布物の一覧ではない"
+  },
+  {
+    "postId": "2064990112648413423",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "halyosy の出展告知。3会場のブース番号（浜松A-1 / 大阪C-1 / 東京A-12）と会場名は明記されているが、新譜CDと新作グッズが NOW PRINTING で価格も無い。品揃えの予告であってお品書きではない"
   }
 ]
