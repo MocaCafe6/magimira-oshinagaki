@@ -172,6 +172,35 @@ export function verifyImageRead(read: ImageRead, official: OfficialEntry[]): Ima
         `画像の「${REF_VENUE_META[target].label} ${readBooth}」が公式のブース番号と一致`,
       );
     } else if (readBooth) {
+      // 会場名は合っていないが、ブース番号がその作者の**別の会場の**
+      // 公式番号と一意に一致する場合は、会場名の書き間違いとみなす。
+      //
+      // 実データ: Re:nG のお品書きは見出しに
+      //   「C-10（浜松）/ B-06（東京）/ B-03（東京）」
+      // と東京を2回書いている。公式では B-6 が大阪、B-3 が東京。
+      // 作者自身の誤記。これを「一致しない」で捨てていたため、
+      // 大阪のお品書きを丸ごと取りこぼしていた。
+      //
+      // 番号は作者自身のお品書きに印字されたもので、公式の出展記録と
+      // 一意に一致する。他会場と重複していれば使わないので、
+      // 「どの会場か分からない」ものを推測で埋めることにはならない。
+      const elsewhere = VENUES.filter((other) =>
+        official.some(
+          (o) =>
+            o.venue === other &&
+            o.boothId &&
+            normalizeBooth(o.boothId) === readBooth,
+        ),
+      );
+      if (elsewhere.length === 1 && !proven.includes(elsewhere[0]!)) {
+        const fixed = elsewhere[0]!;
+        proven.push(fixed);
+        evidence.push(
+          `画像は「${REF_VENUE_META[target].label} ${readBooth}」と書いているが、` +
+            `${readBooth} は公式では${REF_VENUE_META[fixed].label}のブース番号（会場名の書き間違いとみなす）`,
+        );
+        continue;
+      }
       mismatched = true;
       evidence.push(
         `画像の「${REF_VENUE_META[target].label} ${readBooth}」は公式(${officialBooths.join(',') || 'なし'})と一致しない`,

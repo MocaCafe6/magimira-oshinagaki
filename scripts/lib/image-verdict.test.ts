@@ -36,6 +36,43 @@ test('画像のブース番号が公式と食い違えば確定しない', () =>
   assert.equal(mismatched, true);
 });
 
+test('会場名を書き間違えていても、番号が別会場の公式番号と一意に一致すれば直す', () => {
+  // 実データ: Re:nG のお品書きの見出しは
+  //   「C-10（浜松）/ B-06（東京）/ B-03（東京）」
+  // と東京を2回書いている。公式では B-6 が大阪、B-3 が東京。作者の誤記。
+  // 「一致しない」で捨てていたため大阪のお品書きを丸ごと落としていた。
+  const off: OfficialEntry[] = [
+    { venue: 'hamamatsu', boothId: 'C-10', days: HAMA_DAYS },
+    { venue: 'osaka', boothId: 'B-6', days: OSAKA_DAYS },
+    { venue: 'tokyo', boothId: 'B-3', days: TOKYO_DAYS },
+  ];
+  const { attribution } = verifyImageRead(
+    read({
+      venues: [
+        { venue: 'hamamatsu', boothId: 'C-10', dates: [] },
+        { venue: 'tokyo', boothId: 'B-06', dates: [] },
+        { venue: 'tokyo', boothId: 'B-03', dates: [] },
+      ],
+    }),
+    off,
+  );
+  assert.deepEqual([...attribution.provenVenues].sort(), ['osaka', 'tokyo']);
+});
+
+test('番号が複数会場で重複していれば書き間違いとして直さない', () => {
+  // どちらの会場か決められないので、推測で埋めない
+  const off: OfficialEntry[] = [
+    { venue: 'osaka', boothId: 'B-6', days: OSAKA_DAYS },
+    { venue: 'tokyo', boothId: 'B-6', days: TOKYO_DAYS },
+  ];
+  const { attribution, mismatched } = verifyImageRead(
+    read({ venues: [{ venue: 'osaka', boothId: 'B-7', dates: [] }] }),
+    off,
+  );
+  assert.deepEqual(attribution.provenVenues, []);
+  assert.equal(mismatched, true);
+});
+
 test('ブース番号が読めなくても、会場名と公式の出展記録が揃えば確定する', () => {
   const { attribution } = verifyImageRead(
     read({ venues: [{ venue: 'tokyo', boothId: null, dates: [] }] }),
