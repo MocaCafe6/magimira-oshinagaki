@@ -100,7 +100,7 @@ const PRODUCT_RE =
  * TEASER_RE / RETROSPECTIVE_RE が別途落とす。
  */
 const PRODUCT_HEADLINE_RE =
-  /販売商品情報|商品情報|グッズ(販売)?情報|新譜情報|新刊情報|新商品情報|頒布情報|販売アイテム|取扱商品|品揃え|ラインアップ|ラインナップ/;
+  /販売商品情報|商品情報|商品紹介|グッズ(販売)?情報|新譜情報|新刊情報|新商品情報|頒布情報|物販情報|販売アイテム|取扱商品|品揃え|ラインアップ|ラインナップ/;
 
 /** 具体的な価格、または「売る」ことの明示 */
 const PRICE_RE = /[¥￥][\d,]{2,7}|[\d,]{2,7}\s*円|販売価格|頒布価格/;
@@ -114,8 +114,26 @@ const ON_SALE_RE = /先行販売|販売決定|販売いたします|販売しま
  *     新譜『OTONA DAIGAKU』旧譜各種 缶バッジとステッカーがあります」
  * 価格は無いが、何が買えるかは分かる。お品書きの代わりになる。
  */
+// 窓が改行をまたげること。品目は行を分けて並べられる:
+//   「新譜『OTONA DAIGAKU』\n 旧譜各種\n 缶バッジとステッカーがあります」
+// 以前は [^。\n] にしていたため、この形が一件も拾えていなかった。
 const BRINGING_RE =
-  /(新譜|新刊|新作|新商品|旧譜|既刊|グッズ)[^。\n]{0,40}(持って(いき|行き)|持参|頒布|販売|あります|ございます|お持ちします)/;
+  /(新譜|新刊|新作|新商品|旧譜|既刊|グッズ)[^。]{0,60}(持って(いき|行き)|持参|頒布|販売|あります|ございます|お持ちします)/;
+
+/** 「売る／配る」ことの明示。値段と組にして使う */
+const DISTRIBUTE_RE = /頒布|販売|お渡し/;
+
+/**
+ * 「後日」なのが通販の話だけで、会場で売ること自体は確定している形。
+ *
+ * 実データ:
+ *   「グッズが #マジカルミライ2026 大阪、東京のCRECOブースにて先行販売✨
+ *     ぬいぐるみを追加した事後通販（受注販売）の詳細は後日公開予定！」
+ * TEASER_RE の「詳細は後日」に当たって落ちていたが、後日なのは通販であって
+ * ブースでの販売ではない。これを予告として弾くのは読み違い。
+ */
+const DEFERRED_CHANNEL_RE =
+  /(通販|受注|事後|オンライン|EC)[^。\n]{0,14}詳細は(後日|また|追って)/;
 
 /**
  * 会場からの実況。頒布物の一覧ではないので商品紹介として扱わない。
@@ -145,15 +163,25 @@ export function isProductPost(post: Post): boolean {
 
   const text = [post.text, ...post.media.map((m) => m.altText ?? '')].join('\n');
   if (RETROSPECTIVE_RE.test(text)) return false;
-  if (TEASER_RE.test(text)) return false;
   if (FORTHCOMING_RE.test(text)) return false;
 
   // ① 見出しが「頒布物の案内」だと名乗っている。価格は画像にある
   if (PRODUCT_HEADLINE_RE.test(text)) return true;
-  // ② 何を持っていくかを並べている。ただし会場からの実況は除く
+
+  // ② 具体的な値段が書いてあり、売ることも明示されている。
+  //    ここに「新譜」などの語を要求してはいけない。実データ:
+  //      「B-2 ツムギ食堂にて『kawaiiはつくれる！！おかわり！！』頒布します！5曲入り1000円！」
+  //      「『Episode:Parallel』のアクキー兼アクスタ出すぞ！値段は800円だ！マジミラ大阪から頒布予定！」
+  //    どちらも何がいくらで買えるか分かるのに、語彙の一覧に無いだけで落ちていた。
+  if (PRICE_RE.test(text) && DISTRIBUTE_RE.test(text)) return true;
+
+  // ③ 予告は落とす。ただし後日なのが通販の話だけなら予告ではない
+  if (TEASER_RE.test(text) && !DEFERRED_CHANNEL_RE.test(text)) return false;
+
+  // ④ 何を持っていくかを並べている。ただし会場からの実況は除く
   if (BRINGING_RE.test(text) && !LIVE_REPORT_RE.test(text)) return true;
-  // ③ 商品名らしきものに価格または販売の明示が伴う（従来の条件）
-  //    「新譜が完成しました！」だけでは、何がいくらで買えるのか分からない。
+
+  // ⑤ 商品名らしきものに価格または販売の明示が伴う（従来の条件）
   if (!PRODUCT_RE.test(text)) return false;
   return PRICE_RE.test(text) || ON_SALE_RE.test(text);
 }
