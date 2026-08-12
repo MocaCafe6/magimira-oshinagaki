@@ -326,6 +326,22 @@ test('別ツアーの公演地リストの中の地名は会場と読まない',
   assert.deepEqual(r.provenVenues, []);
 });
 
+test('ホール名に続く地名は会場と読まない', () => {
+  // 実データ: CDのタイトルがそのまま本文に入っている。
+  //   『初音ミクシンフォニー2026 at Concert Hall Kitara, Sapporo & Suntory Hall, Tokyo』
+  // この Tokyo はサントリーホールの所在地。浜松のブースからの実況が
+  // 東京のページに出ていた原因。
+  const r = attributeFromText({
+    text:
+      '「マジカルミライ 2026」本日浜松1日目 初音ミクシンフォニーブース出展しています' +
+      ' 2026.10.7(wed)Release‼︎『初音ミクシンフォニー2026 at Concert Hall Kitara,' +
+      ' Sapporo & Suntory Hall, Tokyo』ご予約いただいた方には特典をプレゼント',
+    handle: 'x',
+    official: official({ hamamatsu: 'A-5', osaka: 'B-6', tokyo: 'A-7' }),
+  });
+  assert.deepEqual(r.provenVenues, []);
+});
+
 test('マジカルミライだけの文脈なら会場名はそのまま読む', () => {
   // 上の対策で普通の書き方まで落とさないこと
   const r = attributeFromText({

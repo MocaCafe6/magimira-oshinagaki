@@ -96,11 +96,24 @@ function maskUrlsAndHandles(s: string): string {
  * マジカルミライ2026 の会場は浜松・大阪・東京しかないので、
  * 札幌などが同じ並びに出てきたら、その並びは別のイベントの話である。
  */
-const NON_VENUE_CITY = '札幌|名古屋|福岡|仙台|広島|横浜|神戸|京都|沖縄|金沢|新潟|静岡';
-const OTHER_TOUR_LIST_RE = new RegExp(`(?:${NON_VENUE_CITY})\\s*[、,・･/／と＆&]\\s*$`);
+const NON_VENUE_CITY =
+  '札幌|名古屋|福岡|仙台|広島|横浜|神戸|京都|沖縄|金沢|新潟|静岡' +
+  '|Sapporo|Nagoya|Fukuoka|Sendai|Hiroshima|Yokohama|Kobe|Kyoto|Okinawa';
+const OTHER_TOUR_LIST_RE = new RegExp(`(?:${NON_VENUE_CITY})\\s*[、,・･/／と＆&]\\s*$`, 'i');
+
+/**
+ * 「〜ホール, 東京」のように会場（ホール）名に続く地名。
+ *
+ * 実データ: CD のタイトルがそのまま本文に入っている。
+ *   『初音ミクシンフォニー2026 at Concert Hall Kitara, Sapporo & Suntory Hall, Tokyo』
+ * この「Tokyo」はサントリーホールの所在地で、マジカルミライ東京会場ではない。
+ * これを会場と読んだせいで、浜松のブースからの実況が東京のページに出ていた。
+ */
+const HALL_LOCATION_RE = /(?:Hall|ホール|Theat(?:er|re)|劇場|Arena|アリーナ)\s*[,、]\s*$/i;
 
 function isOtherTourCityList(text: string, index: number): boolean {
-  return OTHER_TOUR_LIST_RE.test(text.slice(Math.max(0, index - 12), index));
+  const before = text.slice(Math.max(0, index - 16), index);
+  return OTHER_TOUR_LIST_RE.test(before) || HALL_LOCATION_RE.test(before);
 }
 
 export function scanMarkers(rawText: string): Marker[] {
