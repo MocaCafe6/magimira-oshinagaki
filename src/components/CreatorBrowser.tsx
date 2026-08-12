@@ -164,7 +164,13 @@ export function CreatorBrowser({ indexes }: Props) {
                 favorite={fav.isFavorite(c.id)}
                 visited={fav.isVisited(c.id)}
                 hasMemo={fav.memoOf(c.id).trim().length > 0}
+                memo={fav.memoOf(c.id)}
+                status={fav.statusOf(c.id)}
+                color={fav.colorOf(c.id)}
                 onToggleFavorite={() => fav.toggleFavorite(c.id)}
+                onSetMemo={(m) => fav.setMemo(c.id, m)}
+                onSetStatus={(s) => fav.setStatus(c.id, s)}
+                onSetColor={(col) => fav.setColor(c.id, col)}
               />
             ))}
           </ul>

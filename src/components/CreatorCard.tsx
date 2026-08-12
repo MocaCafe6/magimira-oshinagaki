@@ -6,6 +6,12 @@ import { useState } from 'react';
 import { Lightbox } from '@/components/Lightbox';
 import { ShareButton } from '@/components/ShareButton';
 import type { CreatorSummary } from '@/lib/data';
+import {
+  PRIORITY_COLORS,
+  PURCHASE_STATUS_LABEL,
+  type PriorityColor,
+  type PurchaseStatus,
+} from '@/lib/store';
 
 function dayLabel(iso: string): string {
   return `${Number(iso.slice(5, 7))}/${Number(iso.slice(8, 10))}`;
@@ -16,10 +22,28 @@ type Props = {
   favorite: boolean;
   visited: boolean;
   hasMemo: boolean;
+  memo: string;
+  status: PurchaseStatus;
+  color: PriorityColor;
   onToggleFavorite: () => void;
+  onSetMemo: (memo: string) => void;
+  onSetStatus: (status: PurchaseStatus) => void;
+  onSetColor: (color: PriorityColor) => void;
 };
 
-export function CreatorCard({ creator: c, favorite, visited, hasMemo, onToggleFavorite }: Props) {
+export function CreatorCard({
+  creator: c,
+  favorite,
+  visited,
+  hasMemo,
+  memo,
+  status,
+  color,
+  onToggleFavorite,
+  onSetMemo,
+  onSetStatus,
+  onSetColor,
+}: Props) {
   // お品書きサムネ → 失敗したらサークルロゴ → それも失敗したら文字
   const sources = [c.thumbUrl, c.logoUrl].filter((s): s is string => Boolean(s));
   const [srcIndex, setSrcIndex] = useState(0);
@@ -28,6 +52,8 @@ export function CreatorCard({ creator: c, favorite, visited, hasMemo, onToggleFa
   // 一覧に直接出すお品書き。確定分が無ければ参考（浜松）を出す。
   // 縦に長くなりすぎないよう1サークルあたり4枚まで。
   const [lightbox, setLightbox] = useState<number | null>(null);
+  // メモ欄は既定で畳む。一覧が縦に伸びると本来の下調べがしにくくなる
+  const [panel, setPanel] = useState(false);
   const isReference = c.images.length === 0 && c.referenceImages.length > 0;
   const shown = (c.images.length > 0 ? c.images : c.referenceImages).slice(0, 4);
 
@@ -161,6 +187,77 @@ export function CreatorCard({ creator: c, favorite, visited, hasMemo, onToggleFa
           </div>
         </div>
       )}
+
+      {/* 一覧だけで用が済むようにする。
+          メモや購入状況のためにいちいち詳細ページを開かせない。
+          既定は畳んでおき、押したときだけ開く（一覧が縦に伸びるのを防ぐ）。 */}
+      <div className="border-t px-3 py-2" style={{ borderColor: 'var(--border)' }}>
+        <div className="flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => setPanel((v) => !v)}
+            className="rounded-lg border px-2 py-1 text-xs"
+            style={{
+              borderColor: hasMemo ? 'var(--color-mm-accent2)' : 'var(--border)',
+              color: hasMemo ? 'var(--color-mm-accent2)' : 'var(--muted)',
+            }}
+            aria-expanded={panel}
+          >
+            {hasMemo ? '📝 メモあり' : '📝 メモ'}
+          </button>
+          <div className="flex gap-1">
+            {(['none', 'bought', 'skipped'] as PurchaseStatus[]).map((s) => (
+              <button
+                key={s}
+                type="button"
+                onClick={() => onSetStatus(s)}
+                aria-pressed={status === s}
+                className="rounded-lg border px-2 py-1 text-xs"
+                style={{
+                  borderColor: status === s ? 'var(--color-mm-accent)' : 'var(--border)',
+                  color: status === s ? 'var(--color-mm-accent)' : 'var(--muted)',
+                }}
+              >
+                {PURCHASE_STATUS_LABEL[s]}
+              </button>
+            ))}
+          </div>
+          <div className="ml-auto flex gap-1">
+            {PRIORITY_COLORS.map((pc) => (
+              <button
+                key={pc.value}
+                type="button"
+                onClick={() => onSetColor(pc.value)}
+                aria-label={`優先度: ${pc.label}`}
+                aria-pressed={color === pc.value}
+                title={pc.label}
+                className="size-4 rounded-full"
+                style={{
+                  background: pc.hex,
+                  outline:
+                    color === pc.value ? '2px solid var(--fg)' : '1px solid var(--border)',
+                  outlineOffset: 1,
+                  opacity: pc.value === 'none' ? 0.5 : 1,
+                }}
+              />
+            ))}
+          </div>
+        </div>
+        {panel && (
+          <textarea
+            value={memo}
+            onChange={(e) => onSetMemo(e.target.value)}
+            rows={2}
+            placeholder="ここで直接メモできます（買うもの・予算・待ち合わせなど）"
+            className="mt-2 w-full resize-y rounded-lg border p-2 text-sm"
+            style={{
+              borderColor: 'var(--border)',
+              background: 'var(--bg)',
+              color: 'var(--fg)',
+            }}
+          />
+        )}
+      </div>
 
       {lightbox !== null && (
         <Lightbox

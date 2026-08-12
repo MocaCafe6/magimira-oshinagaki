@@ -16,6 +16,7 @@ import {
   itemFavoriteKey,
   type FavoriteRecord,
   type ItemFavoriteRecord,
+  type PriorityColor,
   type PurchaseStatus,
 } from './store';
 
@@ -96,11 +97,17 @@ export type FavoritesApi = {
   isVisited(creatorId: string): boolean;
   memoOf(creatorId: string): string;
   statusOf(creatorId: string): PurchaseStatus;
+  colorOf(creatorId: string): PriorityColor;
+  routeOrderOf(creatorId: string): number | null;
   favoriteCount: number;
   toggleFavorite(creatorId: string): void;
   setMemo(creatorId: string, memo: string): void;
   setVisited(creatorId: string, visited: boolean): void;
   setStatus(creatorId: string, status: PurchaseStatus): void;
+  setColor(creatorId: string, color: PriorityColor): void;
+  /** 周回順の手動並べ替え。id を並べたい順に渡す */
+  setRouteOrders(ids: string[]): void;
+  clearRouteOrders(ids: string[]): void;
   isItemFavorite(postId: string, mediaIndex: number, itemIndex: number): boolean;
   toggleItemFavorite(rec: {
     creatorId: string;
@@ -145,6 +152,51 @@ export function useFavorites(): FavoritesApi {
     void getStore().setVisited(creatorId, visited);
   }, []);
 
+  const setColor = useCallback((creatorId: string, color: PriorityColor) => {
+    patchRecord(creatorId, (r) => {
+      r.color = color;
+      if (color !== 'none') r.favorite = true;
+    });
+    void getStore().setColor(creatorId, color);
+  }, []);
+
+  /**
+   * 周回順を手で決める。
+   *
+   * 蛇行順は「通路の構造としては妥当」だが、実際には
+   * 「開場直後は混むブースから」「連れと合流する時間がある」など
+   * 事情があって順番を変えたい。渡された並びをそのまま採用する。
+   */
+  const setRouteOrders = useCallback((ids: string[]) => {
+    const records = new Map(snapshot.records);
+    ids.forEach((id, i) => {
+      const cur = records.get(id);
+      records.set(id, {
+        creatorId: id,
+        favorite: cur?.favorite ?? true,
+        memo: cur?.memo ?? '',
+        visited: cur?.visited ?? false,
+        status: cur?.status ?? 'none',
+        color: cur?.color ?? 'none',
+        routeOrder: i + 1,
+        updatedAt: new Date().toISOString(),
+      });
+      void getStore().setRouteOrder(id, i + 1);
+    });
+    setSnapshot({ ...snapshot, records });
+  }, []);
+
+  const clearRouteOrders = useCallback((ids: string[]) => {
+    const records = new Map(snapshot.records);
+    for (const id of ids) {
+      const cur = records.get(id);
+      if (!cur) continue;
+      records.set(id, { ...cur, routeOrder: null, updatedAt: new Date().toISOString() });
+      void getStore().setRouteOrder(id, null);
+    }
+    setSnapshot({ ...snapshot, records });
+  }, []);
+
   const toggleItemFavorite = useCallback(
     (rec: {
       creatorId: string;
@@ -178,11 +230,16 @@ export function useFavorites(): FavoritesApi {
     isVisited: (id) => snap.records.get(id)?.visited ?? false,
     memoOf: (id) => snap.records.get(id)?.memo ?? '',
     statusOf: (id) => snap.records.get(id)?.status ?? 'none',
+    colorOf: (id) => snap.records.get(id)?.color ?? 'none',
+    routeOrderOf: (id) => snap.records.get(id)?.routeOrder ?? null,
     favoriteCount,
     toggleFavorite,
     setMemo,
     setVisited,
     setStatus,
+    setColor,
+    setRouteOrders,
+    clearRouteOrders,
     isItemFavorite: (postId, mediaIndex, itemIndex) =>
       snap.itemKeys.has(itemFavoriteKey(postId, mediaIndex, itemIndex)),
     toggleItemFavorite,

@@ -22,6 +22,28 @@ export const PURCHASE_STATUS_LABEL: Record<PurchaseStatus, string> = {
   skipped: '見送り',
 };
 
+/**
+ * 優先度の色。マップ上のピンとリストの番号に付く。
+ *
+ * 「絶対に買う」「余裕があれば」を色で分けたいという要望から。
+ * 番号だけだと回る順しか分からず、優先度が読み取れない。
+ */
+export type PriorityColor = 'none' | 'red' | 'orange' | 'yellow' | 'green' | 'blue' | 'purple';
+
+export const PRIORITY_COLORS: { value: PriorityColor; label: string; hex: string }[] = [
+  { value: 'none', label: '色なし', hex: '#7fd3e8' },
+  { value: 'red', label: '最優先', hex: '#ff5470' },
+  { value: 'orange', label: '高', hex: '#ff9f45' },
+  { value: 'yellow', label: '中', hex: '#ffdd55' },
+  { value: 'green', label: '低', hex: '#5ad48a' },
+  { value: 'blue', label: '保留', hex: '#5aa9ff' },
+  { value: 'purple', label: 'その他', hex: '#c07fff' },
+];
+
+export const PRIORITY_HEX: Record<PriorityColor, string> = Object.fromEntries(
+  PRIORITY_COLORS.map((c) => [c.value, c.hex]),
+) as Record<PriorityColor, string>;
+
 export type FavoriteRecord = {
   /** creator id */
   creatorId: string;
@@ -32,6 +54,8 @@ export type FavoriteRecord = {
   status?: PurchaseStatus;
   /** 周回ルートの手動並べ替え順。未設定は null */
   routeOrder: number | null;
+  /** 優先度の色。既存データには無いので読み出し側で 'none' に倒す */
+  color?: PriorityColor;
   updatedAt: string;
 };
 
@@ -61,6 +85,7 @@ export interface FavoriteStore {
   setVisited(creatorId: string, visited: boolean): Promise<void>;
   setStatus(creatorId: string, status: PurchaseStatus): Promise<void>;
   setRouteOrder(creatorId: string, order: number | null): Promise<void>;
+  setColor(creatorId: string, color: PriorityColor): Promise<void>;
 
   getItemFavorites(): Promise<ItemFavoriteRecord[]>;
   toggleItemFavorite(rec: Omit<ItemFavoriteRecord, 'updatedAt'>): Promise<boolean>;
@@ -86,6 +111,12 @@ class OshinagakiDb extends Dexie {
       favorites: 'creatorId, favorite, visited, status',
       itemFavorites: 'key, creatorId, postId',
     });
+    // 優先度の色を追加。既存レコードは color 未設定のままでよく、
+    // 読み出し側で 'none' に倒すので移行処理は要らない。
+    this.version(3).stores({
+      favorites: 'creatorId, favorite, visited, status, color',
+      itemFavorites: 'key, creatorId, postId',
+    });
   }
 }
 
@@ -101,6 +132,7 @@ function emptyRecord(creatorId: string): FavoriteRecord {
     visited: false,
     status: 'none',
     routeOrder: null,
+    color: 'none',
     updatedAt: now(),
   };
 }
@@ -112,7 +144,8 @@ function isEmpty(r: FavoriteRecord): boolean {
     r.memo.trim() === '' &&
     !r.visited &&
     (r.status ?? 'none') === 'none' &&
-    r.routeOrder === null
+    r.routeOrder === null &&
+    (r.color ?? 'none') === 'none'
   );
 }
 
@@ -172,6 +205,15 @@ class DexieFavoriteStore implements FavoriteStore {
   async setRouteOrder(creatorId: string, order: number | null): Promise<void> {
     await this.update(creatorId, (r) => {
       r.routeOrder = order;
+    });
+  }
+
+  async setColor(creatorId: string, color: PriorityColor): Promise<void> {
+    await this.update(creatorId, (r) => {
+      r.color = color;
+      // 色を付けるのは「回る対象として意識している」ということなので
+      // お気に入りにも入れる。マップから消えると意味がない。
+      if (color !== 'none') r.favorite = true;
     });
   }
 

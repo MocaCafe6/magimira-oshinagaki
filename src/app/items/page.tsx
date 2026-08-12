@@ -5,9 +5,11 @@ import {
   loadAllCreators,
   loadCuration,
   loadExtractions,
+  loadImageReadNotes,
   loadPosts,
   selectPostsForVenue,
 } from '@/lib/data';
+import { detectGoodsCategories } from '@shared/goods-category';
 import type { Creator, Post, Venue } from '@shared/types';
 import { VENUES } from '@shared/types';
 
@@ -77,6 +79,14 @@ export default async function ItemsPage() {
   // 商品名・価格の抽出がまだ無いときは、お品書きの画像そのものを並べる。
   // 「まだ抽出されていません」とだけ出しても閲覧者の役に立たない。
   if (rows.length === 0) {
+    // 「アクキーだけ見たい」で絞れるように、頒布物の種類を推定して付ける。
+    //
+    // 手掛かりは投稿の本文・画像の代替テキスト・目視の書き起こし。
+    // 商品名の構造化抽出（items.json）が無くても、語の有無だけで
+    // 「CD」「アクスタ」といった絞り込みはできる。
+    const notesByPost = await loadImageReadNotes();
+    const postById = new Map(posts.map((p) => [p.id, p]));
+
     const gallery: GalleryItem[] = [];
     for (const v of VENUES) {
       const index = await buildVenueIndex(v);
@@ -84,6 +94,7 @@ export default async function ItemsPage() {
         const isRef = c.images.length === 0;
         const imgs = c.images.length > 0 ? c.images : c.referenceImages;
         imgs.forEach((m, i) => {
+          const post = m.postId ? postById.get(m.postId) : undefined;
           gallery.push({
             key: `${c.id}:${i}`,
             creatorId: c.id,
@@ -96,6 +107,11 @@ export default async function ItemsPage() {
             width: m.width,
             height: m.height,
             isReference: isRef,
+            categories: detectGoodsCategories(
+              post?.text,
+              m.altText,
+              m.postId ? notesByPost.get(m.postId) : null,
+            ),
           });
         });
       }

@@ -12,9 +12,17 @@ import Link from 'next/link';
 import { useMemo, useState } from 'react';
 
 import { Chip } from '@/components/Chip';
+import { estimateTextWidth, layoutLabels, type LabelBox } from '@/lib/label-layout';
+import { PRIORITY_COLORS, PRIORITY_HEX, type PriorityColor } from '@/lib/store';
 import { useFavorites } from '@/lib/use-favorites';
 import { buildSerpentineRoute } from '@shared/route';
 import type { Venue, VenueMap, VenueMeta } from '@shared/types';
+
+// 既定表示では 1000px 幅の画像をスマホの 430px に収めるので、
+// 画像座標のフォントサイズは実寸の 0.43 倍になる。22 だと 9px 相当で読めない。
+// 30 にして 13px 相当を確保する（重なりは layoutLabels が避ける）。
+const NAME_FONT = 30;
+const NAME_MAX_CHARS = 9;
 
 export type MapCreator = {
   id: string;
@@ -54,6 +62,7 @@ export function MapView({ data }: { data: MapVenueData[] }) {
   const [venue, setVenue] = useState<Venue>(data[0]?.venue ?? 'osaka');
   const [day, setDay] = useState<string | null>(null);
   const [zoomed, setZoomed] = useState(false);
+  const [reordering, setReordering] = useState(false);
   const fav = useFavorites();
 
   const current = data.find((d) => d.venue === venue) ?? data[0];
@@ -84,18 +93,84 @@ export function MapView({ data }: { data: MapVenueData[] }) {
       })),
     );
 
-    const coordMap = new Map((current.map?.coords ?? []).map((c) => [c.boothId, c]));
-    const missing = route.stops
-      .filter((s) => !coordMap.has(s.boothId))
-      .map((s) => s.boothId);
+    // 手で順番を決めているものは、その順を優先する。
+    //
+    // 蛇行順は通路の構造としては妥当だが、「開場直後は混むところから」
+    // 「連れと合流する時間がある」など事情で変えたいことがある。
+    // routeOrder が入っているものを先に、その中では小さい順に並べ、
+    // 残りは蛇行順のまま後ろに続ける。
+    const withManual = route.stops.map((s) => ({
+      s,
+      manual: fav.records.get(s.item.id)?.routeOrder ?? null,
+    }));
+    const hasManual = withManual.some((x) => x.manual !== null);
+    const ordered = hasManual
+      ? [...withManual]
+          .sort((a, b) => {
+            if (a.manual !== null && b.manual !== null) return a.manual - b.manual;
+            if (a.manual !== null) return -1;
+            if (b.manual !== null) return 1;
+            return a.s.order - b.s.order;
+          })
+          .map((x, i) => ({ ...x.s, order: i + 1 }))
+      : route.stops;
 
-    return { stops: route.stops, unplaced: route.unplaced, missingCoords: missing };
+    const coordMap = new Map((current.map?.coords ?? []).map((c) => [c.boothId, c]));
+    const missing = ordered.filter((s) => !coordMap.has(s.boothId)).map((s) => s.boothId);
+
+    return { stops: ordered, unplaced: route.unplaced, missingCoords: missing };
   }, [current, fav.records, day]);
 
   const coordMap = useMemo(
     () => new Map((current?.map?.coords ?? []).map((c) => [c.boothId, c])),
     [current],
   );
+
+  /** 重なりを避けたサークル名の配置 */
+  const labels = useMemo(() => {
+    if (!current?.map) return [];
+    const boxes: (LabelBox & { text: string })[] = [];
+    for (const s of stops) {
+      const c = coordMap.get(s.boothId);
+      if (!c) continue;
+      const text =
+        s.item.circleName.length > NAME_MAX_CHARS
+          ? `${s.item.circleName.slice(0, NAME_MAX_CHARS)}…`
+          : s.item.circleName;
+      boxes.push({
+        id: s.item.id,
+        x: c.x * current.map.imageWidth,
+        y: c.y * current.map.imageHeight,
+        w: estimateTextWidth(text, NAME_FONT),
+        h: NAME_FONT + 6,
+        text,
+      });
+    }
+    // 既定表示ではブース領域だけを切り出しているので、その外に文字を
+    // 置くと端で切れる（最前列 A 列の名前が半分消えていた）。
+    const placed = layoutLabels(boxes, {
+      minY: area.y0 * current.map.imageHeight + NAME_FONT,
+      maxY: area.y1 * current.map.imageHeight - NAME_FONT * 0.5,
+    });
+    const textById = new Map(boxes.map((b) => [b.id, b.text]));
+    return placed.map((p) => ({ ...p, text: textById.get(p.id) ?? '' }));
+  }, [stops, coordMap, current, area]);
+
+  /**
+   * 周回順を1つ上／下に入れ替える。
+   *
+   * 表示中の並びをそのまま保存する。一部だけ手で動かしたときも、
+   * 全件に番号を振り直すことで「手で決めた順が優先」の状態を作る。
+   */
+  const move = (index: number, delta: number) => {
+    const ids = stops.map((s) => s.item.id);
+    const to = index + delta;
+    if (to < 0 || to >= ids.length) return;
+    const next = [...ids];
+    const [moved] = next.splice(index, 1);
+    next.splice(to, 0, moved!);
+    fav.setRouteOrders(next);
+  };
 
   if (!current) {
     return (
@@ -236,6 +311,7 @@ export function MapView({ data }: { data: MapVenueData[] }) {
                       const c = coordMap.get(s.boothId);
                       if (!c) return null;
                       const visited = fav.isVisited(s.item.id);
+                      const color = fav.colorOf(s.item.id);
                       const x = c.x * current.map!.imageWidth;
                       const y = c.y * current.map!.imageHeight;
                       return (
@@ -244,7 +320,7 @@ export function MapView({ data }: { data: MapVenueData[] }) {
                             cx={x}
                             cy={y}
                             r={22}
-                            fill={visited ? '#7a8290' : 'var(--color-mm-accent2)'}
+                            fill={visited ? '#7a8290' : PRIORITY_HEX[color]}
                             stroke="#0f1115"
                             strokeWidth={4}
                             fillOpacity={visited ? 0.7 : 1}
@@ -258,25 +334,6 @@ export function MapView({ data }: { data: MapVenueData[] }) {
                             fill="#0f1115"
                           >
                             {s.order}
-                          </text>
-
-                          {/* サークル名。丸に番号だけでは、どこが誰なのか
-                              マップを見ただけでは分からない。
-                              地の色に負けないよう縁取りを付ける。 */}
-                          <text
-                            x={x}
-                            y={y - 30}
-                            textAnchor="middle"
-                            fontSize={22}
-                            fontWeight="bold"
-                            fill="#ffffff"
-                            stroke="#0f1115"
-                            strokeWidth={6}
-                            paintOrder="stroke"
-                          >
-                            {s.item.circleName.length > 10
-                              ? `${s.item.circleName.slice(0, 10)}…`
-                              : s.item.circleName}
                           </text>
                           <text
                             x={x}
@@ -294,10 +351,61 @@ export function MapView({ data }: { data: MapVenueData[] }) {
                         </g>
                       );
                     })}
+
+                    {/* サークル名。
+                        丸に番号だけではどこが誰なのか分からないので名前を出すが、
+                        隣り合うブースを両方お気に入りにすると重なって読めなくなる。
+                        重なりを避けて上下にずらし、離れたものには引き出し線を引く。
+                        ピンより後に描いて名前が隠れないようにする。 */}
+                    {labels.map((l) => (
+                      <g key={`label-${l.id}`}>
+                        {l.needsLeader && (
+                          <line
+                            x1={l.x}
+                            y1={l.y}
+                            x2={l.labelX}
+                            y2={l.labelY + l.h / 2}
+                            stroke="#ffffff"
+                            strokeWidth={2}
+                            strokeOpacity={0.6}
+                            strokeDasharray="4 4"
+                          />
+                        )}
+                        <text
+                          x={l.labelX}
+                          y={l.labelY}
+                          textAnchor="middle"
+                          fontSize={NAME_FONT}
+                          fontWeight="bold"
+                          fill="#ffffff"
+                          stroke="#0f1115"
+                          strokeWidth={6}
+                          paintOrder="stroke"
+                        >
+                          {l.text}
+                        </text>
+                      </g>
+                    ))}
                     </svg>
                   </div>
                 </div>
               </div>
+              {/* 色の凡例。ピンの色が何を意味するかマップ上で分かるように */}
+              {stops.some((s) => fav.colorOf(s.item.id) !== 'none') && (
+                <div
+                  className="flex flex-wrap items-center gap-x-3 gap-y-1 border-t px-3 py-2 text-xs"
+                  style={{ borderColor: 'var(--border)' }}
+                >
+                  {PRIORITY_COLORS.filter(
+                    (pc) => pc.value !== 'none' && stops.some((s) => fav.colorOf(s.item.id) === pc.value),
+                  ).map((pc) => (
+                    <span key={pc.value} className="flex items-center gap-1">
+                      <span className="size-3 rounded-full" style={{ background: pc.hex }} />
+                      <span style={{ color: 'var(--muted)' }}>{pc.label}</span>
+                    </span>
+                  ))}
+                </div>
+              )}
               <div
                 className="flex items-center justify-between gap-2 border-t px-3 py-2"
                 style={{ borderColor: 'var(--border)' }}
@@ -329,60 +437,144 @@ export function MapView({ data }: { data: MapVenueData[] }) {
             {/* 周回順のリスト */}
             {stops.length > 0 && (
               <section>
-                <div className="mb-2 flex items-baseline justify-between">
-                  <h2 className="text-sm font-semibold">
-                    周回順（{stops.length}件）
-                  </h2>
-                  <span className="text-xs" style={{ color: 'var(--muted)' }}>
-                    未訪問 {remaining}件
-                  </span>
+                <div className="mb-2 flex items-baseline justify-between gap-2">
+                  <h2 className="text-sm font-semibold">周回順（{stops.length}件）</h2>
+                  <div className="flex items-center gap-2">
+                    <span className="text-xs" style={{ color: 'var(--muted)' }}>
+                      未訪問 {remaining}件
+                    </span>
+                    <button
+                      type="button"
+                      onClick={() => setReordering((v) => !v)}
+                      className="rounded-lg border px-2 py-1 text-xs"
+                      style={{
+                        borderColor: reordering ? 'var(--color-mm-accent)' : 'var(--border)',
+                        color: reordering ? 'var(--color-mm-accent)' : 'var(--fg)',
+                      }}
+                    >
+                      {reordering ? '完了' : '順番を変える'}
+                    </button>
+                  </div>
                 </div>
+
+                {reordering && (
+                  <div
+                    className="mb-2 rounded-lg border p-2 text-xs"
+                    style={{ borderColor: 'var(--border)', background: 'var(--surface)' }}
+                  >
+                    <p style={{ color: 'var(--muted)' }}>
+                      ▲▼ で入れ替えます。既定は入口からの蛇行順です。
+                    </p>
+                    <button
+                      type="button"
+                      onClick={() => fav.clearRouteOrders(stops.map((s) => s.item.id))}
+                      className="mt-1.5 rounded border px-2 py-1"
+                      style={{ borderColor: 'var(--border)', color: 'var(--muted)' }}
+                    >
+                      蛇行順に戻す
+                    </button>
+                  </div>
+                )}
+
                 <ol className="flex flex-col gap-1.5">
-                  {stops.map((s) => {
+                  {stops.map((s, i) => {
                     const visited = fav.isVisited(s.item.id);
+                    const color = fav.colorOf(s.item.id);
                     return (
                       <li
                         key={s.item.id}
-                        className="flex items-center gap-2 rounded-lg border p-2"
+                        className="flex flex-col gap-1.5 rounded-lg border p-2"
                         style={{
                           borderColor: 'var(--border)',
                           background: 'var(--surface)',
                           opacity: visited ? 0.5 : 1,
                         }}
                       >
-                        <span
-                          className="flex size-7 shrink-0 items-center justify-center rounded-full text-xs font-bold tabular-nums"
-                          style={{
-                            background: visited ? 'var(--surface2)' : 'var(--color-mm-accent2)',
-                            color: visited ? 'var(--muted)' : '#0f1115',
-                          }}
-                        >
-                          {s.order}
-                        </span>
-                        <span
-                          className="shrink-0 rounded px-1.5 py-0.5 text-xs font-bold tabular-nums"
-                          style={{ background: 'var(--surface2)', color: 'var(--color-mm-accent)' }}
-                        >
-                          {s.boothId}
-                        </span>
-                        <Link
-                          href={`/creator/${encodeURIComponent(s.item.id)}/`}
-                          className="min-w-0 flex-1 truncate text-sm"
-                        >
-                          {s.item.circleName}
-                        </Link>
-                        <button
-                          type="button"
-                          onClick={() => fav.setVisited(s.item.id, !visited)}
-                          aria-pressed={visited}
-                          className="shrink-0 rounded border px-2 py-1 text-xs"
-                          style={{
-                            borderColor: visited ? 'var(--color-mm-accent)' : 'var(--border)',
-                            color: visited ? 'var(--color-mm-accent)' : 'var(--muted)',
-                          }}
-                        >
-                          {visited ? '済' : '未'}
-                        </button>
+                        <div className="flex items-center gap-2">
+                          <span
+                            className="flex size-7 shrink-0 items-center justify-center rounded-full text-xs font-bold tabular-nums"
+                            style={{
+                              background: visited ? 'var(--surface2)' : PRIORITY_HEX[color],
+                              color: visited ? 'var(--muted)' : '#0f1115',
+                            }}
+                          >
+                            {s.order}
+                          </span>
+                          <span
+                            className="shrink-0 rounded px-1.5 py-0.5 text-xs font-bold tabular-nums"
+                            style={{
+                              background: 'var(--surface2)',
+                              color: 'var(--color-mm-accent)',
+                            }}
+                          >
+                            {s.boothId}
+                          </span>
+                          <Link
+                            href={`/creator/${encodeURIComponent(s.item.id)}/`}
+                            className="min-w-0 flex-1 truncate text-sm"
+                          >
+                            {s.item.circleName}
+                          </Link>
+                          {reordering ? (
+                            <span className="flex shrink-0 gap-1">
+                              <button
+                                type="button"
+                                onClick={() => move(i, -1)}
+                                disabled={i === 0}
+                                className="rounded border px-2 py-1 text-xs disabled:opacity-30"
+                                style={{ borderColor: 'var(--border)' }}
+                                aria-label="上へ"
+                              >
+                                ▲
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => move(i, 1)}
+                                disabled={i === stops.length - 1}
+                                className="rounded border px-2 py-1 text-xs disabled:opacity-30"
+                                style={{ borderColor: 'var(--border)' }}
+                                aria-label="下へ"
+                              >
+                                ▼
+                              </button>
+                            </span>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={() => fav.setVisited(s.item.id, !visited)}
+                              aria-pressed={visited}
+                              className="shrink-0 rounded border px-2 py-1 text-xs"
+                              style={{
+                                borderColor: visited ? 'var(--color-mm-accent)' : 'var(--border)',
+                                color: visited ? 'var(--color-mm-accent)' : 'var(--muted)',
+                              }}
+                            >
+                              {visited ? '済' : '未'}
+                            </button>
+                          )}
+                        </div>
+
+                        {/* 優先度の色。マップのピンに反映される */}
+                        <div className="flex items-center gap-1.5 pl-9">
+                          {PRIORITY_COLORS.map((pc) => (
+                            <button
+                              key={pc.value}
+                              type="button"
+                              onClick={() => fav.setColor(s.item.id, pc.value)}
+                              aria-label={pc.label}
+                              aria-pressed={color === pc.value}
+                              title={pc.label}
+                              className="size-5 rounded-full"
+                              style={{
+                                background: pc.hex,
+                                outline:
+                                  color === pc.value ? '2px solid var(--fg)' : '1px solid var(--border)',
+                                outlineOffset: 1,
+                                opacity: pc.value === 'none' ? 0.5 : 1,
+                              }}
+                            />
+                          ))}
+                        </div>
                       </li>
                     );
                   })}

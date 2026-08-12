@@ -39,14 +39,16 @@
     "verify-offline": "tsx scripts/verify-offline.ts",
     "verify-map": "tsx scripts/verify-map.ts",
     "review": "concurrently -k -n server,web \"npm:admin-server\" \"cross-env NEXT_PUBLIC_ADMIN=1 next dev\"",
-    "test": "node --import tsx --test \"scripts/**/*.test.ts\"",
+    "test": "node --import tsx --test \"scripts/**/*.test.ts\" \"src/**/*.test.ts\"",
     "typecheck": "tsc --noEmit",
     "find-x-from-website": "tsx scripts/find-x-from-website.ts",
     "match-x-by-site": "tsx scripts/match-x-by-site.ts",
     "probe-remaining-booths": "tsx scripts/probe-remaining-booths.ts",
     "fetch-images-for-review": "tsx scripts/fetch-images-for-review.ts",
     "rank-unresolved-images": "tsx scripts/rank-unresolved-images.ts",
-    "why-not-listed": "tsx scripts/why-not-listed.ts"
+    "why-not-listed": "tsx scripts/why-not-listed.ts",
+    "verify-ui-additions": "tsx scripts/verify-ui-additions.ts",
+    "verify-map-labels": "tsx scripts/verify-map-labels.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",

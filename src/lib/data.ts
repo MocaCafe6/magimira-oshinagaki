@@ -52,6 +52,8 @@ export type ListImage = {
   width: number;
   height: number;
   postUrl: string;
+  /** 元投稿のID。頒布物の種類を本文から推定するのに使う */
+  postId: string;
 };
 
 export type CreatorSummary = {
@@ -155,8 +157,30 @@ function toListImages(posts: Post[]): ListImage[] {
         width: m.width,
         height: m.height,
         postUrl: p.url,
+        postId: p.id,
       })),
   );
+}
+
+/**
+ * 画像を目視したときの書き起こしを「投稿ID → 本文」で引けるようにする。
+ *
+ * 頒布物の種類（CD / アクスタ / 缶バッジ…）を推定する手掛かりに使う。
+ * 本文には品目を書かず画像だけで示すサークルが多く、本文だけでは足りない。
+ *
+ * OCR のキャッシュ（data/ocr-cache.json）は使わない。tesseract の
+ * 読み取りが実測でほとんど文字になっておらず（「な し 2 mr マン」のような
+ * 状態）、種類の判定に入れると雑音しか増えない。
+ * かわりに image-reads.json の notes を使う。これは画像を見て
+ * 商品名と価格を書き起こしたもので、品目名がそのまま入っている。
+ */
+export async function loadImageReadNotes(): Promise<Map<string, string>> {
+  const reads = await load<{ postId: string; notes?: string | null }[]>('image-reads.json', []);
+  const out = new Map<string, string>();
+  for (const r of reads) {
+    if (r.notes) out.set(r.postId, r.notes);
+  }
+  return out;
 }
 
 function toSummary(

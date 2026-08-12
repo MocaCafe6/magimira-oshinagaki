@@ -6,7 +6,7 @@
  * 開くまでは読み込まない（会場の細い回線で無駄に転送しないため）。
  */
 
-import { useCallback, useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 
 export type LightboxImage = {
   origUrl: string;
@@ -61,6 +61,31 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
     };
   }, [go, onClose]);
 
+  // 横スワイプで前後に移動する。スマホで「次へ」を押すのは面倒。
+  //
+  // 原寸表示（fit=false）のときはスワイプを取らない。横スクロールで
+  // 画像の端を読んでいる最中に勝手に次へ行ってしまうため。
+  const touch = useRef<{ x: number; y: number; t: number } | null>(null);
+  const SWIPE_MIN_PX = 50;
+
+  const onTouchStart = (e: React.TouchEvent) => {
+    if (e.touches.length !== 1) return;
+    const t = e.touches[0]!;
+    touch.current = { x: t.clientX, y: t.clientY, t: Date.now() };
+  };
+  const onTouchEnd = (e: React.TouchEvent) => {
+    const start = touch.current;
+    touch.current = null;
+    if (!start || !fit) return;
+    const t = e.changedTouches[0];
+    if (!t) return;
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    // 縦方向のほうが大きい動きは（閉じる意図やスクロール）スワイプにしない
+    if (Math.abs(dx) < SWIPE_MIN_PX || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+    go(dx < 0 ? 1 : -1);
+  };
+
   if (!image) return null;
 
   return (
@@ -69,6 +94,8 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
       role="dialog"
       aria-modal="true"
       aria-label="お品書き原寸表示"
+      onTouchStart={onTouchStart}
+      onTouchEnd={onTouchEnd}
     >
       <div className="flex items-center justify-between gap-2 p-3 text-sm text-white">
         <span className="tabular-nums">
@@ -118,14 +145,22 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
         </div>
       </div>
 
-      <div className={`zoomable relative flex-1 ${fit ? 'flex items-center justify-center overflow-hidden' : 'overflow-auto'}`}>
+      {/* 画像の外側をタップしたら閉じる。
+          画像そのもののタップは原寸切替に使うので、img 側で伝播を止める。 */}
+      <div
+        className={`zoomable relative flex-1 ${fit ? 'flex items-center justify-center overflow-hidden' : 'overflow-auto'}`}
+        onClick={onClose}
+      >
         {!loaded && !failed && (
           <div className="absolute inset-0 flex items-center justify-center text-sm text-white/70">
             原寸画像を読み込み中…
           </div>
         )}
         {failed ? (
-          <div className="flex h-full flex-col items-center justify-center gap-3 p-6 text-center text-sm text-white/80">
+          <div
+            className="flex h-full flex-col items-center justify-center gap-3 p-6 text-center text-sm text-white/80"
+            onClick={(e) => e.stopPropagation()}
+          >
             <p>原寸画像を読み込めませんでした。</p>
             {image.altText && <p className="text-white/60">{image.altText}</p>}
             <p className="text-white/60">
@@ -147,7 +182,10 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
             alt={image.altText ?? 'お品書き'}
             onLoad={() => setLoaded(true)}
             onError={() => setFailed(true)}
-            onClick={() => setFit((v) => !v)}
+            onClick={(e) => {
+              e.stopPropagation(); // 枠外タップの「閉じる」と混ざらないようにする
+              setFit((v) => !v);
+            }}
             className={
               fit
                 ? 'mx-auto block max-h-full max-w-full object-contain'
@@ -163,7 +201,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
       </div>
 
       {images.length > 1 && (
-        <div className="flex justify-between gap-2 p-3">
+        <div className="flex items-center justify-between gap-2 p-3">
           <button
             type="button"
             onClick={() => go(-1)}
@@ -172,6 +210,7 @@ export function Lightbox({ images, index, onClose, onIndexChange }: Props) {
           >
             ← 前
           </button>
+          <span className="text-xs text-white/50">横にスワイプでも移動できます</span>
           <button
             type="button"
             onClick={() => go(1)}
