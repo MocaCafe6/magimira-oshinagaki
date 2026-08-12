@@ -135,8 +135,15 @@ export function scanMarkers(rawText: string): Marker[] {
   }
 
   // ブース番号: A-1 / A1 / [A-1] / 「A-1」など。
-  // 日付(7/26)や価格(2000円)を誤って拾わないよう、直前が数字・スラッシュでないこと。
-  const boothRe = /(?<![0-9/])([A-Ga-g])\s*-?\s*(\d{1,2})(?![0-9])/g;
+  //
+  // 直前が数字・スラッシュでないこと（日付 7/26 や価格 2000円を拾わない）。
+  // **直前が英字でないこと**も要る。これが無いと単語の末尾の文字を
+  // ブース番号の頭と読んでしまう。実データ:
+  //   「OSAKA 8.14-8.16」→ OSAKA の A と 8 で「A-8」と誤読
+  // この誤読のせいで「本文の大阪 A-8 は公式(A-2)と一致しない」という
+  // 食い違い扱いになり、3会場に参加すると書いてある投稿が
+  // 大阪だけ落ちていた（Evergreen Leland Studio 大阪A-2）。
+  const boothRe = /(?<![0-9/A-Za-z])([A-Ga-g])\s*-?\s*(\d{1,2})(?![0-9])/g;
   for (const m of text.matchAll(boothRe)) {
     const booth = normalizeBooth(`${m[1]}-${m[2]}`);
     if (booth) markers.push({ kind: 'booth', booth, index: m.index, text: m[0] });

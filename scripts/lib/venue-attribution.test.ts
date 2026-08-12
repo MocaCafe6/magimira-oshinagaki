@@ -326,6 +326,20 @@ test('別ツアーの公演地リストの中の地名は会場と読まない',
   assert.deepEqual(r.provenVenues, []);
 });
 
+test('単語の末尾の英字と数字をブース番号と誤読しない', () => {
+  // 実データ: 「OSAKA 8.14-8.16」の OSAKA の A と 8 を「A-8」と読み、
+  // 「大阪 A-8 は公式(A-2)と一致しない」という食い違い扱いになって
+  // 3会場参加と書いてある投稿が大阪だけ落ちていた。
+  const r = attributeFromText({
+    text:
+      'マジカルミライ2026クリエイターズマーケットに参加します！新譜「等心大」を頒布します。' +
+      '浜松、大阪、東京全てに参加予定です。\nHAMAMATSU 7.24-7.25\nOSAKA 8.14-8.16\nTOKYO 8.28-8.30',
+    handle: 'x',
+    official: official({ hamamatsu: 'D-8', osaka: 'A-2', tokyo: 'A-6' }),
+  });
+  assert.deepEqual([...r.provenVenues].sort(), ['osaka', 'tokyo']);
+});
+
 test('ホール名に続く地名は会場と読まない', () => {
   // 実データ: CDのタイトルがそのまま本文に入っている。
   //   『初音ミクシンフォニー2026 at Concert Hall Kitara, Sapporo & Suntory Hall, Tokyo』

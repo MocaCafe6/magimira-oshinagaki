@@ -521,12 +521,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -5143,13 +5146,15 @@
       "provenVenues": [],
       "daysByVenue": {},
       "otherVenues": [
-        "osaka"
+        "hamamatsu"
       ],
       "source": "unresolved",
       "evidence": [
-        "本文に「大阪」の記載があるが、他イベントの名前も含むためどちらの会場か判別できない"
+        "画像に「浜松」の記載（対象外）",
+        "読み取りメモ: 画像の見出しが「ぼーかりおどP(noa) M726 おしなかき」。M726 は 7/26（浜松最終日）。マジミラ2026楽曲コンテスト落選集6 500yen、TRILOGY 2000yen、OCTAVE 500yen、NGYS 500yen"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2086992271157924220",
@@ -6155,15 +6160,16 @@
       "+10 直近の投稿"
     ],
     "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu",
+      "provenVenues": [
         "osaka"
       ],
-      "source": "unresolved",
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "text-venue",
       "evidence": [
-        "本文の「大阪 A-10」は公式のブース番号(G-4)と一致しない"
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -8213,12 +8219,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -10225,12 +10234,15 @@
       "-30 リツイート"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -12987,12 +12999,15 @@
       "-30 リツイート"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -17065,16 +17080,18 @@
       "-30 リプライ"
     ],
     "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
+      "provenVenues": [
         "osaka"
       ],
-      "source": "unresolved",
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "image",
       "evidence": [
-        "本文の「大阪 D-3,A-2」は公式のブース番号(G-11)と一致しない"
+        "画像の「大阪 G-11」が公式のブース番号と一致",
+        "読み取りメモ: 画像の見出しが「HATSUNE MIKU MAGICAL MIRAI 2026 KARENT presents CREATORS MARKET (OSAKA) 8/14(FRI)-16(SUN) G-11」。新作「革命ノ赤」¥1,500 と収録曲一覧"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2085914560918372575",
@@ -18365,12 +18382,15 @@
       "+10 直近の投稿"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -23534,12 +23554,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -25265,15 +25288,19 @@
     ],
     "attribution": {
       "provenVenues": [
-        "osaka"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [
+        "osaka",
         "tokyo"
       ],
+      "daysByVenue": {
+        "tokyo": [
+          "2026-08-28",
+          "2026-08-30"
+        ]
+      },
+      "otherVenues": [],
       "source": "text-venue",
       "evidence": [
-        "本文の「東京 E-9」は公式のブース番号(A-4)と一致しない",
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
@@ -34426,12 +34453,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -35588,12 +35618,15 @@
       "-30 リツイート"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -46125,9 +46158,11 @@
       ],
       "source": "unresolved",
       "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+        "画像に「浜松」の記載（対象外）",
+        "読み取りメモ: 画像の見出しが「マジカルミライ2026 HAMAMATSU [B-10] in 7/24・25 しゃいとれこーず」。1st.EP¥1,000ほか価格つき。浜松のお品書きなので大阪・東京には出さない（参考枠に入る）"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2081174722432405809",
@@ -46949,16 +46984,23 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "unresolved",
+      "source": "image",
       "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+        "画像に「浜松」の記載（対象外）",
+        "画像に「大阪」の明記があり、公式にも出展記録がある",
+        "画像に「東京」の明記があり、公式にも出展記録がある",
+        "読み取りメモ: 画像の見出しが「Gift MAGICAL MIRAI 2026 ITEM LIST HAMAMATSU/OSAKA/TOKYO」。初音ミク マジカルミライ2026 ぬいぐるみ イベント価格7,000円、雪ミクぬいぐるみ Sweet Snow Ver. 7,000円、SUPER PACK ver. 各キャラ 5,000円。3会場共通の品目一覧。本文は浜松のブース番号しか書いていないが画像は3会場を明記している"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2081167622842863852",
@@ -51327,9 +51369,11 @@
       ],
       "source": "unresolved",
       "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+        "画像に「浜松」の記載（対象外）",
+        "読み取りメモ: 画像は「ピアプロキャラクターズ×OZaKKa 超推し活shop! 販売グッズ一覧」。肩乗りぬいぐるみショルダーパッド¥2,970、アクリル缶バッジケース&グリッター缶バッジセット¥2,420、エナメルスマホストラップ¥2,420、エナメルぬいぐるみポーチ¥3,520、エナメル缶バッジケース¥2,750、エナメルぬいキャリーバッグ¥7,920、ぬいぐるみぬいぐるみ¥2,580。本文が浜松B-5の販売情報なので浜松として記録"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2080873980513411505",
@@ -55583,16 +55627,23 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [
         "hamamatsu"
       ],
-      "source": "unresolved",
+      "source": "image",
       "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+        "画像に「浜松」の記載（対象外）",
+        "画像に「大阪」の明記があり、公式にも出展記録がある",
+        "画像に「東京」の明記があり、公式にも出展記録がある",
+        "読み取りメモ: 上と同じ「Gift MAGICAL MIRAI 2026 ITEM LIST HAMAMATSU/OSAKA/TOKYO」"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2080805250320257069",
@@ -63577,9 +63628,11 @@
       ],
       "source": "unresolved",
       "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+        "画像に「浜松」の記載（対象外）",
+        "読み取りメモ: 画像の見出しが「マジカルミライ 7/24,25 B-6[浜松] 打刀だいず」。ステッカーセット1000円、アクリルスタンド2500円、ミニこみキーホルダー2000円"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2080429875329155457",
@@ -64191,12 +64244,15 @@
       "+10 直近の投稿"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -66734,9 +66790,11 @@
       ],
       "source": "unresolved",
       "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+        "画像に「浜松」の記載（対象外）",
+        "読み取りメモ: 画像の見出しが「あ子あふ マジミラ浜松」。1st Full Album 2500円ほか価格つき。「マジミラ大阪以降新譜あります！」と書いてあるが大阪の品目は未提示"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2080203391826084346",
@@ -72938,9 +72996,11 @@
       ],
       "source": "unresolved",
       "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+        "画像に「浜松」の記載（対象外）",
+        "読み取りメモ: 画像の見出しが「B-9 浜松の風（木瀬のん） 7/24・7/25・7/26」。UNA10!!!¥2000、PIANØISM¥2000、Discovery¥2000、Una certa Festa¥1500、群青コンプレックス¥2000、音街ウナステッカー各種¥200"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2079499120796897738",
@@ -78250,12 +78310,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -79016,16 +79079,16 @@
     ],
     "attribution": {
       "provenVenues": [
+        "osaka",
         "tokyo"
       ],
       "daysByVenue": {},
       "otherVenues": [
-        "hamamatsu",
-        "osaka"
+        "hamamatsu"
       ],
       "source": "text-venue",
       "evidence": [
-        "本文の「大阪 A-8」は公式のブース番号(A-2)と一致しない",
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
         "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
@@ -79530,16 +79593,16 @@
     ],
     "attribution": {
       "provenVenues": [
+        "osaka",
         "tokyo"
       ],
       "daysByVenue": {},
       "otherVenues": [
-        "hamamatsu",
-        "osaka"
+        "hamamatsu"
       ],
       "source": "text-venue",
       "evidence": [
-        "本文の「大阪 A-8」は公式のブース番号(A-2)と一致しない",
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
         "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
@@ -83634,12 +83697,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -83676,12 +83742,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -84336,12 +84405,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -88156,9 +88228,10 @@
       "otherVenues": [],
       "source": "unresolved",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "読み取りメモ: 画像は「暗黒童話唄 2026 GOODS」の一覧。ミニCDキーホルダー全5種¥1,000、アクリルキーホルダー¥800、ピアス・イヤリング¥2,500、禁書¥3,000、死因書¥300、CDアルバム 1st¥1,000/2nd¥2,000/3rd¥2,000。画像に会場の記載は無いので会場は本文の判定に任せる"
       ]
-    }
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2075524029767971004",
@@ -91613,12 +91686,15 @@
       "+10 直近の投稿"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -91946,12 +92022,15 @@
       "+10 直近の投稿"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -102577,17 +102656,17 @@
     ],
     "attribution": {
       "provenVenues": [
-        "osaka"
+        "osaka",
+        "tokyo"
       ],
       "daysByVenue": {},
       "otherVenues": [
-        "hamamatsu",
-        "tokyo"
+        "hamamatsu"
       ],
       "source": "text-venue",
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "本文の「東京 D-3」は公式のブース番号(C-24)と一致しない"
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -106577,12 +106656,15 @@
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -111300,12 +111382,14 @@
       "-30 リツイート"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である東京すべてに適用"
       ]
     }
   },
@@ -114274,12 +114358,15 @@
       "-30 リツイート"
     ],
     "attribution": {
-      "provenVenues": [],
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "unresolved",
+      "source": "event-wide",
       "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },

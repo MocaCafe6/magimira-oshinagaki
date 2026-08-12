@@ -38,6 +38,13 @@ async function main(): Promise<void> {
 
   const posts = await readJson<Post[]>(dataPath('posts.json'), []);
 
+  // --include-unresolved: 会場が未確定のものも対象にする。
+  //
+  // 画像には会場名とブース番号が印字されていることが多く、読めば
+  // 「お品書きである」と「どの会場か」の両方が片付く。会場が確定して
+  // いるものだけ見ていると、この一番効く層に手が届かない。
+  const includeUnresolved = process.argv.includes('--include-unresolved');
+
   const targets = ids
     ? posts.filter((p) => ids.includes(p.id))
     : posts
@@ -45,7 +52,7 @@ async function main(): Promise<void> {
           (p) =>
             p.score >= 50 &&
             p.media.some((m) => m.kind === 'photo') &&
-            (p.attribution?.provenVenues.length ?? 0) > 0 &&
+            (includeUnresolved || (p.attribution?.provenVenues.length ?? 0) > 0) &&
             isMagimiraPost(p) &&
             !isOshinagakiPost(p) &&
             !isProductPost(p) &&

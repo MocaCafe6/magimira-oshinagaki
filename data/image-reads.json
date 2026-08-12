@@ -811,5 +811,179 @@
     "isMagimira": true,
     "venues": [],
     "notes": "Hotel Rêvenocturne の商品ビジュアル。「MAGICAL MIRAI 2026 OSAKA 8/14-8/16 ブース No:D10」の記載はあるが、1商品ラインの紹介で価格一覧ではない"
+  },
+  {
+    "postId": "2081167639678980391",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": null,
+        "dates": []
+      },
+      {
+        "venue": "osaka",
+        "boothId": null,
+        "dates": []
+      },
+      {
+        "venue": "tokyo",
+        "boothId": null,
+        "dates": []
+      }
+    ],
+    "notes": "画像の見出しが「Gift MAGICAL MIRAI 2026 ITEM LIST HAMAMATSU/OSAKA/TOKYO」。初音ミク マジカルミライ2026 ぬいぐるみ イベント価格7,000円、雪ミクぬいぐるみ Sweet Snow Ver. 7,000円、SUPER PACK ver. 各キャラ 5,000円。3会場共通の品目一覧。本文は浜松のブース番号しか書いていないが画像は3会場を明記している"
+  },
+  {
+    "postId": "2080805253038178329",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": null,
+        "dates": []
+      },
+      {
+        "venue": "osaka",
+        "boothId": null,
+        "dates": []
+      },
+      {
+        "venue": "tokyo",
+        "boothId": null,
+        "dates": []
+      }
+    ],
+    "notes": "上と同じ「Gift MAGICAL MIRAI 2026 ITEM LIST HAMAMATSU/OSAKA/TOKYO」"
+  },
+  {
+    "postId": "2085920033998569482",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "G-11",
+        "dates": []
+      }
+    ],
+    "notes": "画像の見出しが「HATSUNE MIKU MAGICAL MIRAI 2026 KARENT presents CREATORS MARKET (OSAKA) 8/14(FRI)-16(SUN) G-11」。新作「革命ノ赤」¥1,500 と収録曲一覧"
+  },
+  {
+    "postId": "2075532720873308515",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venues": [],
+    "notes": "画像は「暗黒童話唄 2026 GOODS」の一覧。ミニCDキーホルダー全5種¥1,000、アクリルキーホルダー¥800、ピアス・イヤリング¥2,500、禁書¥3,000、死因書¥300、CDアルバム 1st¥1,000/2nd¥2,000/3rd¥2,000。画像に会場の記載は無いので会場は本文の判定に任せる"
+  },
+  {
+    "postId": "2081174723141206317",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "B-10",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25"
+        ]
+      }
+    ],
+    "notes": "画像の見出しが「マジカルミライ2026 HAMAMATSU [B-10] in 7/24・25 しゃいとれこーず」。1st.EP¥1,000ほか価格つき。浜松のお品書きなので大阪・東京には出さない（参考枠に入る）"
+  },
+  {
+    "postId": "2079499120520425907",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "B-9",
+        "dates": []
+      }
+    ],
+    "notes": "画像の見出しが「B-9 浜松の風（木瀬のん） 7/24・7/25・7/26」。UNA10!!!¥2000、PIANØISM¥2000、Discovery¥2000、Una certa Festa¥1500、群青コンプレックス¥2000、音街ウナステッカー各種¥200"
+  },
+  {
+    "postId": "2080203763504087168",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": null,
+        "dates": [
+          "2026-07-24",
+          "2026-07-25"
+        ]
+      }
+    ],
+    "notes": "画像の見出しが「あ子あふ マジミラ浜松」。1st Full Album 2500円ほか価格つき。「マジミラ大阪以降新譜あります！」と書いてあるが大阪の品目は未提示"
+  },
+  {
+    "postId": "2086992879155822804",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": null,
+        "dates": [
+          "2026-07-26"
+        ]
+      }
+    ],
+    "notes": "画像の見出しが「ぼーかりおどP(noa) M726 おしなかき」。M726 は 7/26（浜松最終日）。マジミラ2026楽曲コンテスト落選集6 500yen、TRILOGY 2000yen、OCTAVE 500yen、NGYS 500yen"
+  },
+  {
+    "postId": "2080430953693069441",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "B-6",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25"
+        ]
+      }
+    ],
+    "notes": "画像の見出しが「マジカルミライ 7/24,25 B-6[浜松] 打刀だいず」。ステッカーセット1000円、アクリルスタンド2500円、ミニこみキーホルダー2000円"
+  },
+  {
+    "postId": "2080875620054249969",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "B-5",
+        "dates": []
+      }
+    ],
+    "notes": "画像は「ピアプロキャラクターズ×OZaKKa 超推し活shop! 販売グッズ一覧」。肩乗りぬいぐるみショルダーパッド¥2,970、アクリル缶バッジケース&グリッター缶バッジセット¥2,420、エナメルスマホストラップ¥2,420、エナメルぬいぐるみポーチ¥3,520、エナメル缶バッジケース¥2,750、エナメルぬいキャリーバッグ¥7,920、ぬいぐるみぬいぐるみ¥2,580。本文が浜松B-5の販売情報なので浜松として記録"
   }
 ]
