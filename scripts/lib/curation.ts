@@ -59,6 +59,35 @@ const FORTHCOMING_RE =
  * 逆に、画像を読んで「お品書きではない」と分かったものは、
  * 本文に「お品書き」とあっても載せない（「お品書きは明日公開します」＋箱の写真、など）。
  */
+/**
+ * 「終わった話」ではないと分かる打ち消し。
+ *
+ * RETROSPECTIVE_RE は語の有無だけを見るので、過去の完売に触れつつ
+ * これから売る話をしている投稿まで落としてしまう。実データ:
+ *   「マジカルミライ大阪のお品書きです！…
+ *     星の音も浜松で売り切れてしまったのですが、再入荷しました！あります！」
+ * 本文に「大阪のお品書きです」と明記され会場も大阪と確定しているのに、
+ * 「売り切れ」の一語で振り返り扱いになって落ちていた（たきだしごはん 大阪D-1）。
+ *
+ * 打ち消しの語が同じ文にあるなら、その完売は過去の出来事の説明にすぎない。
+ */
+const RESTOCK_RE = /再入荷|入荷しました|補充|再販|再頒布|追加(?:生産|入荷|分)|持って(?:いき|行き)ます|あります/;
+
+/**
+ * 振り返りかどうか。打ち消しがあれば振り返りとみなさない。
+ *
+ * 文単位で見る。「浜松ありがとうございました。大阪もあります」のような
+ * 投稿で、離れた位置の「あります」が打ち消しに使われないようにする。
+ */
+function isRetrospective(text: string): boolean {
+  for (const sentence of text.split(/[。\n！!？?]/)) {
+    if (!RETROSPECTIVE_RE.test(sentence)) continue;
+    if (RESTOCK_RE.test(sentence)) continue;
+    return true;
+  }
+  return false;
+}
+
 export function isOshinagakiPost(post: Post): boolean {
   const hasPhoto = post.media.some((m) => m.kind === 'photo');
   if (!hasPhoto) return false;
@@ -70,7 +99,7 @@ export function isOshinagakiPost(post: Post): boolean {
   const text = [post.text, ...post.media.map((m) => m.altText ?? '')].join('\n');
   if (!OSHINAGAKI_RE.test(text)) return false;
   // 「お品書きありがとうございました」のような終了報告は除く
-  if (RETROSPECTIVE_RE.test(text)) return false;
+  if (isRetrospective(text)) return false;
   // 「お品書きはまた後日投稿します」のような予告は、まだ出ていないので除く
   return !FORTHCOMING_RE.test(text);
 }
@@ -176,7 +205,7 @@ export function isProductPost(post: Post): boolean {
   if (isOshinagakiPost(post)) return false; // 一覧はそちらで扱う
 
   const text = [post.text, ...post.media.map((m) => m.altText ?? '')].join('\n');
-  if (RETROSPECTIVE_RE.test(text)) return false;
+  if (isRetrospective(text)) return false;
   if (FORTHCOMING_RE.test(text)) return false;
 
   // ① 見出しが「頒布物の案内」だと名乗っている。価格は画像にある
