@@ -10,6 +10,7 @@
 import { useMemo, useState } from 'react';
 
 import { Chip } from '@/components/Chip';
+import { formatDateTimeJst } from '@/lib/format';
 import type { CurationVerdict, Post, Venue } from '@shared/types';
 import { VENUES } from '@shared/types';
 
@@ -27,10 +28,7 @@ const VENUE_LABEL: Record<Venue, string> = { osaka: '大阪', tokyo: '東京' };
 
 const ADMIN_API = 'http://127.0.0.1:8787';
 
-function formatDateTime(iso: string): string {
-  const d = new Date(iso);
-  return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
-}
+const formatDateTime = formatDateTimeJst;
 
 export function ReviewView({
   candidates,

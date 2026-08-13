@@ -7,18 +7,11 @@ import { Lightbox, type LightboxImage } from '@/components/Lightbox';
 import { OshinagakiImage } from '@/components/OshinagakiImage';
 import { ShareButton } from '@/components/ShareButton';
 import type { CreatorDetail } from '@/lib/data';
+import { formatDateTimeJst, formatEventDay } from '@/lib/format';
 import { useFavorites } from '@/lib/use-favorites';
 
-function dayLabel(iso: string): string {
-  const d = new Date(iso + 'T00:00:00Z');
-  const wd = ['日', '月', '火', '水', '木', '金', '土'][d.getUTCDay()];
-  return `${d.getUTCMonth() + 1}/${d.getUTCDate()}(${wd})`;
-}
-
-function formatDateTime(iso: string): string {
-  const d = new Date(iso);
-  return `${d.getFullYear()}/${d.getMonth() + 1}/${d.getDate()} ${String(d.getHours()).padStart(2, '0')}:${String(d.getMinutes()).padStart(2, '0')}`;
-}
+const dayLabel = formatEventDay;
+const formatDateTime = formatDateTimeJst;
 
 function yen(n: number): string {
   return `¥${n.toLocaleString('ja-JP')}`;

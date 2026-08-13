@@ -12,6 +12,7 @@ import Link from 'next/link';
 import { useMemo, useState } from 'react';
 
 import { Chip } from '@/components/Chip';
+import { formatEventDay } from '@/lib/format';
 import { estimateTextWidth, layoutLabels, type LabelBox } from '@/lib/label-layout';
 import { PRIORITY_COLORS, PRIORITY_HEX, type PriorityColor } from '@/lib/store';
 import { useFavorites } from '@/lib/use-favorites';
@@ -45,11 +46,7 @@ export type MapVenueData = {
   creators: MapCreator[];
 };
 
-function dayLabel(iso: string): string {
-  const d = new Date(iso + 'T00:00:00Z');
-  const wd = ['日', '月', '火', '水', '木', '金', '土'][d.getUTCDay()];
-  return `${d.getUTCMonth() + 1}/${d.getUTCDate()}(${wd})`;
-}
+const dayLabel = formatEventDay;
 
 const ENTRANCE_LABEL: Record<VenueMeta['route']['entrance'], string> = {
   'top-right': '右上',
