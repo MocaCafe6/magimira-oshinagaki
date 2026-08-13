@@ -1,5 +1,790 @@
 [
   {
+    "id": "2087844854873346083",
+    "handle": "wapalette",
+    "url": "https://x.com/wapalette/status/2087844854873346083",
+    "text": "初音ミク「マジカルミライ2026」OSAKA✨\n\n和真パレットブースの設営が完了しました👓\n\nいよいよ明日からスタート！\nたくさんのメガネ・グッズをご用意してお待ちしております♪\n\n和真パレット（ブースNO.D3）へぜひお立ち寄りください！\n\n#初音ミク #マジカルミライ2026 #メガネ",
+    "createdAt": "2026-08-13T10:12:58.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPmDzdFagAAwBfA",
+        "thumbUrl": "https://pbs.twimg.com/media/HPmDzdFagAAwBfA?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPmDzdFagAAwBfA?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPmDzdFagAAwBfA?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPmDzdFagAAwBfA?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1855,
+        "height": 2048,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPmDzdgacAAQIzu",
+        "thumbUrl": "https://pbs.twimg.com/media/HPmDzdgacAAQIzu?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPmDzdgacAAQIzu?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPmDzdgacAAQIzu?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPmDzdgacAAQIzu?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 800,
+        "height": 600,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPmDzdjbAAAyPM1",
+        "thumbUrl": "https://pbs.twimg.com/media/HPmDzdjbAAAyPM1?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPmDzdjbAAAyPM1?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPmDzdjbAAAyPM1?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPmDzdjbAAAyPM1?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 800,
+        "height": 586,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPmDzdobAAE-M1m",
+        "thumbUrl": "https://pbs.twimg.com/media/HPmDzdobAAE-M1m?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPmDzdobAAE-M1m?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPmDzdobAAE-M1m?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPmDzdobAAE-M1m?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 800,
+        "height": 600,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 100,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-booth",
+      "evidence": [
+        "本文の「大阪 D-3」が公式のブース番号と一致"
+      ]
+    }
+  },
+  {
+    "id": "2087840895496491138",
+    "handle": "yasuhiro_vanq",
+    "url": "https://x.com/yasuhiro_vanq/status/2087840895496491138",
+    "text": "明日からマジミラ大阪、自分は15.16（土日）に参加します！",
+    "createdAt": "2026-08-13T09:57:14.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 20,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087836306424615206",
+    "handle": "shishido_4410",
+    "url": "https://x.com/shishido_4410/status/2087836306424615206",
+    "text": "【お品書き】\n明日からのマジミラ大阪クリエイターズマーケットのお品書きです！\nよろしくお願いします！",
+    "createdAt": "2026-08-13T09:39:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPluusnaUAALvgz",
+        "thumbUrl": "https://pbs.twimg.com/media/HPluusnaUAALvgz?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPluusnaUAALvgz?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPluusnaUAALvgz?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPluusnaUAALvgz?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1500,
+        "height": 2000,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPluvj3bkAAwHYt",
+        "thumbUrl": "https://pbs.twimg.com/media/HPluvj3bkAAwHYt?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPluvj3bkAAwHYt?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPluvj3bkAAwHYt?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPluvj3bkAAwHYt?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1786,
+        "height": 2506,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPluwpdawAAugOI",
+        "thumbUrl": "https://pbs.twimg.com/media/HPluwpdawAAugOI?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPluwpdawAAugOI?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPluwpdawAAugOI?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPluwpdawAAugOI?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1500,
+        "height": 2000,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPluxspa0AAR3aX",
+        "thumbUrl": "https://pbs.twimg.com/media/HPluxspa0AAR3aX?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPluxspa0AAR3aX?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPluxspa0AAR3aX?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPluxspa0AAR3aX?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1500,
+        "height": 2000,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 100,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087830320909525113",
+    "handle": "yoyoyo_kan",
+    "url": "https://x.com/yoyoyo_kan/status/2087830320909525113",
+    "text": "今日の荒神神社は夕日が綺麗だな",
+    "createdAt": "2026-08-13T09:15:13.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
+      ]
+    }
+  },
+  {
+    "id": "2087827666615582769",
+    "handle": "utsupii",
+    "url": "https://x.com/utsupii/status/2087827666615582769",
+    "text": "マジカルミライ大阪ではこのカセットテープと旧譜アルバムを頒布するよ💪",
+    "createdAt": "2026-08-13T09:04:40.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 60,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087825332967821490",
+    "handle": "TANITAofficial",
+    "url": "https://x.com/TANITAofficial/status/2087825332967821490",
+    "text": "RT @TANITAofficial: 📣おしらせ\nムーミンとのコラボ商品が販売開始です🎉\n体重計・歩数計・温湿度計・クッキングスケールの4機種がラインアップ！\n\nムーミンたちとのんびり健康習慣をはじめませんか？\n\n🔽商品の詳細はこちら\nhttps://t.co/sBd5QTc…",
+    "createdAt": "2026-08-13T08:55:23.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": true,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リツイート"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
+      ]
+    }
+  },
+  {
+    "id": "2087822416877891716",
+    "handle": "shishido_4410",
+    "url": "https://x.com/shishido_4410/status/2087822416877891716",
+    "text": "なんかXに現れてなすぎでやばいんですがマジミラ大阪クリエイターズマーケットのお品書きをこの後出しますね",
+    "createdAt": "2026-08-13T08:43:48.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 85,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087815213953564986",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087815213953564986",
+    "text": "【2026年・夏の新作ドレス＆アイテム】\nhttps://dollfie.ec.volks.co.jp/category/D_260726_HTDK21/\n\n🌿シュシュフルールセット（ミント）・ミニ\n🪻シュシュフルールセット（ラベンダー）・ミニ\n\nページをめくるたびに広がる、やさしい夢の色。\n\n#スーパードルフィー\n#ドルフィーファション",
+    "createdAt": "2026-08-13T08:15:11.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPloiosbcAAeTJU",
+        "thumbUrl": "https://pbs.twimg.com/media/HPloiosbcAAeTJU?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPloiosbcAAeTJU?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPloiosbcAAeTJU?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPloiosbcAAeTJU?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1080,
+        "height": 1080,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087815216021242265",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087815216021242265",
+    "text": "🔗HTドルパ京都21・アフターイベント\nhttps://dollfie.volks.co.jp/event/dolpa_after/htd_kyoto21.html\n\n🏃💨商品のお取り寄せ【対応中】\n\nご来店いただいた店舗に在庫がない場合でも、\n他店舗に在庫があれば「取り寄せ」が可能です！\nスタッフまでお気軽にお問合せください。\n\n🏬ドルフィー店舗一覧\nhttps://dollfie.volks.co.jp/shop/",
+    "createdAt": "2026-08-13T08:15:11.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": true,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リプライ"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087811516347355489",
+    "handle": "volks_dd",
+    "url": "https://x.com/volks_dd/status/2087811516347355489",
+    "text": "【マジカルミライ 2026】\n明日から初音ミク「マジカルミライ 2026」のOSAKAが開催です！\n企画展にボークスもブース出展します！\n\n毎年ご好評いただいておりますドール用ハッピの新作を始め、展示あり、物販ありの盛りだくさんのブースになります！\n画像は特別販売商品一覧です♪\n\nぜひ、ボークスブースにてお待ちしております♪\n\n▼特設サイト\nhttps://dollfie.volks.co.jp/dd/special/piapro/event/magicalmirai2026.html\n\n#マジカルミライ2026 #初音ミク #ドルフィードリーム",
+    "createdAt": "2026-08-13T08:00:29.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPllgNCasAAGJ5y",
+        "thumbUrl": "https://pbs.twimg.com/media/HPllgNCasAAGJ5y?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPllgNCasAAGJ5y?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPllgNCasAAGJ5y?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPllgNCasAAGJ5y?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1541,
+        "height": 2179,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 80,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087808740850573604",
+    "handle": "utsupii",
+    "url": "https://x.com/utsupii/status/2087808740850573604",
+    "text": "実家でせがれいじりを発掘したので大阪マジカルミライに向かいます",
+    "createdAt": "2026-08-13T07:49:28.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPli7RobsAAMn0z",
+        "thumbUrl": "https://pbs.twimg.com/media/HPli7RobsAAMn0z?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPli7RobsAAMn0z?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPli7RobsAAMn0z?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPli7RobsAAMn0z?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1462,
+        "height": 1535,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 40,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087808450738917644",
+    "handle": "tsuki_nxo",
+    "url": "https://x.com/tsuki_nxo/status/2087808450738917644",
+    "text": "明日から #マジカルミライ2026 大阪🌊\n\n大阪から発売の新譜「ラストライト・ステラ」直筆サイン色紙付きの限定セットがおすすめです！🙌🌟\n新作グッズも作りました！\nイラスト等を担当しています✒️月音も歌ってるよ！\n\n個人の旧譜等も持っていきます！\n\n📍8/14-16 大阪 【E-8】\n📍8/28-30 東京 【C-8】",
+    "createdAt": "2026-08-13T07:48:18.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPliuA6aMAAcgNm",
+        "thumbUrl": "https://pbs.twimg.com/media/HPliuA6aMAAcgNm?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPliuA6aMAAcgNm?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPliuA6aMAAcgNm?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPliuA6aMAAcgNm?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1448,
+        "height": 2048,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPliuBJawAAeyBN",
+        "thumbUrl": "https://pbs.twimg.com/media/HPliuBJawAAeyBN?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPliuBJawAAeyBN?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPliuBJawAAeyBN?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPliuBJawAAeyBN?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 999,
+        "height": 623,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 100,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {
+        "osaka": [
+          "2026-08-14"
+        ]
+      },
+      "otherVenues": [],
+      "source": "text-booth",
+      "evidence": [
+        "本文の「大阪 E-8」が公式のブース番号と一致",
+        "大阪の対象日: 2026-08-14",
+        "本文の「東京 C-8」が公式のブース番号と一致"
+      ]
+    }
+  },
+  {
+    "id": "2087802154618871889",
+    "handle": "tri_angl_e",
+    "url": "https://x.com/tri_angl_e/status/2087802154618871889",
+    "text": "明日からマジミラ大阪よろしく！",
+    "createdAt": "2026-08-13T07:23:17.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPlc_YuaMAAT4Lu",
+        "thumbUrl": "https://pbs.twimg.com/media/HPlc_YuaMAAT4Lu?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPlc_YuaMAAT4Lu?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPlc_YuaMAAT4Lu?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPlc_YuaMAAT4Lu?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1920,
+        "height": 1080,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 40,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087799841871261930",
+    "handle": "TANITAofficial",
+    "url": "https://x.com/TANITAofficial/status/2087799841871261930",
+    "text": "【質問】お盆休み中にこれ読んでおけ、というオススメのマンガおしえて",
+    "createdAt": "2026-08-13T07:14:06.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
+      ]
+    }
+  },
+  {
+    "id": "2087788869056090277",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087788869056090277",
+    "text": "【お知らせ】\n\n🇺🇸「ドルパinLA6」開催に伴うスタッフ出張のため、\n天使の里は下記日程を休館いたします。\n\n✈️9月5日（土）・6日（日）\n\n北米のオーナー様にもドルフィーの魅力をお届けできるよう頑張ってまいります！\n応援よろしくお願いいたします♪\n\n🔗https://dollfie.volks.co.jp/shop/tenshinosato/blog/2026/08/10/010162.html\n\n#天使の里 #京都",
+    "createdAt": "2026-08-13T06:30:30.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087788870855483447",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087788870855483447",
+    "text": "✨Dolls Party in LA 6✨\n~ The Biggest Dollfie Festival in the US! ~\n\nThank you everyone for your support of VOLKS USA🇺🇸.\n\n🗓️September 5-6, 2026\n🏨Torrance Marriott Redondo Beach\n\n🔗https://volksusa.com/event/2026dolpala/\n\n#ボークス #Volks #DolpainLA",
+    "createdAt": "2026-08-13T06:30:30.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": true,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リプライ"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087787867712225575",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087787867712225575",
+    "text": "【天使の里便り】\n\n✨天使の里 2026年7月お披露目✨\n✉️SDワンオフモデル当選書類発送のご案内\nhttps://dollfie.volks.co.jp/shop/tenshinosato/blog/2026/08/12/010173.html\n\n📮2026年8月12日（水）投函\n\n※次回は、8月15日（土）よりお披露目予定\n\n#天使の里 #スーパードルフィー",
+    "createdAt": "2026-08-13T06:26:31.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087787869310173488",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087787869310173488",
+    "text": "✨SD ワンオフモデル って?\nhttps://dollfie.volks.co.jp/sd/model/oneoff/\n\nボークスのメイクアップアーティストがメイクを施し、\nその子のために選ばれたドレスを着た、\n世界に同じ子は一人といないスーパードルフィーです。\n\n#SDワンオフモデル #ボークス #ドール",
+    "createdAt": "2026-08-13T06:26:31.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": true,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リプライ"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087778644999721229",
+    "handle": "vavajun",
+    "url": "https://x.com/vavajun/status/2087778644999721229",
+    "text": "RT @AUTOMATONJapan: 【ニュース】ドット絵モンスター収集RPG『ドキモンクエスト』Steamにて8月25日に無料配布へ。定価1200円のゲーム\nhttps://automaton-media.com/articles/newsjp/20260813-460018/",
+    "createdAt": "2026-08-13T05:49:52.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPlADcwawAEBk46",
+        "thumbUrl": "https://pbs.twimg.com/media/HPlADcwawAEBk46?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPlADcwawAEBk46?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPlADcwawAEBk46?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPlADcwawAEBk46?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1600,
+        "height": 900,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": true,
+    "isManual": false,
+    "source": "timeline",
+    "score": 10,
+    "matchedSignals": [
+      "+10 価格表記",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-30 リツイート"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
+      ]
+    }
+  },
+  {
     "id": "2087762301386674245",
     "handle": "Ficrc_unripe",
     "url": "https://x.com/Ficrc_unripe/status/2087762301386674245",
@@ -27,6 +812,36 @@
       "source": "unresolved",
       "evidence": [
         "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+      ]
+    }
+  },
+  {
+    "id": "2087756744336593084",
+    "handle": "TANITAofficial",
+    "url": "https://x.com/TANITAofficial/status/2087756744336593084",
+    "text": "RT @TANITAofficial: 【タニタあるある】実家の体重計はだいたいタニタ",
+    "createdAt": "2026-08-13T04:22:51.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": true,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リツイート"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
       ]
     }
   },
@@ -112,6 +927,67 @@
     }
   },
   {
+    "id": "2087748804519080280",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087748804519080280",
+    "text": "【ドルパ開催情報】\n\n＼次回開催／\nドールズ パーティー56\n\n🗓️2026年12月13日（日）\n🎪東京ビッグサイト\n\n🔗ドルパ ポータル\nhttps://dollfie.volks.co.jp/event/dolpa/event.html\n\n#ドルパ #ボークス #ドールイベント",
+    "createdAt": "2026-08-13T03:51:18.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+15 対象会場",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087748806112838037",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087748806112838037",
+    "text": "🔰初心者必見！\nドールズ パーティー 攻略ガイド\n\n初めてのドルパをご検討の方はもちろん、\nいつもドルパにご参加いただいている方も、ぜひご確認ください♪\n\n👉ドルパを楽しむための🔟STEP👟✨\nhttps://dollfie.volks.co.jp/event/dolpa/about.html\n\n#ドルパ #ボークス #ドールイベント",
+    "createdAt": "2026-08-13T03:51:18.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": true,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リプライ"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
     "id": "2087747582798000506",
     "handle": "hourouhekiheki",
     "url": "https://x.com/hourouhekiheki/status/2087747582798000506",
@@ -139,6 +1015,55 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087743477702635858",
+    "handle": "volks_dd",
+    "url": "https://x.com/volks_dd/status/2087743477702635858",
+    "text": "【マジカルミライ2026】\nボークス連動企画のご紹介！\n\n★ 連動企画 ★\n缶バッジチャレンジ\n\nボークスブースで買い物をして、近隣のボークス店舗へGO！\nトランプゲームで、ノベルティがもらえます♪\n\nドールポイント大阪：\n2026年8月14日（金）～17日（月）\n※連動企画の日程は企画展示期と異なりますのでご注意ください。\n\nマジカルミライに行ったら、ボークスにも立ち寄ろう♪\n\n詳細はコチラ▼\nhttps://dollfie.volks.co.jp/dd/special/piapro/event/magicalmirai2026.html#mm2026VSshop\n\n#マジカルミライ2026 #初音ミク #ドルフィードリーム",
+    "createdAt": "2026-08-13T03:30:08.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPknn7ZbMAA5B-Q",
+        "thumbUrl": "https://pbs.twimg.com/media/HPknn7ZbMAA5B-Q?format=png&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPknn7ZbMAA5B-Q?format=png&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPknn7ZbMAA5B-Q?format=png&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPknn7ZbMAA5B-Q?format=png&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 600,
+        "height": 600,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 40,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {
+        "osaka": [
+          "2026-08-14"
+        ]
+      },
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -720,6 +1645,37 @@
     }
   },
   {
+    "id": "2087715807740809403",
+    "handle": "vocaliod_P",
+    "url": "https://x.com/vocaliod_P/status/2087715807740809403",
+    "text": "マジミラ東京までにチャンネル登録1万人いったらなんかやろう",
+    "createdAt": "2026-08-13T01:40:11.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 20,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
     "id": "2087715160215712053",
     "handle": "senbonshop39",
     "url": "https://x.com/senbonshop39/status/2087715160215712053",
@@ -747,6 +1703,81 @@
     "score": 25,
     "matchedSignals": [
       "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087713321202147332",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087713321202147332",
+    "text": "✨天使の窓 (東京) とは？\n\n原宿･表参道にあるスーパードルフィー専門店です。\n\n会員様はもちろん、どなたでもご来店いただけます。\nご家族やご友人と一緒に、ぜひお立ち寄りください♪\n\nhttps://dollfie.volks.co.jp/shop/tenshinomado/\n\n#ボークス #ドールショップ #天使の窓",
+    "createdAt": "2026-08-13T01:30:18.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": true,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+15 対象会場",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リプライ"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087713319016902710",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2087713319016902710",
+    "text": "【天使の窓 原宿･表参道】\n\n8月13日（木）は定休日です。\nhttps://volks.co.jp/blog_nest/mado/2026/08/11/032672.html\n\nお休み明けのご来館をお待ちしております♪\n\n☑️定休日：\n・毎週水曜日／木曜日\n・平日 13:00～14:30\n\n#ボークス #ドール #スーパードルフィー",
+    "createdAt": "2026-08-13T01:30:17.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPkL5BkawAAm_rk",
+        "thumbUrl": "https://pbs.twimg.com/media/HPkL5BkawAAm_rk?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPkL5BkawAAm_rk?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPkL5BkawAAm_rk?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPkL5BkawAAm_rk?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 720,
+        "height": 480,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
       "+20 画像あり",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
@@ -807,6 +1838,103 @@
       "source": "text-booth",
       "evidence": [
         "本文の「大阪 A-2」が公式のブース番号と一致"
+      ]
+    }
+  },
+  {
+    "id": "2087712541049036974",
+    "handle": "vavajun",
+    "url": "https://x.com/vavajun/status/2087712541049036974",
+    "text": "RT @84709eri: 離乳食、今まで1種類ずつ鍋で加熱して刻んでってコツコツ作ってたんだけど、ずっと前にブックマークしてた炊飯器で作る方法を試した感想",
+    "createdAt": "2026-08-13T01:27:12.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/GKTj3CDaMAAKz0s",
+        "thumbUrl": "https://pbs.twimg.com/media/GKTj3CDaMAAKz0s?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/GKTj3CDaMAAKz0s?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/GKTj3CDaMAAKz0s?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/GKTj3CDaMAAKz0s?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1696,
+        "height": 2048,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/GKTj3CAbYAASjPk",
+        "thumbUrl": "https://pbs.twimg.com/media/GKTj3CAbYAASjPk?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/GKTj3CAbYAASjPk?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/GKTj3CAbYAASjPk?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/GKTj3CAbYAASjPk?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1536,
+        "height": 2048,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/GKTj3CBaEAAfTSY",
+        "thumbUrl": "https://pbs.twimg.com/media/GKTj3CBaEAAfTSY?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/GKTj3CBaEAAfTSY?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/GKTj3CBaEAAfTSY?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/GKTj3CBaEAAfTSY?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1125,
+        "height": 1185,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": true,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リツイート"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
+      ]
+    }
+  },
+  {
+    "id": "2087708130935447581",
+    "handle": "vavajun",
+    "url": "https://x.com/vavajun/status/2087708130935447581",
+    "text": "体感としては3年前なんだけど、実際10年経ってた",
+    "createdAt": "2026-08-13T01:09:40.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
       ]
     }
   },
@@ -872,6 +2000,66 @@
     }
   },
   {
+    "id": "2087700403077230784",
+    "handle": "yamichrome",
+    "url": "https://x.com/yamichrome/status/2087700403077230784",
+    "text": "NGY5、ちょい高でメルカリにあったけど、おどちゃんが頒布してくれてるし、やみくろさんもその気になれば何枚かサンプルで貰ってるやつを放出は出来るから、本人達から買ったほうが良いです",
+    "createdAt": "2026-08-13T00:38:58.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087700107332616241",
+    "handle": "vavajun",
+    "url": "https://x.com/vavajun/status/2087700107332616241",
+    "text": "RT @nikkeibpITpro: 不可視文字でマルウエア混入　GitHubなどで汚染拡大、開発基盤の信頼揺らぐ\nhttps://xtech.nikkei.com/atcl/nxt/column/18/00989/040100204/?n_cid=nbpnxt_twed_it\n\n不可視の属性を持つUnicode（ユニコード）文字をコードに埋め込んで、悪意あるプログラムを実行させる新手の攻撃…",
+    "createdAt": "2026-08-13T00:37:47.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": true,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リツイート"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
+      ]
+    }
+  },
+  {
     "id": "2087699813483868457",
     "handle": "andPiit",
     "url": "https://x.com/andPiit/status/2087699813483868457",
@@ -913,6 +2101,80 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087699398180610199",
+    "handle": "yamichrome",
+    "url": "https://x.com/yamichrome/status/2087699398180610199",
+    "text": "おどちゃんのブースで頒布する「NGY5」に、やみくろさんの曲も入ってます。音も歌詞も今聴くと恥ずかしさはあるんですが、名古屋旅行に行くだけのほっこりソングです。\nなつかし",
+    "createdAt": "2026-08-13T00:34:58.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2087699300126257226",
+    "handle": "vavajun",
+    "url": "https://x.com/vavajun/status/2087699300126257226",
+    "text": "RT @onoderasan001: 獣に目覚めてしまう話（1/3）",
+    "createdAt": "2026-08-13T00:34:35.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPhj4QsasAADtRg",
+        "thumbUrl": "https://pbs.twimg.com/media/HPhj4QsasAADtRg?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPhj4QsasAADtRg?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPhj4QsasAADtRg?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPhj4QsasAADtRg?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 992,
+        "height": 1500,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": true,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リツイート"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
       ]
     }
   },
@@ -963,6 +2225,38 @@
     }
   },
   {
+    "id": "2087687406296453589",
+    "handle": "vocaliod_P",
+    "url": "https://x.com/vocaliod_P/status/2087687406296453589",
+    "text": "明日からマジミラ大阪でーす\nクリマに3日間います！\n場所はG7G7G7G7G7！！\n\n■新グッズ\n落選集6のCD(学割版あり)\nデフォルメ缶バッジ\nデフォルメアクスタ\n\n■旧グッズ\nTRILOGY(1/6収録)\nNGY5(5人のボカロPのコンピ)\nOCTAVE(4人の歌い手×2人のボカロPのコンピ)",
+    "createdAt": "2026-08-12T23:47:19.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 85,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+25 ブース番号",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-booth",
+      "evidence": [
+        "本文の「大阪 G-7」が公式のブース番号と一致"
+      ]
+    }
+  },
+  {
     "id": "2087683047051468828",
     "handle": "desktop_mate",
     "url": "https://x.com/desktop_mate/status/2087683047051468828",
@@ -1005,6 +2299,36 @@
       "source": "text-booth",
       "evidence": [
         "本文の「大阪 A-2」が公式のブース番号と一致"
+      ]
+    }
+  },
+  {
+    "id": "2087680411703140414",
+    "handle": "yamichrome",
+    "url": "https://x.com/yamichrome/status/2087680411703140414",
+    "text": "ポストし過ぎている\nお品書きとか活動系のポストが見えやすいように明日には大量に消すから許して\n夜行バスでは寝やすさが最優先やから近所に散歩行くくらいのラフな格好で来たから大丈夫かなって不安やったけど大丈夫やった、俺の散歩着なんか全然キチッとしてる方や。せやんな、ここ大阪やったわ",
+    "createdAt": "2026-08-12T23:19:32.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 65,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+15 対象会場",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -3077,37 +4401,6 @@
     }
   },
   {
-    "id": "2087464103715729889",
-    "handle": "aozoragear",
-    "url": "https://x.com/aozoragear/status/2087464103715729889",
-    "text": "いよいよ明後日8月14日(金)から「#マジカルミライ2026」OSAKA！\n\n「ENJOY OUTDOOR COOKING」シリーズの新作を先行販売！\nカレーの新味「ネギキーマカレー」もお楽しみに！\n\nご来場の方は、ぜひ「ブース番号3」AOZORAGEARへお立ち寄りください。\nhttps://aozoragear.com/blogs/topics/aozoragear102\n#初音ミク",
-    "createdAt": "2026-08-12T09:00:00.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 20,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+15 対象会場",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "text-venue",
-      "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
-      ]
-    }
-  },
-  {
     "id": "2087464106634944939",
     "handle": "minase0402",
     "url": "https://x.com/minase0402/status/2087464106634944939",
@@ -3151,6 +4444,37 @@
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
         "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2087464103715729889",
+    "handle": "aozoragear",
+    "url": "https://x.com/aozoragear/status/2087464103715729889",
+    "text": "いよいよ明後日8月14日(金)から「#マジカルミライ2026」OSAKA！\n\n「ENJOY OUTDOOR COOKING」シリーズの新作を先行販売！\nカレーの新味「ネギキーマカレー」もお楽しみに！\n\nご来場の方は、ぜひ「ブース番号3」AOZORAGEARへお立ち寄りください。\nhttps://aozoragear.com/blogs/topics/aozoragear102\n#初音ミク",
+    "createdAt": "2026-08-12T09:00:00.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 20,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -11321,34 +12645,22 @@
     }
   },
   {
-    "id": "2086739330417267020",
-    "handle": "wapalette",
-    "url": "https://x.com/wapalette/status/2086739330417267020",
-    "text": "#初音ミク「#マジカルミライ2026」\n\n浜松会場で大好評！\nMIKU-010\n🌸 SAKURA MIKU ❄️ SNOW MIKU\nを大阪会場でも販売いたします！\n\nぜひ和真パレットブースへお立ち寄りください✨",
+    "id": "2086739330546971098",
+    "handle": "im_MediaArts",
+    "url": "https://x.com/im_MediaArts/status/2086739330546971098",
+    "text": "🛸STAR WARS POP UP STORE in ジェイアール京都伊勢丹🚀\n\n【ピックアップアイテム】\n・【ロイヤルセランゴール】フィギュリン マンダロリアン リミテッドエディション✨\n・【ロイヤルセランゴール】スター・ウォーズ クラシック チェスセット♟️\n・A New Hope（1982）⭐\n・刺繍アート Darth Vader🖤\n大人の魅力満載のアートの数々🎨\n思い出のあのシーンを会場で探してみて🔍\n\n詳しくはこちら↓\nhttps://www.mistore.jp/store/kyoto/event_calendar/marvel_starwars/starwars.html",
     "createdAt": "2026-08-10T09:00:00.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO",
-        "thumbUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH",
+        "thumbUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
-        "width": 2500,
-        "height": 3125,
-        "videoUrl": null
-      },
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd",
-        "thumbUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 2500,
-        "height": 3125,
+        "width": 920,
+        "height": 610,
         "videoUrl": null
       }
     ],
@@ -11356,26 +12668,23 @@
     "isReply": false,
     "isRetweet": false,
     "isManual": false,
-    "source": "search",
-    "score": 40,
+    "source": "timeline",
+    "score": 5,
     "matchedSignals": [
-      "+20 イベント名",
-      "+15 対象会場",
       "+20 画像あり",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
       "provenVenues": [
-        "osaka"
+        "osaka",
+        "tokyo"
       ],
       "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "text-venue",
+      "otherVenues": [],
+      "source": "event-wide",
       "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -11432,22 +12741,34 @@
     }
   },
   {
-    "id": "2086739330546971098",
-    "handle": "im_MediaArts",
-    "url": "https://x.com/im_MediaArts/status/2086739330546971098",
-    "text": "🛸STAR WARS POP UP STORE in ジェイアール京都伊勢丹🚀\n\n【ピックアップアイテム】\n・【ロイヤルセランゴール】フィギュリン マンダロリアン リミテッドエディション✨\n・【ロイヤルセランゴール】スター・ウォーズ クラシック チェスセット♟️\n・A New Hope（1982）⭐\n・刺繍アート Darth Vader🖤\n大人の魅力満載のアートの数々🎨\n思い出のあのシーンを会場で探してみて🔍\n\n詳しくはこちら↓\nhttps://www.mistore.jp/store/kyoto/event_calendar/marvel_starwars/starwars.html",
+    "id": "2086739330417267020",
+    "handle": "wapalette",
+    "url": "https://x.com/wapalette/status/2086739330417267020",
+    "text": "#初音ミク「#マジカルミライ2026」\n\n浜松会場で大好評！\nMIKU-010\n🌸 SAKURA MIKU ❄️ SNOW MIKU\nを大阪会場でも販売いたします！\n\nぜひ和真パレットブースへお立ち寄りください✨",
     "createdAt": "2026-08-10T09:00:00.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH",
-        "thumbUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPK-_BrbEAAAmoH?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO",
+        "thumbUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO7rTDQasAA2bmO?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
-        "width": 920,
-        "height": 610,
+        "width": 2500,
+        "height": 3125,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd",
+        "thumbUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO7rT6QbAAAhJCd?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 2500,
+        "height": 3125,
         "videoUrl": null
       }
     ],
@@ -11455,23 +12776,26 @@
     "isReply": false,
     "isRetweet": false,
     "isManual": false,
-    "source": "timeline",
-    "score": 5,
+    "source": "search",
+    "score": 40,
     "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
       "+20 画像あり",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
     ],
     "attribution": {
       "provenVenues": [
-        "osaka",
-        "tokyo"
+        "osaka"
       ],
       "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "text-venue",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -13129,51 +14453,6 @@
     }
   },
   {
-    "id": "2086648745542787202",
-    "handle": "tamazou202507",
-    "url": "https://x.com/tamazou202507/status/2086648745542787202",
-    "text": "初音ミク「マジカルミライ2026」\n#TAMAZOU はOSAKA会場にも出展します。\nこちらはOSAKA会場のお品書きになります。\n当日はぜひブースへお立ち寄りいただけると幸いです🐾\n#マジカルミライ2026\n#初音ミク\n#鏡音リン\n#鏡音レン\n#巡音ルカ\n#MEIKO\n#KAITO",
-    "createdAt": "2026-08-10T03:00:03.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq",
-        "thumbUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 2480,
-        "height": 3508,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 100,
-    "matchedSignals": [
-      "+40 お品書き表記",
-      "+20 イベント名",
-      "+15 対象会場",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "text-venue",
-      "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
-      ]
-    }
-  },
-  {
     "id": "2086648744360226878",
     "handle": "cospa_inc",
     "url": "https://x.com/cospa_inc/status/2086648744360226878",
@@ -13225,6 +14504,51 @@
     "score": 80,
     "matchedSignals": [
       "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2086648745542787202",
+    "handle": "tamazou202507",
+    "url": "https://x.com/tamazou202507/status/2086648745542787202",
+    "text": "初音ミク「マジカルミライ2026」\n#TAMAZOU はOSAKA会場にも出展します。\nこちらはOSAKA会場のお品書きになります。\n当日はぜひブースへお立ち寄りいただけると幸いです🐾\n#マジカルミライ2026\n#初音ミク\n#鏡音リン\n#鏡音レン\n#巡音ルカ\n#MEIKO\n#KAITO",
+    "createdAt": "2026-08-10T03:00:03.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq",
+        "thumbUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPAfSkLb0AAC9cq?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 2480,
+        "height": 3508,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 100,
+    "matchedSignals": [
+      "+40 お品書き表記",
       "+20 イベント名",
       "+15 対象会場",
       "+20 画像あり",
@@ -18770,37 +20094,6 @@
     }
   },
   {
-    "id": "2086014569156391239",
-    "handle": "volks_doll",
-    "url": "https://x.com/volks_doll/status/2086014569156391239",
-    "text": "RT @volks_doll: 📱【ボークス公式SNS】をチェック！\n\n📝ドルフィーブログ\nhttps://dollfie.volks.co.jp/blog/\n\n🐣SD公式X\nhttps://x.com/volks_doll\n\n📷SD公式Instagram\nhttps://t.co/Odryg6vL…",
-    "createdAt": "2026-08-08T09:00:04.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": true,
-    "isManual": false,
-    "source": "timeline",
-    "score": 0,
-    "matchedSignals": [
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし",
-      "-30 リツイート"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2086014568627872031",
     "handle": "movic_jp",
     "url": "https://x.com/movic_jp/status/2086014568627872031",
@@ -18863,6 +20156,37 @@
       "source": "unresolved",
       "evidence": [
         "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+      ]
+    }
+  },
+  {
+    "id": "2086014569156391239",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2086014569156391239",
+    "text": "RT @volks_doll: 📱【ボークス公式SNS】をチェック！\n\n📝ドルフィーブログ\nhttps://dollfie.volks.co.jp/blog/\n\n🐣SD公式X\nhttps://x.com/volks_doll\n\n📷SD公式Instagram\nhttps://t.co/Odryg6vL…",
+    "createdAt": "2026-08-08T09:00:04.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": true,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リツイート"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -19821,50 +21145,6 @@
     }
   },
   {
-    "id": "2085954197531627918",
-    "handle": "volks_doll",
-    "url": "https://x.com/volks_doll/status/2085954197531627918",
-    "text": "＼＼好評開催中／／\n【ドルパアフターイベント】\nhttps://dollfie.volks.co.jp/event/dolpa_after/htd_kyoto21.html\n🏃💨商品のお取り寄せ\n日曜日 12時よりスタート\n\nご来店いただいた店舗に在庫がない場合でも、他店舗に在庫があれば「取り寄せ」が可能です！\nスタッフまでお気軽にお問合せください。\n\n🏬ドルフィー店舗一覧\nhttps://dollfie.volks.co.jp/shop/",
-    "createdAt": "2026-08-08T05:00:10.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me",
-        "thumbUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 960,
-        "height": 380,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2085954196512387075",
     "handle": "Gashapon_Bandai",
     "url": "https://x.com/Gashapon_Bandai/status/2085954196512387075",
@@ -19894,6 +21174,50 @@
       "+10 価格表記",
       "+20 画像あり",
       "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2085954197531627918",
+    "handle": "volks_doll",
+    "url": "https://x.com/volks_doll/status/2085954197531627918",
+    "text": "＼＼好評開催中／／\n【ドルパアフターイベント】\nhttps://dollfie.volks.co.jp/event/dolpa_after/htd_kyoto21.html\n🏃💨商品のお取り寄せ\n日曜日 12時よりスタート\n\nご来店いただいた店舗に在庫がない場合でも、他店舗に在庫があれば「取り寄せ」が可能です！\nスタッフまでお気軽にお問合せください。\n\n🏬ドルフィー店舗一覧\nhttps://dollfie.volks.co.jp/shop/",
+    "createdAt": "2026-08-08T05:00:10.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me",
+        "thumbUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPLMSVebYAAc7Me?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 960,
+        "height": 380,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
     ],
     "attribution": {
       "provenVenues": [
@@ -22156,50 +23480,6 @@
     }
   },
   {
-    "id": "2085667265744441817",
-    "handle": "im_MediaArts",
-    "url": "https://x.com/im_MediaArts/status/2085667265744441817",
-    "text": "🥊MARVEL POP UP STORE in ジェイアール京都伊勢丹🥊\n\n【ピックアップアイテム】\nスパイダーマン / アイスクリーム🍨\n・Tシャツ👕\n・アクリルキーホルダー🔑\n・ビニールポーチ🛍️\n・マルシェバッグ👜\nアイスキャンディーをテーマにした「スパイダーマン」商品が登場💖\n夏にピッタリのアイテム🌞\n\n詳しくはこちら↓\nhttps://www.mistore.jp/store/kyoto/event_calendar/marvel_starwars/marvel.html",
-    "createdAt": "2026-08-07T10:00:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0",
-        "thumbUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 920,
-        "height": 610,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2085667265916371048",
     "handle": "tomatowt",
     "url": "https://x.com/tomatowt/status/2085667265916371048",
@@ -22262,6 +23542,50 @@
       "evidence": [
         "本文の「大阪 C-5」が公式のブース番号と一致",
         "大阪の対象日: 2026-08-14, 2026-08-15, 2026-08-16"
+      ]
+    }
+  },
+  {
+    "id": "2085667265744441817",
+    "handle": "im_MediaArts",
+    "url": "https://x.com/im_MediaArts/status/2085667265744441817",
+    "text": "🥊MARVEL POP UP STORE in ジェイアール京都伊勢丹🥊\n\n【ピックアップアイテム】\nスパイダーマン / アイスクリーム🍨\n・Tシャツ👕\n・アクリルキーホルダー🔑\n・ビニールポーチ🛍️\n・マルシェバッグ👜\nアイスキャンディーをテーマにした「スパイダーマン」商品が登場💖\n夏にピッタリのアイテム🌞\n\n詳しくはこちら↓\nhttps://www.mistore.jp/store/kyoto/event_calendar/marvel_starwars/marvel.html",
+    "createdAt": "2026-08-07T10:00:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0",
+        "thumbUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPG3x3ibYAEYnK0?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 920,
+        "height": 610,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -22660,18 +23984,18 @@
     }
   },
   {
-    "id": "2085652183815712998",
+    "id": "2085652180502274120",
     "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2085652183815712998",
-    "text": "【CD】「ツキウタ。」 Fluna & Seleas「ツキノウタ。 Ver.LUNA」\n連動購入特典は「小冊子」です！\nhttps://www.movic.jp/shop/g/g4550621427435-ol/?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00395\n#ツキウタ #ツキプロ",
+    "url": "https://x.com/movic_jp/status/2085652180502274120",
+    "text": "【CD】「ツキウタ。」 Procellarum ユニットソング「Eenie Meenie」が登場！\n有償特典『オーバーサイズTシャツ Procellarum』付きも登場です！\n連動購入特典は「小冊子」です！\nhttps://www.movic.jp/shop/r/r403002/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00393\n#ツキウタ #ツキプロ",
     "createdAt": "2026-08-07T09:00:04.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6",
-        "thumbUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i",
+        "thumbUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
         "width": 600,
@@ -22748,18 +24072,120 @@
     }
   },
   {
-    "id": "2085652180502274120",
+    "id": "2085652183815712998",
     "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2085652180502274120",
-    "text": "【CD】「ツキウタ。」 Procellarum ユニットソング「Eenie Meenie」が登場！\n有償特典『オーバーサイズTシャツ Procellarum』付きも登場です！\n連動購入特典は「小冊子」です！\nhttps://www.movic.jp/shop/r/r403002/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00393\n#ツキウタ #ツキプロ",
+    "url": "https://x.com/movic_jp/status/2085652183815712998",
+    "text": "【CD】「ツキウタ。」 Fluna & Seleas「ツキノウタ。 Ver.LUNA」\n連動購入特典は「小冊子」です！\nhttps://www.movic.jp/shop/g/g4550621427435-ol/?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00395\n#ツキウタ #ツキプロ",
     "createdAt": "2026-08-07T09:00:04.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i",
-        "thumbUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPG2OxfaEAAoh3i?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6",
+        "thumbUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPG2OxVbYAAtcq6?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 600,
+        "height": 600,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2085652174756004145",
+    "handle": "wapalette",
+    "url": "https://x.com/wapalette/status/2085652174756004145",
+    "text": "#初音ミク「#マジカルミライ2026」OSAKA\n\n和真パレットブースのお品書きを公開！👓✨\n\n新商品のPCメガネ「MIKU-010」をはじめ、KAITO20周年記念グッズなどを販売！\nグラスクロスも各種ご用意しております♪\n\n皆さまのご来場をお待ちしております！",
+    "createdAt": "2026-08-07T09:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO",
+        "thumbUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1000,
+        "height": 1415,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS",
+        "thumbUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1000,
+        "height": 1415,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 100,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2085652176114995676",
+    "handle": "movic_jp",
+    "url": "https://x.com/movic_jp/status/2085652176114995676",
+    "text": "【CD】2.5次元ダンスライブ「ツキウタ。」ステージ テーマソングコレクションが登場！\n2016年の初演から10周年を迎えた2.5次元ダンスライブ「ツキウタ。」ステージ、通称「ツキステ。」のナンバリング公演を彩った主題歌を収めたメモリアルな1枚です。\nhttps://www.movic.jp/shop/g/g4550621745973-ol/?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00313\n#ツキステ",
+    "createdAt": "2026-08-07T09:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk",
+        "thumbUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
         "width": 600,
@@ -22868,108 +24294,6 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
-    "id": "2085652176114995676",
-    "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2085652176114995676",
-    "text": "【CD】2.5次元ダンスライブ「ツキウタ。」ステージ テーマソングコレクションが登場！\n2016年の初演から10周年を迎えた2.5次元ダンスライブ「ツキウタ。」ステージ、通称「ツキステ。」のナンバリング公演を彩った主題歌を収めたメモリアルな1枚です。\nhttps://www.movic.jp/shop/g/g4550621745973-ol/?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00313\n#ツキステ",
-    "createdAt": "2026-08-07T09:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk",
-        "thumbUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPG2LdAbwAAPGfk?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 600,
-        "height": 600,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
-    "id": "2085652174756004145",
-    "handle": "wapalette",
-    "url": "https://x.com/wapalette/status/2085652174756004145",
-    "text": "#初音ミク「#マジカルミライ2026」OSAKA\n\n和真パレットブースのお品書きを公開！👓✨\n\n新商品のPCメガネ「MIKU-010」をはじめ、KAITO20周年記念グッズなどを販売！\nグラスクロスも各種ご用意しております♪\n\n皆さまのご来場をお待ちしております！",
-    "createdAt": "2026-08-07T09:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO",
-        "thumbUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO7eoxQaMAAqTeO?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1000,
-        "height": 1415,
-        "videoUrl": null
-      },
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS",
-        "thumbUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO7ep7vacAAfGGS?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1000,
-        "height": 1415,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 100,
-    "matchedSignals": [
-      "+40 お品書き表記",
-      "+15 頒布・新刊・グッズ",
-      "+20 イベント名",
-      "+15 対象会場",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "text-venue",
-      "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -23144,55 +24468,6 @@
     }
   },
   {
-    "id": "2085644616054059357",
-    "handle": "creco_tweet",
-    "url": "https://x.com/creco_tweet/status/2085644616054059357",
-    "text": "＃マジカルミライ2026 大阪・東京会場のCRECOブースにて、アヅママコト（@adumako_）さんが手掛けた「推し活×アイドル」テーマのコラボグッズを販売！\n浜松会場ではなかった新商品も販売します！\n\n事後通販（受注販売）も実施予定✨\n\n詳細はこちら🛒\nhttp://creco-shop.com",
-    "createdAt": "2026-08-07T08:30:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt",
-        "thumbUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 3333,
-        "height": 3333,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 80,
-    "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "+20 イベント名",
-      "+15 対象会場",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "text-venue",
-      "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
-      ]
-    }
-  },
-  {
     "id": "2085644615638491358",
     "handle": "osaka_kenketsu",
     "url": "https://x.com/osaka_kenketsu/status/2085644615638491358",
@@ -23261,6 +24536,55 @@
       "source": "text-venue",
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2085644616054059357",
+    "handle": "creco_tweet",
+    "url": "https://x.com/creco_tweet/status/2085644616054059357",
+    "text": "＃マジカルミライ2026 大阪・東京会場のCRECOブースにて、アヅママコト（@adumako_）さんが手掛けた「推し活×アイドル」テーマのコラボグッズを販売！\n浜松会場ではなかった新商品も販売します！\n\n事後通販（受注販売）も実施予定✨\n\n詳細はこちら🛒\nhttp://creco-shop.com",
+    "createdAt": "2026-08-07T08:30:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt",
+        "thumbUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO8pjiBa8AAwTDt?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 3333,
+        "height": 3333,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 80,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -23624,50 +24948,6 @@
     }
   },
   {
-    "id": "2085637095868314085",
-    "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2085637095868314085",
-    "text": "／\nパペットマペットレンジ用ひとり鍋＆ミトン2個セット販売スタート🐮 🐸\n＼\n\n▼開催期間\n2026年8月7日(金)17：00～\n▼詳細\nhttps://www.movic.jp/shop/pages/ppmp.aspx?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00406\n※本ページで定める販売期間内であっても数に限りがあるため、ご購入いただけない場合がございます。予めご了承ください\n\n#パペットマペット",
-    "createdAt": "2026-08-07T08:00:07.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI",
-        "thumbUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1000,
-        "height": 1000,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2085637093959827666",
     "handle": "movic_jp",
     "url": "https://x.com/movic_jp/status/2085637093959827666",
@@ -23712,22 +24992,22 @@
     }
   },
   {
-    "id": "2085637091107680355",
+    "id": "2085637095868314085",
     "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2085637091107680355",
-    "text": "TVアニメ「ブルーロック」より、クリアポーチが登場！\n\n【8/23まで】のご予約で確実にご用意！\nhttps://www.movic.jp/shop/r/r603026/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00392\n#ブルーロック #エゴい",
-    "createdAt": "2026-08-07T08:00:06.000Z",
+    "url": "https://x.com/movic_jp/status/2085637095868314085",
+    "text": "／\nパペットマペットレンジ用ひとり鍋＆ミトン2個セット販売スタート🐮 🐸\n＼\n\n▼開催期間\n2026年8月7日(金)17：00～\n▼詳細\nhttps://www.movic.jp/shop/pages/ppmp.aspx?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00406\n※本ページで定める販売期間内であっても数に限りがあるため、ご購入いただけない場合がございます。予めご了承ください\n\n#パペットマペット",
+    "createdAt": "2026-08-07T08:00:07.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3",
-        "thumbUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI",
+        "thumbUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPGogpYacAAgnuI?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
-        "width": 1793,
-        "height": 1456,
+        "width": 1000,
+        "height": 1000,
         "videoUrl": null
       }
     ],
@@ -23756,22 +25036,22 @@
     }
   },
   {
-    "id": "2085637088775741607",
+    "id": "2085637091107680355",
     "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2085637088775741607",
-    "text": "TVアニメ『#薬屋のひとりごと』から新商品の登場🍃\n\n新規描き起こしイラストを使用✨\n【8/16まで】のご予約で確実にご用意！\n\n🔽詳細はこちら\nhttps://www.movic.jp/shop/r/r203006/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00381\n\n#猫猫 #壬氏",
-    "createdAt": "2026-08-07T08:00:05.000Z",
+    "url": "https://x.com/movic_jp/status/2085637091107680355",
+    "text": "TVアニメ「ブルーロック」より、クリアポーチが登場！\n\n【8/23まで】のご予約で確実にご用意！\nhttps://www.movic.jp/shop/r/r603026/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00392\n#ブルーロック #エゴい",
+    "createdAt": "2026-08-07T08:00:06.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d",
-        "thumbUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3",
+        "thumbUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPGoeTYaMAADbX3?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
-        "width": 1500,
-        "height": 1219,
+        "width": 1793,
+        "height": 1456,
         "videoUrl": null
       }
     ],
@@ -23844,6 +25124,50 @@
     }
   },
   {
+    "id": "2085637088775741607",
+    "handle": "movic_jp",
+    "url": "https://x.com/movic_jp/status/2085637088775741607",
+    "text": "TVアニメ『#薬屋のひとりごと』から新商品の登場🍃\n\n新規描き起こしイラストを使用✨\n【8/16まで】のご予約で確実にご用意！\n\n🔽詳細はこちら\nhttps://www.movic.jp/shop/r/r203006/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00381\n\n#猫猫 #壬氏",
+    "createdAt": "2026-08-07T08:00:05.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d",
+        "thumbUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPGodlFaAAAro-d?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1500,
+        "height": 1219,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
     "id": "2085637083977396331",
     "handle": "CielP_8617",
     "url": "https://x.com/CielP_8617/status/2085637083977396331",
@@ -23870,55 +25194,6 @@
       "source": "sole-venue",
       "evidence": [
         "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
-      ]
-    }
-  },
-  {
-    "id": "2085637073592332485",
-    "handle": "creco_tweet",
-    "url": "https://x.com/creco_tweet/status/2085637073592332485",
-    "text": "＃マジカルミライ2026 大阪・東京会場のCRECOブースにて #あにゃ さん描き下ろしの#初音ミク と #ちみたん のコラボグッズを販売！\n浜松会場ではなかった新商品も販売します！\n\n事後通販（受注販売）も実施予定✨\n\n詳細はこちら🛒\nhttp://creco-shop.com",
-    "createdAt": "2026-08-07T08:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f",
-        "thumbUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 4096,
-        "height": 4096,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 80,
-    "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "+20 イベント名",
-      "+15 対象会場",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "text-venue",
-      "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -23954,6 +25229,55 @@
       "+20 画像あり",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2085637073592332485",
+    "handle": "creco_tweet",
+    "url": "https://x.com/creco_tweet/status/2085637073592332485",
+    "text": "＃マジカルミライ2026 大阪・東京会場のCRECOブースにて #あにゃ さん描き下ろしの#初音ミク と #ちみたん のコラボグッズを販売！\n浜松会場ではなかった新商品も販売します！\n\n事後通販（受注販売）も実施予定✨\n\n詳細はこちら🛒\nhttp://creco-shop.com",
+    "createdAt": "2026-08-07T08:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f",
+        "thumbUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO8pWIqaIAAhN7f?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 4096,
+        "height": 4096,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 80,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿"
     ],
     "attribution": {
       "provenVenues": [
@@ -26041,22 +27365,22 @@
     }
   },
   {
-    "id": "2085561589454032939",
-    "handle": "OZaKKa_tokyo",
-    "url": "https://x.com/OZaKKa_tokyo/status/2085561589454032939",
-    "text": "＼#マジカルミライ2026 OSAKA🐙お品書き／（1/3）\n𝗖𝟲 〖ピアプロキャラクターズ×OZaKKa 超推し活shop！〗\n\n❮ 𝗹𝗶𝗻𝗲 𝘂𝗽 ❯\n✦ 肩乗りぬいぐるみショルダーパッド（全6種）\n✦ エナメル缶バッジケース（全1種）\n✦ エナメルぬいぐるみポーチ（全6種）\n✦ エナメルスマホストラップ（全6種）\n✦ エナメルぬいキャリーバッグ(全2種)\n✦ アクリル缶バッジケース グリッター缶バッジセット（全6種）\n\n⟡　ぬいのおくるみ ぬいくるみん\n(ブーケシリーズ・チョコバナナ・クリームソーダ・いちご・はくさい・ポテト)\n\n※「ぬいくるみん」を除く各商品につき、おひとり様各キャラクター1点までとなります。\n#piapro_OZaKKa #OZaKKa #オザッカ\n#ピアプロキャラクターズ",
+    "id": "2085561590322254063",
+    "handle": "movic_jp",
+    "url": "https://x.com/movic_jp/status/2085561590322254063",
+    "text": "【アイドリッシュセブン】\nDazzling Winter Villageビジュアルを使用したRe:valeの新商品が発売決定✨✨\n本日より予約開始📢\n\n8月23日までのご予約で確実にご用意！\n詳細はこちら\nhttps://www.movic.jp/shop/r/r101019/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00389\n\n#アイナナ",
     "createdAt": "2026-08-07T03:00:05.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8",
-        "thumbUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM",
+        "thumbUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
-        "width": 1920,
-        "height": 2560,
+        "width": 1500,
+        "height": 1219,
         "videoUrl": null
       }
     ],
@@ -26064,24 +27388,23 @@
     "isReply": false,
     "isRetweet": false,
     "isManual": false,
-    "source": "search",
-    "score": 100,
+    "source": "timeline",
+    "score": 5,
     "matchedSignals": [
-      "+40 お品書き表記",
-      "+20 イベント名",
-      "+15 対象会場",
       "+20 画像あり",
-      "+10 直近の投稿"
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
     ],
     "attribution": {
       "provenVenues": [
-        "osaka"
+        "osaka",
+        "tokyo"
       ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "text-venue",
+      "source": "event-wide",
       "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -26166,66 +27489,22 @@
     }
   },
   {
-    "id": "2085561590322254063",
-    "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2085561590322254063",
-    "text": "【アイドリッシュセブン】\nDazzling Winter Villageビジュアルを使用したRe:valeの新商品が発売決定✨✨\n本日より予約開始📢\n\n8月23日までのご予約で確実にご用意！\n詳細はこちら\nhttps://www.movic.jp/shop/r/r101019/?filtercode13=1&utm_source=twitter&utm_medium=social&utm_campaign=jp_X00389\n\n#アイナナ",
+    "id": "2085561589454032939",
+    "handle": "OZaKKa_tokyo",
+    "url": "https://x.com/OZaKKa_tokyo/status/2085561589454032939",
+    "text": "＼#マジカルミライ2026 OSAKA🐙お品書き／（1/3）\n𝗖𝟲 〖ピアプロキャラクターズ×OZaKKa 超推し活shop！〗\n\n❮ 𝗹𝗶𝗻𝗲 𝘂𝗽 ❯\n✦ 肩乗りぬいぐるみショルダーパッド（全6種）\n✦ エナメル缶バッジケース（全1種）\n✦ エナメルぬいぐるみポーチ（全6種）\n✦ エナメルスマホストラップ（全6種）\n✦ エナメルぬいキャリーバッグ(全2種)\n✦ アクリル缶バッジケース グリッター缶バッジセット（全6種）\n\n⟡　ぬいのおくるみ ぬいくるみん\n(ブーケシリーズ・チョコバナナ・クリームソーダ・いちご・はくさい・ポテト)\n\n※「ぬいくるみん」を除く各商品につき、おひとり様各キャラクター1点までとなります。\n#piapro_OZaKKa #OZaKKa #オザッカ\n#ピアプロキャラクターズ",
     "createdAt": "2026-08-07T03:00:05.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM",
-        "thumbUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPFj5wfaoAAaayM?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1500,
-        "height": 1219,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
-    "id": "2085561577969733954",
-    "handle": "desktop_mate",
-    "url": "https://x.com/desktop_mate/status/2085561577969733954",
-    "text": "「電卓 - Desktop Mate Widgets」DLC第二弾！\n\n鏡音リン・鏡音レン・巡音ルカ、8月13日リリース決定✨\n\nSteamストア本日公開！AppStore・Google Play・Microsoft Storeでも配信予定！\n\n・リン https://store.steampowered.com/app/4835310/\n・レン https://store.steampowered.com/app/4835320/\n・ルカ https://store.steampowered.com/app/4835330/\n\n#DMWidgets",
-    "createdAt": "2026-08-07T03:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs",
-        "thumbUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8",
+        "thumbUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPFj5zpaIAAqmq8?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
         "width": 1920,
-        "height": 1080,
+        "height": 2560,
         "videoUrl": null
       }
     ],
@@ -26234,22 +27513,23 @@
     "isRetweet": false,
     "isManual": false,
     "source": "search",
-    "score": 5,
+    "score": 100,
     "matchedSignals": [
+      "+40 お品書き表記",
+      "+20 イベント名",
+      "+15 対象会場",
       "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
+      "+10 直近の投稿"
     ],
     "attribution": {
       "provenVenues": [
-        "osaka",
-        "tokyo"
+        "osaka"
       ],
       "daysByVenue": {},
       "otherVenues": [],
-      "source": "event-wide",
+      "source": "text-venue",
       "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -26294,6 +27574,50 @@
       "source": "text-venue",
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2085561577969733954",
+    "handle": "desktop_mate",
+    "url": "https://x.com/desktop_mate/status/2085561577969733954",
+    "text": "「電卓 - Desktop Mate Widgets」DLC第二弾！\n\n鏡音リン・鏡音レン・巡音ルカ、8月13日リリース決定✨\n\nSteamストア本日公開！AppStore・Google Play・Microsoft Storeでも配信予定！\n\n・リン https://store.steampowered.com/app/4835310/\n・レン https://store.steampowered.com/app/4835320/\n・ルカ https://store.steampowered.com/app/4835330/\n\n#DMWidgets",
+    "createdAt": "2026-08-07T03:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs",
+        "thumbUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HPEbodAaEAAhwBs?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1920,
+        "height": 1080,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -27984,53 +29308,6 @@
     }
   },
   {
-    "id": "2085282226808447289",
-    "handle": "creco_tweet",
-    "url": "https://x.com/creco_tweet/status/2085282226808447289",
-    "text": "#KAITO 15th Anniversaryテーマソング「レイニースノードロップ」のグッズが #マジカルミライ2026 大阪、東京のCRECOブースにて先行販売✨\n\nぬいぐるみを追加した事後通販（受注販売）の詳細は後日公開予定！\nhttp://creco-shop.com",
-    "createdAt": "2026-08-06T08:30:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf",
-        "thumbUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 3333,
-        "height": 3333,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 80,
-    "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "+20 イベント名",
-      "+15 対象会場",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "text-venue",
-      "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
-      ]
-    }
-  },
-  {
     "id": "2085282229148635313",
     "handle": "osaka_kenketsu",
     "url": "https://x.com/osaka_kenketsu/status/2085282229148635313",
@@ -28083,6 +29360,53 @@
       "source": "text-venue",
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
+      ]
+    }
+  },
+  {
+    "id": "2085282226808447289",
+    "handle": "creco_tweet",
+    "url": "https://x.com/creco_tweet/status/2085282226808447289",
+    "text": "#KAITO 15th Anniversaryテーマソング「レイニースノードロップ」のグッズが #マジカルミライ2026 大阪、東京のCRECOブースにて先行販売✨\n\nぬいぐるみを追加した事後通販（受注販売）の詳細は後日公開予定！\nhttp://creco-shop.com",
+    "createdAt": "2026-08-06T08:30:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf",
+        "thumbUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO8u-YEbcAAKyPf?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 3333,
+        "height": 3333,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 80,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -30567,50 +31891,6 @@
     }
   },
   {
-    "id": "2084942491216978241",
-    "handle": "im_MediaArts",
-    "url": "https://x.com/im_MediaArts/status/2084942491216978241",
-    "text": "🛸STAR WARS POP UP STORE in ジェイアール京都伊勢丹🚀\n\n会期：8⽉12⽇(⽔) 〜8⽉24⽇(⽉)\n会場：ジェイアール京都伊勢丹 10階 催物場\n\n世界中で愛される壮⼤な銀河の物語「スター・ウォーズ」🌌\nPOP UP STOREがジェイアール京都伊勢丹に期間限定オープン🎉\n新商品をはじめ「スター・ウォーズ」の商品が一堂に揃うこの機会をお見逃しなく✨\n\n詳しくはこちら↓\nhttps://www.mistore.jp/store/kyoto/event_calendar/marvel_starwars/starwars.html",
-    "createdAt": "2026-08-05T10:00:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe",
-        "thumbUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 700,
-        "height": 800,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2084942490059301088",
     "handle": "nachip78",
     "url": "https://x.com/nachip78/status/2084942490059301088",
@@ -30659,6 +31939,50 @@
       "evidence": [
         "本文の「大阪 B-13」が公式のブース番号と一致",
         "大阪の対象日: 2026-08-15, 2026-08-16"
+      ]
+    }
+  },
+  {
+    "id": "2084942491216978241",
+    "handle": "im_MediaArts",
+    "url": "https://x.com/im_MediaArts/status/2084942491216978241",
+    "text": "🛸STAR WARS POP UP STORE in ジェイアール京都伊勢丹🚀\n\n会期：8⽉12⽇(⽔) 〜8⽉24⽇(⽉)\n会場：ジェイアール京都伊勢丹 10階 催物場\n\n世界中で愛される壮⼤な銀河の物語「スター・ウォーズ」🌌\nPOP UP STOREがジェイアール京都伊勢丹に期間限定オープン🎉\n新商品をはじめ「スター・ウォーズ」の商品が一堂に揃うこの機会をお見逃しなく✨\n\n詳しくはこちら↓\nhttps://www.mistore.jp/store/kyoto/event_calendar/marvel_starwars/starwars.html",
+    "createdAt": "2026-08-05T10:00:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe",
+        "thumbUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO8jkAebUAIHBYe?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 700,
+        "height": 800,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -30984,6 +32308,50 @@
     }
   },
   {
+    "id": "2084927408524963903",
+    "handle": "movic_jp",
+    "url": "https://x.com/movic_jp/status/2084927408524963903",
+    "text": "皆様お待ちかね！\n#カナヘイの小動物 「ぷくぺた」が登場！\nどこから見ても可愛い！立体感あふれるシールです！是非お見逃しなく♪\nhttps://www.movic.jp/shop/pages/pukupeta.aspx?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00362\n#ぷくぺた",
+    "createdAt": "2026-08-05T09:00:04.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t",
+        "thumbUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1500,
+        "height": 1219,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
     "id": "2084927406440354038",
     "handle": "movic_jp",
     "url": "https://x.com/movic_jp/status/2084927406440354038",
@@ -31024,50 +32392,6 @@
         "altText": null,
         "width": 600,
         "height": 600,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
-    "id": "2084927408524963903",
-    "handle": "movic_jp",
-    "url": "https://x.com/movic_jp/status/2084927408524963903",
-    "text": "皆様お待ちかね！\n#カナヘイの小動物 「ぷくぺた」が登場！\nどこから見ても可愛い！立体感あふれるシールです！是非お見逃しなく♪\nhttps://www.movic.jp/shop/pages/pukupeta.aspx?utm_source=twitter&utm_medium=social&utm_campaign=jp_X00362\n#ぷくぺた",
-    "createdAt": "2026-08-05T09:00:04.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t",
-        "thumbUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HO8jCkqa8AAVO3t?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1500,
-        "height": 1219,
         "videoUrl": null
       }
     ],
@@ -32939,50 +34263,6 @@
     }
   },
   {
-    "id": "2084565007841304742",
-    "handle": "im_MediaArts",
-    "url": "https://x.com/im_MediaArts/status/2084565007841304742",
-    "text": "───── ★ ─────\nDisney THE MARKET 2026\nin 日本橋三越本店\n───── ★ ─────\n\n明日から開催🎉\nディズニーファンのみなさま💖\n準備は整いましたか？✨\n日本橋三越本店で開催するディズニーザマーケットは夏の風物詩の一つ🌈\nみなさまのご来店お待ちしています💝\n\n会期：8月5日(水)〜8月16日(日)\n会場：日本橋三越本店 本館7階 催物会場\n\n詳しくはこちら↓\nhttps://www.mistore.jp/shopping/event/nihombashi_e/disney_50",
-    "createdAt": "2026-08-04T09:00:01.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo",
-        "thumbUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 920,
-        "height": 610,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2084565007342199257",
     "handle": "wapalette",
     "url": "https://x.com/wapalette/status/2084565007342199257",
@@ -33025,6 +34305,50 @@
       "source": "unresolved",
       "evidence": [
         "本文の「大阪 B-2」は公式のブース番号(D-3)と一致しない"
+      ]
+    }
+  },
+  {
+    "id": "2084565007841304742",
+    "handle": "im_MediaArts",
+    "url": "https://x.com/im_MediaArts/status/2084565007841304742",
+    "text": "───── ★ ─────\nDisney THE MARKET 2026\nin 日本橋三越本店\n───── ★ ─────\n\n明日から開催🎉\nディズニーファンのみなさま💖\n準備は整いましたか？✨\n日本橋三越本店で開催するディズニーザマーケットは夏の風物詩の一つ🌈\nみなさまのご来店お待ちしています💝\n\n会期：8月5日(水)〜8月16日(日)\n会場：日本橋三越本店 本館7階 催物会場\n\n詳しくはこちら↓\nhttps://www.mistore.jp/shopping/event/nihombashi_e/disney_50",
+    "createdAt": "2026-08-04T09:00:01.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo",
+        "thumbUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HOYy8TqbcAAw1fo?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 920,
+        "height": 610,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -43243,36 +44567,6 @@
     }
   },
   {
-    "id": "2081681310612160670",
-    "handle": "katoshokai_cpp",
-    "url": "https://x.com/katoshokai_cpp/status/2081681310612160670",
-    "text": "購入はこちら🛒\nhttps://katoshokai.official.ec/p/00014",
-    "createdAt": "2026-07-27T10:01:14.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": true,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 0,
-    "matchedSignals": [
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし",
-      "-30 リプライ"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "sole-venue",
-      "evidence": [
-        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
-      ]
-    }
-  },
-  {
     "id": "2081681308053635582",
     "handle": "katoshokai_cpp",
     "url": "https://x.com/katoshokai_cpp/status/2081681308053635582",
@@ -43303,6 +44597,36 @@
       "+15 固定ツイート",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "sole-venue",
+      "evidence": [
+        "この作者はマジカルミライ2026で東京にしか出展しておらず、本文も他会場に言及していない"
+      ]
+    }
+  },
+  {
+    "id": "2081681310612160670",
+    "handle": "katoshokai_cpp",
+    "url": "https://x.com/katoshokai_cpp/status/2081681310612160670",
+    "text": "購入はこちら🛒\nhttps://katoshokai.official.ec/p/00014",
+    "createdAt": "2026-07-27T10:01:14.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": true,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし",
+      "-30 リプライ"
     ],
     "attribution": {
       "provenVenues": [
@@ -50037,6 +51361,37 @@
     "imageIsOshinagaki": true
   },
   {
+    "id": "2081174719563440291",
+    "handle": "gift_news",
+    "url": "https://x.com/gift_news/status/2081174719563440291",
+    "text": "【マジカルミライ2026 HAMAMATSU ブースNo.C4 Giftブース】\n3日目\n下記商品が完売となりました。\n\n雪ミクぬいぐるみ Sweet Snow Ver.\n\n#初音ミク #マジカルミライ2026 #fumo #ふもふも",
+    "createdAt": "2026-07-26T00:28:14.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 30,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+25 ブース番号",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
     "id": "2081174722432405809",
     "handle": "ESPGuitarsJP",
     "url": "https://x.com/ESPGuitarsJP/status/2081174722432405809",
@@ -50065,37 +51420,6 @@
     "matchedSignals": [
       "+20 イベント名",
       "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
-    "id": "2081174719563440291",
-    "handle": "gift_news",
-    "url": "https://x.com/gift_news/status/2081174719563440291",
-    "text": "【マジカルミライ2026 HAMAMATSU ブースNo.C4 Giftブース】\n3日目\n下記商品が完売となりました。\n\n雪ミクぬいぐるみ Sweet Snow Ver.\n\n#初音ミク #マジカルミライ2026 #fumo #ふもふも",
-    "createdAt": "2026-07-26T00:28:14.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 30,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+25 ブース番号",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
     ],
@@ -50932,6 +52256,51 @@
     }
   },
   {
+    "id": "2081167618065440862",
+    "handle": "cfm_mobile",
+    "url": "https://x.com/cfm_mobile/status/2081167618065440862",
+    "text": "【ブース情報】\n初音ミク「#マジカルミライ2026」in HAMAMATSU 最終日🌟\nブースでは「特製ステッカー」「特製うちわ」をプレゼント🎁\n是非お近くにお越しの際はお立ち寄りください🎵\n\nアクトシティ浜松 展示イベントホール\nブース【C5】 クリプトン・デジタルコンテンツチーム\n\n#初音ミク",
+    "createdAt": "2026-07-26T00:00:01.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB",
+        "thumbUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1280,
+        "height": 960,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 50,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
     "id": "2081167617990303940",
     "handle": "designcoco_t",
     "url": "https://x.com/designcoco_t/status/2081167617990303940",
@@ -50985,51 +52354,6 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
-    "id": "2081167618065440862",
-    "handle": "cfm_mobile",
-    "url": "https://x.com/cfm_mobile/status/2081167618065440862",
-    "text": "【ブース情報】\n初音ミク「#マジカルミライ2026」in HAMAMATSU 最終日🌟\nブースでは「特製ステッカー」「特製うちわ」をプレゼント🎁\n是非お近くにお越しの際はお立ち寄りください🎵\n\nアクトシティ浜松 展示イベントホール\nブース【C5】 クリプトン・デジタルコンテンツチーム\n\n#初音ミク",
-    "createdAt": "2026-07-26T00:00:01.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB",
-        "thumbUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HOHHXBSboAA7yhB?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1280,
-        "height": 960,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 50,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+25 ブース番号",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -56809,6 +58133,37 @@
     }
   },
   {
+    "id": "2080828127857529144",
+    "handle": "nejishiki0221",
+    "url": "https://x.com/nejishiki0221/status/2080828127857529144",
+    "text": "マジカルミライ2026 浜松、2日目。\nブース A-13、本日もブースにいます（10:00〜16:00）\n\n浜松で「Velvet Hunger」を手に取れるのは本日まで。\nねじ式が会場にいるのも今日が最後です！\n\n作詞家・岩里祐穂さんとのコラボ曲「愛と飢え」ほか全11曲。\nアルバムの雰囲気はクロスフェードで是非聴いてみてください！\n\nhttps://youtu.be/q1GnwfrgIEU\n#マジカルミライ2026 #初音ミク",
+    "createdAt": "2026-07-25T01:31:00.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 30,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+25 ブース番号",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
     "id": "2080828127803044042",
     "handle": "cfm_sonicwire",
     "url": "https://x.com/cfm_sonicwire/status/2080828127803044042",
@@ -56837,37 +58192,6 @@
     "matchedSignals": [
       "+20 イベント名",
       "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
-    "id": "2080828127857529144",
-    "handle": "nejishiki0221",
-    "url": "https://x.com/nejishiki0221/status/2080828127857529144",
-    "text": "マジカルミライ2026 浜松、2日目。\nブース A-13、本日もブースにいます（10:00〜16:00）\n\n浜松で「Velvet Hunger」を手に取れるのは本日まで。\nねじ式が会場にいるのも今日が最後です！\n\n作詞家・岩里祐穂さんとのコラボ曲「愛と飢え」ほか全11曲。\nアルバムの雰囲気はクロスフェードで是非聴いてみてください！\n\nhttps://youtu.be/q1GnwfrgIEU\n#マジカルミライ2026 #初音ミク",
-    "createdAt": "2026-07-25T01:31:00.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 30,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+25 ブース番号",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
     ],
@@ -57686,6 +59010,49 @@
     }
   },
   {
+    "id": "2080818875453878707",
+    "handle": "ozon_541",
+    "url": "https://x.com/ozon_541/status/2080818875453878707",
+    "text": "本日も設営完了‼️\n\n#マジカルミライ2026 クリエイターズマーケット【C-3】でお待ちしております🙌\n\nブースにてお買い物していただくとポストカードもプレゼントしております✨\n\nぜひ遊びに来てください！！",
+    "createdAt": "2026-07-25T00:54:14.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa",
+        "thumbUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 2048,
+        "height": 1536,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 50,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "unresolved",
+      "evidence": [
+        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+      ]
+    }
+  },
+  {
     "id": "2080818874178814406",
     "handle": "COWshi504",
     "url": "https://x.com/COWshi504/status/2080818874178814406",
@@ -57727,49 +59094,6 @@
       "source": "unresolved",
       "evidence": [
         "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
-    "id": "2080818875453878707",
-    "handle": "ozon_541",
-    "url": "https://x.com/ozon_541/status/2080818875453878707",
-    "text": "本日も設営完了‼️\n\n#マジカルミライ2026 クリエイターズマーケット【C-3】でお待ちしております🙌\n\nブースにてお買い物していただくとポストカードもプレゼントしております✨\n\nぜひ遊びに来てください！！",
-    "createdAt": "2026-07-25T00:54:14.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa",
-        "thumbUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HOCNvIlakAApzpa?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 2048,
-        "height": 1536,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 50,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+25 ブース番号",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "unresolved",
-      "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
       ]
     }
   },
@@ -59564,51 +60888,6 @@
     }
   },
   {
-    "id": "2080805233014247574",
-    "handle": "cfm_mobile",
-    "url": "https://x.com/cfm_mobile/status/2080805233014247574",
-    "text": "【ブース情報】\n初音ミク「#マジカルミライ2026」in HAMAMATSU 2日目🌟\nブースでは「特製ステッカー」「特製うちわ」をプレゼント🎁\n是非お近くにお越しの際はお立ち寄りください🎵\n\nアクトシティ浜松 展示イベントホール\nブース【C5】 クリプトン・デジタルコンテンツチーム\n\n#初音ミク",
-    "createdAt": "2026-07-25T00:00:01.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa",
-        "thumbUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1280,
-        "height": 960,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 50,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+25 ブース番号",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
     "id": "2080805233773420926",
     "handle": "ETERNO_RECIT",
     "url": "https://x.com/ETERNO_RECIT/status/2080805233773420926",
@@ -59652,6 +60931,51 @@
       "+25 ブース番号",
       "+20 画像あり",
       "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
+    "id": "2080805233014247574",
+    "handle": "cfm_mobile",
+    "url": "https://x.com/cfm_mobile/status/2080805233014247574",
+    "text": "【ブース情報】\n初音ミク「#マジカルミライ2026」in HAMAMATSU 2日目🌟\nブースでは「特製ステッカー」「特製うちわ」をプレゼント🎁\n是非お近くにお越しの際はお立ち寄りください🎵\n\nアクトシティ浜松 展示イベントホール\nブース【C5】 クリプトン・デジタルコンテンツチーム\n\n#初音ミク",
+    "createdAt": "2026-07-25T00:00:01.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa",
+        "thumbUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HOB8iyLaoAAAkAa?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1280,
+        "height": 960,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 50,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
     ],
     "attribution": {
       "provenVenues": [],
@@ -67118,6 +68442,50 @@
     }
   },
   {
+    "id": "2080442839201116472",
+    "handle": "mikucolle",
+    "url": "https://x.com/mikucolle/status/2080442839201116472",
+    "text": "📢初音ミク「#マジカルミライ2026」in HAMAMATSU 1日目スタート！\n\nクリプトン・デジタルコンテンツチームブースでは、ミクコレ公式Xのフォロー画面を提示で特製ステッカーをプレゼント中🎀\n\nぜひ遊びに来てくださいね🌟\n\n#初音ミク #ミクコレ",
+    "createdAt": "2026-07-24T00:00:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj",
+        "thumbUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1200,
+        "height": 675,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
     "id": "2080442839155261754",
     "handle": "cfm_mobile",
     "url": "https://x.com/cfm_mobile/status/2080442839155261754",
@@ -67146,50 +68514,6 @@
     "matchedSignals": [
       "+20 イベント名",
       "+25 ブース番号",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
-    "id": "2080442839201116472",
-    "handle": "mikucolle",
-    "url": "https://x.com/mikucolle/status/2080442839201116472",
-    "text": "📢初音ミク「#マジカルミライ2026」in HAMAMATSU 1日目スタート！\n\nクリプトン・デジタルコンテンツチームブースでは、ミクコレ公式Xのフォロー画面を提示で特製ステッカーをプレゼント中🎀\n\nぜひ遊びに来てくださいね🌟\n\n#初音ミク #ミクコレ",
-    "createdAt": "2026-07-24T00:00:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj",
-        "thumbUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HN82PGrboAEqtQj?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1200,
-        "height": 675,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 25,
-    "matchedSignals": [
-      "+20 イベント名",
       "+20 画像あり",
       "+10 直近の投稿",
       "-25 頒布内容の言及なし"
@@ -70178,6 +71502,51 @@
     }
   },
   {
+    "id": "2080216346957418861",
+    "handle": "muship_64",
+    "url": "https://x.com/muship_64/status/2080216346957418861",
+    "text": "🍠明日から！マジミラ浜松おしながき🍠\n\n7/24-26 マジミラ浜松（3日間いるよ）\nクリエイターズマーケット\nB-11「ムシぴのおうち」\n\n#マジカルミライ\n#マジカルミライ2026",
+    "createdAt": "2026-07-23T09:00:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv",
+        "thumbUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 4000,
+        "height": 2827,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 100,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+20 イベント名",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
     "id": "2080216349314613292",
     "handle": "cocollabo",
     "url": "https://x.com/cocollabo/status/2080216349314613292",
@@ -70229,51 +71598,6 @@
       "source": "unresolved",
       "evidence": [
         "ブース番号 C-1 は複数会場で同じなので会場を特定できない"
-      ]
-    }
-  },
-  {
-    "id": "2080216346957418861",
-    "handle": "muship_64",
-    "url": "https://x.com/muship_64/status/2080216346957418861",
-    "text": "🍠明日から！マジミラ浜松おしながき🍠\n\n7/24-26 マジミラ浜松（3日間いるよ）\nクリエイターズマーケット\nB-11「ムシぴのおうち」\n\n#マジカルミライ\n#マジカルミライ2026",
-    "createdAt": "2026-07-23T09:00:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv",
-        "thumbUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HN46ns6bwAA-QBv?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 4000,
-        "height": 2827,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 100,
-    "matchedSignals": [
-      "+40 お品書き表記",
-      "+20 イベント名",
-      "+25 ブース番号",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -71889,50 +73213,6 @@
     }
   },
   {
-    "id": "2080110650651807820",
-    "handle": "BOTEJYU_GroupJP",
-    "url": "https://x.com/BOTEJYU_GroupJP/status/2080110650651807820",
-    "text": "#初音ミク × #ぼてぢゅう グループコラボ公開記念キャンペーン❷\n\n1️⃣アカウント @BOTEJYU_GroupJPをフォロー\n2️⃣店舗で注文したコラボメニュー写真を #ピアプロキャラクターズ #ぼてぢゅうフォト を付けて投稿\n\nぼてぢゅうグループお食事券3000円➕フード・ドリンク購入特典カード（メインイラスト）6枚1セット抽選で5名様に🎁\n\n🕛期間:7/23～8/31迄\n\n#初音ミク #ピアプロキャラクターズ #ぼてぢゅう",
-    "createdAt": "2026-07-23T02:00:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv",
-        "thumbUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1200,
-        "height": 675,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 40,
-    "matchedSignals": [
-      "+10 価格表記",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2080110650521727130",
     "handle": "BOTEJYU_GroupJP",
     "url": "https://x.com/BOTEJYU_GroupJP/status/2080110650521727130",
@@ -71960,6 +73240,50 @@
     "score": 45,
     "matchedSignals": [
       "+15 頒布・新刊・グッズ",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2080110650651807820",
+    "handle": "BOTEJYU_GroupJP",
+    "url": "https://x.com/BOTEJYU_GroupJP/status/2080110650651807820",
+    "text": "#初音ミク × #ぼてぢゅう グループコラボ公開記念キャンペーン❷\n\n1️⃣アカウント @BOTEJYU_GroupJPをフォロー\n2️⃣店舗で注文したコラボメニュー写真を #ピアプロキャラクターズ #ぼてぢゅうフォト を付けて投稿\n\nぼてぢゅうグループお食事券3000円➕フード・ドリンク購入特典カード（メインイラスト）6枚1セット抽選で5名様に🎁\n\n🕛期間:7/23～8/31迄\n\n#初音ミク #ピアプロキャラクターズ #ぼてぢゅう",
+    "createdAt": "2026-07-23T02:00:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv",
+        "thumbUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HN0YP-1acAA1YKv?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1200,
+        "height": 675,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 40,
+    "matchedSignals": [
+      "+10 価格表記",
       "+20 画像あり",
       "+10 直近の投稿"
     ],
@@ -73790,50 +75114,6 @@
     }
   },
   {
-    "id": "2079869062700544058",
-    "handle": "desktop_mate",
-    "url": "https://x.com/desktop_mate/status/2079869062700544058",
-    "text": "🌻 マジカルミライ 2026 Ver. 発売まであと1日 🌻\n\n明日7/23(木)、いよいよリリース✨\nそして翌7/24からはマジカルミライ 2026 浜松公演がスタート🎵\n\n清涼感あふれる特別なミクと一緒に、暑い夏を乗り切ろう💖\n\nウィッシュリスト登録👇\nhttps://store.steampowered.com/app/4791020/\n\n#初音ミク #DesktopMate",
-    "createdAt": "2026-07-22T10:00:01.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm",
-        "thumbUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1200,
-        "height": 675,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 25,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
     "id": "2079869062964719916",
     "handle": "desktop_mate",
     "url": "https://x.com/desktop_mate/status/2079869062964719916",
@@ -73875,6 +75155,50 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2079869062700544058",
+    "handle": "desktop_mate",
+    "url": "https://x.com/desktop_mate/status/2079869062700544058",
+    "text": "🌻 マジカルミライ 2026 Ver. 発売まであと1日 🌻\n\n明日7/23(木)、いよいよリリース✨\nそして翌7/24からはマジカルミライ 2026 浜松公演がスタート🎵\n\n清涼感あふれる特別なミクと一緒に、暑い夏を乗り切ろう💖\n\nウィッシュリスト登録👇\nhttps://store.steampowered.com/app/4791020/\n\n#初音ミク #DesktopMate",
+    "createdAt": "2026-07-22T10:00:01.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm",
+        "thumbUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNZ1x5TbAAAcTrm?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1200,
+        "height": 675,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -76828,6 +78152,51 @@
     }
   },
   {
+    "id": "2079499120796897738",
+    "handle": "desktop_mate",
+    "url": "https://x.com/desktop_mate/status/2079499120796897738",
+    "text": "#DesktopMate 公式生放送「#DesktopMateLIVE!」明日スタート🎉\n\n記念すべき第1回は「#マジカルミライ2026」直前！新DLC情報や開発の裏側を開発チームがお伝えします！\n\n✨初回配信✨\n7月22日(水) 20:00〜20:30\n\n視聴はこちら👇️\nYouTube https://www.youtube.com/live/M5t-zP605ks\nニコニコ https://live.nicovideo.jp/watch/lv350964356",
+    "createdAt": "2026-07-21T09:30:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL",
+        "thumbUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1920,
+        "height": 1080,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
     "id": "2079499120520425907",
     "handle": "Xenon54cp",
     "url": "https://x.com/Xenon54cp/status/2079499120520425907",
@@ -76873,51 +78242,6 @@
       ]
     },
     "imageIsOshinagaki": true
-  },
-  {
-    "id": "2079499120796897738",
-    "handle": "desktop_mate",
-    "url": "https://x.com/desktop_mate/status/2079499120796897738",
-    "text": "#DesktopMate 公式生放送「#DesktopMateLIVE!」明日スタート🎉\n\n記念すべき第1回は「#マジカルミライ2026」直前！新DLC情報や開発の裏側を開発チームがお伝えします！\n\n✨初回配信✨\n7月22日(水) 20:00〜20:30\n\n視聴はこちら👇️\nYouTube https://www.youtube.com/live/M5t-zP605ks\nニコニコ https://live.nicovideo.jp/watch/lv350964356",
-    "createdAt": "2026-07-21T09:30:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL",
-        "thumbUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNvbzCOb0AA4MKL?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1920,
-        "height": 1080,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 25,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
   },
   {
     "id": "2079498472064270816",
@@ -77064,36 +78388,6 @@
     }
   },
   {
-    "id": "2079491579467952180",
-    "handle": "kaga_qwerty",
-    "url": "https://x.com/kaga_qwerty/status/2079491579467952180",
-    "text": "このあと19時にマジミラ浜松のお品書きを投稿します！",
-    "createdAt": "2026-07-21T09:00:02.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 70,
-    "matchedSignals": [
-      "+40 お品書き表記",
-      "+20 イベント名",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
     "id": "2079491580671492123",
     "handle": "desktop_mate",
     "url": "https://x.com/desktop_mate/status/2079491580671492123",
@@ -77135,6 +78429,36 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2079491579467952180",
+    "handle": "kaga_qwerty",
+    "url": "https://x.com/kaga_qwerty/status/2079491579467952180",
+    "text": "このあと19時にマジミラ浜松のお品書きを投稿します！",
+    "createdAt": "2026-07-21T09:00:02.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 70,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+20 イベント名",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -79574,6 +80898,107 @@
     }
   },
   {
+    "id": "2079159392671617150",
+    "handle": "TA_MOR_I",
+    "url": "https://x.com/TA_MOR_I/status/2079159392671617150",
+    "text": "🎋大切なおしらせ🎋\n\nタケノコ少年 Concept Album\n　　　　　『ID』\n\nプロセカULTIMATE採用の「こわれちゃった！！」や\n「ハローイエローギャラクシー」など全7曲収録！\n自由に入れ替えられる7種のジャケットセットを封入！\n特典で収録楽曲のダウンロードカードをお渡しします！\n\n#マジカルミライ2026 クリエイターズマーケットにてリリース！\n\n↓詳細はツリーから↓",
+    "createdAt": "2026-07-20T11:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ",
+        "thumbUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=4096x4096",
+        "kind": "video",
+        "altText": null,
+        "width": 1920,
+        "height": 1080,
+        "videoUrl": "https://x.com/TA_MOR_I/status/2079159392671617150"
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "unresolved",
+      "evidence": [
+        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
+      ]
+    }
+  },
+  {
+    "id": "2079159392898060749",
+    "handle": "MINOU_0831",
+    "url": "https://x.com/MINOU_0831/status/2079159392898060749",
+    "text": "【📻おしながき📻】\n7/26(日)マジカルミライ2026 クリエイターズマーケット 【B-7】おしながきです\n\n在庫が少ないのもありますが色々と持って行きます！\nお話だけでもよいので是非お立ち寄りください！",
+    "createdAt": "2026-07-20T11:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg",
+        "thumbUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 2901,
+        "height": 4096,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp",
+        "thumbUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 2901,
+        "height": 4096,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 100,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+20 イベント名",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "画像に「浜松」の記載（対象外）",
+        "読み取りメモ: MINO-U の MENU。画像に会場の記載は無いが、本文が「7\\/26(日) マジカルミライ2026 クリエイターズマーケット【B-7】」と浜松に限定している"
+      ]
+    },
+    "imageIsOshinagaki": true
+  },
+  {
     "id": "2079159390498959385",
     "handle": "ako_okko",
     "url": "https://x.com/ako_okko/status/2079159390498959385",
@@ -79639,107 +81064,6 @@
       "source": "unresolved",
       "evidence": [
         "本文が指しているのは浜松のみで、掲載対象の会場ではない"
-      ]
-    }
-  },
-  {
-    "id": "2079159392898060749",
-    "handle": "MINOU_0831",
-    "url": "https://x.com/MINOU_0831/status/2079159392898060749",
-    "text": "【📻おしながき📻】\n7/26(日)マジカルミライ2026 クリエイターズマーケット 【B-7】おしながきです\n\n在庫が少ないのもありますが色々と持って行きます！\nお話だけでもよいので是非お立ち寄りください！",
-    "createdAt": "2026-07-20T11:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg",
-        "thumbUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNqfZg3a4AASTbg?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 2901,
-        "height": 4096,
-        "videoUrl": null
-      },
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp",
-        "thumbUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNqfajpbIAAV4bp?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 2901,
-        "height": 4096,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 100,
-    "matchedSignals": [
-      "+40 お品書き表記",
-      "+20 イベント名",
-      "+25 ブース番号",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "画像に「浜松」の記載（対象外）",
-        "読み取りメモ: MINO-U の MENU。画像に会場の記載は無いが、本文が「7\\/26(日) マジカルミライ2026 クリエイターズマーケット【B-7】」と浜松に限定している"
-      ]
-    },
-    "imageIsOshinagaki": true
-  },
-  {
-    "id": "2079159392671617150",
-    "handle": "TA_MOR_I",
-    "url": "https://x.com/TA_MOR_I/status/2079159392671617150",
-    "text": "🎋大切なおしらせ🎋\n\nタケノコ少年 Concept Album\n　　　　　『ID』\n\nプロセカULTIMATE採用の「こわれちゃった！！」や\n「ハローイエローギャラクシー」など全7曲収録！\n自由に入れ替えられる7種のジャケットセットを封入！\n特典で収録楽曲のダウンロードカードをお渡しします！\n\n#マジカルミライ2026 クリエイターズマーケットにてリリース！\n\n↓詳細はツリーから↓",
-    "createdAt": "2026-07-20T11:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ",
-        "thumbUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNqppxCaoAAi8FZ?format=jpg&name=4096x4096",
-        "kind": "video",
-        "altText": null,
-        "width": 1920,
-        "height": 1080,
-        "videoUrl": "https://x.com/TA_MOR_I/status/2079159392671617150"
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 25,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "unresolved",
-      "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
       ]
     }
   },
@@ -83569,51 +84893,6 @@
     }
   },
   {
-    "id": "2078419514702827793",
-    "handle": "eo_aui7740",
-    "url": "https://x.com/eo_aui7740/status/2078419514702827793",
-    "text": "【新譜のお知らせ】\n#マジカルミライ2026 クリエイターズマーケットにて\n新アルバム「徒華が散る時」をリリースします。\n\n昨年に引き続き、新譜のCD型ミニキーホルダーとCD＆キーホルダーのセットも展開します！\n※セットは特典でショッパーとステッカー付きです\n\n明日の19時にXFD出します！お楽しみに",
-    "createdAt": "2026-07-18T10:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE",
-        "thumbUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1200,
-        "height": 1200,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 25,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2078419514828415201",
     "handle": "LUPO_Reportage",
     "url": "https://x.com/LUPO_Reportage/status/2078419514828415201",
@@ -83660,22 +84939,67 @@
     }
   },
   {
-    "id": "2078419508474318898",
-    "handle": "iri_qitune",
-    "url": "https://x.com/iri_qitune/status/2078419508474318898",
-    "text": "【おしらせ】\n\nIceky / 由末イリ / manika Collaboration Album\n『合間』\n\nマジカルミライ浜松内クリエイターズマーケットへ同日出展する三人で、CDを制作しました。\n詳細・XFDは、明日7/19（日）18:00にmanikaのチャンネルにて公開します。よろしくお願いします……!",
+    "id": "2078419514702827793",
+    "handle": "eo_aui7740",
+    "url": "https://x.com/eo_aui7740/status/2078419514702827793",
+    "text": "【新譜のお知らせ】\n#マジカルミライ2026 クリエイターズマーケットにて\n新アルバム「徒華が散る時」をリリースします。\n\n昨年に引き続き、新譜のCD型ミニキーホルダーとCD＆キーホルダーのセットも展開します！\n※セットは特典でショッパーとステッカー付きです\n\n明日の19時にXFD出します！お楽しみに",
+    "createdAt": "2026-07-18T10:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE",
+        "thumbUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNgGVSvbIAAYVHE?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1200,
+        "height": 1200,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2078419509178970382",
+    "handle": "tomatowt",
+    "url": "https://x.com/tomatowt/status/2078419509178970382",
+    "text": "今後の配信スケジュールは画像の通りです。\n⚠️予定は変更になる可能性があります。\n\n⚡がるなん.com│ON AIR (サブチャンネル)\nhttps://youtube.com/@Garunan_ON_AIR\n\n🎪マジカルミライ2026 HAMAMATSU│静岡：アクトシティ浜松\nhttps://garunan.com/eventpage/",
     "createdAt": "2026-07-18T10:00:00.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu",
-        "thumbUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty",
+        "thumbUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
-        "width": 848,
-        "height": 1200,
+        "width": 1920,
+        "height": 1080,
         "videoUrl": null
       }
     ],
@@ -83704,22 +85028,22 @@
     }
   },
   {
-    "id": "2078419509178970382",
-    "handle": "tomatowt",
-    "url": "https://x.com/tomatowt/status/2078419509178970382",
-    "text": "今後の配信スケジュールは画像の通りです。\n⚠️予定は変更になる可能性があります。\n\n⚡がるなん.com│ON AIR (サブチャンネル)\nhttps://youtube.com/@Garunan_ON_AIR\n\n🎪マジカルミライ2026 HAMAMATSU│静岡：アクトシティ浜松\nhttps://garunan.com/eventpage/",
+    "id": "2078419508474318898",
+    "handle": "iri_qitune",
+    "url": "https://x.com/iri_qitune/status/2078419508474318898",
+    "text": "【おしらせ】\n\nIceky / 由末イリ / manika Collaboration Album\n『合間』\n\nマジカルミライ浜松内クリエイターズマーケットへ同日出展する三人で、CDを制作しました。\n詳細・XFDは、明日7/19（日）18:00にmanikaのチャンネルにて公開します。よろしくお願いします……!",
     "createdAt": "2026-07-18T10:00:00.000Z",
     "media": [
       {
-        "baseUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty",
-        "thumbUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNLLMvsaMAA54Ty?format=jpg&name=4096x4096",
+        "baseUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu",
+        "thumbUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNgGJCHakAAxfbu?format=jpg&name=4096x4096",
         "kind": "photo",
         "altText": null,
-        "width": 1920,
-        "height": 1080,
+        "width": 848,
+        "height": 1200,
         "videoUrl": null
       }
     ],
@@ -84021,6 +85345,51 @@
     }
   },
   {
+    "id": "2078404414575128936",
+    "handle": "nulut",
+    "url": "https://x.com/nulut/status/2078404414575128936",
+    "text": "あすの（ぬいとか）研究所様より\nぬゆり”アンチマネー”MVキャラクターぬい「コーラルとターコイズ」の受注販売が決定しました。\n\nhttps://asunolab.base.shop/items/149421766\n\n只今より予約開始しておりますのでこの機会にぜひお買い求めください。\n予約期間は9月4日0時までとなっております。\n\nマジカルミライ各会場に見本を持っていきます（会場では購入できません）\n\nいくつか注意事項ありますので以下ご確認下さい。\nご了承いただいた上でご購入の方お願い致します。\n\n【作品について】\n ・個人のハンドメイドによる受注生産品です。\n ・発送時期：2027年1月頃を予定しています。\n※オーダー数が一定に達した時点で受付を締め切り、発送時期を遅らせた「二次オーダー」に切り替わる場合がございます。\n【決済方法】 ・クレジットカード決済のみご利用いただけます。",
+    "createdAt": "2026-07-18T09:00:01.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw",
+        "thumbUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1127,
+        "height": 1175,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 25,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
     "id": "2078404413241397567",
     "handle": "ako_okko",
     "url": "https://x.com/ako_okko/status/2078404413241397567",
@@ -84066,51 +85435,6 @@
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
         "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
-      ]
-    }
-  },
-  {
-    "id": "2078404414575128936",
-    "handle": "nulut",
-    "url": "https://x.com/nulut/status/2078404414575128936",
-    "text": "あすの（ぬいとか）研究所様より\nぬゆり”アンチマネー”MVキャラクターぬい「コーラルとターコイズ」の受注販売が決定しました。\n\nhttps://asunolab.base.shop/items/149421766\n\n只今より予約開始しておりますのでこの機会にぜひお買い求めください。\n予約期間は9月4日0時までとなっております。\n\nマジカルミライ各会場に見本を持っていきます（会場では購入できません）\n\nいくつか注意事項ありますので以下ご確認下さい。\nご了承いただいた上でご購入の方お願い致します。\n\n【作品について】\n ・個人のハンドメイドによる受注生産品です。\n ・発送時期：2027年1月頃を予定しています。\n※オーダー数が一定に達した時点で受付を締め切り、発送時期を遅らせた「二次オーダー」に切り替わる場合がございます。\n【決済方法】 ・クレジットカード決済のみご利用いただけます。",
-    "createdAt": "2026-07-18T09:00:01.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw",
-        "thumbUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNayUc1aIAAaAGw?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1127,
-        "height": 1175,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 25,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -85717,51 +87041,6 @@
     }
   },
   {
-    "id": "2078072232748708141",
-    "handle": "ozon_541",
-    "url": "https://x.com/ozon_541/status/2078072232748708141",
-    "text": "🌍告知だゾン🌍\n\n／\n全6曲入りボカロアルバム\n『 Orbit 』リリース決定❗️\n＼\n\nYoutube http://youtu.be/1DqVt5A_JUM\n\nniconico http://nico.ms/sm46558140\n\n#マジカルミライ2026 にて頒布する新譜のXFDが公開になりました！✨\n\n今回も色んなジャンルを収録したバラエティー豊かな一枚になってます🙌\n\nサークル垢⬇️\nケチャップ販売員(@ketchuphanbaiin )",
-    "createdAt": "2026-07-17T11:00:03.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70",
-        "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=4096x4096",
-        "kind": "video",
-        "altText": null,
-        "width": 1920,
-        "height": 1080,
-        "videoUrl": "https://x.com/ozon_541/status/2078072232748708141"
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 65,
-    "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "+20 イベント名",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2078072233151578446",
     "handle": "usushioshisuu",
     "url": "https://x.com/usushioshisuu/status/2078072233151578446",
@@ -85838,6 +87117,51 @@
       "source": "unresolved",
       "evidence": [
         "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
+    "id": "2078072232748708141",
+    "handle": "ozon_541",
+    "url": "https://x.com/ozon_541/status/2078072232748708141",
+    "text": "🌍告知だゾン🌍\n\n／\n全6曲入りボカロアルバム\n『 Orbit 』リリース決定❗️\n＼\n\nYoutube http://youtu.be/1DqVt5A_JUM\n\nniconico http://nico.ms/sm46558140\n\n#マジカルミライ2026 にて頒布する新譜のXFDが公開になりました！✨\n\n今回も色んなジャンルを収録したバラエティー豊かな一枚になってます🙌\n\nサークル垢⬇️\nケチャップ販売員(@ketchuphanbaiin )",
+    "createdAt": "2026-07-17T11:00:03.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70",
+        "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/amplify_video_thumb/2078033143542738946/img/gCJTIujq-tq2dN70?format=jpg&name=4096x4096",
+        "kind": "video",
+        "altText": null,
+        "width": 1920,
+        "height": 1080,
+        "videoUrl": "https://x.com/ozon_541/status/2078072232748708141"
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 65,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -86110,47 +87434,6 @@
     }
   },
   {
-    "id": "2078057126770225549",
-    "handle": "anison_mo_METAL",
-    "url": "https://x.com/anison_mo_METAL/status/2078057126770225549",
-    "text": "#合成音声_HIPHOP お品書き\n\n是非手に取ってみてください！\n\n#ボーマス63",
-    "createdAt": "2026-07-17T10:00:02.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu",
-        "thumbUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1024,
-        "height": 663,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 70,
-    "matchedSignals": [
-      "+40 お品書き表記",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "unresolved",
-      "evidence": [
-        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
-      ]
-    }
-  },
-  {
     "id": "2078057126380069032",
     "handle": "ponchi_pop",
     "url": "https://x.com/ponchi_pop/status/2078057126380069032",
@@ -86192,6 +87475,47 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2078057126770225549",
+    "handle": "anison_mo_METAL",
+    "url": "https://x.com/anison_mo_METAL/status/2078057126770225549",
+    "text": "#合成音声_HIPHOP お品書き\n\n是非手に取ってみてください！\n\n#ボーマス63",
+    "createdAt": "2026-07-17T10:00:02.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu",
+        "thumbUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNZcH7QbQAE8dwu?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1024,
+        "height": 663,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 70,
+    "matchedSignals": [
+      "+40 お品書き表記",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "unresolved",
+      "evidence": [
+        "本文に会場名・ブース番号のいずれも無く、会場を特定できない"
       ]
     }
   },
@@ -86405,6 +87729,50 @@
     }
   },
   {
+    "id": "2078042021319598238",
+    "handle": "ako_okko",
+    "url": "https://x.com/ako_okko/status/2078042021319598238",
+    "text": "たらしいコンピのお知らせです💐\n\nトートバッグ型コンピレーション作品集\n『関係図コンピ FOR YOU』\n\nXFDを 7/18(土)18：00 より公開♪\n\n▼プレミア公開▼\nhttps://youtu.be/T0Ku-WHIhrY\n\n#関係図コンピ_FORYOU",
+    "createdAt": "2026-07-17T09:00:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-",
+        "thumbUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1920,
+        "height": 1080,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 5,
+    "matchedSignals": [
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
     "id": "2078042021957365938",
     "handle": "creco_tweet",
     "url": "https://x.com/creco_tweet/status/2078042021957365938",
@@ -86450,50 +87818,6 @@
       "evidence": [
         "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
         "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
-      ]
-    }
-  },
-  {
-    "id": "2078042021319598238",
-    "handle": "ako_okko",
-    "url": "https://x.com/ako_okko/status/2078042021319598238",
-    "text": "たらしいコンピのお知らせです💐\n\nトートバッグ型コンピレーション作品集\n『関係図コンピ FOR YOU』\n\nXFDを 7/18(土)18：00 より公開♪\n\n▼プレミア公開▼\nhttps://youtu.be/T0Ku-WHIhrY\n\n#関係図コンピ_FORYOU",
-    "createdAt": "2026-07-17T09:00:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-",
-        "thumbUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNatwiQbcAAl2G-?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1920,
-        "height": 1080,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 5,
-    "matchedSignals": [
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -87910,74 +89234,6 @@
     }
   },
   {
-    "id": "2077679636637471120",
-    "handle": "ryuryuephemera",
-    "url": "https://x.com/ryuryuephemera/status/2077679636637471120",
-    "text": "【⏰告知⏰】\n\n#マジカルミライ2026  #クリエイターズマーケット\nryuryu / Past Days Sparkle\n浜松　7/25(土) A-14\n東京　8/29(土) C-28\n\n『Past Days Sparkle』という6曲入りミニアルバム(SONOCA)を配布致します",
-    "createdAt": "2026-07-16T09:00:01.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1",
-        "thumbUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1144,
-        "height": 1064,
-        "videoUrl": null
-      },
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7",
-        "thumbUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1268,
-        "height": 822,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 65,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+15 対象会場",
-      "+25 ブース番号",
-      "+20 画像あり",
-      "+10 直近の投稿",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "tokyo"
-      ],
-      "daysByVenue": {
-        "tokyo": [
-          "2026-08-29"
-        ]
-      },
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "image",
-      "evidence": [
-        "画像に「浜松」の記載（対象外）",
-        "画像の「東京 C-28」が公式のブース番号と一致",
-        "画像の日付: 2026-08-29",
-        "読み取りメモ: ミニアルバム1点の頒布物情報。収録曲・形態に加え「マジカルミライ2026 クリエイターズマーケット 浜松7/25(土)A-14、東京8/29(土)C-28で配布致します」と明記"
-      ]
-    },
-    "imageIsOshinagaki": true
-  },
-  {
     "id": "2077679634800427307",
     "handle": "wapalette",
     "url": "https://x.com/wapalette/status/2077679634800427307",
@@ -88057,6 +89313,74 @@
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
+  },
+  {
+    "id": "2077679636637471120",
+    "handle": "ryuryuephemera",
+    "url": "https://x.com/ryuryuephemera/status/2077679636637471120",
+    "text": "【⏰告知⏰】\n\n#マジカルミライ2026  #クリエイターズマーケット\nryuryu / Past Days Sparkle\n浜松　7/25(土) A-14\n東京　8/29(土) C-28\n\n『Past Days Sparkle』という6曲入りミニアルバム(SONOCA)を配布致します",
+    "createdAt": "2026-07-16T09:00:01.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1",
+        "thumbUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNR3FadbYAAjYJ1?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1144,
+        "height": 1064,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7",
+        "thumbUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HNR4Ij3aYAIs8R7?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1268,
+        "height": 822,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 65,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+25 ブース番号",
+      "+20 画像あり",
+      "+10 直近の投稿",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "tokyo"
+      ],
+      "daysByVenue": {
+        "tokyo": [
+          "2026-08-29"
+        ]
+      },
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "image",
+      "evidence": [
+        "画像に「浜松」の記載（対象外）",
+        "画像の「東京 C-28」が公式のブース番号と一致",
+        "画像の日付: 2026-08-29",
+        "読み取りメモ: ミニアルバム1点の頒布物情報。収録曲・形態に加え「マジカルミライ2026 クリエイターズマーケット 浜松7/25(土)A-14、東京8/29(土)C-28で配布致します」と明記"
+      ]
+    },
+    "imageIsOshinagaki": true
   },
   {
     "id": "2077679177051038144",
@@ -92617,50 +93941,6 @@
     }
   },
   {
-    "id": "2075505320705863871",
-    "handle": "bomless_race",
-    "url": "https://x.com/bomless_race/status/2075505320705863871",
-    "text": "ぐちり 5th Full Album『異榻同夢』\nアルバム頒布に先立ち、試聴動画を公開！\n\n通販：https://bomless-race.booth.pm/items/8559274\n\n全曲試聴はこちら↓\nhttps://www.youtube.com/watch?v=MlPfy-QabAo",
-    "createdAt": "2026-07-10T09:00:04.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB",
-        "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=4096x4096",
-        "kind": "video",
-        "altText": null,
-        "width": 1920,
-        "height": 1080,
-        "videoUrl": "https://x.com/bomless_race/status/2075505320705863871"
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 45,
-    "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2075505320856801585",
     "handle": "wapalette",
     "url": "https://x.com/wapalette/status/2075505320856801585",
@@ -92701,6 +93981,50 @@
       "source": "unresolved",
       "evidence": [
         "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
+    "id": "2075505320705863871",
+    "handle": "bomless_race",
+    "url": "https://x.com/bomless_race/status/2075505320705863871",
+    "text": "ぐちり 5th Full Album『異榻同夢』\nアルバム頒布に先立ち、試聴動画を公開！\n\n通販：https://bomless-race.booth.pm/items/8559274\n\n全曲試聴はこちら↓\nhttps://www.youtube.com/watch?v=MlPfy-QabAo",
+    "createdAt": "2026-07-10T09:00:04.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB",
+        "thumbUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/amplify_video_thumb/2075442553504362496/img/Kli5yyNpKDTmaTjB?format=jpg&name=4096x4096",
+        "kind": "video",
+        "altText": null,
+        "width": 1920,
+        "height": 1080,
+        "videoUrl": "https://x.com/bomless_race/status/2075505320705863871"
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 45,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
       ]
     }
   },
@@ -94168,6 +95492,51 @@
     }
   },
   {
+    "id": "2074433242862878795",
+    "handle": "utsupii",
+    "url": "https://x.com/utsupii/status/2074433242862878795",
+    "text": "【鬱P新譜情報】\nマジカルミライクリエイターズマーケットにて2年ぶりの新譜カセットテープ「H.M.1996」を頒布します。\n1000円です。ラジカセが無くてもDL出来るURL付きなのでグッズ感覚でどうぞ。\n\n🎨Illust:きしんII世 @Kishin_illust\n\n🚨浜松は26日(日)のみなので要注意！\nhttps://magicalmirai.com/2026/",
+    "createdAt": "2026-07-07T10:00:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS",
+        "thumbUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 595,
+        "height": 842,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 75,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+10 価格表記",
+      "+20 画像あり",
+      "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [],
+      "daysByVenue": {},
+      "otherVenues": [
+        "hamamatsu"
+      ],
+      "source": "unresolved",
+      "evidence": [
+        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
+      ]
+    }
+  },
+  {
     "id": "2074433240497066464",
     "handle": "mothy_akuno",
     "url": "https://x.com/mothy_akuno/status/2074433240497066464",
@@ -94221,51 +95590,6 @@
       "source": "event-wide",
       "evidence": [
         "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
-    "id": "2074433242862878795",
-    "handle": "utsupii",
-    "url": "https://x.com/utsupii/status/2074433242862878795",
-    "text": "【鬱P新譜情報】\nマジカルミライクリエイターズマーケットにて2年ぶりの新譜カセットテープ「H.M.1996」を頒布します。\n1000円です。ラジカセが無くてもDL出来るURL付きなのでグッズ感覚でどうぞ。\n\n🎨Illust:きしんII世 @Kishin_illust\n\n🚨浜松は26日(日)のみなので要注意！\nhttps://magicalmirai.com/2026/",
-    "createdAt": "2026-07-07T10:00:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS",
-        "thumbUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HMjO4_dacAAhbtS?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 595,
-        "height": 842,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 75,
-    "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "+20 イベント名",
-      "+10 価格表記",
-      "+20 画像あり",
-      "+10 直近の投稿"
-    ],
-    "attribution": {
-      "provenVenues": [],
-      "daysByVenue": {},
-      "otherVenues": [
-        "hamamatsu"
-      ],
-      "source": "unresolved",
-      "evidence": [
-        "本文が指しているのは浜松のみで、掲載対象の会場ではない"
       ]
     }
   },
@@ -96809,38 +98133,6 @@
     }
   },
   {
-    "id": "2072515875945811971",
-    "handle": "cocollabo",
-    "url": "https://x.com/cocollabo/status/2072515875945811971",
-    "text": "いらすとがかり氏描き下ろしイラストを使用した商品の通販予約受付は下記日程を予定しております。\n通販情報は @cocollabo で順次お知らせいたします！\n\n・予約期間：9月1日(火)～9月24日(木)\n・発送時期：11月中旬～下旬頃\n\n#マジカルミライ2026 #初音ミク",
-    "createdAt": "2026-07-02T03:01:04.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": true,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 15,
-    "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "+20 イベント名",
-      "+10 直近の投稿",
-      "-30 リプライ"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2072515873668293052",
     "handle": "cocollabo",
     "url": "https://x.com/cocollabo/status/2072515873668293052",
@@ -96871,6 +98163,38 @@
       "+20 イベント名",
       "+20 画像あり",
       "+10 直近の投稿"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪・東京すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2072515875945811971",
+    "handle": "cocollabo",
+    "url": "https://x.com/cocollabo/status/2072515875945811971",
+    "text": "いらすとがかり氏描き下ろしイラストを使用した商品の通販予約受付は下記日程を予定しております。\n通販情報は @cocollabo で順次お知らせいたします！\n\n・予約期間：9月1日(火)～9月24日(木)\n・発送時期：11月中旬～下旬頃\n\n#マジカルミライ2026 #初音ミク",
+    "createdAt": "2026-07-02T03:01:04.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": true,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 15,
+    "matchedSignals": [
+      "+15 頒布・新刊・グッズ",
+      "+20 イベント名",
+      "+10 直近の投稿",
+      "-30 リプライ"
     ],
     "attribution": {
       "provenVenues": [
@@ -104395,64 +105719,6 @@
     }
   },
   {
-    "id": "2065004111284871173",
-    "handle": "Ruliea_7",
-    "url": "https://x.com/Ruliea_7/status/2065004111284871173",
-    "text": "#マジカルミライ2026 出展します\n\n8/16(日)大阪 | 8/30(日)東京\n\n東京会場はszriと出展します\nそれぞれ1日ずつですがよろしくお願いします！",
-    "createdAt": "2026-06-11T09:32:00.000Z",
-    "media": [
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW",
-        "thumbUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1170,
-        "height": 1154,
-        "videoUrl": null
-      },
-      {
-        "baseUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF",
-        "thumbUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=small",
-        "largeUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=large",
-        "origUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=orig",
-        "apiUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=4096x4096",
-        "kind": "photo",
-        "altText": null,
-        "width": 1169,
-        "height": 1179,
-        "videoUrl": null
-      }
-    ],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "search",
-    "score": 30,
-    "matchedSignals": [
-      "+20 イベント名",
-      "+15 対象会場",
-      "+20 画像あり",
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka",
-        "tokyo"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "text-venue",
-      "evidence": [
-        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
-        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
-      ]
-    }
-  },
-  {
     "id": "2065004109233873136",
     "handle": "tri_angl_e",
     "url": "https://x.com/tri_angl_e/status/2065004109233873136",
@@ -104517,6 +105783,64 @@
         "大阪の対象日: 2026-08-14",
         "本文の「東京 D-10」が公式のブース番号と一致",
         "東京の対象日: 2026-08-28"
+      ]
+    }
+  },
+  {
+    "id": "2065004111284871173",
+    "handle": "Ruliea_7",
+    "url": "https://x.com/Ruliea_7/status/2065004111284871173",
+    "text": "#マジカルミライ2026 出展します\n\n8/16(日)大阪 | 8/30(日)東京\n\n東京会場はszriと出展します\nそれぞれ1日ずつですがよろしくお願いします！",
+    "createdAt": "2026-06-11T09:32:00.000Z",
+    "media": [
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW",
+        "thumbUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HKheSoobQAAN1CW?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1170,
+        "height": 1154,
+        "videoUrl": null
+      },
+      {
+        "baseUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF",
+        "thumbUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=small",
+        "largeUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=large",
+        "origUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=orig",
+        "apiUrl": "https://pbs.twimg.com/media/HKheSoqbAAAhJFF?format=jpg&name=4096x4096",
+        "kind": "photo",
+        "altText": null,
+        "width": 1169,
+        "height": 1179,
+        "videoUrl": null
+      }
+    ],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "search",
+    "score": 30,
+    "matchedSignals": [
+      "+20 イベント名",
+      "+15 対象会場",
+      "+20 画像あり",
+      "-25 頒布内容の言及なし"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka",
+        "tokyo"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "text-venue",
+      "evidence": [
+        "本文に「大阪」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）",
+        "本文に「東京」の記載があり、公式にも出展記録がある（ブース番号の記載は無し）"
       ]
     }
   },
@@ -109791,34 +111115,6 @@
     }
   },
   {
-    "id": "2059147439261749528",
-    "handle": "__TKMYY",
-    "url": "https://x.com/__TKMYY/status/2059147439261749528",
-    "text": "17時ごろにファンボックスの支援者様向けの記事を更新します。(しばらく更新できてなくてすみませんでした🙇‍♂️)",
-    "createdAt": "2026-05-26T05:39:41.000Z",
-    "media": [],
-    "isPinned": false,
-    "isReply": false,
-    "isRetweet": false,
-    "isManual": false,
-    "source": "timeline",
-    "score": 0,
-    "matchedSignals": [
-      "-25 頒布内容の言及なし"
-    ],
-    "attribution": {
-      "provenVenues": [
-        "osaka"
-      ],
-      "daysByVenue": {},
-      "otherVenues": [],
-      "source": "event-wide",
-      "evidence": [
-        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪すべてに適用"
-      ]
-    }
-  },
-  {
     "id": "2059147441577075115",
     "handle": "__TKMYY",
     "url": "https://x.com/__TKMYY/status/2059147441577075115",
@@ -109834,6 +111130,34 @@
     "matchedSignals": [
       "-25 頒布内容の言及なし",
       "-30 リプライ"
+    ],
+    "attribution": {
+      "provenVenues": [
+        "osaka"
+      ],
+      "daysByVenue": {},
+      "otherVenues": [],
+      "source": "event-wide",
+      "evidence": [
+        "会場名を一つも書いていないマジカルミライの告知なので、公式の出展先である大阪すべてに適用"
+      ]
+    }
+  },
+  {
+    "id": "2059147439261749528",
+    "handle": "__TKMYY",
+    "url": "https://x.com/__TKMYY/status/2059147439261749528",
+    "text": "17時ごろにファンボックスの支援者様向けの記事を更新します。(しばらく更新できてなくてすみませんでした🙇‍♂️)",
+    "createdAt": "2026-05-26T05:39:41.000Z",
+    "media": [],
+    "isPinned": false,
+    "isReply": false,
+    "isRetweet": false,
+    "isManual": false,
+    "source": "timeline",
+    "score": 0,
+    "matchedSignals": [
+      "-25 頒布内容の言及なし"
     ],
     "attribution": {
       "provenVenues": [
@@ -118948,21 +120272,20 @@
     }
   },
   {
-    "id": "1045596820674510849",
+    "id": "1045596819470729222",
     "handle": "BasyaumaRecords",
-    "url": "https://x.com/BasyaumaRecords/status/1045596820674510849",
-    "text": "-○◯【CD在庫情報　②】◯○-\n\nイベント在庫のあるものは次回ボマス・冬コミなどでも頒布します。\n\n在庫のなくなったCDについてはリクエストが多ければ再プレスを検討します。\n\nまた、「H**rtful Pieces」「メインキャラクター」「IMPERFECT」の3枚は\n2019年以降リメイクを検討中です。",
+    "url": "https://x.com/BasyaumaRecords/status/1045596819470729222",
+    "text": "-○◯【CD在庫情報　①】◯○-\n\n「春の魔法」\n通販在庫　10枚程度\nイベント在庫　50枚程度\n\n「COLOR*FULL」\n通販在庫　０枚\nイベント在庫　０枚\n\n「春の足跡」\n通販在庫　20枚程度\nイベント在庫　0枚\n\n「君だけがいない夏」\n通販在庫　20枚程度\nイベント在庫　たくさん\n\n（続）",
     "createdAt": "2018-09-28T08:51:22.000Z",
     "media": [],
     "isPinned": false,
-    "isReply": true,
+    "isReply": false,
     "isRetweet": false,
     "isManual": false,
     "source": "timeline",
-    "score": 0,
+    "score": 15,
     "matchedSignals": [
-      "+15 頒布・新刊・グッズ",
-      "-30 リプライ"
+      "+15 頒布・新刊・グッズ"
     ],
     "attribution": {
       "provenVenues": [
@@ -118978,20 +120301,21 @@
     }
   },
   {
-    "id": "1045596819470729222",
+    "id": "1045596820674510849",
     "handle": "BasyaumaRecords",
-    "url": "https://x.com/BasyaumaRecords/status/1045596819470729222",
-    "text": "-○◯【CD在庫情報　①】◯○-\n\n「春の魔法」\n通販在庫　10枚程度\nイベント在庫　50枚程度\n\n「COLOR*FULL」\n通販在庫　０枚\nイベント在庫　０枚\n\n「春の足跡」\n通販在庫　20枚程度\nイベント在庫　0枚\n\n「君だけがいない夏」\n通販在庫　20枚程度\nイベント在庫　たくさん\n\n（続）",
+    "url": "https://x.com/BasyaumaRecords/status/1045596820674510849",
+    "text": "-○◯【CD在庫情報　②】◯○-\n\nイベント在庫のあるものは次回ボマス・冬コミなどでも頒布します。\n\n在庫のなくなったCDについてはリクエストが多ければ再プレスを検討します。\n\nまた、「H**rtful Pieces」「メインキャラクター」「IMPERFECT」の3枚は\n2019年以降リメイクを検討中です。",
     "createdAt": "2018-09-28T08:51:22.000Z",
     "media": [],
     "isPinned": false,
-    "isReply": false,
+    "isReply": true,
     "isRetweet": false,
     "isManual": false,
     "source": "timeline",
-    "score": 15,
+    "score": 0,
     "matchedSignals": [
-      "+15 頒布・新刊・グッズ"
+      "+15 頒布・新刊・グッズ",
+      "-30 リプライ"
     ],
     "attribution": {
       "provenVenues": [
