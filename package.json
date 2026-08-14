@@ -49,7 +49,8 @@
     "why-not-listed": "tsx scripts/why-not-listed.ts",
     "verify-ui-additions": "tsx scripts/verify-ui-additions.ts",
     "verify-map-labels": "tsx scripts/verify-map-labels.ts",
-    "verify-no-console-errors": "tsx scripts/verify-no-console-errors.ts"
+    "verify-no-console-errors": "tsx scripts/verify-no-console-errors.ts",
+    "make-review-sheets": "tsx scripts/make-review-sheets.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",

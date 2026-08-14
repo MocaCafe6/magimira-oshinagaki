@@ -1034,5 +1034,93 @@
       }
     ],
     "notes": "上と同じ「D-1 たきだしごはん」のお品書き。『Ready』2000yen と『星の音』2000yen。本文は大阪に持っていく品の案内"
+  },
+  {
+    "postId": "2087874495751299077",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "C-7",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      }
+    ],
+    "notes": "画像に「14-15-16/08/2026 マジミラ大阪 C-7」と明記。Shu 1st Album アタシ的アナキズム 15曲 ¥2,000、2nd Album 正当な理由のない常習的な欠勤や遅刻 15曲 ¥2,000、3rd Album EGO1STECH 21曲+Bonus20曲 ¥3,000、1st EP NAN1!? 7曲 ¥2,000、2nd EP Wow! Cute! 1NN 4曲 ¥1,500、VocaGaku 4th MiniAlbum ¥2,000、VocaTECH Fusion ¥2,000、VocaTECH NOVA ¥2,000。完全なお品書き"
+  },
+  {
+    "postId": "2088059310807093643",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "F-9",
+        "dates": []
+      }
+    ],
+    "notes": "卓の写真だが「F-9」の卓札が写っており、CDに ¥1,500 / ¥800 の値札が立っている。ポスター形式ではないが、そのブースで何がいくらで買えるかは読める"
+  },
+  {
+    "postId": "2088070288689057811",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "ムシぴのおうち C-3 の設営完了写真。CDと冊子が並んでいるが値札が読めず、品目と価格の一覧にはなっていない"
+  },
+  {
+    "postId": "2087474182120759382",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "イルマ 3rd Single『uruuru』のジャケット絵。1商品の紹介で一覧ではない"
+  },
+  {
+    "postId": "2088053739265626587",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "SONICWIRE ブースの遠景写真。品目も価格も読めない"
+  },
+  {
+    "postId": "2088122741862068319",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "HMV POP UP SHOP のレポート告知画像。店舗の様子で、ブースの品揃えの一覧ではない"
+  },
+  {
+    "postId": "2087066519473881473",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "Piit のサコッシュプレゼント告知（5,000円以上で1点）。特典の案内で頒布物の一覧ではない"
+  },
+  {
+    "postId": "2086004737535836599",
+    "isOshinagaki": false,
+    "readBy": "manual",
+    "negativeIsReliable": true,
+    "isMagimira": true,
+    "venues": [],
+    "notes": "暗黒童話唄『禁書』の表紙のみ。価格も品目一覧も無い"
   }
 ]

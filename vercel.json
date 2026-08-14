@@ -3,7 +3,9 @@
   "framework": "nextjs",
   "build": {
     "env": {
-      "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD": "1"
+      "PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD": "1",
+      "// NODE_OPTIONS": "投稿が増えてサークルページ314件を書き出すと既定のヒープでは足りず code 134 で落ちる。手元で実際に落ちた",
+      "NODE_OPTIONS": "--max-old-space-size=8192"
     }
   }
 }

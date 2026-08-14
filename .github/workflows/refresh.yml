@@ -82,6 +82,11 @@ jobs:
         run: npx tsx scripts/verify-attribution.ts
 
       - name: ビルド
+        # 投稿が増えてサークルページ314件を書き出すと既定のヒープでは足りず、
+        # code 134（SIGABRT）で落ちる。手元で実際に落ちたので明示して広げる。
+        # Vercel 側のビルドも同様なので vercel.json でも指定してある。
+        env:
+          NODE_OPTIONS: --max-old-space-size=8192
         run: npm run build
 
       - name: 掲載内容を検証（表示層）
