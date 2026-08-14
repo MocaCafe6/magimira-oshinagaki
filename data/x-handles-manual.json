@@ -13,7 +13,7 @@
     "形式: \"公式のサークル名\": [\"handle\", ...]"
   ],
 
-  "BASYAUMA RECORDS": ["BasyaumaRecords"],
+  "BASYAUMA RECORDS": ["Luna_miko00", "BasyaumaRecords"],
   "薄塩指数": ["usushioshisuu"],
   "海風太陽": ["UmiKazeTaiyouP"],
   "グッドスマイルカンパニー": ["gsc_goodsmile", "goodsmilejp"],
@@ -21,12 +21,12 @@
   "Desktop Mate": ["desktop_mate"],
 
   "ましまろ湯": ["msm_yl"],
-  "お商材屋さん": ["sohbana_98"],
+  "お商材屋さん": ["Sohbanasick", "sohbana_98"],
   "いえぬ": ["ienu0ienu"],
   "Start Flowers": ["startflowers"],
   "株式会社タニタ": ["TANITAofficial"],
   "Ableton": ["Ableton"],
-  "株式会社フックアップ": ["X28A0cKltj44994"],
+  "株式会社フックアップ": ["HookUp_Official", "X28A0cKltj44994"],
 
   "ギターメーカー(株)ESP": ["ESPGuitarsJP"],
   "ボークス": ["volks_doll", "volks_dd"],
@@ -38,6 +38,24 @@
   "初音ミク エムアイカード": ["im_MediaArts"],
   "家の裏でマンボウが死んでるP": ["takahashi_manbo"],
   "札幌市ふるさと納税": ["furusatoSAPP_RO"],
+
+  "_notes": [
+    "サークル名で当たりが出ても、そのアカウントが生きているとは限らない。",
+    "屋号のアカウントを作ったまま放置し、本人のアカウントで活動している例が複数あった。",
+    "npm run find-dormant-handles が「紐づけたアカウントに最近の投稿が無い」",
+    "サークルを見つけ、公式ページのサイトから別のアカウントを探す。",
+    "",
+    "  BASYAUMA RECORDS(*Luna)  @BasyaumaRecords 最終2018-12 → @Luna_miko00",
+    "  お商材屋さん(Sohbana)     @sohbana_98      最終2017-10 → @Sohbanasick",
+    "  株式会社フックアップ        @X28A0cKltj44994 投稿なし   → @HookUp_Official",
+    "",
+    "いずれも公式ページに載っているサイトからのリンクで裏が取れている。",
+    "古いほうも残す（過去の投稿が消えるわけではないので害が無い）。",
+    "",
+    "GTども @niconico_takap は候補が @compose @YouTube など共有ボタンの宛先ばかりで",
+    "本人のものが特定できなかったため触っていない。",
+    "札幌市ふるさと納税 @furusatoSAPP_RO は候補が出なかった（最終投稿は2026-03）。"
+  ],
 
   "_rejected": [
     "echo → @SayEchooo は採用しない。表示名は「Echo」で完全一致するが、",

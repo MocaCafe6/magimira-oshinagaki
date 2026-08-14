@@ -1,6 +1,6 @@
 {
   "startedAt": "2026-08-06T06:57:10.502Z",
-  "updatedAt": "2026-08-14T13:42:34.438Z",
+  "updatedAt": "2026-08-14T15:49:03.890Z",
   "done": {
     "__TKMYY": 0,
     "_reng": 13,
@@ -221,7 +221,10 @@
     "WADATAKEAKI": 5,
     "furusatoSAPP_RO": 0,
     "im_MediaArts": 1,
-    "takahashi_manbo": 5
+    "takahashi_manbo": 5,
+    "HookUp_Official": 1,
+    "Luna_miko00": 4,
+    "Sohbanasick": 6
   },
   "lastCrawledAt": {
     "cfm_mobile": "2026-08-14T05:03:27.943Z",
@@ -443,7 +446,10 @@
     "WADATAKEAKI": "2026-08-14T05:07:00.700Z",
     "furusatoSAPP_RO": "2026-08-14T05:04:44.704Z",
     "im_MediaArts": "2026-08-14T05:05:33.472Z",
-    "takahashi_manbo": "2026-08-14T05:06:36.051Z"
+    "takahashi_manbo": "2026-08-14T05:06:36.051Z",
+    "HookUp_Official": "2026-08-14T15:48:44.227Z",
+    "Luna_miko00": "2026-08-14T15:48:52.579Z",
+    "Sohbanasick": "2026-08-14T15:48:59.923Z"
   },
   "failed": {}
 }

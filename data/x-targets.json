@@ -524,6 +524,12 @@
     ]
   },
   {
+    "handle": "HookUp_Official",
+    "creatorIds": [
+      "tokyo-sponsor-E6"
+    ]
+  },
+  {
     "handle": "hourouhekiheki",
     "creatorIds": [
       "osaka-B-10-f5828a",
@@ -712,6 +718,13 @@
     "creatorIds": [
       "osaka-F-10",
       "tokyo-C-11"
+    ]
+  },
+  {
+    "handle": "Luna_miko00",
+    "creatorIds": [
+      "osaka-A-13",
+      "tokyo-A-21"
     ]
   },
   {
@@ -1215,6 +1228,13 @@
   },
   {
     "handle": "sohbana_98",
+    "creatorIds": [
+      "osaka-C-10",
+      "tokyo-A-25"
+    ]
+  },
+  {
+    "handle": "Sohbanasick",
     "creatorIds": [
       "osaka-C-10",
       "tokyo-A-25"

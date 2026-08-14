@@ -1122,5 +1122,23 @@
     "isMagimira": true,
     "venues": [],
     "notes": "暗黒童話唄『禁書』の表紙のみ。価格も品目一覧も無い"
+  },
+  {
+    "postId": "2086649081041199108",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "C-10",
+        "dates": [
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      }
+    ],
+    "notes": "お商材屋さん（Sohbana）のお品書き。CDs: 4th EP EPic Justismo ¥1,500（最新）、3rd EP EPic Mediocre ¥1,500、Compilation まるいKINGOON ¥500。Goods: 1st Essay 情報商材 ¥1,000（A5版58ページ 全14編・NEW）、キャンバストート ¥2,000（WHITE/MAROON/NAVY）。本文は「マジカルミライ2026 OSAKA @インテックス大阪 8/15.16 C-10「お商材屋さん」メニューです」"
   }
 ]

@@ -1,29 +1,5 @@
 [
   {
-    "circleName": "家の裏でマンボウが死んでるP",
-    "siteUrls": [
-      "https://karent.jp/artist/pp000321",
-      "https://manbo-p.com/"
-    ],
-    "siteUrl": "https://manbo-p.com/",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "G-6"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "B-5"
-      }
-    ],
-    "handles": [
-      "takahashi_manbo",
-      "manbou_ane"
-    ],
-    "adopted": null,
-    "reason": "X へのリンクが2本あり、どれが本体か決められない（takahashi_manbo, manbou_ane）"
-  },
-  {
     "circleName": "株式会社タイトー",
     "siteUrls": [
       "https://www.taito.co.jp/"
@@ -37,26 +13,6 @@
       {
         "venue": "tokyo",
         "boothId": "E3"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "初音ミク エムアイカード",
-    "siteUrls": [
-      "https://www2.micard.co.jp/card/miku.html?cpn_cd=miku_cfm"
-    ],
-    "siteUrl": "https://www2.micard.co.jp/card/miku.html?cpn_cd=miku_cfm",
-    "venues": [
-      {
-        "venue": "osaka",
-        "boothId": "A9"
-      },
-      {
-        "venue": "tokyo",
-        "boothId": "B6"
       }
     ],
     "handles": [],
@@ -114,22 +70,6 @@
       {
         "venue": "tokyo",
         "boothId": "B-32"
-      }
-    ],
-    "handles": [],
-    "adopted": null,
-    "reason": "サイトに X へのリンクが無い"
-  },
-  {
-    "circleName": "札幌市ふるさと納税",
-    "siteUrls": [
-      "https://www.rakuten.co.jp/f011002-sapporo/"
-    ],
-    "siteUrl": "https://www.rakuten.co.jp/f011002-sapporo/",
-    "venues": [
-      {
-        "venue": "tokyo",
-        "boothId": "A2"
       }
     ],
     "handles": [],

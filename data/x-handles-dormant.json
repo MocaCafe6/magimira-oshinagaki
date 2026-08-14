@@ -1,0 +1,101 @@
+[
+  {
+    "circleName": "GTども",
+    "boothIds": [
+      "osaka:A-12",
+      "tokyo:C-15"
+    ],
+    "handle": "niconico_takap",
+    "lastPostAt": "2026-04-20T13:40:21.000Z",
+    "siteUrls": [
+      "https://karent.jp/artist/pp000770",
+      "https://www.gtcast.com/",
+      "https://x.com/niconico_takap"
+    ],
+    "foundHandles": [
+      "niconico_takap",
+      "compose",
+      "39ch_Official",
+      "tatutti_26106",
+      "YouTube",
+      "tos",
+      "privacy"
+    ],
+    "suggestions": [
+      "compose",
+      "39ch_Official",
+      "tatutti_26106",
+      "YouTube",
+      "tos",
+      "privacy"
+    ]
+  },
+  {
+    "circleName": "BASYAUMA RECORDS",
+    "boothIds": [
+      "osaka:A-13",
+      "tokyo:A-21"
+    ],
+    "handle": "BasyaumaRecords",
+    "lastPostAt": "2018-12-08T09:02:08.000Z",
+    "siteUrls": [
+      "https://karent.jp/artist/pp000797",
+      "https://www.ast-luna.com/"
+    ],
+    "foundHandles": [
+      "Luna_miko00"
+    ],
+    "suggestions": [
+      "Luna_miko00"
+    ]
+  },
+  {
+    "circleName": "お商材屋さん",
+    "boothIds": [
+      "osaka:C-10",
+      "tokyo:A-25"
+    ],
+    "handle": "sohbana_98",
+    "lastPostAt": "2017-10-08T02:07:26.000Z",
+    "siteUrls": [
+      "https://karent.jp/artist/pp001003",
+      "https://linktr.ee/sohbanasick"
+    ],
+    "foundHandles": [
+      "Sohbanasick"
+    ],
+    "suggestions": [
+      "Sohbanasick"
+    ]
+  },
+  {
+    "circleName": "札幌市ふるさと納税",
+    "boothIds": [
+      "tokyo:A2"
+    ],
+    "handle": "furusatoSAPP_RO",
+    "lastPostAt": "2026-03-20T10:20:46.000Z",
+    "siteUrls": [
+      "https://www.rakuten.co.jp/f011002-sapporo/"
+    ],
+    "foundHandles": [],
+    "suggestions": []
+  },
+  {
+    "circleName": "株式会社フックアップ",
+    "boothIds": [
+      "tokyo:E6"
+    ],
+    "handle": "X28A0cKltj44994",
+    "lastPostAt": null,
+    "siteUrls": [
+      "https://beatcloud.jp/"
+    ],
+    "foundHandles": [
+      "HookUp_Official"
+    ],
+    "suggestions": [
+      "HookUp_Official"
+    ]
+  }
+]
