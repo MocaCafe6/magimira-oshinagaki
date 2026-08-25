@@ -11,7 +11,7 @@ import {
 } from '@/lib/data';
 import { detectGoodsCategories } from '@shared/goods-category';
 import type { Creator, Post, Venue } from '@shared/types';
-import { VENUES } from '@shared/types';
+import { VENUES, defaultVenue } from '@shared/types';
 
 export default async function ItemsPage() {
   const [creators, posts, curation, extractions] = await Promise.all([
@@ -123,7 +123,7 @@ export default async function ItemsPage() {
         a.venue.localeCompare(b.venue) ||
         (a.boothId ?? '').localeCompare(b.boothId ?? '', 'ja', { numeric: true }),
     );
-    return <OshinagakiGallery items={gallery} />;
+    return <OshinagakiGallery items={gallery} initialVenue={defaultVenue(new Date())} />;
   }
 
   return <ItemsView rows={rows} categories={categories} />;

@@ -1140,5 +1140,208 @@
       }
     ],
     "notes": "お商材屋さん（Sohbana）のお品書き。CDs: 4th EP EPic Justismo ¥1,500（最新）、3rd EP EPic Mediocre ¥1,500、Compilation まるいKINGOON ¥500。Goods: 1st Essay 情報商材 ¥1,000（A5版58ページ 全14編・NEW）、キャンバストート ¥2,000（WHITE/MAROON/NAVY）。本文は「マジカルミライ2026 OSAKA @インテックス大阪 8/15.16 C-10「お商材屋さん」メニューです」"
+  },
+  {
+    "postId": "2091842323340734809",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": "A-19",
+        "dates": []
+      }
+    ],
+    "notes": "YUZY/No.emia の東京お品書き。見出しに「A-19：YUZY/No.emia TOKYO マジカルミライ2026 MENU」。Split CD album「ミュゲとタジェット」(ユジー&とあ) ¥2,000 / CD「DAWNLIKE」¥1,500 / 会場限定・ユジー別名義「No.emia」¥1,000 / POSTCARD 各¥300。大阪は別投稿(B-11)の別画像なので、この画像は東京のみ"
+  },
+  {
+    "postId": "2086755182847660427",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "A-13",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "A-8",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "A-5",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "ねじ式のお品書き。画像に「浜松 7月24〜25日 A-13 / 大阪 8月14〜16日 A-8 / 東京 8月28〜30日 A-5」と大書。NEW 13th Album「Velvet Hunger」2,000円 / 缶バッジ 500円。本文は大阪の話だが、画像は3会場ぶんの共通お品書き"
+  },
+  {
+    "postId": "2086003615333073027",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "B-9",
+        "dates": [
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": null,
+        "dates": [
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "森羅盤商会のお品書き。見出しは「マジカルミライ2026 KARENT presents クリエイターズマーケット」で、右上に「大阪 8/16(日) B-9 / 東京 8/30(日) E-19」。大阪 B-9 は公式と一致。東京は公式では A-19 で、画像の「E-19」は書き間違い（東京のクリエイターズマーケットに E 列は無い）。誤った番号を採らないよう東京はブース番号を読み取らなかった扱いにしてある。New Mini Album「Special Tea」¥500 / Mini Album「Port Town」¥500 / New アクリルキーホルダー(Special Tea ver.) ¥500"
+  },
+  {
+    "postId": "2086460379371319323",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "A-9",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "A-9",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "B-19",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "やみくろ（幽霊ず）のお品書き。本文にイベント名が無いが、同じ投稿の4枚目に「初音ミク「マジカルミライ 2026」クリエイターズマーケットより頒布開始 / HAMAMATSU 7.24.25.26 幽霊ず A-9 / OSAKA 8.14.15.16 幽霊ず A-9 / TOKYO 8.28.29.30 幽霊ず B-19」と印字されている。NEW『指先にキス -Full Edition-』¥2,000（全14曲）/『優しい歌を明け渡す e.p.』¥500 / やみくろトートバッグ（専用缶バッジとセット）¥2,000 / 準新作『おやすみSONGS』¥1,000 / 手縫いポーチ ¥900・缶バッジ オーロラ ¥200（セットで¥1,000）"
+  },
+  {
+    "postId": "2080235221195379117",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": null,
+        "dates": [
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "il cremonese（オカメP）の頒布物。画像に会場の記載は無いが、本文が「マジカルミライ2026 東京（30日）にて頒布する2枚のニューアルバム」と東京に限定している。「monologue」（全12曲）と「Walking alone」（全10曲）の2枚組で「価格 2枚1組 1,000円」。この2枚がこのブースの頒布物のすべて"
+  },
+  {
+    "postId": "2079910742896369906",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "D-10",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "C-2",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "D-2",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "imie の3会場ぶんのお品書き。画像に「【浜松】D-10 7/24,25,26 /【大阪】C-2 8/14,15,16 /【東京】D-2 8/28,29,30」と印字。BestAlbum「こたえて 2018-2026」¥3,000 ほか（and more...）。同じ画像の詳細版は8/15の投稿にもあるが、そちらは本文が「大阪お品書き」と会場を限定しているので東京には出さない"
+  },
+  {
+    "postId": "2079495345596162403",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "hamamatsu",
+        "boothId": "D-9",
+        "dates": [
+          "2026-07-24",
+          "2026-07-25",
+          "2026-07-26"
+        ]
+      },
+      {
+        "venue": "osaka",
+        "boothId": "B-5",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "C-2",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "海風太陽のお品書き。画像右上の BOOTH 表に「HAMAMATSU D-9 7.24-26 / OSAKA B-5 8.14-16 / TOKYO C-2 8.28-30」。NEW 4th Album「ぼくたちのうたいかた、」¥2,000 / 3rd「永久心臓論」¥2,000 / EP「ぼくのつかいかた、」¥1,500 / 既刊 1st「人気者」¥1,000・EP「Quan」¥1,000・2nd「期待安置所」¥2,000・やってられねぇぜの会コンピ¥2,000 / 各種アクキー 各¥500 / ステッカー ¥100 / 缶バッジ ¥500。8/13の投稿が同じ画像を貼っているが、そちらは本文が「大阪会場のお品書き」と限定しているので東京には出さない"
   }
 ]

@@ -17,7 +17,7 @@ import type {
   Venue,
   VenueMap,
 } from '@shared/types';
-import { VENUES, VENUE_META } from '@shared/types';
+import { VENUES, VENUE_META, isVenueOver } from '@shared/types';
 
 // 掲載判定は抽出スクリプトと同じ関数を使う（食い違いを防ぐ）
 export {
@@ -258,6 +258,12 @@ export async function buildVenueIndex(venue: Venue): Promise<{
   label: string;
   hall: string;
   days: string[];
+  /**
+   * 会期が終わっているか。ビルド時に決める。
+   * 終わった会場を選べなくはしない（買った物の記録を見返せる必要がある）が、
+   * 「いま見ているのは終わったイベントだ」とは分かるようにする。
+   */
+  isOver: boolean;
   creators: CreatorSummary[];
   /** お品書きが1枚以上あるサークル数 */
   withOshinagaki: number;
@@ -333,6 +339,7 @@ export async function buildVenueIndex(venue: Venue): Promise<{
     label: meta.label,
     hall: meta.hall,
     days: meta.days,
+    isOver: isVenueOver(venue, new Date()),
     creators: summaries,
     withOshinagaki: summaries.filter((s) => s.oshinagakiCount > 0).length,
     totalOshinagaki: summaries.reduce((n, s) => n + s.oshinagakiCount, 0),

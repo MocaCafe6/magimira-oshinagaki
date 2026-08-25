@@ -115,9 +115,22 @@ async function main(): Promise<void> {
     console.log(`  お気に入り永続化: OK ${favChip.trim()}`);
   }
 
-  await shot('/', '04-tokyo', async (p) => {
-    await p.getByRole('button', { name: '東京', exact: true }).click();
+  // 会場の切り替え。既定は会期の残っている会場（いまは東京）なので、
+  // 切り替えの検証は「終わった会場に切り替えると中身が変わる」で行う。
+  // 既定と同じ会場を押しても何も起きず、検証にならない。
+  let switched = 0;
+  await shot('/', '04-venue-switch', async (p) => {
+    await p.getByRole('button', { name: /^大阪/ }).click();
+    await p.waitForTimeout(300);
+    switched = await p.locator('[data-testid="creator-list"] > li').count();
   });
+  if (switched === 0 || switched === cardCount) {
+    problems.push(
+      `会場を切り替えても一覧が変わらない（切替前 ${cardCount}件 / 切替後 ${switched}件）`,
+    );
+  } else {
+    console.log(`  会場切替: OK ${cardCount}件 → ${switched}件`);
+  }
 
   await shot('/', '05-search', async (p) => {
     await p.getByPlaceholder(/検索/).fill('mothy');

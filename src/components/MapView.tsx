@@ -55,8 +55,15 @@ const ENTRANCE_LABEL: Record<VenueMeta['route']['entrance'], string> = {
   'bottom-left': '左下',
 };
 
-export function MapView({ data }: { data: MapVenueData[] }) {
-  const [venue, setVenue] = useState<Venue>(data[0]?.venue ?? 'osaka');
+export function MapView({
+  data,
+  initialVenue,
+}: {
+  data: MapVenueData[];
+  /** 最初に開く会場。ページ側がビルド時の日付から決める */
+  initialVenue?: Venue;
+}) {
+  const [venue, setVenue] = useState<Venue>(initialVenue ?? data[0]?.venue ?? 'osaka');
   const [day, setDay] = useState<string | null>(null);
   const [zoomed, setZoomed] = useState(false);
   const [reordering, setReordering] = useState(false);

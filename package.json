@@ -51,7 +51,8 @@
     "verify-map-labels": "tsx scripts/verify-map-labels.ts",
     "verify-no-console-errors": "tsx scripts/verify-no-console-errors.ts",
     "make-review-sheets": "tsx scripts/make-review-sheets.ts",
-    "find-dormant-handles": "tsx scripts/find-dormant-handles.ts"
+    "find-dormant-handles": "tsx scripts/find-dormant-handles.ts",
+    "scan-unlisted": "tsx scripts/scan-unlisted.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",

@@ -124,6 +124,34 @@ export const VENUE_META: Record<Venue, VenueMeta> = {
   },
 };
 
+/** その会場が終わった時刻（最終日の翌0時 JST を UTC で表したもの） */
+function venueEndsAt(venue: Venue): Date {
+  const days = VENUE_META[venue].days;
+  const last = days[days.length - 1]!;
+  // days は JST の日付。8/16 の会期は 8/17 0:00 JST = 8/16 15:00 UTC に終わる
+  return new Date(`${last}T15:00:00Z`);
+}
+
+/** その会場の会期が終わっているか */
+export function isVenueOver(venue: Venue, now: Date): boolean {
+  return now >= venueEndsAt(venue);
+}
+
+/**
+ * 最初に見せる会場。
+ *
+ * まだ終わっていない会場のうち、いちばん早いもの。全部終わっていれば最後の会場。
+ * 大阪（8/14〜16）が終わった時点で、開こうとしている人が見たいのは東京だけになる。
+ * 既定を大阪のままにしておくと、開いた瞬間に**終わったイベントの品揃え**が並ぶ。
+ *
+ * 日付は**ビルド時**に評価してサーバ側で決める。クライアントで `new Date()` を
+ * 見るとハイドレーション時に HTML と食い違う（React error #418 を実際に出した）。
+ * 自動更新が3時間おきにビルドし直すので、切り替わりの遅れは最大3時間に収まる。
+ */
+export function defaultVenue(now: Date): Venue {
+  return VENUES.find((v) => !isVenueOver(v, now)) ?? VENUES[VENUES.length - 1]!;
+}
+
 // ---------------------------------------------------------------------------
 // 公式出店者一覧
 // ---------------------------------------------------------------------------

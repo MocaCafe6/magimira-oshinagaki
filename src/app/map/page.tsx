@@ -1,6 +1,6 @@
 import { MapView, type MapVenueData } from '@/components/MapView';
 import { buildVenueIndex, loadVenueMap } from '@/lib/data';
-import { VENUES, VENUE_META } from '@shared/types';
+import { VENUES, VENUE_META, defaultVenue } from '@shared/types';
 
 export default async function MapPage() {
   const data: MapVenueData[] = [];
@@ -25,5 +25,5 @@ export default async function MapPage() {
       })),
     });
   }
-  return <MapView data={data} />;
+  return <MapView data={data} initialVenue={defaultVenue(new Date())} />;
 }

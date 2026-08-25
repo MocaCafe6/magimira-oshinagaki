@@ -30,8 +30,18 @@ export type GalleryItem = {
  * 商品名・価格の抽出（items.json）が無くても、お品書きそのものを
  * 一覧で読めれば下調べには足りる。抽出ができたらそちらに切り替わる。
  */
-export function OshinagakiGallery({ items }: { items: GalleryItem[] }) {
-  const [venue, setVenue] = useState<Venue | 'all'>('all');
+export function OshinagakiGallery({
+  items,
+  initialVenue,
+}: {
+  items: GalleryItem[];
+  /**
+   * 最初に選んでおく会場。ページ側がビルド時の日付から決める。
+   * 終わった会場のお品書きが混ざったまま開くと、いま買える物を探しにくい。
+   */
+  initialVenue?: Venue | 'all';
+}) {
+  const [venue, setVenue] = useState<Venue | 'all'>(initialVenue ?? 'all');
   const [includeReference, setIncludeReference] = useState(true);
   const [query, setQuery] = useState('');
   /** 選んだ種類。空なら絞らない。複数選んだらどれかに当たるものを出す */

@@ -19,6 +19,8 @@ export type VenueIndex = {
   label: string;
   hall: string;
   days: string[];
+  /** 会期が終わっているか（ビルド時に決めている） */
+  isOver: boolean;
   creators: CreatorSummary[];
   withOshinagaki: number;
   totalOshinagaki: number;
@@ -26,7 +28,14 @@ export type VenueIndex = {
   largeByCreator: Record<string, string[]>;
 };
 
-type Props = { indexes: VenueIndex[] };
+type Props = {
+  indexes: VenueIndex[];
+  /**
+   * 最初に選んでおく会場。ページ側がビルド時の日付から決める。
+   * ここで `new Date()` を見てはいけない——SSR 済みの HTML と食い違う。
+   */
+  initialVenue?: Venue;
+};
 
 function dayLabel(iso: string): string {
   const d = new Date(iso + 'T00:00:00Z');
@@ -34,8 +43,10 @@ function dayLabel(iso: string): string {
   return `${d.getUTCMonth() + 1}/${d.getUTCDate()}(${wd})`;
 }
 
-export function CreatorBrowser({ indexes }: Props) {
-  const [venue, setVenue] = useState<Venue>(indexes[0]?.venue ?? 'osaka');
+export function CreatorBrowser({ indexes, initialVenue }: Props) {
+  const [venue, setVenue] = useState<Venue>(
+    initialVenue ?? indexes[0]?.venue ?? 'osaka',
+  );
   const [day, setDay] = useState<string | null>(null);
   const [onlyOshinagaki, setOnlyOshinagaki] = useState(false);
   const [onlyFavorites, setOnlyFavorites] = useState(false);
@@ -89,8 +100,12 @@ export function CreatorBrowser({ indexes }: Props) {
                   setVenue(i.venue);
                   setDay(null);
                 }}
+                title={i.isOver ? `${i.label}は会期が終了しました` : undefined}
               >
                 {i.label}
+                {i.isOver && (
+                  <span className="ml-1 text-[10px] font-normal opacity-70">終了</span>
+                )}
               </Chip>
             ))}
           </div>
