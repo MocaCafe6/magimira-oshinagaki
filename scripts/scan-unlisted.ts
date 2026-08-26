@@ -5,6 +5,7 @@
  *   npm run scan-unlisted -- --venue tokyo
  *   npm run scan-unlisted -- --venue tokyo --tier A,B   … 層を絞る
  *   npm run scan-unlisted -- --venue tokyo --ids        … 投稿IDだけを出す
+ *   npm run scan-unlisted -- --include-reviewed         … 目視済みも含めて出す
  *
  * 出てきた ID を fetch-images-for-review --ids に渡し、
  * make-review-sheets でシートにして目で見る。
@@ -28,6 +29,7 @@
  */
 import { isMagimiraPost, selectPostsForVenue } from './lib/curation';
 import { dataPath, readJson } from './lib/io';
+import { loadReviewLog } from './lib/review-log';
 import type { Creator, Curation, Post, Venue } from './lib/types';
 
 /** 本文がその会場に触れているか */
@@ -52,10 +54,11 @@ function arg(name: string): string | null {
 }
 
 /** その投稿がどの層か。見ない理由がある投稿は null */
-function tierOf(p: Post, venue: Venue, since: string): Tier | null {
+function tierOf(p: Post, venue: Venue, since: string, reviewed: Set<string>): Tier | null {
   if (p.isRetweet || p.isReply) return null;
   if (!p.media.some((m) => m.kind === 'photo')) return null;
   if (p.imageIsOshinagaki !== undefined) return null; // もう読んである
+  if (reviewed.has(p.id)) return null; // 前の走査で目視済み
   if (!isMagimiraPost(p)) return 'N';
   const proven = p.attribution?.provenVenues ?? [];
   if (proven.includes(venue)) return 'A';
@@ -72,6 +75,10 @@ async function main(): Promise<void> {
     (arg('--tier') ?? 'A,B,C,N,O').split(',').map((s) => s.trim().toUpperCase()) as Tier[],
   );
   const idsOnly = process.argv.includes('--ids');
+  // 目視済みは既定で外す。--include-reviewed で戻す
+  const reviewed = process.argv.includes('--include-reviewed')
+    ? new Set<string>()
+    : await loadReviewLog();
 
   const posts = await readJson<Post[]>(dataPath('posts.json'), []);
   const curation = await readJson<Curation>(dataPath('curation.json'), {
@@ -117,7 +124,7 @@ async function main(): Promise<void> {
       for (const p of byHandle.get(h) ?? []) {
         if (seen.has(p.id)) continue;
         seen.add(p.id);
-        const tier = tierOf(p, venue, since);
+        const tier = tierOf(p, venue, since, reviewed);
         if (tier && tiers.has(tier)) {
           cands.push({ booth: c.boothId ?? '—', name: c.circleName, tier, post: p });
         }

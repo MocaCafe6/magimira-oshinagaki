@@ -52,7 +52,10 @@
     "verify-no-console-errors": "tsx scripts/verify-no-console-errors.ts",
     "make-review-sheets": "tsx scripts/make-review-sheets.ts",
     "find-dormant-handles": "tsx scripts/find-dormant-handles.ts",
-    "scan-unlisted": "tsx scripts/scan-unlisted.ts"
+    "scan-unlisted": "tsx scripts/scan-unlisted.ts",
+    "audit-media": "tsx scripts/audit-media.ts",
+    "venue-diff": "tsx scripts/venue-diff.ts",
+    "mark-reviewed": "tsx scripts/mark-reviewed.ts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.115.0",

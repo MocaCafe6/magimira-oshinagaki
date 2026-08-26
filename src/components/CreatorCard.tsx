@@ -17,6 +17,13 @@ function dayLabel(iso: string): string {
   return `${Number(iso.slice(5, 7))}/${Number(iso.slice(8, 10))}`;
 }
 
+/** 投稿日時（ISO・UTC）を日本時間の日付にする */
+function postedLabel(iso: string): string {
+  const d = new Date(iso);
+  const jst = new Date(d.getTime() + 9 * 60 * 60 * 1000);
+  return `${jst.getUTCMonth() + 1}/${jst.getUTCDate()}`;
+}
+
 type Props = {
   creator: CreatorSummary;
   favorite: boolean;
@@ -54,8 +61,19 @@ export function CreatorCard({
   const [lightbox, setLightbox] = useState<number | null>(null);
   // メモ欄は既定で畳む。一覧が縦に伸びると本来の下調べがしにくくなる
   const [panel, setPanel] = useState(false);
+  const venueLabel = c.venue === 'osaka' ? '大阪' : '東京';
   const isReference = c.images.length === 0 && c.referenceImages.length > 0;
   const shown = (c.images.length > 0 ? c.images : c.referenceImages).slice(0, 4);
+
+  // 投稿ごとにまとめる。1枚ずつ日付を書くと同じ日付が並んで読みにくいうえ、
+  // 「どこまでが同じお品書きか」が分からなくなる。
+  const groups: { postId: string; images: typeof shown }[] = [];
+  for (const [i, m] of shown.entries()) {
+    const last = groups.at(-1);
+    if (last && last.postId === m.postId) last.images.push(m);
+    else groups.push({ postId: m.postId, images: [m] });
+    void i;
+  }
 
   return (
     <li
@@ -158,33 +176,62 @@ export function CreatorCard({
               style={{ background: 'var(--surface2)', color: 'var(--muted)' }}
             >
               <span className="font-semibold">参考</span> — 浜松（7/24〜26・終了）のお品書きです。
-              {c.venue === 'osaka' ? '大阪' : '東京'}でも同じ内容とは限りません
+              {venueLabel}でも同じ内容とは限りません
             </p>
           )}
-          <div className={shown.length > 1 ? 'grid grid-cols-2 gap-1' : ''}>
-            {shown.map((m, i) => (
-              <button
-                key={m.largeUrl}
-                type="button"
-                onClick={() => setLightbox(i)}
-                className="block w-full overflow-hidden rounded-lg"
-                style={{ background: 'var(--surface2)' }}
-                aria-label="お品書きを拡大する"
+          {groups.map((g) => (
+            <div key={g.postId} className="mb-2 last:mb-0">
+              {/* 「いつのお品書きか」「この会場のものか」を画像の上に出す。
+                  会場ごとに品揃えが違うブースがあるので、これが無いと
+                  古いものや別会場のものを見ていることに気づけない。 */}
+              <p
+                className="mb-1 flex flex-wrap items-center gap-1.5 text-[11px]"
+                style={{ color: 'var(--muted)' }}
               >
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
-                  src={m.largeUrl}
-                  alt={m.altText ?? 'お品書き'}
-                  loading="lazy"
-                  decoding="async"
-                  width={m.width || undefined}
-                  height={m.height || undefined}
-                  className="w-full object-contain"
-                  style={{ opacity: isReference ? 0.92 : 1, maxHeight: 'min(70vh, 560px)' }}
-                />
-              </button>
-            ))}
-          </div>
+                <span className="tabular-nums">{postedLabel(g.images[0]!.postedAt)}投稿</span>
+                <span
+                  className="rounded px-1.5 py-0.5"
+                  style={
+                    g.images[0]!.venueScope === 'venue'
+                      ? { background: 'var(--surface2)', color: 'var(--color-mm-accent)' }
+                      : { background: 'var(--surface2)', color: 'var(--muted)' }
+                  }
+                  title={
+                    g.images[0]!.venueScope === 'venue'
+                      ? `${venueLabel}会場を名指ししたお品書きです`
+                      : '会場を限定していない告知です。会場ごとに品揃えが違うことがあります'
+                  }
+                >
+                  {g.images[0]!.venueScope === 'venue' ? `${venueLabel}のお品書き` : '全会場共通'}
+                </span>
+                {g.images.length > 1 && <span>{g.images.length}枚</span>}
+              </p>
+              <div className={g.images.length > 1 ? 'grid grid-cols-2 gap-1' : ''}>
+                {g.images.map((m) => (
+                  <button
+                    key={m.largeUrl}
+                    type="button"
+                    onClick={() => setLightbox(shown.indexOf(m))}
+                    className="block w-full overflow-hidden rounded-lg"
+                    style={{ background: 'var(--surface2)' }}
+                    aria-label="お品書きを拡大する"
+                  >
+                    {/* eslint-disable-next-line @next/next/no-img-element */}
+                    <img
+                      src={m.largeUrl}
+                      alt={m.altText ?? 'お品書き'}
+                      loading="lazy"
+                      decoding="async"
+                      width={m.width || undefined}
+                      height={m.height || undefined}
+                      className="w-full object-contain"
+                      style={{ opacity: isReference ? 0.92 : 1, maxHeight: 'min(70vh, 560px)' }}
+                    />
+                  </button>
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       )}
 

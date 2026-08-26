@@ -17,8 +17,21 @@ function yen(n: number): string {
   return `¥${n.toLocaleString('ja-JP')}`;
 }
 
+/**
+ * その投稿がこの会場を名指ししているか。
+ *
+ * event-wide / sole-venue は「会場名がどこにも書かれていないので出展先すべてに
+ * 適用した」という判定。会場ごとに品揃えが違うブース（グッドスマイルカンパニー等）
+ * では、これが「東京のお品書き」だとは限らない。読み手に区別させる。
+ */
+function isVenueSpecific(post: CreatorDetail['posts'][number]): boolean {
+  const s = post.attribution?.source;
+  return s !== 'event-wide' && s !== 'sole-venue';
+}
+
 export function CreatorDetailView({ detail }: { detail: CreatorDetail }) {
   const fav = useFavorites();
+  const venueLabel = detail.venue === 'osaka' ? '大阪' : '東京';
   const [lightboxIndex, setLightboxIndex] = useState<number | null>(null);
   const [memoDraft, setMemoDraft] = useState<string | null>(null);
 
@@ -266,6 +279,23 @@ export function CreatorDetailView({ detail }: { detail: CreatorDetail }) {
                             固定
                           </span>
                         )}
+                        {/* 会場ごとに品揃えが違うブースがあるので、
+                            この投稿が会場を名指ししているかどうかを出す */}
+                        <span
+                          className="ml-2 rounded px-1.5 py-0.5"
+                          style={
+                            isVenueSpecific(p)
+                              ? { background: 'var(--surface2)', color: 'var(--color-mm-accent)' }
+                              : { background: 'var(--surface2)', color: 'var(--muted)' }
+                          }
+                          title={
+                            isVenueSpecific(p)
+                              ? `${venueLabel}会場を名指ししたお品書きです`
+                              : '会場を限定していない告知です。会場ごとに品揃えが違うことがあります'
+                          }
+                        >
+                          {isVenueSpecific(p) ? `${venueLabel}のお品書き` : '全会場共通'}
+                        </span>
                       </span>
                       <a
                         href={p.url}

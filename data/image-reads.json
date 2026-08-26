@@ -1343,5 +1343,89 @@
       }
     ],
     "notes": "海風太陽のお品書き。画像右上の BOOTH 表に「HAMAMATSU D-9 7.24-26 / OSAKA B-5 8.14-16 / TOKYO C-2 8.28-30」。NEW 4th Album「ぼくたちのうたいかた、」¥2,000 / 3rd「永久心臓論」¥2,000 / EP「ぼくのつかいかた、」¥1,500 / 既刊 1st「人気者」¥1,000・EP「Quan」¥1,000・2nd「期待安置所」¥2,000・やってられねぇぜの会コンピ¥2,000 / 各種アクキー 各¥500 / ステッカー ¥100 / 缶バッジ ¥500。8/13の投稿が同じ画像を貼っているが、そちらは本文が「大阪会場のお品書き」と限定しているので東京には出さない"
+  },
+  {
+    "postId": "2092197796523004294",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": "A-22",
+        "dates": [
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "team OS の東京お品書き。画像の見出しに「Circle team OS / Space No. A-22 / マジカルミライ2026TOKYO クリエイターズマーケット 2026.08.29(土)-08.30(日)」。2枚組で、この画像は⑭〜㉓: FantasiC(SONOCA)¥1,000 / If the world 3・2・1 各¥1,000 /「秘蜜」15th記念アクリルスタンド リン&ミク・レン&ミク 各¥1,500 / 同 缶バッジ2種セット¥500 / LABORATORY(CD)¥1,000 /「Mr.シャーデンフロイデ」マフラータオル¥2,000・トートバッグ¥2,000。①〜⑬はもう1枚のほうにある"
+  },
+  {
+    "postId": "2092196858798235722",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": null,
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "i, My Records / IRUMA のお品書き。画像に会場の記載は無いが、本文が「KARENT presents クリエイターズマーケット 東京 8/28, 8/29, 8/30【B-22】」と東京に限定している（公式も東京B-22）。New「uruuru」3曲入¥1,000 /「ソレユエ」10曲入¥1,500 /「urei」8曲入¥1,500 /「jigoku」3曲入¥1,000 /「アイマイソウウイ」3曲入¥1,000 /「Logo Sticker Set」黒白2枚組¥500"
+  },
+  {
+    "postId": "2092178217570324723",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "tokyo",
+        "boothId": null,
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "グッドスマイルカンパニーの東京会場ぶんの「GOOD SMILE COMPANY 販売商品」一覧。22点すべてに価格つき。先行販売はねんどろいど初音ミク マジカルミライ2025Ver.¥8,000 と 2016Ver.¥6,900。HELLO! GOOD SMILE Charm 各¥1,300、ねんどろいど各種¥2,980〜¥9,800。**大阪ぶんの同じ体裁の一覧（8/10投稿）とは品目が違う**（大阪の先行販売は2026Ver.）。画像に会場の記載は無いが、本文が「マジカルミライ 2026 TOKYOの物販…情報を更新しました」と東京に限定している"
+  },
+  {
+    "postId": "2087865707535200599",
+    "isOshinagaki": true,
+    "readBy": "manual",
+    "isMagimira": true,
+    "venueScope": "specific",
+    "venues": [
+      {
+        "venue": "osaka",
+        "boothId": "E-3",
+        "dates": [
+          "2026-08-14",
+          "2026-08-15",
+          "2026-08-16"
+        ]
+      },
+      {
+        "venue": "tokyo",
+        "boothId": "C-4",
+        "dates": [
+          "2026-08-28",
+          "2026-08-29",
+          "2026-08-30"
+        ]
+      }
+    ],
+    "notes": "Popism（かぷちー）のお品書き。画像左上に「OSAKA E-3 / TOKYO C-4」と両会場を並記。マジカルミライ2026特別セット「Were Junk Junkies!!」CD+アクキー+ステッカー¥3,500（CD単品¥2,000）/ OTHERS(CD)「Time Capsule」¥2,500・「Selfies」¥2,000 / アクキー¥1,500・缶バッジ¥500・画集¥2,000。本文は大阪の話だが、画像は両会場ぶんの共通お品書き"
   }
 ]

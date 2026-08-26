@@ -54,6 +54,19 @@ export type ListImage = {
   postUrl: string;
   /** 元投稿のID。頒布物の種類を本文から推定するのに使う */
   postId: string;
+  /** 元投稿の日時（ISO）。最新版が出ているかを画面で確かめられるように出す */
+  postedAt: string;
+  /**
+   * この画像がどこまでを指しているか。
+   *
+   * 'venue' … その会場を名指ししたお品書き（本文か画像でブース・会場名が一致）
+   * 'event' … 会場を限定していない告知。出展する全会場に同じものが並ぶ
+   *
+   * グッドスマイルカンパニーのように**会場ごとに品揃えが違う**ブースがある。
+   * 「これは東京のものか、それとも全会場共通のものか」が読み手に分からないと、
+   * 大阪の品揃えを見て東京へ行くことになる。だから画面に出す。
+   */
+  venueScope: 'venue' | 'event';
 };
 
 export type CreatorSummary = {
@@ -145,6 +158,17 @@ export async function loadVenueMap(venue: Venue): Promise<VenueMap | null> {
 // 組み立て
 // ---------------------------------------------------------------------------
 
+/**
+ * その投稿がその会場を名指ししているか、全会場共通か。
+ *
+ * event-wide / sole-venue は「会場名がどこにも書かれていないので、
+ * 出展先すべてに適用した」という判定なので、会場を名指ししていない。
+ */
+export function venueScopeOf(post: Post): 'venue' | 'event' {
+  const s = post.attribution?.source;
+  return s === 'event-wide' || s === 'sole-venue' ? 'event' : 'venue';
+}
+
 /** 投稿の写真を、一覧にそのまま出せる形にする */
 function toListImages(posts: Post[]): ListImage[] {
   return posts.flatMap((p) =>
@@ -158,6 +182,8 @@ function toListImages(posts: Post[]): ListImage[] {
         height: m.height,
         postUrl: p.url,
         postId: p.id,
+        postedAt: p.createdAt,
+        venueScope: venueScopeOf(p),
       })),
   );
 }
