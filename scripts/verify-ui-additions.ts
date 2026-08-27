@@ -65,12 +65,44 @@ async function main(): Promise<void> {
     const dialog = page.locator('[role="dialog"]');
     await dialog.waitFor({ timeout: 15_000 });
     check(true, '拡大表示が開く');
-    // 画像の外側（左端）を押す
-    const box = await dialog.boundingBox();
-    if (box) {
-      await page.mouse.click(box.x + 8, box.y + box.height / 2);
-      await page.waitForTimeout(400);
-      check(!(await dialog.isVisible().catch(() => false)), '枠外をタップすると閉じる');
+
+    // 画像の外側（＝背景）を押す。
+    //
+    // 以前は「枠の左端・高さ中央」を決め打ちで押していたが、これは
+    //   ・画像が縦長で左右に余白がある
+    //   ・枠の上端が背景である
+    // という2つの前提に乗っていた。どちらも日によって崩れる。実際、1枚目が
+    // 横長の日には画像が横幅いっぱいに広がってその点が**画像の上**になり、
+    // 実装は正しいのに検証だけが落ちた。枠の上端はヘッダ（閉じる・保存ボタン）
+    // なので、そこを押しても閉じない。
+    //
+    // 背景は画像を包む .zoomable の領域だけ。その実寸と画像の実寸を測って、
+    // 余白のある側を押す。
+    await page.waitForTimeout(1500); // 画像の読み込みを待つ（余白が確定しない）
+    const back = await page.locator('[role="dialog"] .zoomable').first().boundingBox();
+    const imgBox = await page.locator('[role="dialog"] img').first().boundingBox();
+    if (back && imgBox) {
+      const GAP = 6;
+      const top = imgBox.y - back.y;
+      const left = imgBox.x - back.x;
+      const bottom = back.y + back.height - (imgBox.y + imgBox.height);
+      const point =
+        top > GAP * 2
+          ? { x: back.x + back.width / 2, y: back.y + GAP }
+          : bottom > GAP * 2
+            ? { x: back.x + back.width / 2, y: back.y + back.height - GAP }
+            : left > GAP * 2
+              ? { x: back.x + GAP, y: back.y + back.height / 2 }
+              : null;
+      if (!point) {
+        // 画像が背景いっぱいで余白が無い。押せる背景が無いので通さない
+        // （黙って通すと「閉じられる」ことを確かめていないのに緑になる）
+        check(false, '枠外をタップすると閉じる', '画像が背景いっぱいで余白を押せなかった');
+      } else {
+        await page.mouse.click(point.x, point.y);
+        await page.waitForTimeout(400);
+        check(!(await dialog.isVisible().catch(() => false)), '枠外をタップすると閉じる');
+      }
     }
   } else {
     console.log('  - お品書き画像が無いので拡大表示は確認できず');

@@ -3,6 +3,12 @@
  *
  *   npm run fetch-images-for-review -- --out <dir> [--limit 20] [--offset 0]
  *   npm run fetch-images-for-review -- --out <dir> --ids 123,456
+ *   npm run fetch-images-for-review -- --out <dir> --ids 123 --all-media
+ *
+ * ⚠ 既定では投稿の**1枚目だけ**を落とす。お品書きが2枚目以降にある投稿が
+ *   実際にある（PERIHAPI! 東京E2: 1枚目は出展告知のバナー、2枚目が
+ *   「Single ¥1,870 / Box(8pcs) ¥14,960」の価格表だった）。
+ *   取りこぼしたくない走査では --all-media を付けて全部落とすこと。
  *
  * 対象は「会場は確定しているのに、本文からはお品書きとも商品紹介とも
  * 判定できず落ちている投稿」。本文に「お品書き」と書かずに画像だけを
@@ -68,28 +74,36 @@ async function main(): Promise<void> {
         });
 
   const slice = targets.slice(offset, offset + limit);
+  // --all-media: 投稿の写真を全部落とす。お品書きが2枚目以降にあることがある
+  const allMedia = process.argv.includes('--all-media');
   await mkdir(out, { recursive: true });
 
   const index: { file: string; id: string; handle: string; venues: string[]; text: string }[] = [];
   for (const [i, p] of slice.entries()) {
-    const photo = p.media.find((m) => m.kind === 'photo');
-    const url = photo?.largeUrl ?? photo?.origUrl ?? photo?.baseUrl;
-    if (!url) continue;
-    const res = await fetch(url);
-    if (!res.ok) {
-      console.log(`  取得失敗 ${p.id}: HTTP ${res.status}`);
-      continue;
+    const photos = p.media.filter((m) => m.kind === 'photo');
+    const picked = allMedia ? photos : photos.slice(0, 1);
+    for (const [mi, photo] of picked.entries()) {
+      const url = photo.largeUrl || photo.origUrl || photo.baseUrl;
+      if (!url) continue;
+      const res = await fetch(url);
+      if (!res.ok) {
+        console.log(`  取得失敗 ${p.id}[${mi}]: HTTP ${res.status}`);
+        continue;
+      }
+      const suffix = picked.length > 1 ? `_${mi + 1}` : '';
+      const file = `${String(offset + i).padStart(3, '0')}${suffix}_${p.handle}_${p.id}.jpg`;
+      await writeFile(path.join(out, file), Buffer.from(await res.arrayBuffer()));
+      index.push({
+        file,
+        id: p.id,
+        handle: p.handle,
+        venues: p.attribution?.provenVenues ?? [],
+        text:
+          (picked.length > 1 ? `[${mi + 1}/${picked.length}] ` : '') +
+          p.text.replace(/\s+/g, ' ').slice(0, 100),
+      });
+      await sleep(300);
     }
-    const file = `${String(offset + i).padStart(3, '0')}_${p.handle}_${p.id}.jpg`;
-    await writeFile(path.join(out, file), Buffer.from(await res.arrayBuffer()));
-    index.push({
-      file,
-      id: p.id,
-      handle: p.handle,
-      venues: p.attribution?.provenVenues ?? [],
-      text: p.text.replace(/\s+/g, ' ').slice(0, 100),
-    });
-    await sleep(300);
   }
 
   await writeFile(path.join(out, '_index.json'), JSON.stringify(index, null, 2), 'utf8');
